@@ -2,7 +2,7 @@ var SETDEX_XY = {};
 
 var components = [
     SETDEX_SHOWDOWN,
-    SETDEX_NUGGETBRIDGE,
+    SETDEX_XY_BATTLESPOT,
     SETDEX_CUSTOM
 ];
 
