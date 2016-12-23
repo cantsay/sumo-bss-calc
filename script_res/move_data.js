@@ -1997,7 +1997,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         bp: 70,
         zp: 140
     },
-    'Multi-Attack': {
+    'Multi Attack': {
         category: 'Physical',
         type: 'Normal',
         bp: 90,
