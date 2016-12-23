@@ -176,7 +176,23 @@ ITEMS_XY.splice(ITEMS_XY.indexOf('Soul Dew'), 1);
 
 
 var ITEMS_SM = ITEMS_XY.concat([
-    'Figy Berry'
+    'Figy Berry',
+    'Bug Memory',
+    'Dark Memory',
+    'Dragon Memory',
+    'Electric Memory',
+    'Fairy Memory',
+    'Fighting Memory',
+    'Fire Memory',
+    'Flying Memory',
+    'Ghost Memory',
+    'Grass Memory',
+    'Ice Memory',
+    'Poison Memory',
+    'Psychic Memory',
+    'Rock Memory',
+    'Steel Memory',
+    'Water Memory',
 ]);
 
 function getItemBoostType(item) {
@@ -358,6 +374,43 @@ function getNaturalGift(item) {
         return gift;
     }
     return {'t':'Normal','p':1};
+}
 
-
+function getMultiAttack(item) {
+    switch (item) {
+        case 'Bug Memory':
+            return 'Bug';
+        case 'Dark Memory':
+            return 'Dark';
+        case 'Dragon Memory':
+            return 'Dragon';
+        case 'Electric Memory':
+            return 'Electric';
+        case 'Fairy Memory':
+            return 'Fairy';
+        case 'Fighting Memory':
+            return 'Fighting';
+        case 'Fire Memory':
+            return 'Fire';
+        case 'Flying Memory':
+            return 'Flying';
+        case 'Ghost Memory':
+            return 'Ghost';
+        case 'Grass Memory':
+            return 'Grass';
+        case 'Ice Memory':
+            return 'Ice';
+        case 'Poison Memory':
+            return 'Poison';
+        case 'Psychic Memory':
+            return 'Psychic';
+        case 'Rock Memory':
+            return 'Rock';
+        case 'Steel Memory':
+            return 'Steel';
+        case 'Water Memory':
+            return 'Water';
+        default:
+            return '';    
+    }
 }
