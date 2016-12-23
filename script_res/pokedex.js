@@ -12046,6 +12046,18 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
   },
+  "Silvally-Ground": {
+    "t1": "Ground",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
   "Silvally-Ice": {
     "t1": "Ice",
     "bs": {
