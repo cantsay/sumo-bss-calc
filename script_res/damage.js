@@ -78,6 +78,8 @@ function getDamageResult(attacker, defender, move, field) {
         description.moveType = move.type;
     } else if (move.name === "Judgment" && attacker.item.indexOf("Plate") !== -1) {
         move.type = getItemBoostType(attacker.item);
+    } else if (move.name === "Multi-Attack" && attacker.item.indexOf("Memory") !== -1) {
+        move.type = getItemBoostType(attacker.item);
     } else if (move.name === "Natural Gift" && attacker.item.indexOf("Berry") !== -1) {
         var gift = getNaturalGift(attacker.item);
         move.type = gift.t;
@@ -305,6 +307,7 @@ function getDamageResult(attacker, defender, move, field) {
         description.weather = field.weather;
     } else if (gen >= 6 && move.name === "Knock Off" && !(defender.item === "" ||
             (defender.name === "Giratina-O" && defender.item === "Griseous Orb") ||
+            (defender.name.indexOf("Silvally") !== -1 && defender.item.indexOf("Memory")) ||
             (defender.name.indexOf("Arceus") !== -1 && defender.item.indexOf("Plate") !== -1))) {
         bpMods.push(0x1800);
         description.moveBP = move.bp * 1.5;
