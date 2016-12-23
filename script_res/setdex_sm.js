@@ -2497,6 +2497,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Silvally-Electric": {
+    "Theorymon's CeleWak Killer": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Electric Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Crunch"
+      ]
+    }
+  },
   "Skarmory": {
     "Defensive": {
       "level": 50,
