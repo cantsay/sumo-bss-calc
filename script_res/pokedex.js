@@ -11926,6 +11926,198 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
   },
+  "Silvally-Bug": {
+    "t1": "Bug",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Dark": {
+    "t1": "Dark",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Dragon": {
+    "t1": "Dragon",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Electric": {
+    "t1": "Electric",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Fairy": {
+    "t1": "Fairy",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Fighting": {
+    "t1": "Fighting",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Fire": {
+    "t1": "Fire",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Flying": {
+    "t1": "Flying",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Ghost": {
+    "t1": "Ghost",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Grass": {
+    "t1": "Grass",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Ice": {
+    "t1": "Ice",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Poison": {
+    "t1": "Poison",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Psychic": {
+    "t1": "Psychic",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Rock": {
+    "t1": "Rock",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Steel": {
+    "t1": "Steel",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
+  "Silvally-Water": {
+    "t1": "Water",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+  },
   "Minior": {
     "t1": "Rock",
     "t2": "Flying",
