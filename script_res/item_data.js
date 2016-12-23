@@ -187,6 +187,7 @@ var ITEMS_SM = ITEMS_XY.concat([
     'Flying Memory',
     'Ghost Memory',
     'Grass Memory',
+    'Ground Memory',
     'Ice Memory',
     'Poison Memory',
     'Psychic Memory',
@@ -398,6 +399,8 @@ function getMultiAttack(item) {
             return 'Ghost';
         case 'Grass Memory':
             return 'Grass';
+        case 'Ground Memory':
+            return 'Ground';
         case 'Ice Memory':
             return 'Ice';
         case 'Poison Memory':
