@@ -78,8 +78,6 @@ function getDamageResult(attacker, defender, move, field) {
         description.moveType = move.type;
     } else if (move.name === "Judgment" && attacker.item.indexOf("Plate") !== -1) {
         move.type = getItemBoostType(attacker.item);
-    } else if (move.name === "Multi Attack" && attacker.item.indexOf("Memory") !== -1) {
-        move.type = getItemBoostType(attacker.item);
     } else if (move.name === "Natural Gift" && attacker.item.indexOf("Berry") !== -1) {
         var gift = getNaturalGift(attacker.item);
         move.type = gift.t;
