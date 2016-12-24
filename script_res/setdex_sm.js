@@ -235,6 +235,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Bewear": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Fluffy",
+      "item": "Assault Vest",
+      "moves": [
+        "Superpower",
+        "Double-Edge",
+        "Ice Punch",
+        "Earthquake"
+      ]
+    }
+  },
   "Blastoise": {
     "Wallbreaker": {
       "level": 50,
@@ -743,6 +762,25 @@ var SETDEX_SM={
         "Substitute",
         "Toxic",
         "Sacred Fire"
+      ]
+    }
+  },
+  "Eevee": {
+    "Extreme Evoboost": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Adaptability",
+      "item": "Eevium Z",
+      "moves": [
+        "Last Resort",
+        "Substitute",
+        "Baton Pass",
+        "Stored Power"
       ]
     }
   },
@@ -1837,6 +1875,42 @@ var SETDEX_SM={
       ]
     }
   },
+  "Minior": {
+    "Special Shell Smash": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Shields Down",
+      "item": "Focus Sash",
+      "moves": [
+        "Power Gem",
+        "Dazzling Gleam",
+        "Hidden Power Ground",
+        "Charge Beam"
+      ]
+    },
+    "Physical Shell Smash": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Shields Down",
+      "item": "",
+      "moves": [
+        "Stone Edge",
+        "Acrobatics",
+        "Earthquake",
+        "Explosion"
+      ]
+    }
+  },
   "Mudsdale": {
     "Assault Vest": {
       "level": 50,
@@ -1853,6 +1927,42 @@ var SETDEX_SM={
         "Heavy Slam",
         "Close Combat",
         "Rock Tomb"
+      ]
+    }
+  },
+  "Muk-Alola": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Poison Touch",
+      "item": "Assault Vest",
+      "moves": [
+        "Poison Jab",
+        "Knock Off",
+        "Shadow Sneak",
+        "Pursuit"
+      ]
+    },
+    "Curse + Minimize": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "4": "4",
+        "sd": "252"
+      },
+      "nature": "Careful",
+      "ability": "Poison Touch",
+      "item": "Black Sludge",
+      "moves": [
+        "Curse",
+        "Minimize",
+        "Payback",
+        "Rest"
       ]
     }
   },
@@ -2008,6 +2118,44 @@ var SETDEX_SM={
         "Ice Beam",
         "Tri Attack",
         "Hidden Power Ground"
+      ]
+    }
+  },
+  "Primarina": {
+    "Oceanic Operetta": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Torrent",
+      "item": "Primarium Z",
+      "moves": [
+        "Sparkling Aria",
+        "Moonblast",
+        "Ice Beam",
+        "Energy Ball"
+      ]
+    }
+  },
+  "Raichu-Alola": {
+    "Offensive": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Surge Surfer",
+      "item": "Life Orb",
+      "moves": [
+        "Thunderbolt",
+        "Psychic",
+        "Hidden Power Ice",
+        "Grass Knot"
       ]
     }
   },
@@ -2345,6 +2493,25 @@ var SETDEX_SM={
         "Substitute",
         "Roost",
         "Return"
+      ]
+    }
+  },
+  "Salazzle": {
+    "Sashed Attacker": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Corrosion",
+      "item": "Focus Sash",
+      "moves": [
+        "Fire Blast",
+        "Sludge Wave",
+        "Hidden Power Ice",
+        "Toxic"
       ]
     }
   },
