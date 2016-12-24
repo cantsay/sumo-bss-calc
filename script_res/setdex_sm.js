@@ -117,6 +117,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Araquanid": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Water Bubble",
+      "item": "Assault Vest",
+      "moves": [
+        "Liquidation",
+        "Leech Life",
+        "Poison Jab",
+        "Crunch"
+      ]
+    }
+  },
   "Articuno": {
     "Theorymon's Sheer Cold Fisher": {
       "level": 50,
@@ -1371,6 +1390,28 @@ var SETDEX_SM={
       ]
     }
   },
+  "Incineroar": {
+    "Trick Room Sweeper": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Blaze",
+      "item": "Incinium Z",
+      "moves": [
+        "Flare Blitz",
+        "Darkest Lariat",
+        "Cross Chop",
+        "Earthquake"
+      ]
+    }
+  },
   "Kangaskhan": {
     "Sweeper": {
       "level": 50,
@@ -1515,6 +1556,25 @@ var SETDEX_SM={
         "Light Screen",
         "Foul Play",
         "Thunder Wave"
+      ]
+    }
+  },
+  "Kommo-o": {
+    "Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Bullet Proof",
+      "item": "Lum Berry",
+      "moves": [
+        "Dragon Dance",
+        "Outrage",
+        "Sky Uppercut",
+        "Poison Jab"
       ]
     }
   },
@@ -2140,6 +2200,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Pyukumuku": {
+    "Wall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Unaware",
+      "item": "Leftovers",
+      "moves": [
+        "Toxic",
+        "Curse",
+        "Recover",
+        "Baton Pass"
+      ]
+    }
+  },
   "Raichu-Alola": {
     "Offensive": {
       "level": 50,
@@ -2515,6 +2594,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Sandslash-Alola": {
+    "Hail Sweeper": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Slush Rush",
+      "item": "Life Orb",
+      "moves": [
+        "Swords Dance",
+        "Iron Head",
+        "Icicle Crash",
+        "Earthquake"
+      ]
+    }
+  },
   "Serperior": {
     "Solid Snake": {
       "level": 50,
@@ -2664,6 +2762,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Silvally": {
+    "Z-Explosion": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Normalium Z",
+      "moves": [
+        "Explosion",
+        "Swords Dance",
+        "Flame Charge",
+        "Crunch"
+      ]
+    }
+  },
   "Silvally-Electric": {
     "Theorymon's CeleWak Killer": {
       "level": 50,
@@ -2680,6 +2797,82 @@ var SETDEX_SM={
         "Swords Dance",
         "Flame Charge",
         "Crunch"
+      ]
+    }
+  },
+  "Silvally-Fairy": {
+    "Mixed Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sa": "4",
+        "sp": "252"
+      },
+      "nature": "Naughty",
+      "ability": "RKS System",
+      "item": "Fairy Memory",
+      "moves": [
+        "Multi Attack",
+        "Work Up",
+        "Flamethrower",
+        "Hidden Power Ground"
+      ]
+    }
+  },
+  "Silvally-Fire": {
+    "There are no good Fire-types in Alola": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Fire Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Ice Fang"
+      ]
+    }
+  },
+  "Silvally-Ground": {
+    "SD + Flame Charge": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Ground Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Stone Edge"
+      ]
+    }
+  },
+  "Silvally-Ice": {
+    "The Coverage!": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Ice Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Thunder Fang"
       ]
     }
   },
