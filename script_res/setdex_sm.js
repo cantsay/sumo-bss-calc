@@ -1,4 +1,47 @@
 var SETDEX_SM={
+  "Abomasnow": {
+    "Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "sa": "252"
+      },
+      "nature": "Quiet",
+      "ability": "Snow Warning",
+      "item": "Abomasite",
+      "moves": [
+        "Blizzard",
+        "Giga Drain",
+        "Earthquake",
+        "Ice Shard"
+      ]
+    },
+    "Choice Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "4",
+        "sd": "4",
+        "sa": "248",
+        "sp": "248"
+      },
+      "ivs": {
+        "df": "30",
+        "sa": "30",
+        "sp": "30"
+      },
+      "nature": "Hasty",
+      "ability": "Snow Warning",
+      "item": "Choice Scarf",
+      "moves": [
+        "Blizzard",
+        "Wood Hammer",
+        "Earthquake",
+        "Hidden Power Fire"
+      ]
+    }
+  },
   "Aegislash": {
     "THE CRUMBLER (Special Attacker)": {
       "level": 50,
@@ -1729,6 +1772,68 @@ var SETDEX_SM={
         "Flash Cannon",
         "Vacuum Wave",
         "Dark Pulse"
+      ]
+    }
+  },
+  "Magneton": {
+    "Fast Celesteela Trapper": {
+      "level": 50,
+      "evs": {
+        "hp": "68",
+        "sa": "252",
+        "sp": "188"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid",
+      "ability": "Magnet Pull",
+      "item": "Eviolite",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Fire",
+        "Volt Switch"
+      ]
+    }
+  },
+  "Magnezone": {
+    "Bulky Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Magnet Pull",
+      "item": "Choice Specs",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Ice",
+        "Volt Switch"
+      ]
+    },
+    "Fast Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Magnet Pull",
+      "item": "Choice Scarf",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Fire",
+        "Volt Switch"
       ]
     }
   },
