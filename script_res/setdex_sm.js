@@ -179,6 +179,42 @@ var SETDEX_SM={
       ]
     }
   },
+  "Arcanine": {
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Intimidate",
+      "item": "Leftovers",
+      "moves": [
+        "Flamethrower",
+        "Snarl",
+        "Burn Up",
+        "Morning Sun"
+      ]
+    },
+    "Physical Inferno Overdrive": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Intimidate",
+      "item": "Firium Z",
+      "moves": [
+        "Flare Blitz",
+        "Wild Charge",
+        "Extreme Speed",
+        "Close Combat"
+      ]
+    }
+  },
   "Articuno": {
     "Theorymon's Sheer Cold Fisher": {
       "level": 50,
@@ -533,7 +569,7 @@ var SETDEX_SM={
         "Leech Seed"
       ]
     },
-    "Special Attacker": {
+    "SpA Assault Vest": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -542,10 +578,10 @@ var SETDEX_SM={
       },
       "nature": "Quiet",
       "ability": "Beast Boost",
-      "item": "Leftovers",
+      "item": "Assault Vest",
       "moves": [
         "Flash Cannon",
-        "Air Slash",
+        "Hidden Power Ice",
         "Flamethrower",
         "Earthquake"
       ]
@@ -690,7 +726,7 @@ var SETDEX_SM={
       "ability": "Skill Link",
       "item": "King's Rock",
       "moves": [
-        "Shell Smash",
+        "Razor Shell",
         "Icicle Spear",
         "Rock Blast",
         "Ice Shard"
@@ -1657,6 +1693,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Lanturn": {
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "nature": "Careful",
+      "ability": "Volt Absorb",
+      "item": "Leftovers",
+      "moves": [
+        "Scald",
+        "Discharge",
+        "Thunderbolt",
+        "Ice Beam"
+      ]
+    }
+  },
   "Lapras": {
     "infinitymkds' Assault Vest": {
       "level": 50,
@@ -1887,6 +1942,42 @@ var SETDEX_SM={
         "Icicle Spear",
         "Ice Shard",
         "Knock Off"
+      ]
+    }
+  },
+  "Mandibuzz": {
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Overcoat",
+      "item": "Leftovers",
+      "moves": [
+        "Foul Play",
+        "Roost",
+        "Taunt",
+        "Toxic"
+      ]
+    },
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "nature": "Calm",
+      "ability": "Overcoat",
+      "item": "Leftovers",
+      "moves": [
+        "Foul Play",
+        "Roost",
+        "Taunt",
+        "Toxic"
       ]
     }
   },
@@ -2170,7 +2261,7 @@ var SETDEX_SM={
     }
   },
   "Pheromosa": {
-    "Offensive": {
+    "Standard Offensive": {
       "level": 50,
       "evs": {
         "at": "252",
@@ -2185,6 +2276,23 @@ var SETDEX_SM={
         "U-turn",
         "Ice Beam",
         "Poison Jab"
+      ]
+    },
+    "Quiver Dance": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Beast Boost",
+      "item": "Focus Sash",
+      "moves": [
+        "Bug Buzz",
+        "Ice Beam",
+        "Hidden Power Ground",
+        "Focus Blast"
       ]
     }
   },
@@ -3153,7 +3261,7 @@ var SETDEX_SM={
     }
   },
   "Tapu Fini": {
-    "Offensive": {
+    "Offensive Hydro Vortex": {
       "level": 50,
       "evs": {
         "hp": "244",
@@ -3168,6 +3276,23 @@ var SETDEX_SM={
         "Moonblast",
         "Haze",
         "Calm Mind"
+      ]
+    },
+    "PhysDef Guardian of Alola": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "252",
+        "sp": "12"
+      },
+      "nature": "Bold",
+      "ability": "Misty Surge",
+      "item": "Tapunium Z",
+      "moves": [
+        "Nature's Madness",
+        "Moonblast",
+        "Brine",
+        "Haze"
       ]
     }
   },
@@ -3472,6 +3597,23 @@ var SETDEX_SM={
         "Hidden Power Ice",
         "Energy Ball",
         "Volt Switch"
+      ]
+    },
+    "Z-Rain Dance [ability is drizzle for rain]": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Drizzle",
+      "item": "Waterium Z",
+      "moves": [
+        "Thunder",
+        "Hidden Power Water",
+        "Dazzling Gleam",
+        "Rain Dance"
       ]
     }
   },
