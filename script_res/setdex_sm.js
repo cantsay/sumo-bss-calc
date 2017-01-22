@@ -1278,7 +1278,7 @@ var SETDEX_SM={
       "ability": "Intimidate",
       "item": "Gyaradosite",
       "moves": [
-        "Dragon Dance",
+        "Waterfall",
         "Crunch",
         "Earthquake",
         "Ice Fang"
