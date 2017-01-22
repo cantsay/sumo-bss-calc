@@ -1358,6 +1358,12 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         makesContact: true,
         hasSecondaryEffect: true
     },
+    'Fly': {
+        bp: 90,
+        type: 'Flying',
+        category: 'Physical',
+        makesContact: true
+    },
     'Foul Play': {
         bp: 95,
         type: 'Dark',
