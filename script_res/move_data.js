@@ -2202,6 +2202,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Hydro Pump':{
         zp: 185
     },
+    'Fly':{
+        zp: 175
+    },
     'Surf':{
         zp: 175
     },
