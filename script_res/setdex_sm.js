@@ -372,23 +372,6 @@ var SETDEX_SM={
     }
   },
   "Blaziken": {
-    "Mega Sweeper": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Adamant",
-      "ability": "Speed Boost",
-      "item": "Blazikenite",
-      "moves": [
-        "Flare Blitz",
-        "Superpower",
-        "Stone Edge",
-        "Knock Off"
-      ]
-    },
     "Mixed Attacker": {
       "level": 50,
       "evs": {
@@ -408,6 +391,23 @@ var SETDEX_SM={
         "Hidden Power Ice",
         "Superpower",
         "High Jump Kick"
+      ]
+    },
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Speed Boost",
+      "item": "Life Orb",
+      "moves": [
+        "Flare Blitz",
+        "Superpower",
+        "Stone Edge",
+        "Knock Off"
       ]
     },
     "Baton Pass": {
@@ -515,6 +515,26 @@ var SETDEX_SM={
         "Ice Punch",
         "Earthquake"
       ]
+    },
+    "Trick Room Sweeper": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Beast Boost",
+      "item": "Fightinium Z",
+      "moves": [
+        "Hammer Arm",
+        "Leech Life",
+        "Earthquake",
+        "Ice Punch"
+      ]
     }
   },
   "Celesteela": {
@@ -569,18 +589,18 @@ var SETDEX_SM={
         "Leech Seed"
       ]
     },
-    "SpA Assault Vest": {
+    "Assault Vest": {
       "level": 50,
       "evs": {
         "hp": "252",
-        "df": "4",
-        "sa": "252"
+        "at": "252",
+        "sa": "4"
       },
-      "nature": "Quiet",
+      "nature": "Brave",
       "ability": "Beast Boost",
       "item": "Assault Vest",
       "moves": [
-        "Flash Cannon",
+        "Heavy Slam",
         "Hidden Power Ice",
         "Flamethrower",
         "Earthquake"
@@ -618,7 +638,7 @@ var SETDEX_SM={
       "moves": [
         "Seismic Toss",
         "Ice Beam",
-        "Thunderbolt",
+        "Shadow Ball",
         "Flamethrower"
       ]
     },
@@ -635,7 +655,7 @@ var SETDEX_SM={
       "moves": [
         "Seismic Toss",
         "Ice Beam",
-        "Thunderbolt",
+        "Shadow Ball",
         "Flamethrower"
       ]
     }
@@ -803,7 +823,7 @@ var SETDEX_SM={
         "Outrage",
         "Extreme Speed",
         "Earthquake",
-        "Fire Punch"
+        "Thunder Punch"
       ]
     }
   },
@@ -936,7 +956,7 @@ var SETDEX_SM={
     }
   },
   "Ferrothorn": {
-    "Wall-Nut": {
+    "Wall-Nut (PhysDef)": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -953,7 +973,27 @@ var SETDEX_SM={
         "Power Whip",
         "Gyro Ball",
         "Knock Off",
-        "Iron Head"
+        "Bullet Seed"
+      ]
+    },
+    "Cashew (SpDef)": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Sassy",
+      "ability": "Iron Barbs",
+      "item": "Leftovers",
+      "moves": [
+        "Power Whip",
+        "Gyro Ball",
+        "Knock Off",
+        "Bullet Seed"
       ]
     }
   },
@@ -1250,6 +1290,23 @@ var SETDEX_SM={
     }
   },
     "Gyarados": {
+    "Mega Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Gyaradosite",
+      "moves": [
+        "Waterfall",
+        "Crunch",
+        "Earthquake",
+        "Ice Fang"
+      ]
+    },
     "Defensive": {
       "level": 50,
       "evs": {
@@ -1265,23 +1322,6 @@ var SETDEX_SM={
         "Ice Fang",
         "Earthquake",
         "Aqua Tail"
-      ]
-    },
-    "Mega Dragon Dance": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "df": "4",
-        "sp": "252"
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Gyaradosite",
-      "moves": [
-        "Waterfall",
-        "Crunch",
-        "Earthquake",
-        "Ice Fang"
       ]
     }
   },
@@ -1599,6 +1639,25 @@ var SETDEX_SM={
         "Leaf Blade",
         "Smart Strike",
         "Sacred Sword"
+      ]
+    }
+  },
+  "Kingdra": {
+    "Rain Sweeper": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Swift Swim",
+      "item": "Waterium Z",
+      "moves": [
+        "Hydro Pump",
+        "Draco Meteor",
+        "Ice Beam",
+        "Flash Cannon"
       ]
     }
   },
@@ -2112,6 +2171,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Milotic": {
+    "Wall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Marvel Scale",
+      "item": "Flame Orb",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Dragon Tail",
+        "Icy Wind"
+      ]
+    }
+  },
   "Mimikyu": {
     "Physical Attacker": {
       "level": 50,
@@ -2260,6 +2338,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Pelipper": {
+    "Rain Birb": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Drizzle",
+      "item": "Focus Sash",
+      "moves": [
+        "Hurricane",
+        "Ice Beam",
+        "Hydro Pump",
+        "U-turn"
+      ]
+    }
+  },
   "Pheromosa": {
     "Standard Offensive": {
       "level": 50,
@@ -2343,8 +2440,10 @@ var SETDEX_SM={
       "level": 50,
       "evs": {
         "hp": "244",
-        "sd": "12",
-        "df": "252"
+        "df": "252",
+        "sa": "4",
+        "sd": "4",
+        "sp": "4"
       },
       "nature": "Bold",
       "ability": "Trace",
@@ -2356,7 +2455,26 @@ var SETDEX_SM={
         "Shadow Ball"
       ]
     },
-    "Offensive": {
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "12",
+        "sa": "4",
+        "sd": "244",
+        "sp": "4"
+      },
+      "nature": "Calm",
+      "ability": "Trace",
+      "item": "Eviolite",
+      "moves": [
+        "Ice Beam",
+        "Foul Play",
+        "Discharge",
+        "Shadow Ball"
+      ]
+    },
+    "Offensive Download": {
       "level": 50,
       "evs": {
         "hp": "244",
@@ -2391,6 +2509,25 @@ var SETDEX_SM={
         "Ice Beam",
         "Tri Attack",
         "Hidden Power Ground"
+      ]
+    },
+    "Mixed": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "at": "4",
+        "df": "12",
+        "sa": "4",
+        "sd": "244"
+      },
+      "nature": "Sassy",
+      "ability": "Download",
+      "item": "Eviolite",
+      "moves": [
+        "Return",
+        "Ice Beam",
+        "Facade",
+        "Thunderbolt"
       ]
     }
   },
@@ -3108,6 +3245,25 @@ var SETDEX_SM={
       ]
     }
   },
+  "Slowbro": {
+    "Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Regenerator",
+      "item": "Slowbronite",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Psychic",
+        "Flamethrower"
+      ]
+    }
+  },
   "Suicune": {
     "Fully Defensive" : {
       "level": 50,
@@ -3130,6 +3286,25 @@ var SETDEX_SM={
         "Ice Beam",
         "Icy Wind",
         "Shadow Ball"
+      ]
+    }
+  },
+  "Swampert": {
+    "Rocks Lead": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Relaxed",
+      "ability": "Torrent",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Scald",
+        "Earthquake",
+        "",
+        ""
       ]
     }
   },
@@ -3506,7 +3681,135 @@ var SETDEX_SM={
       ]
     }
   },
-  
+  "Thundurus-T": {
+    "Nasty Plot": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Volt Absorb",
+      "item": "Fightinium Z",
+      "moves": [
+        "Nasty Plot",
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Focus Blast"
+      ]
+    },
+    "Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Volt Absorb",
+      "item": "Choice Scarf",
+      "moves": [
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Focus Blast",
+        "Sludge Wave"
+      ]
+    }
+  },
+  "Toxapex": {
+    "Stall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "s4": "4"
+      },
+      "nature": "Bold",
+      "ability": "Regenerator",
+      "item": "Black Sludge",
+      "moves": [
+        "Scald",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "Venusaur": {
+    "Offensive Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Overgrow",
+      "item": "Venusaurite",
+      "moves": [
+        "Sludge Bomb",
+        "Giga Drain",
+        "Hidden Power Fire",
+        "Earthquake"
+      ]
+    },
+    "Defensive Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Overgrow",
+      "item": "Venusaurite",
+      "moves": [
+        "Sludge Bomb",
+        "Giga Drain",
+        "Hidden Power Fire",
+        "Earthquake"
+      ]
+    }
+  },
+  "Vikavolt": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Levitate",
+      "item": "Assault Vest",
+      "moves": [
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Bug Buzz",
+        "Volt Switch"
+      ]
+    }
+  },
+  "Volcarona": {
+    "Quiver Dancer": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Swarm",
+      "item": "Firium Z",
+      "moves": [
+        "Fire Blast",
+        "Bug Buzz",
+        "Hidden Power Ice",
+        "Giga Drain"
+      ]
+    }
+  },
   "Weavile": {
     "Physical Attacker": {
       "level": 50,
