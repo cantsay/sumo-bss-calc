@@ -700,11 +700,11 @@ function Field() {
         weather = "";
     };
     this.getSide = function(i) {
-        return new Side(format, terrain, weather, isGravity, isSR[i], spikes[i], isReflect[i], isLightScreen[i], isForesight[i], isHelpingHand[i], isFriendGuard[i]);
+        return new Side(format, terrain, weather, isGravity, isSR[i], spikes[i], isReflect[i], isLightScreen[i], isSeeded[i], isForesight[i], isHelpingHand[i], isFriendGuard[i]);
     };
 }
 
-function Side(format, terrain, weather, isGravity, isSR, spikes, isReflect, isLightScreen, isForesight, isHelpingHand, isFriendGuard) {
+function Side(format, terrain, weather, isGravity, isSR, spikes, isReflect, isLightScreen, isSeeded, isForesight, isHelpingHand, isFriendGuard) {
     this.format = format;
     this.terrain = terrain;
     this.weather = weather;
@@ -713,6 +713,7 @@ function Side(format, terrain, weather, isGravity, isSR, spikes, isReflect, isLi
     this.spikes = spikes;
     this.isReflect = isReflect;
     this.isLightScreen = isLightScreen;
+    this.isSeeded = isSeeded;
     this.isForesight = isForesight;
     this.isHelpingHand = isHelpingHand;
     this.isFriendGuard = isFriendGuard;
@@ -839,6 +840,8 @@ function clearField() {
     $("#reflectR").prop("checked", false);
     $("#lightScreenL").prop("checked", false);
     $("#lightScreenR").prop("checked", false);
+    $("#leechSeedL").prop("checked", false);
+    $("#leechSeedR").prop("checked", false);
     $("#foresightL").prop("checked", false);
     $("#foresightR").prop("checked", false);
     $("#helpingHandL").prop("checked", false);
