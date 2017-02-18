@@ -464,6 +464,28 @@ var SETDEX_SM={
       ]
     }
   },
+  "Bronzong": {
+    "Trick Room Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "sd": "252"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Sassy",
+      "ability": "Levitate",
+      "item": "Occa Berry",
+      "moves": [
+        "Gyro Ball",
+        "Zen Headbutt",
+        "Explosion",
+        "Hidden Power Ice"
+      ]
+    }
+  },
   "Buzzwole": {
     "Assault Vest": {
       "level": 50,
@@ -1528,6 +1550,25 @@ var SETDEX_SM={
         "Darkest Lariat",
         "Cross Chop",
         "Earthquake"
+      ]
+    }
+  },
+  "Jellicent": {
+    "Wall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Cursed Body",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Hex",
+        "Giga Drain"
       ]
     }
   },
@@ -3733,6 +3774,59 @@ var SETDEX_SM={
         "",
         "",
         ""
+      ]
+    }
+  },
+  "Tyranitar": {
+    "Offensive Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sp": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Sand Stream",
+      "item": "Assault Vest",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Rock Tomb"
+      ]
+    },
+    "Defensive Sand Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Sand Stream",
+      "item": "Smooth Rock",
+      "moves": [
+        "Ice Beam",
+        "Foul Play",
+        "Fire Blast",
+        "Thunderbolt"
+      ]
+    },
+    "Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Sand Stream",
+      "item": "Lum Berry",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Ice Punch",
+        "Earthquake"
       ]
     }
   },
