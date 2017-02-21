@@ -890,8 +890,9 @@ var SETDEX_SM={
       "level": 50,
       "evs": {
         "hp": "20",
-        "at": "232",
+        "at": "228",
         "df": "4",
+        "sd": "4",
         "sp": "252"
       },
       "nature": "Jolly",
