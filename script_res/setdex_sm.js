@@ -598,7 +598,7 @@ var SETDEX_SM={
       "level": 50,
       "evs": {
         "hp": "252",
-        "df": "4",
+        "sd": "4",
         "sp": "252"
       },
       "nature": "Jolly",
