@@ -17,7 +17,7 @@ for (var i=0; i<components.length; i++) {
     }
 }
 
-var reloadXYScript = function()
+var reloadSMScript = function()
 {
   console.log(SETDEX_CUSTOM);
     components = [
