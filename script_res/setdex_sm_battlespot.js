@@ -1,4 +1,4 @@
-var SETDEX_SM={
+var SETDEX_SM_BSPOT={
   "Abomasnow": {
     "Mega": {
       "level": 50,
