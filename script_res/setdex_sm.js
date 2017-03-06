@@ -1,7 +1,7 @@
-var SETDEX_SM = {
+var SETDEX_SM = {};
 
 var components = [
-    SETDEX_SM_BSPOT,
+    SETDEX_SMBSPOT,
     SETDEX_CUSTOM,
     SETDEX_SHOWDOWN
 ];
@@ -21,7 +21,7 @@ var reloadXYScript = function()
 {
   console.log(SETDEX_CUSTOM);
     components = [
-    SETDEX_SM_BSPOT,
+    SETDEX_SMBSPOT,
     SETDEX_CUSTOM,
     SETDEX_SHOWDOWN
 ];
@@ -35,6 +35,5 @@ for (var i=0; i<components.length; i++) {
             }
         }
     }
-}
 }
 }
