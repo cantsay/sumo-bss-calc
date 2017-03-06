@@ -11521,7 +11521,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 9.2
   },
-  "Lycanroc-Midday": {
+  "Lycanroc-Day": {
     "t1": "Rock",
     "bs": {
       "hp": 75,
@@ -11533,7 +11533,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 25.0
   },
-  "Lycanroc-Midnight": {
+  "Lycanroc-Night": {
     "t1": "Rock",
     "bs": {
       "hp": 85,
