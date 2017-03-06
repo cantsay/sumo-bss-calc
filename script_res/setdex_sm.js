@@ -1,4 +1,4 @@
-var SETDEX_SM = {};
+var SETDEX_SM = {
 
 var components = [
     SETDEX_SM_BSPOT,
@@ -37,4 +37,4 @@ for (var i=0; i<components.length; i++) {
     }
 }
 }
-
+}
