@@ -1,4 +1,4 @@
-var SETDEX_XY_BATTLESPOT={
+var SETDEX_XY_BSPOT={
   "Aegislash": {
     "THE CRUMBLER (Special Attacker)": {
       "level": 50,
