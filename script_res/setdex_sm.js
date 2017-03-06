@@ -2,7 +2,8 @@ var SETDEX_SM = {};
 
 var components = [
     SETDEX_SM_BSPOT,
-    SETDEX_CUSTOM
+    SETDEX_CUSTOM,
+    SETXED_SHOWDOWN
 ];
 
 for (var i=0; i<components.length; i++) {
