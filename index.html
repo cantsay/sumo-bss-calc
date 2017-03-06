@@ -15,15 +15,16 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>cantsaycalc</title>
+    <title>cantsaycalc BETA</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="script_res/select2.css" />
     <link type="text/css" rel="stylesheet" href="script_res/ap_calc.css" />
     <link type="text/css" rel="stylesheet" href="script_res/nb_calc.css" />
+    <base target="_blank">
 </head>
 <body>
     <div class="header"><div class="wrapper">
-            <span class="header-logo"><a href="http://www.smogon.com/forums/members/cant-say.158401/"><img src="image_res/calcheader.png" alt="Nugget Bridge" height="50px" /></a></span><span class="nav"><a href="http://www.smogon.com/forums/forums/battle-spot.265/">Forum</a> | <a href="http://play.pokemonshowdown.com/battlespot">Showdown Chatroom</a> | <a href="https://discord.gg/TXmgYKu">Discord Channel</a> | <a href="http://www.smogon.com/forums/threads/battle-spot-speed-tiers-sm-ver.3587218/">SuMo BSS Speed Tiers</a> | <a href="https://github.com/cantsay/sumo-bss-calc">GitHub Page</a> | <a href="http://jake-white.github.io/VGC-Damage-Calculator/">Original VGC Calculator</a> | <a href="http://www.smogon.com/stats/2016-11/moveset/battlespotsingles-0.txt">Usage Stats</a></span>
+            <span class="header-logo"><a href="http://www.smogon.com/forums/members/cant-say.158401/"><img src="image_res/calcheader.png" alt="view my profile" height="50px" /></a></span><span class="nav"><a href="http://www.smogon.com/forums/forums/battle-spot.265/">Forum</a> | <a href="http://play.pokemonshowdown.com/battlespot">Showdown Chatroom</a> | <a href="https://discord.gg/TXmgYKu">Discord Channel</a> | <a href="http://www.smogon.com/forums/threads/battle-spot-speed-tiers-sm-ver.3587218/">SuMo BSS Speed Tiers</a> | <a href="https://boe2.github.io/bsus.html">Usage Stats</a> | <a href="https://github.com/cantsay/sumo-bss-calc">GitHub Page</a> | <a href="http://jake-white.github.io/VGC-Damage-Calculator/">Original VGC Calculator</a></span>
             <div style="clear:both"></div>
 
     </div></div>
@@ -31,18 +32,15 @@
         <div>
             <span class="title-text">Battle Spot Singles Damage Calculator - Sun &amp; Moon Edition</span>
             <span title="Select the generation.">
-                <input class="gen btn-input" type="radio" name="gen" value="1" id="gen1" /><label class="btn btn-small btn-left" for="gen1">RBY</label>
-                <input class="gen btn-input" type="radio" name="gen" value="2" id="gen2" /><label class="btn btn-small btn-mid" for="gen2">GSC</label>
-                <input class="gen btn-input" type="radio" name="gen" value="3" id="gen3" /><label class="btn btn-small btn-mid" for="gen3">ADV</label>
-                <input class="gen btn-input" type="radio" name="gen" value="4" id="gen4" /><label class="btn btn-small btn-mid" for="gen4">DPP</label>
-                <input class="gen btn-input" type="radio" name="gen" value="5" id="gen5" /><label class="btn btn-small btn-mid" for="gen5">B/W</label>
-                <input class="gen btn-input" type="radio" name="gen" value="6" id="gen6" /><label class="btn btn-small btn-mid" for="gen6">ORAS</label>
-                <input class="gen btn-input" type="radio" name="gen" value="7" id="gen7" checked="checked" /><label class="btn btn-small btn-right" for="gen7">S/M</label>
+                <input class="gen btn-input" type="radio" name="gen" value="5" id="gen5" /><label class="btn btn-small btn-mid" for="gen5">GBU</label>
+                <input class="gen btn-input" type="radio" name="gen" value="6" id="gen6" /><label class="btn btn-small btn-mid" for="gen6">&Omega;R&alpha;S</label>
+                <input class="gen btn-input" type="radio" name="gen" value="7" id="gen7" checked="checked" /><label class="btn btn-small btn-right" for="gen7">SuMo</label>
             </span>
         </div>
         <hr />
     <p>BSS calc by <a href="https://twitter.com/SMOGON_cantsay">@SMOGON_cantsay</a> - Original calculator by <a href="https://twitter.com/squirrelboyVGC">@squirrelboyVGC</a></p> 
-    <p>Navigate to Alolan Formes by typing the Pokemon e.g. <b>Marowak-Alola</b></p>
+    <p>Navigate to Alolan Formes by typing the full name such as <b>Marowak-Alola</b></p>
+    <p>Something missing? Suggest sets to be permanently added to the calculator <a href="http://www.smogon.com/forums/threads/3594392/">here</a></p>
 
     <!-- <div class="banner"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
     <!-- Damage Calc Header -->
@@ -182,7 +180,7 @@
                 </a>
                 </div>
                 <div class="gen-specific g3 g4 g5 g6 g7" style="width: 10.6em; margin: 0 auto 5px;" title="Select the battle format.">
-                    <input class="btn-input calc-trigger" type="radio" name="format" value="Singles" id="singles" checked="checked" /><label class="btn btn-left" for="singles">Singles</label>
+                    <input class="btn-input calc-trigger" type="radio" name="format" value="Singles" id="singles" /><label class="btn btn-left" for="singles">Singles</label>
                     <input class="btn-input calc-trigger" type="radio" name="format" value="Doubles" id="doubles" /><label class="btn btn-right" for="doubles">Doubles</label>
                 </div>
                 <div class="gen-specific g6 g7" style="width: 22.0em; margin: 5px auto;" title="Select the current terrain.">
@@ -259,6 +257,16 @@
                         <input class="btn-input calc-trigger" type="checkbox" id="reflectR" /><label class="btn btn-left" for="reflectR">Reflect</label>
                         <input class="btn-input calc-trigger" type="checkbox" id="lightScreenR" /><label class="btn btn-xwide btn-right" for="lightScreenR">Light Screen</label>
                     </div>
+                    <div class="btn-group">
+                    <div class="left" title="Has this Pok&eacute;mon been effected by Leech Seed?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="leechSeedL" />
+                        <label class="btn btn-wide" for="leechSeedL">Leech Seed</label>
+                    </div>
+                    <div class="right" title="Has this Pok&eacute;mon been effected by Leech Seed?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="leechSeedR" />
+                        <label class="btn btn-wide" for="leechSeedR">Leech Seed</label>
+                    </div>
+                </div>
                 </div>
                 <div class="btn-group gen-specific g2 g3 g4 g5 g6 g7 g7">
                     <div class="left" title="Has this Pokemon been revealed with Foresight or Odor Sleuth?">
@@ -393,7 +401,7 @@
             </div>
         </div>
         <div class="footer">
-            <p><em>This calculator is based on the work of Honko, gamut, and Zarel. It was optimized for players in the Pokémon Championship Series by Tapin, Firestorm, and squirrelboy1225.</em></p></div>
+            <p><em>This calculator is based on the work of Honko, gamut, and Zarel. It was optimized for players in the Pokémon Championship Series by Tapin, Firestorm, and squirrelboy1225, and then for Battle Spot Singles players by cant say.</em></p></div>
     </div>
 
 

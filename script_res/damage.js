@@ -78,6 +78,8 @@ function getDamageResult(attacker, defender, move, field) {
         description.moveType = move.type;
     } else if (move.name === "Judgment" && attacker.item.indexOf("Plate") !== -1) {
         move.type = getItemBoostType(attacker.item);
+    } else if (move.name === "Multi Attack" && attacker.item.indexOf("Memory") !== -1) {
+        move.type = getMultiAttack(attacker.item);
     } else if (move.name === "Natural Gift" && attacker.item.indexOf("Berry") !== -1) {
         var gift = getNaturalGift(attacker.item);
         move.type = gift.t;
@@ -305,6 +307,7 @@ function getDamageResult(attacker, defender, move, field) {
         description.weather = field.weather;
     } else if (gen >= 6 && move.name === "Knock Off" && !(defender.item === "" ||
             (defender.name === "Giratina-O" && defender.item === "Griseous Orb") ||
+            (defender.name.indexOf("Silvally") !== -1 && defender.item.indexOf("Memory")) ||
             (defender.name.indexOf("Arceus") !== -1 && defender.item.indexOf("Plate") !== -1))) {
         bpMods.push(0x1800);
         description.moveBP = move.bp * 1.5;
@@ -316,7 +319,7 @@ function getDamageResult(attacker, defender, move, field) {
     }
     
     if (!move.isZ && (isAerilate || isPixilate || isRefrigerate || isGalvanize)) {
-        bpMods.push(0x14CD);
+        bpMods.push(0x1333);
         description.attackerAbility = attacker.ability;
     } else if ((attacker.ability === "Mega Launcher" && move.isPulse) ||
             (attacker.ability === "Strong Jaw" && move.isBite)) {
@@ -727,7 +730,7 @@ function getModifiedStat(stat, mod) {
             : stat;
 }
 
-function getFinalSpeed(pokemon, weather) {
+function getFinalSpeed(pokemon, weather, terrain) {
     var speed = getModifiedStat(pokemon.rawStats[SP], pokemon.boosts[SP]);
     if (pokemon.item === "Choice Scarf") {
         speed = Math.floor(speed * 1.5);
@@ -736,7 +739,9 @@ function getFinalSpeed(pokemon, weather) {
     }
     if ((pokemon.ability === "Chlorophyll" && weather.indexOf("Sun") > -1) ||
             (pokemon.ability === "Sand Rush" && weather === "Sand") ||
-            (pokemon.ability === "Swift Swim" && weather.indexOf("Rain") > -1)) {
+            (pokemon.ability === "Swift Swim" && weather.indexOf("Rain") > -1) ||
+            (pokemon.ability === "Slush Rush" && weather.indexOf("Hail") > -1) ||
+            (pokemon.ability === "Surge Surfer" && terrain === "Electric")) {
         speed *= 2;
     }
     return speed;

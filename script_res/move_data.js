@@ -802,6 +802,11 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         makesContact: true,
         hasRecoil: true
     },
+    'Brine': {
+        bp: 65,
+        type: 'Water',
+        category: 'Special'
+    },
     'Bug Bite': {
         bp: 60,
         type: 'Bug',
@@ -1353,6 +1358,12 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         makesContact: true,
         hasSecondaryEffect: true
     },
+    'Fly': {
+        bp: 90,
+        type: 'Flying',
+        category: 'Physical',
+        makesContact: true
+    },
     'Foul Play': {
         bp: 95,
         type: 'Dark',
@@ -1680,6 +1691,11 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         hasSecondaryEffect: true
     },
     'Frost Breath': { bp: 60 },
+    'Future Sight': {
+        bp: 120,
+        type: 'Psychic',
+        category: 'Special'
+    },
     'Heat Wave': { bp: 95 },
     'Hex': { bp: 65 },
     'Hidden Power Bug': { bp: 60 },
@@ -1997,7 +2013,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         bp: 70,
         zp: 140
     },
-    'Multi-Attack': {
+    'Multi Attack': {
         category: 'Physical',
         type: 'Normal',
         bp: 90,
@@ -2191,6 +2207,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Hydro Pump':{
         zp: 185
     },
+    'Fly':{
+        zp: 175
+    },
     'Surf':{
         zp: 175
     },
@@ -2339,6 +2358,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Iron Tail':{
         zp: 180
+    },
+    'Future Sight':{
+        zp: 190
     },
     // Hidden Power needs to have type set to normal for the Z-move lookup to work.
     // Conversion of regular move to correct type is done in getMoveEffectiveness in damage.js

@@ -1,1769 +1,269 @@
 var SETDEX_SM={
-  "Swellow": {
-    "Common Showdown": {
+  "Abomasnow": {
+    "Mega": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
+        "hp": "252",
+        "at": "4",
+        "sa": "252"
       },
-      "nature": "Jolly",
-      "ability": "Guts",
-      "item": "Flame Orb",
+      "nature": "Quiet",
+      "ability": "Snow Warning",
+      "item": "Abomasite",
       "moves": [
-        "Brave Bird",
-        "Facade",
-        "Quick Attack",
-        "U-turn"
-      ]
-    }
-  },
-  "Eevee": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Adaptability",
-      "item": "",
-      "moves": [
-        "Quick Attack",
-        "Last Resort",
-        "Stored Power",
-        "Return"
-      ]
-    }
-  },
-  "Poliwrath": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 4
-      },
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Waterfall",
-        "Ice Punch",
-        "Brick Break",
-        "Poison Jab"
-      ]
-    }
-  },
-  "Emolga": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Motor Drive",
-      "item": "Salac Berry",
-      "moves": [
-        "Electro Ball",
-        "Air Slash",
-        "Thunderbolt",
-        "Discharge"
-      ]
-    }
-  },
-  "Butterfree": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Bug Buzz",
-        "Psychic",
-        "Giga Drain",
-        "Shadow Ball"
-      ]
-    }
-  },
-  "Tornadus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Hurricane",
-        "Air Slash",
-        "Heat Wave",
-        "Icy Wind"
-      ]
-    }
-  },
-  "Wobbuffet": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": []
-    }
-  },
-  "Cresselia": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 220,
-        "at": 0,
-        "df": 172,
-        "sa": 4,
-        "sd": 92,
-        "sp": 20
-      },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "Ice Beam",
-        "Icy Wind",
-        "Psyshock"
-      ]
-    }
-  },
-  "Tangela": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 4,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Giga Drain",
-        "Ancient Power",
-        "Leaf Storm",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Absol": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Sucker Punch",
-        "Play Rough",
-        "Knock Off",
-        "Psycho Cut"
-      ]
-    }
-  },
-  "Sceptile": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Overgrow",
-      "item": "",
-      "moves": [
-        "Dragon Pulse",
-        "Leaf Storm",
-        "Focus Blast",
-        "Giga Drain"
-      ]
-    }
-  },
-  "Linoone": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Extreme Speed",
-        "Shadow Claw",
-        "Facade",
-        "Play Rough"
-      ]
-    }
-  },
-  "Landorus-T": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
-      "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Superpower",
-        "U-turn"
-      ]
-    }
-  },
-  "Lapras": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 228,
-        "at": 0,
-        "df": 124,
-        "sa": 156,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Water Absorb",
-      "item": "",
-      "moves": [
-        "Freeze-Dry",
-        "Hydro Pump",
-        "Ice Shard",
-        "Sheer Cold"
-      ]
-    }
-  },
-  "Krookodile": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 28,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 228
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
-      "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Knock Off",
-        "Superpower"
-      ]
-    }
-  },
-  "Mawile": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "",
-      "moves": [
-        "Play Rough",
-        "Sucker Punch",
-        "Iron Head",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Gothorita": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 172,
-        "sa": 0,
-        "sd": 84,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Psychic",
-        "Psyshock",
-        "Foul Play",
-        "Shadow Ball"
-      ]
-    }
-  },
-  "Mantyke": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Water Absorb",
-      "item": "Eviolite",
-      "moves": [
-        "Scald",
-        "Icy Wind",
-        "Air Slash",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Aggron": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Iron Head",
-        "Earthquake",
-        "Rock Slide",
-        "Heavy Slam"
-      ]
-    }
-  },
-  "Slowbro": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 252,
-        "sa": 8,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Psychic",
-        "Psyshock"
-      ]
-    }
-  },
-  "Ampharos": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Dragon Pulse",
-        "Thunderbolt",
-        "Focus Blast",
-        "Discharge"
-      ]
-    }
-  },
-  "Omastar": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
-      "moves": [
-        "Ice Beam",
-        "Muddy Water",
-        "Ancient Power",
-        "Hydro Pump"
-      ]
-    }
-  },
-  "Walrein": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 148,
-        "sa": 108,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Thick Fat",
-      "item": "Leftovers",
-      "moves": [
-        "Ice Beam",
         "Blizzard",
-        "Icy Wind",
-        "Surf"
+        "Giga Drain",
+        "Earthquake",
+        "Ice Shard"
       ]
-    }
-  },
-  "Heliolisk": {
-    "Common Showdown": {
+    },
+    "Choice Scarf": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
+        "hp": "4",
+        "at": "4",
+        "sd": "4",
+        "sa": "248",
+        "sp": "248"
       },
-      "nature": "Timid",
-      "ability": "Dry Skin",
+      "ivs": {
+        "df": "30",
+        "sa": "30",
+        "sp": "30"
+      },
+      "nature": "Hasty",
+      "ability": "Snow Warning",
       "item": "Choice Scarf",
       "moves": [
-        "Thunderbolt",
-        "Hyper Voice",
-        "Volt Switch",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Durant": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Hustle",
-      "item": "",
-      "moves": [
-        "Iron Head",
-        "X-Scissor",
-        "Superpower",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Regirock": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 52,
-        "df": 0,
-        "sa": 0,
-        "sd": 204,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Assault Vest",
-      "moves": [
-        "Rock Slide",
-        "Ice Punch",
-        "Drain Punch",
-        "Iron Head"
-      ]
-    }
-  },
-  "Piloswine": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 100,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 156,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Thick Fat",
-      "item": "Eviolite",
-      "moves": [
+        "Blizzard",
+        "Wood Hammer",
         "Earthquake",
-        "Ice Shard",
-        "Rock Slide",
-        "Avalanche"
-      ]
-    }
-  },
-  "Crawdaunt": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Adaptability",
-      "item": "Life Orb",
-      "moves": [
-        "Knock Off",
-        "Aqua Jet",
-        "Crabhammer",
-        "Superpower"
-      ]
-    }
-  },
-  "Crobat": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 36,
-        "sp": 220
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Black Sludge",
-      "moves": [
-        "Brave Bird",
-        "Cross Poison",
-        "U-turn",
-        "Acrobatics"
-      ]
-    }
-  },
-  "Noivern": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Choice Specs",
-      "moves": [
-        "Draco Meteor",
-        "Hurricane",
-        "Air Slash",
-        "Flamethrower"
-      ]
-    }
-  },
-  "Bibarel": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 156,
-        "sa": 0,
-        "sd": 96,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Simple",
-      "item": "Leftovers",
-      "moves": [
-        "Waterfall",
-        "Return",
-        "Quick Attack",
-        "Scald"
-      ]
-    }
-  },
-  "Gothitelle": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 12,
-        "sa": 0,
-        "sd": 244,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Psyshock",
-        "Psychic",
-        "Shadow Ball",
-        "Energy Ball"
-      ]
-    }
-  },
-  "Exploud": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Scrappy",
-      "item": "Choice Specs",
-      "moves": [
-        "Boomburst",
-        "Focus Blast",
-        "Fire Blast",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Seismitoad": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 252,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Hardy",
-      "ability": "Water Absorb",
-      "item": "Life Orb",
-      "moves": [
-        "Earth Power",
-        "Earthquake",
-        "Drain Punch",
-        "Poison Jab"
-      ]
-    }
-  },
-  "Gliscor": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 188,
-        "sa": 0,
-        "sd": 0,
-        "sp": 72
-      },
-      "nature": "Impish",
-      "ability": "Poison Heal",
-      "item": "Toxic Orb",
-      "moves": [
-        "Earthquake",
-        "Knock Off",
-        "Acrobatics",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Lanturn": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Volt Absorb",
-      "item": "Leftovers",
-      "moves": [
-        "Ice Beam",
-        "Scald",
-        "Discharge",
-        "Thunderbolt"
-      ]
-    }
-  },
-  "Maractus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 4,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
-      "moves": [
-        "Giga Drain",
-        "Solar Beam",
-        "Hidden Power Ice",
-        "Sucker Punch"
-      ]
-    }
-  },
-  "Zebstrika": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "",
-      "moves": [
-        "Overheat",
-        "Thunderbolt",
-        "Wild Charge",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Empoleon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 4,
-        "df": 52,
-        "sa": 68,
-        "sd": 132,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Torrent",
-      "item": "Assault Vest",
-      "moves": [
-        "Ice Beam",
-        "Flash Cannon",
-        "Scald",
-        "Aqua Jet"
-      ]
-    }
-  },
-  "Alakazam": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Magic Guard",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "Dazzling Gleam",
-        "Shadow Ball",
-        "Energy Ball"
-      ]
-    }
-  },
-  "Dragalge": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Adaptability",
-      "item": "Life Orb",
-      "moves": [
-        "Sludge Bomb",
-        "Draco Meteor",
-        "Scald",
-        "Dragon Pulse"
-      ]
-    }
-  },
-  "Cherrim": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 148,
-        "sa": 0,
-        "sd": 108,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Flower Gift",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Giga Drain",
-        "Weather Ball",
-        "Seed Bomb",
-        "Solar Beam"
-      ]
-    }
-  },
-  "Carbink": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 4,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Dazzling Gleam",
-        "Moonblast",
-        "Power Gem",
-        "Explosion"
-      ]
-    }
-  },
-  "Darmanitan": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Sheer Force",
-      "item": "Choice Scarf",
-      "moves": [
-        "Flare Blitz",
-        "Rock Slide",
-        "Superpower",
-        "U-turn"
-      ]
-    }
-  },
-  "Reuniclus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Magic Guard",
-      "item": "Life Orb",
-      "moves": [
-        "Psychic",
-        "Psyshock",
-        "Focus Blast",
-        "Shadow Ball"
-      ]
-    }
-  },
-  "Druddigon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
-      "moves": [
-        "Dragon Claw",
-        "Rock Slide",
-        "Gunk Shot",
-        "Iron Head"
-      ]
-    }
-  },
-  "Breloom": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Technician",
-      "item": "",
-      "moves": [
-        "Bullet Seed",
-        "Mach Punch",
-        "Rock Tomb",
-        "Superpower"
-      ]
-    }
-  },
-  "Drifblim": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 196,
-        "sd": 252,
-        "sp": 60
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Shadow Ball",
-        "Clear Smog",
-        "Acrobatics",
-        "Knock Off"
-      ]
-    }
-  },
-  "Alomomola": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Scald",
-        "Knock Off",
-        "Icy Wind",
-        "Aqua Jet"
-      ]
-    }
-  },
-  "Rotom-C": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 84,
-        "sa": 76,
-        "sd": 92,
-        "sp": 4
-      },
-      "nature": "Bold",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Leaf Storm",
-        "Thunderbolt",
-        "Volt Switch",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Torkoal": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "White Smoke",
-      "item": "",
-      "moves": [
-        "Earth Power",
-        "Heat Wave",
-        "Clear Smog",
-        "Eruption"
-      ]
-    }
-  },
-  "Victreebel": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 4,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Rash",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
-      "moves": [
-        "Weather Ball",
-        "Sludge Bomb",
-        "Solar Beam",
-        "Giga Drain"
-      ]
-    }
-  },
-  "Regigigas": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Slow Start",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Drain Punch",
-        "Return",
-        "Rock Slide",
-        "Icy Wind"
-      ]
-    }
-  },
-  "Tentacruel": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Black Sludge",
-      "moves": [
-        "Sludge Bomb",
-        "Scald",
-        "Ice Beam",
-        "Giga Drain"
-      ]
-    }
-  },
-  "Lickilicky": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Normal Gem",
-      "moves": [
-        "Explosion",
-        "Knock Off",
-        "Hammer Arm",
-        "Power Whip"
-      ]
-    }
-  },
-  "Goodra": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Sap Sipper",
-      "item": "Assault Vest",
-      "moves": [
-        "Ice Beam",
-        "Draco Meteor",
-        "Dragon Pulse",
-        "Fire Blast"
-      ]
-    }
-  },
-  "Trapinch": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Superpower",
-        "Crunch"
+        "Hidden Power Fire"
       ]
     }
   },
   "Aegislash": {
-    "Common Showdown": {
+    "THE CRUMBLER (Special Attacker)": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "ivs": {
+        "sp": "0"
       },
       "nature": "Quiet",
-      "ability": "",
-      "item": "",
+      "ability": "Stance Change",
+      "item": "Weakness Policy",
       "moves": [
         "Shadow Ball",
-        "Flash Cannon",
+        "Shadow Sneak",
+        "Sacred Sword",
+        "Flash Cannon"
+      ]
+    },
+    "SubToxic": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Stance Change",
+      "item": "Leftovers",
+      "moves": [
+        "Substitute",
+        "Toxic",
+        "Shadow Ball",
+        "Flash Cannon"
+      ]
+    },
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Stance Change",
+      "item": "Life Orb",
+      "moves": [
+        "Shadow Sneak",
+        "Sacred Sword",
+        "Iron Head",
+        "Shadow Claw"
+      ]
+    },
+    "DragonWhale's SubToxic": {
+      "level": 50,
+      "evs": {
+        "hp": "224",
+        "sa": "156",
+        "sd": "36",
+        "sp": "92"
+      },
+      "nature": "Modest",
+      "ability": "Stance Change",
+      "item": "Leftovers",
+      "moves": [
+        "Substitute",
+        "Toxic",
+        "Shadow Ball",
+        "Flash Cannon"
+      ]
+    },
+    "The Ethan Special (PhysDef)": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "df": "252"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Relaxed",
+      "ability": "Stance Change",
+      "item": "Weakness Policy",
+      "moves": [
+        "King's Shield",
+        "Shadow Ball",
         "Shadow Sneak",
         "Sacred Sword"
       ]
     }
   },
-  "Floatzel": {
-    "Common Showdown": {
+  "Alakazam": {
+    "Bulky MegaZam": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "",
-      "moves": [
-        "Waterfall",
-        "Ice Beam",
-        "Aqua Jet",
-        "Hydro Pump"
-      ]
-    }
-  },
-  "Electrode": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
+        "hp": "100",
+        "df": "244",
+        "sa": "12",
+        "sd": "12",
+        "sp": "140"
       },
       "nature": "Timid",
-      "ability": "Soundproof",
-      "item": "Life Orb",
+      "ability": "Magic Guard",
+      "item": "Alakazite",
       "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Signal Beam",
-        "Discharge"
-      ]
-    }
-  },
-  "Gourgeist": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 4,
-        "df": 0,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Careful",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Phantom Force",
-        "Seed Bomb",
-        "Shadow Sneak",
-        "Explosion"
-      ]
-    }
-  },
-  "Solrock": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Levitate",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Zen Headbutt",
-        "Earthquake",
-        "Rock Tomb"
-      ]
-    }
-  },
-  "Gourgeist-Small": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Choice Scarf",
-      "moves": [
-        "Phantom Force",
-        "Seed Bomb",
-        "Shadow Sneak",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Trevenant": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 8,
-        "df": 0,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Careful",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Horn Leech",
-        "Shadow Claw",
-        "Phantom Force",
-        "Wood Hammer"
-      ]
-    }
-  },
-  "Octillery": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Sniper",
-      "item": "Mystic Water",
-      "moves": [
-        "Water Spout",
-        "Energy Ball",
-        "Ice Beam",
-        "Scald"
-      ]
-    }
-  },
-  "Electabuzz": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 248,
-        "sa": 4,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Feint",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Pikachu": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Lightning Rod",
-      "item": "Light Ball",
-      "moves": [
-        "Fake Out",
-        "Volt Tackle",
-        "Thunderbolt",
-        "Knock Off"
-      ]
-    }
-  },
-  "Zoroark": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Flamethrower",
-        "Night Daze",
-        "Dark Pulse",
-        "Knock Off"
-      ]
-    }
-  },
-  "Jynx": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Mild",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Ice Beam",
-        "Fake Out",
         "Psychic",
-        "Blizzard"
+        "Focus Blast",
+        "Shadow Ball",
+        "Hidden Power Ice"
       ]
     }
   },
-  "Galvantula": {
-    "Common Showdown": {
+  "Araquanid": {
+    "Assault Vest": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Thunder",
-        "Bug Buzz",
-        "Energy Ball",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Hitmonchan": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
+        "hp": "252",
+        "at": "252",
+        "df": "4"
       },
       "nature": "Adamant",
-      "ability": "",
-      "item": "Lum Berry",
+      "ability": "Water Bubble",
+      "item": "Assault Vest",
       "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Rock Slide",
-        "Ice Punch"
+        "Liquidation",
+        "Leech Life",
+        "Poison Jab",
+        "Crunch"
       ]
     }
   },
-  "Clefable": {
-    "Common Showdown": {
+  "Arcanine": {
+    "Physically Defensive": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
       },
       "nature": "Bold",
-      "ability": "Magic Guard",
+      "ability": "Intimidate",
       "item": "Leftovers",
       "moves": [
-        "Moonblast",
-        "Ice Beam",
-        "Dazzling Gleam",
-        "Icy Wind"
+        "Flamethrower",
+        "Snarl",
+        "Burn Up",
+        "Morning Sun"
       ]
-    }
-  },
-  "Sigilyph": {
-    "Common Showdown": {
+    },
+    "Physical Inferno Overdrive": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 8,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Magic Guard",
-      "item": "Flame Orb",
-      "moves": [
-        "Stored Power",
-        "Air Slash",
-        "Psychic",
-        "Heat Wave"
-      ]
-    }
-  },
-  "Qwilfish": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "at": "252",
+        "df": "4",
+        "sp": "252"
       },
       "nature": "Adamant",
       "ability": "Intimidate",
-      "item": "Life Orb",
+      "item": "Firium Z",
       "moves": [
-        "Poison Jab",
-        "Waterfall",
-        "Aqua Jet",
-        "Icy Wind"
+        "Flare Blitz",
+        "Wild Charge",
+        "Extreme Speed",
+        "Close Combat"
       ]
     }
   },
-  "Latios": {
-    "Common Showdown": {
+  "Articuno": {
+    "Theorymon's Sheer Cold Fisher": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Life Orb",
-      "moves": [
-        "Draco Meteor",
-        "Psychic",
-        "Psyshock",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Claydol": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "Levitate",
-      "item": "Leftovers",
-      "moves": [
-        "Earth Power",
-        "Psychic",
-        "Ice Beam",
-        "Rapid Spin"
-      ]
-    }
-  },
-  "Sudowoodo": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Wood Hammer",
-        "Rock Slide",
-        "Sucker Punch",
-        "Earthquake"
-      ]
-    }
-  },
-  "Starmie": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Life Orb",
-      "moves": [
-        "Ice Beam",
-        "Scald",
-        "Psychic",
-        "Hydro Pump"
-      ]
-    }
-  },
-  "Tangrowth": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 4,
-        "sd": 252,
-        "sp": 0
+        "hp": "220",
+        "df": "4",
+        "sa": "4",
+        "sd": "252",
+        "sp": "28"
       },
       "nature": "Calm",
-      "ability": "",
-      "item": "",
+      "ability": "Pressure",
+      "item": "Leftovers",
       "moves": [
-        "Giga Drain",
-        "Leaf Storm",
-        "Knock Off",
-        "Sludge Bomb"
+        "Sheer Cold",
+        "Substitute",
+        "Roost",
+        "Freeze-Dry"
       ]
-    }
-  },
-  "Ninetales": {
-    "Common Showdown": {
+    },
+    "Assault Vest": {
       "level": 50,
       "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
+        "hp": "108",
+        "df": "4",
+        "sa": "252",
+        "sd": "4",
+        "sp": "140"
       },
-      "nature": "Timid",
-      "ability": "Drought",
-      "item": "Choice Scarf",
+      "nature": "Modest",
+      "ability": "Pressure",
+      "item": "Assault Vest",
       "moves": [
-        "Solar Beam",
-        "Heat Wave",
-        "Overheat",
-        "Extrasensory"
+        "Sheer Cold",
+        "Freeze-Dry",
+        "Hurricane",
+        "Ice Shard"
       ]
     }
   },
   "Azumarill": {
-    "Common Showdown": {
+    "Belly Drum": {
       "level": 50,
       "evs": {
-        "hp": 196,
-        "at": 252,
-        "df": 20,
-        "sa": 0,
-        "sd": 12,
-        "sp": 28
+        "hp": "228",
+        "at": "252",
+        "df": "12",
+        "sd": "12",
+        "sp": "4"
       },
       "nature": "Adamant",
       "ability": "Huge Power",
@@ -1774,915 +274,3196 @@ var SETDEX_SM={
         "Waterfall",
         "Superpower"
       ]
-    }
-  },
-  "Glalie": {
-    "Common Showdown": {
+    },
+    "All Out Attcker": {
       "level": 50,
       "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "hp": "228",
+        "at": "252",
+        "df": "12",
+        "sd": "12",
+        "sp": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Huge Power",
+      "item": "Assault Vest",
+      "moves": [
+        "Aqua Jet",
+        "Play Rough",
+        "Waterfall",
+        "Knock Off"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "228",
+        "at": "252",
+        "df": "12",
+        "sd": "12",
+        "sp": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Huge Power",
+      "item": "Choice Band",
+      "moves": [
+        "Aqua Jet",
+        "Play Rough",
+        "Waterfall",
+        "Superpower"
+      ]
+    }
+  },
+  "Beedrill": {
+    "Offensive Pivot": {
+      "level": 50,
+      "evs": {
+        "at": "228",
+        "df": "36",
+        "sp": "244"
       },
       "nature": "Jolly",
-      "ability": "",
-      "item": "",
+      "ability": "Swarm",
+      "item": "Beedrillite",
       "moves": [
-        "Explosion",
-        "Return",
-        "Ice Shard",
+        "U-turn",
+        "Poison Jab",
+        "Drill Run",
+        "Knock Off"
+      ]
+    }
+  },
+  "Bewear": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Fluffy",
+      "item": "Assault Vest",
+      "moves": [
+        "Superpower",
+        "Double-Edge",
+        "Ice Punch",
         "Earthquake"
       ]
     }
   },
-  "Camerupt": {
-    "Common Showdown": {
+  "Blastoise": {
+    "Wallbreaker": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
       },
-      "nature": "Quiet",
-      "ability": "Solid Rock",
-      "item": "",
+      "nature": "Modest",
+      "ability": "Torrent",
+      "item": "Blastoisinite",
       "moves": [
-        "Earth Power",
-        "Heat Wave",
-        "Ancient Power",
-        "Eruption"
+        "Water Pulse",
+        "Aura Sphere",
+        "Ice Beam",
+        "Dark Pulse"
       ]
     }
   },
-  "Hydreigon": {
-    "Common Showdown": {
+  "Blaziken": {
+    "Mixed Attacker": {
       "level": 50,
       "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
+        "at": "52",
+        "sa": "244",
+        "sp": "212"
+      },
+      "ivs": {
+        "hp": "30",
+        "df": "30"
+      },
+      "nature": "Naive",
+      "ability": "Speed Boost",
+      "item": "Life Orb",
+      "moves": [
+        "Overheat",
+        "Hidden Power Ice",
+        "Superpower",
+        "High Jump Kick"
+      ]
+    },
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Speed Boost",
+      "item": "Life Orb",
+      "moves": [
+        "Flare Blitz",
+        "Superpower",
+        "Stone Edge",
+        "Knock Off"
+      ]
+    },
+    "Baton Pass": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Impish",
+      "ability": "Speed Boost",
+      "item": "",
+      "moves": [
+        "Protect",
+        "Swords Dance",
+        "Baton Pass",
+        "Blaze Kick"
+      ]
+    }
+  },
+  "Breloom": {
+    "Offensive Spore": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Technician",
+      "item": "Focus Sash",
+      "moves": [
+        "Spore",
+        "Mach Punch",
+        "Bullet Seed",
+        "Rock Tomb"
+      ]
+    },
+    "Tacticat Teammate": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "df": "252"
+      },
+      "nature": "Impish",
+      "ability": "Poison Heal",
+      "item": "Toxic Orb",
+      "moves": [
+        "Spore",
+        "Focus Punch",
+        "Substitute",
+        "Protect"
+      ]
+    }
+  },
+  "Bronzong": {
+    "Trick Room Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "sd": "252"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Sassy",
+      "ability": "Levitate",
+      "item": "Occa Berry",
+      "moves": [
+        "Gyro Ball",
+        "Zen Headbutt",
+        "Explosion",
+        "Hidden Power Ice"
+      ]
+    }
+  },
+  "Buzzwole": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Beast Boost",
+      "item": "Assault Vest",
+      "moves": [
+        "Leech Life",
+        "Superpower",
+        "Earthquake",
+        "Ice Punch"
+      ]
+    },
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "df": "252"
+      },
+      "nature": "Impish",
+      "ability": "Beast Boost",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Leech Life",
+        "Hammer Arm",
+        "Bulk Up",
+        "Roost"
+      ]
+    },
+    "Fast": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Beast Boost",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Leech Life",
+        "Superpower",
+        "Ice Punch",
+        "Earthquake"
+      ]
+    },
+    "Trick Room Sweeper": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Beast Boost",
+      "item": "Fightinium Z",
+      "moves": [
+        "Hammer Arm",
+        "Leech Life",
+        "Earthquake",
+        "Ice Punch"
+      ]
+    }
+  },
+  "Celesteela": {
+    "PhysDef": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Relaxed",
+      "ability": "Beast Boost",
+      "item": "Leftovers",
+      "moves": [
+        "Heavy Slam",
+        "Earthquake",
+        "Flamethrower",
+        "Leech Seed"
+      ]
+    },
+    "SpDef": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "nature": "Sassy",
+      "ability": "Beast Boost",
+      "item": "Leftovers",
+      "moves": [
+        "Heavy Slam",
+        "Earthquake",
+        "Flamethrower",
+        "Leech Seed"
+      ]
+    },
+    "Fast SubSeed": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Beast Boost",
+      "item": "Leftovers",
+      "moves": [
+        "Heavy Slam",
+        "Earthquake",
+        "Flamethrower",
+        "Leech Seed"
+      ]
+    },
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sa": "4"
+      },
+      "nature": "Brave",
+      "ability": "Beast Boost",
+      "item": "Assault Vest",
+      "moves": [
+        "Heavy Slam",
+        "Hidden Power Ice",
+        "Flamethrower",
+        "Earthquake"
+      ]
+    },
+    "Autotomize": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Beast Boost",
+      "item": "",
+      "moves": [
+        "Autotomize",
+        "Heavy Slam",
+        "Acrobatics",
+        "Earthquake"
+      ]
+    }
+  },
+  "Chansey": {
+    "Standard": {
+      "level": 50,
+      "evs": {
+        "hp": "44",
+        "df": "252",
+        "sd": "212"
+      },
+      "nature": "Bold",
+      "ability": "Natural Cure",
+      "item": "Eviolite",
+      "moves": [
+        "Seismic Toss",
+        "Ice Beam",
+        "Shadow Ball",
+        "Flamethrower"
+      ]
+    },
+    "Minimize": {
+      "level": 50,
+      "evs": {
+        "df": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "",
+      "item": "Eviolite",
+      "moves": [
+        "Seismic Toss",
+        "Ice Beam",
+        "Shadow Ball",
+        "Flamethrower"
+      ]
+    }
+  },
+  "Charizard": {
+    "SD Flame Charge X": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Blaze",
+      "item": "Charizardite X",
+      "moves": [
+        "Flame Charge",
+        "Outrage",
+        "Flare Blitz",
+        "Dragon Claw"
+      ]
+    },
+    "Defensive X": {
+      "level": 50,
+      "evs": {
+        "hp": "172",
+        "df": "116",
+        "sp": "220"
+      },
+      "nature": "Jolly",
+      "ability": "Blaze",
+      "item": "Charizardite X",
+      "moves": [
+        "Will-O-Wisp",
+        "Roost",
+        "Flame Charge",
+        "Dragon Claw"
+      ]
+    },
+    "Drought Attacker": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Blaze",
+      "item": "Charizardite Y",
+      "moves": [
+        "Overheat",
+        "Solar Beam",
+        "Focus Blast",
+        "Hidden Power Ice"
+      ]
+    }
+  },
+  "Clefable": {
+    "Minimize": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Unaware",
+      "item": "Kee Berry",
+      "moves": [
+        "Moonblast",
+        "Stored Power",
+        "Fire Blast",
+        "Thunderbolt"
+      ]
+    }
+  },
+  "Cloyster": {
+    "Shell Smash": {
+      "level": 50,
+      "evs": {
+        "hp": "108",
+        "at": "252",
+        "df": "4",
+        "sd": "4",
+        "sp": "140"
+      },
+      "nature": "Adamant",
+      "ability": "Skill Link",
+      "item": "King's Rock",
+      "moves": [
+        "Razor Shell",
+        "Icicle Spear",
+        "Rock Blast",
+        "Ice Shard"
+      ]
+    }
+  },
+  "Conkeldurr": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Guts",
+      "item": "Assault Vest",
+      "moves": [
+        "Drain Punch",
+        "Mach Punch",
+        "Knock Off",
+        "Ice Punch"
+      ]
+    }
+  },
+  "Cresselia": {
+    "Standard Defensive Cres": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Levitate",
+      "item": "Leftovers",
+      "moves": [
+        "Ice Beam",
+        "Psychic",
+        "Moonblast",
+        "Psyshock"
+      ]
+    }
+  },
+  "Dragonite": {
+    "Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Multiscale",
+      "item": "Lum Berry",
+      "moves": [
+        "Outrage",
+        "Extreme Speed",
+        "Earthquake",
+        "Fire Punch"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Multiscale",
+      "item": "Choice Band",
+      "moves": [
+        "Outrage",
+        "Extreme Speed",
+        "Earthquake",
+        "Thunder Punch"
+      ]
+    }
+  },
+  "Entei": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "132",
+        "at": "252",
+        "df": "52",
+        "sd": "52",
+        "sp": "20"
+      },
+      "nature": "Adamant",
+      "ability": "Pressure",
+      "item": "Assault Vest",
+      "moves": [
+        "Sacred Fire",
+        "Stone Edge",
+        "Bulldoze",
+        "Flame Charge"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Pressure",
+      "item": "Choice Band",
+      "moves": [
+        "Sacred Fire",
+        "Stone Edge",
+        "Bulldoze",
+        "Iron Head"
+      ]
+    },
+    "Pressure Stall": {
+      "level": 50,
+      "evs": {
+        "hp": "20",
+        "at": "228",
+        "df": "4",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Pressure",
+      "item": "Leftovers",
+      "moves": [
+        "Protect",
+        "Substitute",
+        "Toxic",
+        "Sacred Fire"
+      ]
+    }
+  },
+  "Eevee": {
+    "Extreme Evoboost": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Adaptability",
+      "item": "Eevium Z",
+      "moves": [
+        "Last Resort",
+        "Substitute",
+        "Baton Pass",
+        "Stored Power"
+      ]
+    }
+  },
+  "Excadrill": {
+    "Choice Scarf": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "hp": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Mold Breaker",
+      "item": "Choice Scarf",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Rock Slide",
+        "Horn Drill"
+      ]
+    },
+    "Sand Sweeper": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Sand Rush",
+      "item": "Groundium Z",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Rock Slide",
+        "Swords Dance"
+      ]
+    },
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Mold Breaker",
+      "item": "Assault Vest",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Rock Tomb",
+        "Horn Drill"
+      ]
+    }
+  },
+  "Ferrothorn": {
+    "Wall-Nut (PhysDef)": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Relaxed",
+      "ability": "Iron Barbs",
+      "item": "Leftovers",
+      "moves": [
+        "Power Whip",
+        "Gyro Ball",
+        "Knock Off",
+        "Bullet Seed"
+      ]
+    },
+    "Cashew (SpDef)": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Sassy",
+      "ability": "Iron Barbs",
+      "item": "Leftovers",
+      "moves": [
+        "Power Whip",
+        "Gyro Ball",
+        "Knock Off",
+        "Bullet Seed"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Iron Barbs",
+      "item": "Choice Band",
+      "moves": [
+        "Power Whip",
+        "Gyro Ball",
+        "Knock Off",
+        "Bullet Seed"
+      ]
+    }
+  },
+  "Garchomp": {
+    "Lurechomp": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Rough Skin",
+      "item": "",
+      "moves": [
+        "Earthquake",
+        "Outrage",
+        "Rock Tomb",
+        "Dragon Claw"
+      ]
+    },
+    "Choice Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Rough Skin",
+      "item": "Choice Scarf",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Stone Edge",
+        "Fire Fang"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Rough Skin",
+      "item": "Choice Band",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Poison Jab",
+        "Fire Fang"
+      ]
+    },
+    "Mixed Life Orb": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Naive",
+      "ability": "Rough Skin",
+      "item": "Life Orb",
+      "moves": [
+        "Earthquake",
+        "Outrage",
+        "Draco Meteor",
+        "Fire Blast"
+      ]
+    }
+  },
+  "Gengar": {
+    "Bulky Trapper": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sp": "252",
+        "df": "4"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Gengarite",
+      "moves": [
+        "Destiny Bond",
+        "Will-O-Wisp",
+        "Hex",
+        "Sludge Bomb"
+      ]
+    },
+    "Offensive Trapper": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Gengarite",
+      "moves": [
+        "Destiny Bond",
+        "Shadow Ball",
+        "Sludge Bomb",
+        "Icy Wind"
+      ]
+    },
+    "Perish Trapper": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sp": "252",
+        "sa": "4"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Gengarite",
+      "moves": [
+        "Perish Song",
+        "Protect",
+        "Shadow Ball",
+        "Sludge Bomb"
+      ]
+    },
+    "CasinoGar (Hypnosis + Hex)": {
+      "level": 50,
+      "evs": {
+        "hp": "188",
+        "df": "116",
+        "sa": "4",
+        "sd": "4",
+        "sp": "196"
+      },
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Gengarite",
+      "moves": [
+        "Hypnosis",
+        "Hex",
+        "Focus Blast",
+        "Sludge Bomb"
+      ]
+    },
+    "Focus Sash": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Focus Sash",
+      "moves": [
+        "Shadow Ball",
+        "Sludge Bomb",
+        "Focus Blast",
+        "Icy Wind"
+      ]
+    },
+    "SubDisable": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Black Sludge",
+      "moves": [
+        "Substitute",
+        "Disable",
+        "Shadow Ball",
+        "Focus Blast"
+      ]
+    },
+  },
+  "Glalie": {
+    "Moody": {
+      "level": 50,
+      "evs": {
+        "hp": "172",
+        "sd": "84",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Moody",
+      "item": "Leftovers",
+      "moves": [
+        "Frost Breath",
+        "Freeze-Dry",
+        "Sheer Cold",
+        "Substitute"
+      ]
+    }
+  },
+  "Gliscor": {
+    "Poison Healer": {
+      "level": 50,
+      "evs": {
+        "hp": "228",
+        "df": "68",
+        "sp": "212"
+      },
+      "nature": "Impish",
+      "ability": "Poison Heal",
+      "item": "Toxic Orb",
+      "moves": [
+        "Protect",
+        "Substitute",
+        "Earthquake",
+        "Guillotine"
+      ]
+    }
+  },
+  "Golisopod": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Emergency Exit",
+      "item": "Assault Vest",
+      "moves": [
+        "First Impression",
+        "Liquidation",
+        "Aqua Jet",
+        "Sucker Punch"
+      ]
+    }
+  },
+  "Greninja": {
+    "Mixed Life Orb": {
+      "level": 50,
+      "evs": {
+        "at": "20",
+        "sa": "236",
+        "sp": "252"
+      },
+      "nature": "Naive",
+      "ability": "Protean",
+      "item": "Life Orb",
+      "moves": [
+        "Ice Beam",
+        "Dark Pulse",
+        "Gunk Shot",
+        "Low Kick"
+      ]
+    },
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sa": "4",
+        "sp": "252"
+      },
+      "nature": "Naive",
+      "ability": "Protean",
+      "item": "Life Orb",
+      "moves": [
+        "Low Kick",
+        "Gunk Shot",
+        "Ice Beam",
+        "Dark Pulse"
+      ]
+    },
+    "Focus Sash": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Protean",
+      "item": "",
+      "moves": [
+        "Ice Beam",
+        "Dark Pulse",
+        "Hydro Pump",
+        "Extrasensory"
+      ]
+    }
+  },
+    "Gyarados": {
+    "Mega Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Gyaradosite",
+      "moves": [
+        "Waterfall",
+        "Crunch",
+        "Earthquake",
+        "Ice Fang"
+      ]
+    },
+    "Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "220",
+        "df": "244",
+        "sp": "44"
+      },
+      "nature": "Impish",
+      "ability": "Intimidate",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Waterfall",
+        "Ice Fang",
+        "Earthquake",
+        "Aqua Tail"
+      ]
+    },
+    "Z-Bounce": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Flynium Z",
+      "moves": [
+        "Bounce",
+        "Waterfall",
+        "Earthquake",
+        "Ice Fang"
+      ]
+    }
+  },
+  "Heatran": {
+    "Fast Stall": {
+      "level": 50,
+      "evs": {
+        "hp": "212",
+        "sd": "44",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Flash Fire",
+      "item": "Leftovers",
+      "moves": [
+        "Magmar Storm",
+        "Toxic",
+        "Substitute",
+        "Earth Power"
+      ]
+    },
+    "Bulky Stall": {
+      "level": 50,
+      "evs": {
+        "hp": "212",
+        "df": "4",
+        "sa": "44",
+        "sd": "156",
+        "sp": "92"
+      },
+      "nature": "Calm",
+      "ability": "Flash Fire",
+      "item": "Leftovers",
+      "moves": [
+        "Magmar Storm",
+        "Toxic",
+        "Substitute",
+        "Earth Power"
+      ]
+    },
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sp": "4"
+      },
+      "nature": "Modest",
+      "ability": "Flash Fire",
+      "item": "Choice Specs",
+      "moves": [
+        "Overheat",
+        "Flash Cannon",
+        "Earth Power",
+        "Ancient Power"
+      ]
+    }
+  },
+  "Heracross": {
+    "Mega Hera": {
+      "level": 50,
+      "evs": {
+        "hp": "156",
+        "at": "252",
+        "df": "4",
+        "sd": "4",
+        "sp": "92"
+      },
+      "nature": "Adamant",
+      "ability": "Guts",
+      "item": "Heracronite",
+      "moves": [
+        "Pin Missile",
+        "Close Combat",
+        "Rock Blast",
+        "Bullet Seed"
+      ]
+    }
+  },
+  "Hippowdon": {
+    "Rocky Helmet Wall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Relaxed",
+      "ability": "Sand Stream",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Slack Off",
+        "Yawn",
+        "Stealth Rock",
+        "Earthquake"
+      ]
+    },
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sd": "252",
+        "df": "4"
+      },
+      "nature": "Sassy",
+      "ability": "Sand Stream",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Slack Off",
+        "Yawn",
+        "Stealth Rock",
+        "Earthquake"
+      ]
+    }
+  },
+  "Houndoom": {
+    "Mega Doom": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Flash Fire",
+      "item": "Houndoominite",
+      "moves": [
+        "Nasty Plot",
+        "Dark Pulse",
+        "Fire Blast",
+        "Hidden Power Grass"
+      ]
+    }
+  },
+    "Hydreigon": {
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Modest",
       "ability": "Levitate",
       "item": "Choice Specs",
       "moves": [
-        "Dark Pulse",
         "Draco Meteor",
-        "Earth Power",
-        "Flamethrower"
+        "Dark Pulse",
+        "Fire Blast",
+        "Earth Power"
       ]
-    }
-  },
-  "Carracosta": {
-    "Common Showdown": {
+    },
+    "Choice Scarf": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Aqua Jet",
-        "Rock Slide",
-        "Stone Edge",
-        "Aqua Tail"
-      ]
-    }
-  },
-  "Eelektrik": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 124,
-        "sa": 0,
-        "sd": 128,
-        "sp": 0
-      },
-      "nature": "Impish",
-      "ability": "Levitate",
-      "item": "Eviolite",
-      "moves": [
-        "Knock Off",
-        "Discharge",
-        "Giga Drain",
-        "Thunderbolt"
-      ]
-    }
-  },
-  "Gallade": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Close Combat",
-        "Psycho Cut",
-        "Zen Headbutt",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Weezing": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 4,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Black Sludge",
-      "moves": [
-        "Sludge Bomb",
-        "Flamethrower",
-        "Thunderbolt",
-        "Fire Blast"
-      ]
-    }
-  },
-  "Swoobat": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Timid",
-      "ability": "Simple",
-      "item": "",
+      "ability": "Levitate",
+      "item": "Choice Scarf",
       "moves": [
-        "Stored Power",
-        "Air Slash",
-        "Psychic",
-        "Shadow Ball"
+        "Draco Meteor",
+        "Dark Pulse",
+        "Fire Blast",
+        "Dragon Pulse"
       ]
-    }
-  },
-  "Spiritomb": {
-    "Common Showdown": {
+    },
+    "Life Orb": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 252,
-        "sa": 4,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Infiltrator",
-      "item": "Leftovers",
-      "moves": [
-        "Snarl",
-        "Foul Play",
-        "Icy Wind",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Liepard": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Foul Play",
-        "Knock Off",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Snorlax": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Thick Fat",
-      "item": "Chesto Berry",
-      "moves": [
-        "Self-Destruct",
-        "Crunch",
-        "Earthquake",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Kangaskhan": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Scrappy",
-      "item": "",
-      "moves": [
-        "Sucker Punch",
-        "Fake Out",
-        "Double-Edge",
-        "Low Kick"
-      ]
-    }
-  },
-  "Tropius": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Giga Drain",
-        "Air Slash",
-        "Leaf Storm",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Aron": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 84,
-        "at": 84,
-        "df": 0,
-        "sa": 84,
-        "sd": 84,
-        "sp": 84
-      },
-      "nature": "Hardy",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Bulldoze",
-        "Aerial Ace",
-        "Hidden Power Rock",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Machamp": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Lum Berry",
-      "moves": [
-        "Dynamic Punch",
-        "Ice Punch",
-        "Knock Off",
-        "Bullet Punch"
-      ]
-    }
-  },
-  "Exeggutor": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Modest",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Psychic",
-        "Giga Drain",
-        "Psyshock",
-        "Leaf Storm"
-      ]
-    }
-  },
-  "Parasect": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 188,
-        "at": 4,
-        "df": 252,
-        "sa": 0,
-        "sd": 52,
-        "sp": 12
-      },
-      "nature": "Impish",
-      "ability": "Dry Skin",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Seed Bomb",
-        "Knock Off",
-        "Giga Drain",
-        "X-Scissor"
-      ]
-    }
-  },
-  "Cobalion": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
+      "ability": "Levitate",
       "item": "Life Orb",
       "moves": [
-        "Iron Head",
-        "Close Combat",
-        "Stone Edge",
-        "Sacred Sword"
+        "Draco Meteor",
+        "Dark Pulse",
+        "Fire Blast",
+        "Earth Power"
       ]
     }
   },
-  "Minun": {
-    "Common Showdown": {
+  "Incineroar": {
+    "Trick Room Sweeper": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 8,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
       },
-      "nature": "Hasty",
-      "ability": "",
-      "item": "Sitrus Berry",
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Blaze",
+      "item": "Incinium Z",
       "moves": [
-        "Thunderbolt",
-        "Discharge",
-        "Volt Switch",
-        "Charge Beam"
+        "Flare Blitz",
+        "Darkest Lariat",
+        "Cross Chop",
+        "Earthquake"
       ]
     }
   },
-  "Ditto": {
-    "Common Showdown": {
+  "Jellicent": {
+    "Wall": {
       "level": 50,
       "evs": {
-        "hp": 4,
-        "at": 126,
-        "df": 0,
-        "sa": 126,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Hasty",
-      "ability": "",
-      "item": "Choice Scarf",
-      "moves": []
-    }
-  },
-  "Eelektross": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Assault Vest",
-      "moves": [
-        "Flamethrower",
-        "Thunderbolt",
-        "Giga Drain",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Sharpedo": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Crunch",
-        "Waterfall",
-        "Ice Fang",
-        "Aqua Jet"
-      ]
-    }
-  },
-  "Mesprit": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 68,
-        "sa": 100,
-        "sd": 84,
-        "sp": 0
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
       },
       "nature": "Bold",
-      "ability": "Levitate",
+      "ability": "Cursed Body",
       "item": "Sitrus Berry",
       "moves": [
-        "Psychic",
+        "Scald",
         "Ice Beam",
-        "Thunderbolt",
-        "Dazzling Gleam"
-      ]
-    }
-  },
-  "Bisharp": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Life Orb",
-      "moves": [
-        "Iron Head",
-        "Sucker Punch",
-        "Knock Off",
-        "Low Kick"
-      ]
-    }
-  },
-  "Zangoose": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Toxic Boost",
-      "item": "Toxic Orb",
-      "moves": [
-        "Facade",
-        "Close Combat",
-        "Shadow Claw",
-        "Knock Off"
-      ]
-    }
-  },
-  "Florges": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 244,
-        "at": 0,
-        "df": 164,
-        "sa": 52,
-        "sd": 44,
-        "sp": 4
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Moonblast",
-        "Dazzling Gleam",
-        "Psychic",
+        "Hex",
         "Giga Drain"
       ]
     }
   },
-  "Nidoqueen": {
-    "Common Showdown": {
+  "Kangaskhan": {
+    "Sweeper": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
+        "at": "252",
+        "sp": "252",
+        "sd": "4"
       },
-      "nature": "Modest",
-      "ability": "Sheer Force",
+      "nature": "Jolly",
+      "ability": "Scrappy",
+      "item": "Kangaskhanite",
+      "moves": [
+        "Power-Up Punch",
+        "Double-Edge",
+        "Sucker Punch",
+        "Earthquake"
+      ]
+    },
+    "All-Out Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sp": "252",
+        "sd": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Scrappy",
+      "item": "Kangaskhanite",
+      "moves": [
+        "Double-Edge",
+        "Sucker Punch",
+        "Earthquake",
+        "Ice Punch"
+      ]
+    },
+    "Secret Power KangHAXkhan": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Scrappy",
+      "item": "Kangaskhanite",
+      "moves": [
+        "Secret Power",
+        "Power-Up Punch",
+        "Rock Slide",
+        "Sucker Punch"
+      ]
+    },
+    "Special Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "36",
+        "df": "4",
+        "sa": "212",
+        "sp": "252"
+      },
+      "nature": "Naive",
+      "ability": "Scrappy",
+      "item": "Kangaskhanite",
+      "moves": [
+        "Fake Out",
+        "Double-Edge",
+        "Fire Blast",
+        "Ice Beam"
+      ]
+    }
+  },
+  "Kartana": {
+    "Standard": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Beast Boost",
       "item": "Life Orb",
       "moves": [
-        "Earth Power",
-        "Sludge Bomb",
-        "Ice Beam",
-        "Thunderbolt"
+        "Leaf Blade",
+        "Smart Strike",
+        "Sacred Sword",
+        "Night Slash"
+      ]
+    },
+    "Gotta Go Fast (and not hit hard)": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "21"
+      },
+      "nature": "Timid",
+      "ability": "Beast Boost",
+      "item": "Life Orb",
+      "moves": [
+        "Leaf Blade",
+        "Smart Strike",
+        "Sacred Sword",
+        "Night Slash"
       ]
     }
   },
-  "Altaria": {
-    "Common Showdown": {
+  "Kingdra": {
+    "Rain Sweeper": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 196,
-        "sd": 0,
-        "sp": 60
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Modest",
-      "ability": "Cloud Nine",
-      "item": "",
+      "ability": "Swift Swim",
+      "item": "Waterium Z",
       "moves": [
-        "Hyper Voice",
-        "Fire Blast",
+        "Hydro Pump",
         "Draco Meteor",
-        "Flamethrower"
-      ]
-    }
-  },
-  "Togekiss": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 236,
-        "at": 0,
-        "df": 196,
-        "sa": 4,
-        "sd": 12,
-        "sp": 60
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Air Slash",
-        "Dazzling Gleam",
-        "Aura Sphere",
-        "Flamethrower"
-      ]
-    }
-  },
-  "Venusaur": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 124,
-        "sa": 76,
-        "sd": 52,
-        "sp": 4
-      },
-      "nature": "Bold",
-      "ability": "Chlorophyll",
-      "item": "",
-      "moves": [
-        "Sludge Bomb",
-        "Giga Drain",
-        "Hidden Power Ice",
-        "Hidden Power Ground"
-      ]
-    }
-  },
-  "Blastoise": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "",
-      "moves": [
-        "Aura Sphere",
         "Ice Beam",
-        "Water Spout",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Pachirisu": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Impish",
-      "ability": "Volt Absorb",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Discharge",
-        "Volt Switch",
-        "Thunder Punch",
-        "Thunderbolt"
+        "Surf"
       ]
     }
   },
   "Klefki": {
-    "Common Showdown": {
+    "Standard": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "nature": "Calm",
+      "ability": "Prankster",
+      "item": "Leftovers",
+      "moves": [
+        "Swagger",
+        "Foul Play",
+        "Thunder Wave",
+        "Substitute"
+      ]
+    },
+    "Dual Screens": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
       },
       "nature": "Bold",
-      "ability": "",
-      "item": "",
+      "ability": "Prankster",
+      "item": "Light Clay",
       "moves": [
+        "Reflect",
+        "Light Screen",
         "Foul Play",
-        "Dazzling Gleam",
-        "Draining Kiss",
+        "Thunder Wave"
+      ]
+    }
+  },
+  "Kommo-o": {
+    "Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Bullet Proof",
+      "item": "Lum Berry",
+      "moves": [
+        "Dragon Dance",
+        "Outrage",
+        "Sky Uppercut",
+        "Poison Jab"
+      ]
+    },
+    "Special Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Bullet Proof",
+      "item": "Fightinium Z",
+      "moves": [
+        "Focus Blast",
+        "Clanging Scales",
+        "Flamethrower",
         "Flash Cannon"
       ]
     }
   },
-  "Jigglypuff": {
-    "Common Showdown": {
+    "Landorus-T": {
+    "Scarf": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Dazzling Gleam",
-        "Icy Wind",
-        "Knock Off",
-        "Drain Punch"
-      ]
-    }
-  },
-  "Kecleon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
       },
       "nature": "Adamant",
-      "ability": "Protean",
-      "item": "Assault Vest",
+      "ability": "Intimidate",
+      "item": "Choice Scarf",
       "moves": [
-        "Sucker Punch",
-        "Fake Out",
-        "Shadow Sneak",
-        "Drain Punch"
+        "Earthquake",
+        "U-Turn",
+        "Rock Slide",
+        "Superpower"
+      ]
+    },
+    "Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "df": "252"
+      },
+      "nature": "Impish",
+      "ability": "Intimidate",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Earthquake",
+        "Rock Tomb",
+        "U-Turn",
+        "Knock Off"
       ]
     }
   },
-  "Throh": {
-    "Common Showdown": {
+  "Lanturn": {
+    "Specially Defensive": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 124,
-        "df": 132,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
       },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Assault Vest",
+      "nature": "Careful",
+      "ability": "Volt Absorb",
+      "item": "Leftovers",
       "moves": [
-        "Knock Off",
-        "Storm Throw",
-        "Ice Punch",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Wigglytuff": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 188,
-        "sa": 236,
-        "sd": 12,
-        "sp": 68
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Dazzling Gleam",
-        "Fire Blast",
+        "Scald",
+        "Discharge",
         "Thunderbolt",
         "Ice Beam"
       ]
     }
   },
-  "Dusknoir": {
-    "Common Showdown": {
+  "Lapras": {
+    "infinitymkds' Assault Vest": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
       },
-      "nature": "Sassy",
-      "ability": "",
-      "item": "",
+      "nature": "Quiet",
+      "ability": "Water Absorb",
+      "item": "Assault Vest",
       "moves": [
-        "Shadow Sneak",
-        "Night Shade",
-        "Ice Punch",
-        "Rock Slide"
+        "Sheer Cold",
+        "Freeze-Dry",
+        "Surf",
+        "Ice Shard"
       ]
     }
   },
-  "Girafarig": {
-    "Common Showdown": {
+  "Latios": {
+    "Choice Specs": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "df": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid",
+      "ability": "Levitate",
+      "item": "Choice Specs",
+      "moves": [
+        "Draco Meteor",
+        "Psyshock",
+        "Surf",
+        "Thunderbolt"
+      ]
+    }
+  },
+  "Liepard": {
+    "Tacticat": {
+      "level": 50,
+      "evs": {
+        "hp": "44",
+        "df": "212",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid",
+      "ability": "Prankster",
+      "item": "Leftovers",
+      "moves": [
+        "Assist",
+        "Substitute",
+        "Swagger",
+        "Foul Play"
+      ]
+    }
+  },
+  "Lopunny": {
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
       },
       "nature": "Jolly",
-      "ability": "Sap Sipper",
-      "item": "",
+      "ability": "Limber",
+      "item": "Lopunnite",
       "moves": [
-        "Hyper Voice",
-        "Foul Play",
-        "Psyshock",
-        "Psychic"
+        "Fake Out",
+        "Return",
+        "High Jump Kick",
+        "Ice Punch"
       ]
     }
   },
-  "Granbull": {
-    "Common Showdown": {
+  "Lucario": {
+    "Physical": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 180,
-        "df": 0,
-        "sa": 0,
-        "sd": 76,
-        "sp": 0
+        "at": "252",
+        "sp": "252",
+        "sd": "4"
+      },
+      "nature": "Jolly",
+      "ability": "Justified",
+      "item": "Lucarionite",
+      "moves": [
+        "Close Combat",
+        "Extreme Speed",
+        "Iron Tail",
+        "Ice Punch"
+      ]
+    },
+    "Special": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sp": "252",
+        "sd": "4"
+      },
+      "nature": "Timid",
+      "ability": "Inner Focus",
+      "item": "Lucarionite",
+      "moves": [
+        "Aura Sphere",
+        "Flash Cannon",
+        "Vacuum Wave",
+        "Dark Pulse"
+      ]
+    }
+  },
+  "Lycanroc-Day": {
+    "Stealth Rock Lead": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Keen Eye",
+      "item": "Focus Sash",
+      "moves": [
+        "Accelerock",
+        "Rock Tomb",
+        "Brick Break",
+        "Fire Fang"
+      ]
+    }
+  },
+  "Magneton": {
+    "Fast Celesteela Trapper": {
+      "level": 50,
+      "evs": {
+        "hp": "68",
+        "sa": "252",
+        "sp": "188"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid",
+      "ability": "Magnet Pull",
+      "item": "Eviolite",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Fire",
+        "Volt Switch"
+      ]
+    }
+  },
+  "Magnezone": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Analytic",
+      "item": "Assault Vest",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Ice",
+        "Volt Switch"
+      ]
+    },
+    "Bulky Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Magnet Pull",
+      "item": "Choice Specs",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Ice",
+        "Volt Switch"
+      ]
+    },
+    "Fast Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Magnet Pull",
+      "item": "Choice Scarf",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Fire",
+        "Volt Switch"
+      ]
+    }
+  },
+  "Mamoswine": {
+    "Sash": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Thick Fat",
+      "item": "Focus Sash",
+      "moves": [
+        "Earthquake",
+        "Icicle Spear",
+        "Ice Shard",
+        "Knock Off"
+      ]
+    },
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "44",
+        "at": "212",
+        "sd": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Thick Fat",
+      "item": "Assault Vest",
+      "moves": [
+        "Earthquake",
+        "Icicle Spear",
+        "Ice Shard",
+        "Fissure"
+      ]
+    },
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "df": "252"
+      },
+      "nature": "Impish",
+      "ability": "Thick Fat",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Earthquake",
+        "Icicle Spear",
+        "Ice Shard",
+        "Knock Off"
+      ]
+    }
+  },
+  "Mandibuzz": {
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Overcoat",
+      "item": "Leftovers",
+      "moves": [
+        "Foul Play",
+        "Roost",
+        "Taunt",
+        "Toxic"
+      ]
+    },
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "nature": "Calm",
+      "ability": "Overcoat",
+      "item": "Leftovers",
+      "moves": [
+        "Foul Play",
+        "Roost",
+        "Taunt",
+        "Toxic"
+      ]
+    }
+  },
+  "Manectric": {
+    "All-Out Attacker": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Lightning Rod",
+      "item": "Manectite",
+      "moves": [
+        "Thunderbolt",
+        "Overheat",
+        "Hidden Power Ice",
+        "Volt Switch"
+      ]
+    }
+  },
+  "Marowak-Alola": {
+    "Standard": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Lightningrod",
+      "item": "Thick Club",
+      "moves": [
+        "Flare Blitz",
+        "Shadow Bone",
+        "Bonemerang",
+        "Rock Slide"
+      ]
+    },
+    "Fast Flame Charge": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Lightningrod",
+      "item": "Thick Club",
+      "moves": [
+        "Flare Blitz",
+        "Shadow Bone",
+        "Bonemerang",
+        "Flame Charge"
+      ]
+    },
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "sd": "252"
+      },
+      "nature": "Careful",
+      "ability": "Lightningrod",
+      "item": "Thick Club",
+      "moves": [
+        "Shadow Bone",
+        "Will-O-Wisp",
+        "Rest",
+        "Perish Song"
+      ]
+    }
+  },
+  "Mawile": {
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sp": "4"
       },
       "nature": "Adamant",
       "ability": "Intimidate",
-      "item": "Assault Vest",
+      "item": "Mawilite",
       "moves": [
         "Play Rough",
-        "Rock Slide",
-        "Ice Punch",
-        "Close Combat"
+        "Sucker Punch",
+        "Knock Off",
+        "Fire Fang"
       ]
     }
   },
-  "Kabutops": {
-    "Common Showdown": {
+  "Metagross": {
+    "All-Out Attacker": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
+        "at": "252",
+        "sp": "252",
+        "df": "4"
       },
-      "nature": "Adamant",
-      "ability": "Swift Swim",
+      "nature": "Jolly",
+      "ability": "Clear Body",
+      "item": "Metagrossite",
+      "moves": [
+        "Zen Headbutt",
+        "Bullet Punch",
+        "Ice Punch",
+        "Earthquake"
+      ]
+    },
+    "Substitute + Hone Claws": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sp": "252",
+        "df": "4"
+      },
+      "nature": "Jolly",
+      "ability": "Clear Body",
+      "item": "Metagrossite",
+      "moves": [
+        "Substitute",
+        "Hone Claws",
+        "Earthquake",
+        "Meteor Mash"
+      ]
+    }
+  },
+  "Milotic": {
+    "Wall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Marvel Scale",
+      "item": "Flame Orb",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Dragon Tail",
+        "Icy Wind"
+      ]
+    }
+  },
+  "Mimikyu": {
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Disguise",
       "item": "Life Orb",
       "moves": [
-        "Rock Slide",
+        "Play Rough",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Wood Hammer"
+      ]
+    },
+    "Trick Room Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "nature": "Brave",
+      "ability": "Disguise",
+      "item": "Ghostium Z",
+      "moves": [
+        "Play Rough",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Wood Hammer"
+      ]
+    }
+  },
+  "Minior": {
+    "Special Shell Smash": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Shields Down",
+      "item": "Focus Sash",
+      "moves": [
+        "Power Gem",
+        "Dazzling Gleam",
+        "Hidden Power Ground",
+        "Charge Beam"
+      ]
+    },
+    "Physical Shell Smash": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Shields Down",
+      "item": "Focus Sash",
+      "moves": [
+        "Stone Edge",
+        "Acrobatics",
+        "Earthquake",
+        "Explosion"
+      ]
+    }
+  },
+  "Mudsdale": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Stamina",
+      "item": "Assault Vest",
+      "moves": [
+        "Earthquake",
+        "Heavy Slam",
+        "Close Combat",
+        "Rock Tomb"
+      ]
+    }
+  },
+  "Muk-Alola": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Poison Touch",
+      "item": "Assault Vest",
+      "moves": [
+        "Poison Jab",
+        "Knock Off",
+        "Shadow Sneak",
+        "Pursuit"
+      ]
+    },
+    "Curse + Minimize": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "4": "4",
+        "sd": "252"
+      },
+      "nature": "Careful",
+      "ability": "Poison Touch",
+      "item": "Black Sludge",
+      "moves": [
+        "Curse",
+        "Minimize",
+        "Payback",
+        "Rest"
+      ]
+    }
+  },
+  "Nihilego": {
+    "Offensive": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Beast Boost",
+      "item": "Focus Sash",
+      "moves": [
+        "Power Gem",
+        "Sludge Wave",
+        "Hidden Power Ice",
+        "Thunderbolt"
+      ]
+    }
+  },
+  "Ninetales-Alola": {
+    "Offensive Veil Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Snow Warning",
+      "item": "Focus Sash",
+      "moves": [
+        "Blizzard",
+        "Moonblast",
+        "Freeze-Dry",
+        "Aurora Veil"
+      ]
+    }
+  },
+  "Pelipper": {
+    "Rain Birb": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Drizzle",
+      "item": "Focus Sash",
+      "moves": [
+        "Hurricane",
+        "Ice Beam",
+        "Hydro Pump",
+        "U-turn"
+      ]
+    }
+  },
+  "Pheromosa": {
+    "Standard Offensive": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sa": "4",
+        "sp": "252"
+      },
+      "nature": "Naughty",
+      "ability": "Beast Boost",
+      "item": "Life Orb",
+      "moves": [
+        "High Jump Kick",
+        "U-turn",
+        "Ice Beam",
+        "Poison Jab"
+      ]
+    },
+    "Quiver Dance": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Beast Boost",
+      "item": "Focus Sash",
+      "moves": [
+        "Bug Buzz",
+        "Ice Beam",
+        "Hidden Power Ground",
+        "Focus Blast"
+      ]
+    }
+  },
+  "Pidgeot": {
+    "Specially Offensive": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Big Pecks",
+      "item": "Pidgeotite",
+      "moves": [
+        "Hurricane",
+        "Heat Wave",
+        "Hidden Power Ice",
+        "U-turn"
+      ]
+    }
+  },
+  "Porygon-Z": {
+    "Z-Conversion": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Adaptability",
+      "item": "Normalium Z",
+      "moves": [
+        "Shadow Ball",
+        "Conversion",
+        "Thunderbolt",
+        "Ice Beam"
+      ]
+    }
+  },
+  "Porygon2": {
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "252",
+        "sa": "4",
+        "sd": "4",
+        "sp": "4"
+      },
+      "nature": "Bold",
+      "ability": "Trace",
+      "item": "Eviolite",
+      "moves": [
+        "Ice Beam",
+        "Foul Play",
+        "Discharge",
+        "Shadow Ball"
+      ]
+    },
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "12",
+        "sa": "4",
+        "sd": "244",
+        "sp": "4"
+      },
+      "nature": "Calm",
+      "ability": "Trace",
+      "item": "Eviolite",
+      "moves": [
+        "Ice Beam",
+        "Foul Play",
+        "Discharge",
+        "Shadow Ball"
+      ]
+    },
+    "Offensive Download": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "12",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Download",
+      "item": "Eviolite",
+      "moves": [
+        "Ice Beam",
+        "Shadow Ball",
+        "Tri Attack",
+        "Hidden Power Ground"
+      ]
+    },
+    "Trick Room": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "12",
+        "sa": "252"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Quiet",
+      "ability": "Download",
+      "item": "Eviolite",
+      "moves": [
+        "Shadow Ball",
+        "Ice Beam",
+        "Tri Attack",
+        "Hidden Power Ground"
+      ]
+    },
+    "Mixed": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "at": "4",
+        "df": "12",
+        "sa": "4",
+        "sd": "244"
+      },
+      "nature": "Sassy",
+      "ability": "Download",
+      "item": "Eviolite",
+      "moves": [
+        "Return",
+        "Ice Beam",
+        "Facade",
+        "Thunderbolt"
+      ]
+    }
+  },
+  "Primarina": {
+    "Oceanic Operetta": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Torrent",
+      "item": "Primarium Z",
+      "moves": [
+        "Sparkling Aria",
+        "Moonblast",
+        "Ice Beam",
+        "Energy Ball"
+      ]
+    }
+  },
+  "Pyukumuku": {
+    "Wall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Unaware",
+      "item": "Leftovers",
+      "moves": [
+        "Toxic",
+        "Curse",
+        "Recover",
+        "Baton Pass"
+      ]
+    }
+  },
+  "Raichu-Alola": {
+    "Offensive": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Surge Surfer",
+      "item": "Life Orb",
+      "moves": [
+        "Thunderbolt",
+        "Psychic",
+        "Hidden Power Ice",
+        "Grass Knot"
+      ]
+    }
+  },
+  "Raikou": {
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "12",
+        "sp": "244"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Pressure",
+      "item": "Choice Specs",
+      "moves": [
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Volt Switch",
+        "Shadow Ball"
+      ]
+    },
+    "Substitute + Calm Mind": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "12",
+        "sp": "244"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Pressure",
+      "item": "Leftovers",
+      "moves": [
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Substitute",
+        "Calm Mind"
+      ]
+    }
+  },
+  "Rhyperior": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sd": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Solid Rock",
+      "item": "Assault Vest",
+      "moves": [
+        "Earthquake",
+        "Rock Blast",
+        "Ice Punch",
+        "Horn Drill"
+      ]
+    }
+  },
+  "Roserade": {
+    "Offensive": {
+      "level": 50,
+      "evs": {
+        "hp": "12",
+        "sa": "248",
+        "sp": "248"
+      },
+      "ivs": {
+        "at": "0",
+        "sa": "30",
+        "sp": "30"
+      },
+      "nature": "Modest",
+      "ability": "Technician",
+      "item": "Life Orb",
+      "moves": [
+        "Sludge Bomb",
+        "Magical Leaf",
+        "Hidden Power Fire",
+        "Extrasensory"
+      ]
+    }
+  },
+  "Rotom-H": {
+    "Tank": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sd": "252",
+        "sp": "4"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30",
+      },
+      "nature": "Calm",
+      "ability": "Levitate",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Volt Switch",
+        "Overheat",
+        "Thunderbolt",
+        "Hidden Power Ice"
+      ]
+    },
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sp": "4"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30",
+      },
+      "nature": "Modest",
+      "ability": "Levitate",
+      "item": "Choice Specs",
+      "moves": [
+        "Overheat",
+        "Volt Switch",
+        "Hidden Power Ice",
+        "Thunderbolt"
+      ]
+    },
+    "Choice Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "76",
+        "df": "24",
+        "sa": "188",
+        "sp": "220"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30",
+      },
+      "nature": "Timid",
+      "ability": "Levitate",
+      "item": "Choice Scarf",
+      "moves": [
+        "Volt Switch",
+        "Overheat",
+        "Hidden Power Ice",
+        "Thunderbolt"
+      ]
+    },
+    "Substitute": {
+      "level": 50,
+      "evs": {
+        "hp": "156",
+        "sd": "220",
+        "sp": "132"
+      },
+      "nature": "Calm",
+      "ability": "Levitate",
+      "item": "Leftovers",
+      "moves": [
+        "Substitute",
+        "Overheat",
+        "Will-O-Wisp",
+        "Discharge"
+      ]
+    }
+  },
+  "Rotom-W": {
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Levitate",
+      "item": "Choice Specs",
+      "moves": [
+        "Hydro Pump",
+        "Thunderbolt",
+        "Volt Switch",
+        "Hidden Power Ice"
+      ]
+    },
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sa": "4"
+      },
+      "nature": "Bold",
+      "ability": "Levitate",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Hydro Pump",
+        "Thunderbolt",
+        "Volt Switch",
+        "Hidden Power Ice"
+      ]
+    },
+    "Choice Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Levitate",
+      "item": "Choice Scarf",
+      "moves": [
+        "Hydro Pump",
+        "Thunderbolt",
+        "Volt Switch",
+        "Hidden Power Ice"
+      ]
+    }
+  },
+  "Sableye": {
+    "Calm Mind Booster": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Bold",
+      "ability": "Prankster",
+      "item": "Sablenite",
+      "moves": [
+        "Will-O-Wisp",
+        "Recover",
+        "Calm Mind",
+        "Snarl"
+      ]
+    },
+    "Defensive Utility": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "204",
+        "sd": "52"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Impish",
+      "ability": "Prankster",
+      "item": "Sablenite",
+      "moves": [
+        "Will-O-Wisp",
+        "Recover",
+        "Foul Play",
+        "Sucker Punch"
+      ]
+    }
+  },
+  "Salamence": {
+    "Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Intimidate",
+      "item": "Salamencite",
+      "moves": [
+        "Double-Edge",
+        "Earthquake",
+        "Facade",
+        "Stone Edge"
+      ]
+    },
+    "Mixed Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Rash",
+      "ability": "Intimidate",
+      "item": "Salamencite",
+      "moves": [
+        "Draco Meteor",
+        "Fire Blast",
+        "Double-Edge",
+        "Hyper Voice"
+      ]
+    },
+    "SpD Facade": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "at": "4",
+        "df": "4",
+        "sd": "228",
+        "sp": "28"
+      },
+      "nature": "Careful",
+      "ability": "Intimidate",
+      "item": "Salamencite",
+      "moves": [
+        "Dragon Dance",
+        "Facade",
+        "Earthquake",
+        "Roost"
+      ]
+    },
+    "Toxicmence": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Salamencite",
+      "moves": [
+        "Toxic",
+        "Substitute",
+        "Roost",
+        "Return"
+      ]
+    }
+  },
+  "Salazzle": {
+    "Sashed Attacker": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Corrosion",
+      "item": "Focus Sash",
+      "moves": [
+        "Fire Blast",
+        "Sludge Wave",
+        "Hidden Power Ice",
+        "Toxic"
+      ]
+    }
+  },
+  "Sandslash-Alola": {
+    "Hail Sweeper": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Slush Rush",
+      "item": "Life Orb",
+      "moves": [
+        "Swords Dance",
+        "Iron Head",
+        "Icicle Crash",
+        "Earthquake"
+      ]
+    }
+  },
+  "Serperior": {
+    "Solid Snake": {
+      "level": 50,
+      "evs": {
+        "hp": "116",
+        "df": "220",
+        "sp": "172"
+      },
+      "nature": "Timid",
+      "ability": "Contrary",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Leaf Storm",
+        "Reflect",
+        "Synthesis",
+        "Glare"
+      ]
+    },
+    "All-Out Attacker": {
+      "level": 50,
+      "evs": {
+        "sa": "248",
+        "sd": "12",
+        "sp": "248"
+      },
+      "ivs": {
+        "at": "0",
+        "sa": "30",
+        "sp": "30"
+      },
+      "nature": "Timid",
+      "ability": "",
+      "item": "Life Orb",
+      "moves": [
+        "Leaf Storm",
+        "Dragon Pulse",
+        "Hidden Power Fire",
+        "Giga Drain"
+      ]
+    }
+  },
+  "Scizor": {
+    "Bobo's Standard": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "108",
+        "df": "28",
+        "sd": "116",
+        "sp": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Technician",
+      "item": "Scizorite",
+      "moves": [
+        "Bullet Punch",
+        "U-turn",
+        "Thief",
+        "Superpower"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sp": "4",
+        "at": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Technician",
+      "item": "Choice Band",
+      "moves": [
+        "Bullet Punch",
+        "U-turn",
+        "Superpower",
+        "Pursuit"
+      ]
+    },
+    "Physically Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "df": "252"
+      },
+      "nature": "Impish",
+      "ability": "Technician",
+      "item": "Rock Helmet",
+      "moves": [
+        "Bullet Punch",
+        "U-turn",
+        "Roost",
+        "Toxic"
+      ]
+    },
+    "Specially Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "52",
+        "sd": "204"
+      },
+      "nature": "Careful",
+      "ability": "Technician",
+      "item": "Scizorite",
+      "moves": [
+        "Iron Defense",
+        "Roost",
+        "Bullet Punch",
+        "U-turn"
+      ]
+    }
+  },
+  "Sharpedo": {
+    "Mega Shark": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Speed Bosst",
+      "item": "Sharpedonite",
+      "moves": [
         "Waterfall",
-        "Low Kick",
-        "Aqua Jet"
+        "Crunch",
+        "Ice Fang",
+        "Poison Fang"
+      ]
+    },
+    "Sashed Special Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Speed Bosst",
+      "item": "Focus Sash",
+      "moves": [
+        "Dark Pulse",
+        "Ice Beam",
+        "Hydro Pump",
+        "Destiny Bond"
+      ]
+    }
+  },
+  "Silvally": {
+    "Z-Explosion": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Normalium Z",
+      "moves": [
+        "Explosion",
+        "Swords Dance",
+        "Flame Charge",
+        "Crunch"
+      ]
+    }
+  },
+  "Silvally-Electric": {
+    "Theorymon's CeleWak Killer": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Electric Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Crunch"
+      ]
+    }
+  },
+  "Silvally-Fairy": {
+    "Mixed Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sa": "4",
+        "sp": "252"
+      },
+      "nature": "Naughty",
+      "ability": "RKS System",
+      "item": "Fairy Memory",
+      "moves": [
+        "Multi Attack",
+        "Work Up",
+        "Flamethrower",
+        "Hidden Power Ground"
+      ]
+    }
+  },
+  "Silvally-Fire": {
+    "There are no good Fire-types in Alola": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Fire Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Ice Fang"
+      ]
+    }
+  },
+  "Silvally-Ground": {
+    "SD + Flame Charge": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Ground Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Stone Edge"
+      ]
+    }
+  },
+  "Silvally-Ice": {
+    "The Coverage!": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "RKS System",
+      "item": "Ice Memory",
+      "moves": [
+        "Multi Attack",
+        "Swords Dance",
+        "Flame Charge",
+        "Thunder Fang"
+      ]
+    }
+  },
+  "Skarmory": {
+    "Defensive": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sp": "4",
+        "df": "252"
+      },
+      "nature": "Impish",
+      "ability": "Sturdy",
+      "item": "Leftovers",
+      "moves": [
+        "Roost",
+        "Stealth Rock",
+        "Drill Peck",
+        "Iron Head"
+      ]
+    }
+  },
+  "Slowbro": {
+    "Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Regenerator",
+      "item": "Slowbronite",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Psychic",
+        "Flamethrower"
+      ]
+    }
+  },
+  "Suicune": {
+    "Fully Defensive" : {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "0",
+        "df": "252",
+        "sa": "0",
+        "sd": "4",
+        "sp": "0"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Bold",
+      "ability": "Pressure",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Icy Wind",
+        "Shadow Ball"
+      ]
+    }
+  },
+  "Swampert": {
+    "Rocks Lead": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Relaxed",
+      "ability": "Torrent",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Scald",
+        "Earthquake",
+        "",
+        ""
       ]
     }
   },
   "Sylveon": {
-    "Common Showdown": {
+    "Choice Specs": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
       },
       "nature": "Modest",
       "ability": "Pixilate",
@@ -2695,6829 +3476,671 @@ var SETDEX_SM={
       ]
     }
   },
-  "Steelix": {
-    "Common Showdown": {
+  "Talonflame": {
+    "Choice Band": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Gyro Ball",
-        "Heavy Slam"
-      ]
-    }
-  },
-  "Dedenne": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Volt Switch",
-        "Play Rough",
-        "Grass Knot",
-        "Thunder"
-      ]
-    }
-  },
-  "Slaking": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Return",
-        "Earthquake",
-        "Ice Punch",
-        "Gunk Shot"
-      ]
-    }
-  },
-  "Scyther": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 124,
-        "df": 116,
-        "sa": 0,
-        "sd": 120,
-        "sp": 144
-      },
-      "nature": "Jolly",
-      "ability": "Technician",
-      "item": "Eviolite",
-      "moves": [
-        "Aerial Ace",
-        "Bug Bite",
-        "Knock Off",
-        "Quick Attack"
-      ]
-    }
-  },
-  "Honchkrow": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
+        "hp": "44",
+        "at": "244",
+        "sp": "220"
       },
       "nature": "Adamant",
-      "ability": "",
-      "item": "Life Orb",
+      "ability": "Gale Wings",
+      "item": "Choice Band",
       "moves": [
-        "Sucker Punch",
         "Brave Bird",
-        "Superpower",
-        "Night Slash"
+        "Flare Blitz",
+        "U-turn",
+        "Giga Impact"
       ]
-    }
-  },
-  "Magnezone": {
-    "Common Showdown": {
+    },
+    "Bulky Rocky Helmet": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Flash Cannon",
-        "Thunderbolt",
-        "Discharge",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Togetic": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 8,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Dazzling Gleam",
-        "Heat Wave",
-        "Aerial Ace",
-        "Flamethrower"
-      ]
-    }
-  },
-  "Houndoom": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Flash Fire",
-      "item": "",
-      "moves": [
-        "Dark Pulse",
-        "Heat Wave",
-        "Flamethrower",
-        "Solar Beam"
-      ]
-    }
-  },
-  "Quagsire": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 4,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Unaware",
-      "item": "Leftovers",
-      "moves": [
-        "Scald",
-        "Earthquake",
-        "Waterfall",
-        "Earth Power"
-      ]
-    }
-  },
-  "Masquerain": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Impish",
-      "ability": "Intimidate",
-      "item": "",
-      "moves": [
-        "Air Slash",
-        "Ice Beam",
-        "Bug Buzz",
-        "Hydro Pump"
-      ]
-    }
-  },
-  "Gyarados": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "",
-      "moves": [
-        "Waterfall",
-        "Earthquake",
-        "Ice Fang",
-        "Crunch"
-      ]
-    }
-  },
-  "Spinda": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
+        "hp": "172",
+        "df": "244",
+        "sp": "92"
       },
       "nature": "Jolly",
-      "ability": "Contrary",
-      "item": "Choice Scarf",
+      "ability": "Gale Wings",
+      "item": "Rocky Helmet",
       "moves": [
-        "Fake Out",
-        "Sucker Punch",
-        "Drain Punch",
-        "Icy Wind"
+        "Brave Bird",
+        "Will-O-Wisp",
+        "Roost",
+        "Taunt"
       ]
-    }
-  },
-  "Heatran": {
-    "Common Showdown": {
+    },
+    "Flexible Attacker": {
       "level": 50,
       "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Flash Fire",
-      "item": "Leftovers",
-      "moves": [
-        "Heat Wave",
-        "Earth Power",
-        "Flash Cannon",
-        "Overheat"
-      ]
-    }
-  },
-  "Pangoro": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
+        "hp": "44",
+        "at": "252",
+        "sp": "212"
       },
       "nature": "Adamant",
-      "ability": "Iron Fist",
+      "ability": "Gale Wings",
       "item": "Life Orb",
       "moves": [
-        "Drain Punch",
-        "Knock Off",
-        "Ice Punch",
-        "Gunk Shot"
+        "Brave Bird",
+        "Flare Blitz",
+        "U-turn",
+        "Swords Dance"
       ]
-    }
-  },
-  "Hariyama": {
-    "Common Showdown": {
+    },
+    "Specially Defensive": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Assault Vest",
-      "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Knock Off",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Whiscash": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 130,
-        "at": 126,
-        "df": 252,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Impish",
-      "ability": "",
-      "item": "Chesto Berry",
-      "moves": [
-        "Earthquake",
-        "Ice Beam",
-        "Waterfall",
-        "Scald"
-      ]
-    }
-  },
-  "Slowking": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Scald",
-        "Psychic",
-        "Ice Beam",
-        "Psyshock"
-      ]
-    }
-  },
-  "Lopunny": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Return",
-        "Low Kick",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Vanilluxe": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Ice Body",
-      "item": "",
-      "moves": [
-        "Freeze-Dry",
-        "Flash Cannon",
-        "Blizzard",
-        "Water Pulse"
-      ]
-    }
-  },
-  "Furfrou": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
+        "hp": "236",
+        "at": "4",
+        "df": "44",
+        "sd": "188",
+        "sp": "36"
       },
       "nature": "Careful",
-      "ability": "Fur Coat",
-      "item": "Leftovers",
-      "moves": [
-        "Return",
-        "Snarl",
-        "Sucker Punch",
-        "Headbutt"
-      ]
-    }
-  },
-  "Braviary": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "Choice Scarf",
-      "moves": [
-        "Brave Bird",
-        "Superpower",
-        "Rock Slide",
-        "U-turn"
-      ]
-    }
-  },
-  "Venomoth": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Tinted Lens",
-      "item": "",
-      "moves": [
-        "Bug Buzz",
-        "Sludge Bomb",
-        "Psychic",
-        "Giga Drain"
-      ]
-    }
-  },
-  "Hawlucha": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
+      "ability": "Gale Wings",
       "item": "",
       "moves": [
         "Acrobatics",
-        "High Jump Kick",
-        "Sky Attack",
-        "Sky Drop"
+        "Taunt",
+        "Will-O-Wisp",
+        "Roost"
       ]
     }
   },
-  "Smeargle": {
-    "Common Showdown": {
+  "Tapu Bulu": {
+    "Choice Band": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 252
+        "hp": "252",
+        "at": "252",
+        "df": "4"
       },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
+      "nature": "Adamant",
+      "ability": "Grassy Surge",
+      "item": "Choice Band",
       "moves": [
-        "Fake Out",
-        "Extreme Speed",
-        "Storm Throw",
-        "Circle Throw"
+        "Wood Hammer",
+        "Superpower",
+        "Horn Leech",
+        "Stone Edge"
+      ]
+    },
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Grassy Surge",
+      "item": "Assault Vest",
+      "moves": [
+        "Wood Hammer",
+        "Superpower",
+        "Horn Leech",
+        "Stone Edge"
       ]
     }
   },
-  "Whimsicott": {
-    "Common Showdown": {
+  "Tapu Fini": {
+    "Offensive Hydro Vortex": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "hp": "244",
+        "sa": "252",
+        "sp": "12"
       },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
+      "nature": "Modest",
+      "ability": "Misty Surge",
+      "item": "Waterium Z",
       "moves": [
+        "Hydro Pump",
         "Moonblast",
-        "Giga Drain",
-        "Dazzling Gleam",
-        "Energy Ball"
+        "Haze",
+        "Calm Mind"
       ]
-    }
-  },
-  "Medicham": {
-    "Common Showdown": {
+    },
+    "PhysDef Guardian of Alola": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
+        "hp": "244",
+        "df": "252",
+        "sp": "12"
       },
-      "nature": "Jolly",
-      "ability": "Pure Power",
-      "item": "",
+      "nature": "Bold",
+      "ability": "Misty Surge",
+      "item": "Tapunium Z",
       "moves": [
-        "Fake Out",
-        "Drain Punch",
-        "Zen Headbutt",
-        "Ice Punch"
+        "Nature's Madness",
+        "Moonblast",
+        "Brine",
+        "Haze"
       ]
     }
   },
-  "Rotom-F": {
-    "Common Showdown": {
+  "Tapu Koko": {
+    "Special Attack": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
       },
       "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Choice Scarf",
+      "ability": "Electric Surge",
+      "item": "Life Orb",
       "moves": [
-        "Blizzard",
         "Thunderbolt",
+        "Dazzling Gleam",
         "Volt Switch",
-        "Thunder"
+        "Hidden Power Ground"
       ]
-    }
-  },
-  "Golbat": {
-    "Common Showdown": {
+    },
+    "Calm Mind": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 124,
-        "sa": 0,
-        "sd": 132,
-        "sp": 0
-      },
-      "nature": "Impish",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Brave Bird",
-        "Air Slash",
-        "Poison Fang",
-        "U-turn"
-      ]
-    }
-  },
-  "Gengar": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
+        "hp": "4",
+        "df": "4",
+        "sa": "244",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Timid",
-      "item": "",
+      "ability": "Electric Surge",
+      "item": "Leftovers",
       "moves": [
-        "Sludge Bomb",
-        "Shadow Ball",
-        "Icy Wind",
+        "Calm Mind",
+        "Thunderbolt",
+        "Dazzling Gleam",
+        "Substitute"
+      ]
+    },
+    "Physical Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sa": "4",
+        "sp": "252"
+      },
+      "nature": "Naive",
+      "ability": "Electric Surge",
+      "item": "Life Orb",
+      "moves": [
+        "Wild Charge",
+        "Brave Bird",
+        "U-turn",
         "Dazzling Gleam"
       ]
     }
   },
-  "Pyroar": {
-    "Common Showdown": {
+  "Tapu Lele": {
+    "Scarf": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
       },
       "nature": "Timid",
-      "ability": "Unnerve",
+      "ability": "Psychic Surge",
+      "item": "Choice Scarf",
+      "moves": [
+        "Psychic",
+        "Moonblast",
+        "Shadow Ball",
+        "Thunderbolt"
+      ]
+    },
+    "Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Psychic Surge",
+      "item": "Choice Specs",
+      "moves": [
+        "Psyshock",
+        "Moonblast",
+        "Shadow Ball",
+        "Hidden Power Fire"
+      ]
+    }
+  },
+  "Thundurus": {
+    "Attacker": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Prankster",
       "item": "Life Orb",
       "moves": [
-        "Hyper Voice",
-        "Heat Wave",
-        "Hidden Power Ice",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Lumineon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 52,
-        "sa": 44,
-        "sd": 164,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Storm Drain",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Signal Beam",
-        "Surf"
-      ]
-    }
-  },
-  "Rotom-S": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 76,
-        "sa": 24,
-        "sd": 148,
-        "sp": 4
-      },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Leftovers",
-      "moves": [
-        "Air Slash",
+        "Thunder Wave",
         "Thunderbolt",
         "Hidden Power Ice",
-        "Discharge"
+        "Focus Blast"
+      ]
+    },
+    "Tank": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "168",
+        "sa": "68",
+        "sp": "28"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Bold",
+      "ability": "Prankster",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Thunderwave",
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Taunt"
+      ]
+    },
+    "Nasty Plot": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "ivs": {
+        "at": "0",
+        "df": "30"
+      },
+      "nature": "Timid",
+      "ability": "Prankster",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Nasty Plot",
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Grass Knot"
+      ]
+    },
+    "SwagPlay": {
+      "level": 50,
+      "evs": {
+        "hp": "180",
+        "df": "44",
+        "sa": "4",
+        "sd": "252",
+        "sp": "28"
+      },
+      "nature": "Calm",
+      "ability": "Prankster",
+      "item": "Leftovers",
+      "moves": [
+        "Swagger",
+        "Thunder Wave",
+        "Substitute",
+        "Foul Play"
+      ]
+    },
+    "Max Special Defense": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sd": "252",
+      },
+      "nature": "Calm",
+      "ability": "Prankster",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Hidden Power Ice",
+        "Thunderbolt",
+        "Focus Blast",
+        "Grass Knot"
+      ]
+    },
+    "Max Defense": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4",
+      },
+      "nature": "Bold",
+      "ability": "Prankster",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Hidden Power Ice",
+        "Thunderbolt",
+        "Focus Blast",
+        "Grass Knot"
       ]
     }
   },
-  "Crustle": {
-    "Common Showdown": {
+  "Thundurus-T": {
+    "Nasty Plot": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Volt Absorb",
+      "item": "Fightinium Z",
+      "moves": [
+        "Nasty Plot",
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Focus Blast"
+      ]
+    },
+    "Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Volt Absorb",
+      "item": "Choice Scarf",
+      "moves": [
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Focus Blast",
+        "Sludge Wave"
+      ]
+    }
+  },
+  "Toxapex": {
+    "Stall": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "s4": "4"
+      },
+      "nature": "Bold",
+      "ability": "Regenerator",
+      "item": "Black Sludge",
+      "moves": [
+        "Scald",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "Tyranitar": {
+    "Offensive Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sp": "4"
       },
       "nature": "Adamant",
-      "ability": "",
+      "ability": "Sand Stream",
+      "item": "Assault Vest",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Rock Tomb"
+      ]
+    },
+    "Defensive Sand Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Sand Stream",
+      "item": "Smooth Rock",
+      "moves": [
+        "Ice Beam",
+        "Foul Play",
+        "Fire Blast",
+        "Thunderbolt"
+      ]
+    },
+    "Dragon Dance": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Sand Stream",
       "item": "Lum Berry",
       "moves": [
-        "X-Scissor",
-        "Rock Slide",
-        "Night Slash",
-        "Knock Off"
+        "Stone Edge",
+        "Crunch",
+        "Ice Punch",
+        "Earthquake"
+      ]
+    }
+  },
+  "Venusaur": {
+    "Offensive Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Overgrow",
+      "item": "Venusaurite",
+      "moves": [
+        "Sludge Bomb",
+        "Giga Drain",
+        "Hidden Power Fire",
+        "Earthquake"
+      ]
+    },
+    "Defensive Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Overgrow",
+      "item": "Venusaurite",
+      "moves": [
+        "Sludge Bomb",
+        "Giga Drain",
+        "Hidden Power Fire",
+        "Earthquake"
+      ]
+    }
+  },
+  "Vikavolt": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
+      },
+      "nature": "Modest",
+      "ability": "Levitate",
+      "item": "Assault Vest",
+      "moves": [
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Bug Buzz",
+        "Volt Switch"
+      ]
+    }
+  },
+  "Volcarona": {
+    "Quiver Dancer": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Swarm",
+      "item": "Firium Z",
+      "moves": [
+        "Fire Blast",
+        "Bug Buzz",
+        "Hidden Power Ice",
+        "Giga Drain"
       ]
     }
   },
   "Weavile": {
-    "Common Showdown": {
+    "Physical Attacker": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Jolly",
-      "ability": "",
-      "item": "",
+      "ability": "Pressure",
+      "item": "Life Orb",
       "moves": [
-        "Fake Out",
+        "Ice Shard",
         "Knock Off",
         "Low Kick",
         "Icicle Crash"
       ]
     }
   },
-  "Furret": {
-    "Common Showdown": {
+  "Whimsicott": {
+    "Cotton Stall": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 132,
-        "sa": 0,
-        "sd": 124,
-        "sp": 0
-      },
-      "nature": "Careful",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Knock Off",
-        "Sucker Punch",
-        "U-turn",
-        "Double-Edge"
-      ]
-    }
-  },
-  "Gigalith": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Explosion",
-        "Iron Head"
-      ]
-    }
-  },
-  "Manectric": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
+        "hp": "204",
+        "sd": "52",
+        "sp": "252"
       },
       "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "",
-      "moves": [
-        "Hidden Power Ice",
-        "Thunderbolt",
-        "Flamethrower",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Illumise": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 124,
-        "sa": 0,
-        "sd": 92,
-        "sp": 36
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Bug Buzz",
-        "U-turn",
-        "Giga Drain",
-        "Dazzling Gleam"
-      ]
-    }
-  },
-  "Registeel": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 92,
-        "sa": 0,
-        "sd": 164,
-        "sp": 0
-      },
-      "nature": "Impish",
-      "ability": "Clear Body",
-      "item": "Chesto Berry",
-      "moves": [
-        "Iron Head",
-        "Rock Slide",
-        "Ice Punch",
-        "Earthquake"
-      ]
-    }
-  },
-  "Xatu": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 4,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Air Slash",
-        "Psychic",
-        "Psyshock",
-        "Night Shade"
-      ]
-    }
-  },
-  "Azelf": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Levitate",
-      "item": "Choice Band",
-      "moves": [
-        "Zen Headbutt",
-        "Knock Off",
-        "U-turn",
-        "Explosion"
-      ]
-    }
-  },
-  "Shuckle": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 228,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 28,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Gyro Ball",
-        "Earthquake",
-        "Bug Bite"
-      ]
-    }
-  },
-  "Seaking": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Lightning Rod",
+      "ability": "Prankster",
       "item": "Leftovers",
       "moves": [
-        "Scald",
-        "Ice Beam",
-        "Knock Off",
-        "Waterfall"
-      ]
-    }
-  },
-  "Torterra": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Shell Armor",
-      "item": "Life Orb",
-      "moves": [
-        "Earthquake",
-        "Wood Hammer",
-        "Rock Slide",
-        "Seed Bomb"
-      ]
-    }
-  },
-  "Clawitzer": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 188,
-        "sa": 8,
-        "sd": 64,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Mega Launcher",
-      "item": "Life Orb",
-      "moves": [
-        "Aura Sphere",
-        "Water Pulse",
-        "Dark Pulse",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Rotom-H": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 108,
-        "sd": 4,
-        "sp": 140
-      },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Overheat",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Malamar": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 68,
-        "df": 0,
-        "sa": 0,
-        "sd": 120,
-        "sp": 68
-      },
-      "nature": "Careful",
-      "ability": "Contrary",
-      "item": "Lum Berry",
-      "moves": [
-        "Superpower",
-        "Psycho Cut",
-        "Knock Off",
-        "Night Slash"
-      ]
-    }
-  },
-  "Entei": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Sacred Fire",
-        "Stone Edge",
-        "Bulldoze",
-        "Iron Head"
-      ]
-    }
-  },
-  "Beheeyem": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "Psyshock",
-        "Signal Beam",
-        "Energy Ball"
-      ]
-    }
-  },
-  "Dunsparce": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Rock Slide",
-        "Headbutt",
-        "Zen Headbutt",
-        "Bite"
-      ]
-    }
-  },
-  "Murkrow": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Snarl",
-        "Foul Play",
-        "Sucker Punch",
-        "Brave Bird"
-      ]
-    }
-  },
-  "Dusclops": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Night Shade",
-        "Shadow Punch",
-        "Shadow Sneak",
-        "Shadow Ball"
-      ]
-    }
-  },
-  "Yanmega": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Air Slash",
-        "Bug Buzz",
-        "Giga Drain",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Sunflora": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Solar Power",
-      "item": "Life Orb",
-      "moves": [
-        "Earth Power",
-        "Sludge Bomb",
-        "Leaf Storm",
-        "Solar Beam"
-      ]
-    }
-  },
-  "Porygon-Z": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Adaptability",
-      "item": "Choice Scarf",
-      "moves": [
-        "Tri Attack",
-        "Ice Beam",
-        "Dark Pulse",
-        "Thunderbolt"
-      ]
-    }
-  },
-  "Mandibuzz": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 244,
-        "at": 0,
-        "df": 12,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Overcoat",
-      "item": "Leftovers",
-      "moves": [
-        "Foul Play",
-        "Knock Off",
-        "Brave Bird",
-        "Snarl"
-      ]
-    }
-  },
-  "Volcarona": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Bug Buzz",
-        "Heat Wave",
-        "Fiery Dance",
-        "Giga Drain"
-      ]
-    }
-  },
-  "Swampert": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 228,
-        "sd": 4,
-        "sp": 20
-      },
-      "nature": "Modest",
-      "ability": "Torrent",
-      "item": "Expert Belt",
-      "moves": [
-        "Earth Power",
-        "Scald",
-        "Ice Beam",
-        "Earthquake"
-      ]
-    }
-  },
-  "Stoutland": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Sand Rush",
-      "item": "Choice Band",
-      "moves": [
-        "Play Rough",
-        "Return",
-        "Superpower",
-        "Crunch"
-      ]
-    }
-  },
-  "Purugly": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Defiant",
-      "item": "Life Orb",
-      "moves": [
-        "Fake Out",
-        "Return",
-        "Sucker Punch",
-        "Play Rough"
-      ]
-    }
-  },
-  "Uxie": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Leftovers",
-      "moves": [
-        "Psychic",
-        "Psyshock",
-        "Foul Play",
-        "U-turn"
-      ]
-    }
-  },
-  "Beedrill": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Swarm",
-      "item": "",
-      "moves": [
-        "Poison Jab",
-        "Drill Run",
-        "U-turn",
-        "X-Scissor"
-      ]
-    }
-  },
-  "Ambipom": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Technician",
-      "item": "Life Orb",
-      "moves": [
-        "Fake Out",
-        "Double Hit",
-        "Knock Off",
-        "Low Kick"
-      ]
-    }
-  },
-  "Hitmonlee": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Normal Gem",
-      "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Rock Slide",
-        "High Jump Kick"
-      ]
-    }
-  },
-  "Gorebyss": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "",
-      "moves": [
-        "Surf",
-        "Ice Beam",
-        "Shadow Ball",
-        "Psychic"
-      ]
-    }
-  },
-  "Cacturne": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Water Absorb",
-      "item": "",
-      "moves": [
-        "Sucker Punch",
-        "Seed Bomb",
-        "Energy Ball",
-        "Drain Punch"
-      ]
-    }
-  },
-  "Raichu": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Musharna": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "Energy Ball",
-        "Psyshock",
-        "Dazzling Gleam"
-      ]
-    }
-  },
-  "Emboar": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 112,
-        "at": 168,
-        "df": 0,
-        "sa": 228,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Reckless",
-      "item": "Life Orb",
-      "moves": [
-        "Flare Blitz",
-        "Head Smash",
-        "Wild Charge",
-        "Hammer Arm"
-      ]
-    }
-  },
-  "Blaziken": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Flare Blitz",
-        "Low Kick",
-        "Rock Slide",
-        "Superpower"
-      ]
-    }
-  },
-  "Rhydon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Lightning Rod",
-      "item": "Eviolite",
-      "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Drill Run",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Heatmor": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Flash Fire",
-      "item": "Life Orb",
-      "moves": [
-        "Heat Wave",
-        "Giga Drain",
-        "Focus Blast",
-        "Sucker Punch"
-      ]
-    }
-  },
-  "Slurpuff": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Play Rough",
-        "Drain Punch",
-        "Return",
-        "Draining Kiss"
-      ]
-    }
-  },
-  "Ferrothorn": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 204,
-        "df": 0,
-        "sa": 0,
-        "sd": 52,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Gyro Ball",
-        "Power Whip",
-        "Iron Head",
-        "Knock Off"
-      ]
-    }
-  },
-  "Milotic": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 4,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Hydro Pump"
-      ]
-    }
-  },
-  "Aerodactyl": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Unnerve",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Sky Drop",
-        "Ice Fang",
-        "Earthquake"
-      ]
-    }
-  },
-  "Plusle": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 100,
-        "at": 0,
-        "df": 4,
-        "sa": 100,
-        "sd": 50,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Grass Knot",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Aurorus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Refrigerate",
-      "item": "Life Orb",
-      "moves": [
-        "Hyper Voice",
-        "Freeze-Dry",
-        "Earth Power",
-        "Ancient Power"
-      ]
-    }
-  },
-  "Mantine": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Water Absorb",
-      "item": "Leftovers",
-      "moves": [
-        "Scald",
-        "Air Slash",
-        "Icy Wind",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Doublade": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 4,
-        "df": 0,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Shadow Sneak",
-        "Iron Head",
-        "Sacred Sword",
-        "Shadow Claw"
-      ]
-    }
-  },
-  "Leafeon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
-      "moves": [
-        "Leaf Blade",
-        "Knock Off",
-        "X-Scissor",
-        "Aerial Ace"
-      ]
-    }
-  },
-  "Arcanine": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 4,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Intimidate",
-      "item": "Leftovers",
-      "moves": [
-        "Snarl",
-        "Burn Up",
-        "Extreme Speed",
-        "Flamethrower"
-      ]
-    }
-  },
-  "Politoed": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Drizzle",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Hydro Pump"
-      ]
-    }
-  },
-  "Cofagrigus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 8,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Shadow Ball",
-        "Hex",
-        "Night Shade",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Sandslash": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 44,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 212
-      },
-      "nature": "Adamant",
-      "ability": "Sand Rush",
-      "item": "Life Orb",
-      "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Knock Off",
-        "Poison Jab"
-      ]
-    }
-  },
-  "Articuno": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 212,
-        "at": 0,
-        "df": 156,
-        "sa": 36,
-        "sd": 44,
-        "sp": 60
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Freeze-Dry",
-        "Hurricane",
-        "Ice Shard",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Rhyperior": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 68,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 188,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Solid Rock",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Drill Run",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Golem": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Explosion",
-        "Thunder Punch"
-      ]
-    }
-  },
-  "Pinsir": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 20,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 236
-      },
-      "nature": "Jolly",
-      "ability": "Hyper Cutter",
-      "item": "",
-      "moves": [
-        "Return",
-        "Feint",
-        "Close Combat",
-        "Earthquake"
-      ]
-    }
-  },
-  "Meowstic": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Psychic",
-        "Psyshock",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Banette": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Shadow Claw",
-        "Phantom Force",
-        "Shadow Sneak",
-        "Sucker Punch"
-      ]
-    }
-  },
-  "Tauros": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Life Orb",
-      "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Return",
-        "Zen Headbutt"
-      ]
-    }
-  },
-  "Raikou": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Snarl",
-        "Extrasensory"
-      ]
-    }
-  },
-  "Arbok": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 8,
-        "df": 0,
-        "sa": 0,
-        "sd": 248,
-        "sp": 0
-      },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Black Sludge",
-      "moves": [
-        "Gunk Shot",
-        "Earthquake",
-        "Sucker Punch",
-        "Aqua Tail"
-      ]
-    }
-  },
-  "Porygon2": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 156,
-        "sa": 20,
-        "sd": 76,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "Download",
-      "item": "Eviolite",
-      "moves": [
-        "Ice Beam",
-        "Tri Attack",
-        "Thunderbolt",
-        "Shadow Ball"
-      ]
-    }
-  },
-  "Mamoswine": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Thick Fat",
-      "item": "Choice Scarf",
-      "moves": [
-        "Earthquake",
-        "Icicle Crash",
-        "Rock Slide",
-        "Ice Shard"
-      ]
-    }
-  },
-  "Chansey": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Seismic Toss",
-        "Icy Wind",
-        "Hyper Voice",
-        "Flamethrower"
-      ]
-    }
-  },
-  "Infernape": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Blaze",
-      "item": "",
-      "moves": [
-        "Close Combat",
-        "Fake Out",
-        "Overheat",
-        "Flare Blitz"
-      ]
-    }
-  },
-  "Mismagius": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "",
-      "moves": [
-        "Shadow Ball",
-        "Icy Wind",
-        "Power Gem",
-        "Dazzling Gleam"
-      ]
-    }
-  },
-  "Primeape": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Defiant",
-      "item": "Choice Scarf",
-      "moves": [
-        "Close Combat",
-        "Ice Punch",
-        "Rock Slide",
-        "Gunk Shot"
-      ]
-    }
-  },
-  "Greninja": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Life Orb",
-      "moves": [
-        "Ice Beam",
-        "Dark Pulse",
-        "Scald",
-        "Gunk Shot"
-      ]
-    }
-  },
-  "Ash-Greninja": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Battle Bond",
-      "item": "Life Orb",
-      "moves": [
-        "Ice Beam",
-        "Dark Pulse",
-        "Scald",
-        "Gunk Shot"
-      ]
-    }
-  },
-  "Sawsbuck": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
-      "item": "Life Orb",
-      "moves": [
-        "Horn Leech",
-        "Jump Kick",
-        "Wild Charge",
-        "Double-Edge"
-      ]
-    }
-  },
-  "Amoonguss": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Giga Drain",
-        "Sludge Bomb",
-        "Energy Ball",
-        "Clear Smog"
-      ]
-    }
-  },
-  "Jolteon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Volt Absorb",
-      "item": "Choice Specs",
-      "moves": [
-        "Shadow Ball",
-        "Hidden Power Ice",
-        "Thunderbolt",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Golduck": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Cloud Nine",
-      "item": "Choice Scarf",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Psychic",
-        "Icy Wind"
-      ]
-    }
-  },
-  "Rotom-W": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 44,
-        "sa": 60,
-        "sd": 148,
-        "sp": 4
-      },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Hydro Pump",
-        "Thunderbolt",
-        "Volt Switch",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Chesnaught": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 224,
-        "at": 60,
-        "df": 44,
-        "sa": 0,
-        "sd": 180,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "Bulletproof",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Drain Punch",
-        "Wood Hammer",
-        "Feint",
-        "Low Kick"
-      ]
-    }
-  },
-  "Umbreon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Foul Play",
-        "Snarl",
-        "Payback",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Heracross": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Pin Missile",
-        "Rock Blast",
-        "Close Combat",
-        "Bullet Seed"
-      ]
-    }
-  },
-  "Feraligatr": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
-      "moves": [
-        "Waterfall",
-        "Ice Punch",
-        "Crunch",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Toxicroak": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Dry Skin",
-      "item": "Black Sludge",
-      "moves": [
-        "Drain Punch",
-        "Fake Out",
-        "Gunk Shot",
-        "Sucker Punch"
-      ]
-    }
-  },
-  "Dragonite": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Multiscale",
-      "item": "",
-      "moves": [
-        "Extreme Speed",
-        "Dragon Claw",
-        "Earthquake",
-        "Fire Punch"
-      ]
-    }
-  },
-  "Lileep": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Eviolite",
-      "moves": [
-        "Giga Drain",
-        "Ancient Power",
-        "Energy Ball",
-        "Earth Power"
-      ]
-    }
-  },
-  "Vaporeon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 148,
-        "at": 0,
-        "df": 172,
-        "sa": 186,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Water Absorb",
-      "item": "Leftovers",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Muddy Water"
-      ]
-    }
-  },
-  "Virizion": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Life Orb",
-      "moves": [
-        "Leaf Blade",
-        "Close Combat",
-        "Stone Edge",
-        "Sacred Sword"
-      ]
-    }
-  },
-  "Froslass": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Shadow Ball",
-        "Ice Beam",
-        "Icy Wind",
-        "Blizzard"
-      ]
-    }
-  },
-  "Klinklang": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 156,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 100
-      },
-      "nature": "Adamant",
-      "ability": "Clear Body",
-      "item": "Leftovers",
-      "moves": [
-        "Gear Grind",
-        "Wild Charge",
-        "Return",
-        "Flash Cannon"
-      ]
-    }
-  },
-  "Terrakion": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Lum Berry",
-      "moves": [
-        "Rock Slide",
-        "Close Combat",
-        "Earthquake",
-        "Double Kick"
-      ]
-    }
-  },
-  "Conkeldurr": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Assault Vest",
-      "moves": [
-        "Mach Punch",
-        "Drain Punch",
-        "Ice Punch",
-        "Knock Off"
-      ]
-    }
-  },
-  "Hypno": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "Psyshock",
-        "Zen Headbutt",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Porygon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Thunderbolt",
-        "Ice Beam",
-        "Tri Attack",
-        "Foul Play"
-      ]
-    }
-  },
-  "Audino": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Dazzling Gleam",
-        "Ice Beam",
-        "Fire Blast",
-        "Draining Kiss"
-      ]
-    }
-  },
-  "Jumpluff": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Infiltrator",
-      "item": "",
-      "moves": [
-        "Giga Drain",
-        "Acrobatics",
-        "Energy Ball",
-        "U-turn"
-      ]
-    }
-  },
-  "Drapion": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 76,
-        "at": 252,
-        "df": 180,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Sniper",
-      "item": "",
-      "moves": [
-        "Cross Poison",
-        "Knock Off",
-        "Night Slash",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Probopass": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Power Gem",
-        "Earth Power",
-        "Discharge",
-        "Flash Cannon"
-      ]
-    }
-  },
-  "Excadrill": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Mold Breaker",
-      "item": "Life Orb",
-      "moves": [
-        "Rock Slide",
-        "Iron Head",
-        "Earthquake",
-        "Drill Run"
-      ]
-    }
-  },
-  "Solosis": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 84,
-        "at": 84,
-        "df": 80,
-        "sa": 84,
-        "sd": 84,
-        "sp": 84
-      },
-      "nature": "Sassy",
-      "ability": "Overcoat",
-      "item": "",
-      "moves": [
-        "Psychic"
-      ]
-    }
-  },
-  "Sawk": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Choice Scarf",
-      "moves": [
-        "Close Combat",
-        "Rock Slide",
-        "Ice Punch",
-        "Poison Jab"
-      ]
-    }
-  },
-  "Samurott": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Shell Armor",
-      "item": "Life Orb",
-      "moves": [
-        "Icy Wind",
-        "Scald",
-        "Ice Beam",
-        "Aqua Jet"
-      ]
-    }
-  },
-  "Thundurus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Grass Knot",
-        "Thunder"
-      ]
-    }
-  },
-  "Spritzee": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 84,
-        "at": 84,
-        "df": 0,
-        "sa": 84,
-        "sd": 84,
-        "sp": 84
-      },
-      "nature": "Hardy",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Draining Kiss",
+        "Encore",
+        "Leech Seed",
         "Moonblast",
-        "Dazzling Gleam"
+        "Cotton Guard"
       ]
     }
   },
-  "Sableye": {
-    "Common Showdown": {
+  "Wobbuffet": {
+    "\(>_<)7": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
+        "df": "252",
+        "sd": "252",
+        "sp": "4"
       },
-      "nature": "Calm",
-      "ability": "",
-      "item": "",
+      "nature": "Bold",
+      "ability": "Shadow Tag",
+      "item": "Sitrus Berry",
       "moves": [
-        "Foul Play",
-        "Fake Out",
-        "Knock Off",
-        "Snarl"
+        "Encore",
+        "Counter",
+        "Mirror Coat",
+        "Destiny Bond"
       ]
     }
   },
-  "Dugtrio": {
-    "Common Showdown": {
+  "Xurkitree": {
+    "Tail Glow": {
       "level": 50,
       "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Sucker Punch",
-        "Stone Edge"
-      ]
-    }
-  },
-  "Typhlosion": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Timid",
-      "ability": "Flash Fire",
-      "item": "Choice Scarf",
+      "ability": "Beast Boost",
+      "item": "Psychium Z",
       "moves": [
-        "Eruption",
-        "Heat Wave",
-        "Focus Blast",
-        "Extrasensory"
+        "Hypnosis",
+        "Tail Glow",
+        "Thunderbolt",
+        "Hidden Power Ice"
       ]
-    }
-  },
-  "Golurk": {
-    "Common Showdown": {
+    },
+    "Scarf": {
       "level": 50,
       "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Earthquake",
-        "Dynamic Punch",
-        "Ice Punch",
-        "Shadow Punch"
-      ]
-    }
-  },
-  "Bastiodon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "Chople Berry",
-      "moves": [
-        "Rock Slide",
-        "Iron Head",
-        "Heavy Slam",
-        "Earthquake"
-      ]
-    }
-  },
-  "Scizor": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Technician",
-      "item": "Life Orb",
-      "moves": [
-        "Bullet Punch",
-        "Bug Bite",
-        "Knock Off",
-        "Superpower"
-      ]
-    }
-  },
-  "Persian": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Fur Coat",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Feint",
-        "U-turn"
-      ]
-    }
-  },
-  "Nidoking": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "nature": "Modest",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
+      "ability": "Beast Boost",
+      "item": "Choice Scarf",
       "moves": [
-        "Earth Power",
-        "Ice Beam",
-        "Sludge Bomb",
-        "Thunderbolt"
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Energy Ball",
+        "Volt Switch"
+      ]
+    },
+    "Z-Rain Dance [ability is drizzle for rain]": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Drizzle",
+      "item": "Waterium Z",
+      "moves": [
+        "Thunder",
+        "Hidden Power Water",
+        "Dazzling Gleam",
+        "Rain Dance"
       ]
     }
   },
   "Zapdos": {
-    "Common Showdown": {
+    "Defensive": {
       "level": 50,
       "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 144,
-        "sd": 0,
-        "sp": 112
+        "hp": "252",
+        "df": "252",
+        "sa": "4"
       },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Heat Wave",
-        "Discharge"
-      ]
-    }
-  },
-  "Ninjask": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 220,
-        "sa": 0,
-        "sd": 0,
-        "sp": 36
-      },
-      "nature": "Impish",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "X-Scissor",
-        "Aerial Ace",
-        "U-turn",
-        "Return"
-      ]
-    }
-  },
-  "Vivillon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Hurricane",
-        "Bug Buzz",
-        "Giga Drain",
-        "Energy Ball"
-      ]
-    }
-  },
-  "Grumpig": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 80,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 176,
-        "sp": 0
+      "ivs": {
+        "sp": "30"
       },
       "nature": "Bold",
-      "ability": "Thick Fat",
-      "item": "Sitrus Berry",
+      "ability": "Pressure",
+      "item": "Leftovers",
       "moves": [
-        "Psychic",
-        "Icy Wind",
-        "Psyshock",
-        "Energy Ball"
-      ]
-    }
-  },
-  "Moltres": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Charti Berry",
-      "moves": [
-        "Heat Wave",
-        "Hurricane",
-        "Air Slash",
-        "Overheat"
-      ]
-    }
-  },
-  "Flareon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 212,
-        "at": 156,
-        "df": 100,
-        "sa": 0,
-        "sd": 12,
-        "sp": 28
-      },
-      "nature": "Adamant",
-      "ability": "Guts",
-      "item": "Toxic Orb",
-      "moves": [
-        "Flare Blitz",
-        "Superpower",
-        "Facade",
-        "Quick Attack"
-      ]
-    }
-  },
-  "Tornadus-T": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Life Orb",
-      "moves": [
-        "Hurricane",
-        "U-turn",
+        "Roost",
+        "Discharge",
         "Heat Wave",
         "Hidden Power Ice"
-      ]
-    }
-  },
-  "Chatot": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Choice Scarf",
-      "moves": [
-        "Chatter",
-        "Thief",
-        "Boomburst",
-        "Heat Wave"
-      ]
-    }
-  },
-  "Stantler": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Intimidate",
-      "item": "",
-      "moves": [
-        "Return",
-        "Psychic",
-        "Thunderbolt",
-        "Megahorn"
-      ]
-    }
-  },
-  "Charizard": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Blaze",
-      "item": "",
-      "moves": [
-        "Heat Wave",
-        "Solar Beam",
-        "Overheat",
-        "Air Slash"
-      ]
-    }
-  },
-  "Magmortar": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 196,
-        "at": 0,
-        "df": 0,
-        "sa": 132,
-        "sd": 4,
-        "sp": 172
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Flamethrower",
-        "Thunderbolt",
-        "Focus Blast",
-        "Heat Wave"
-      ]
-    }
-  },
-  "Abomasnow": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 4,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Snow Warning",
-      "item": "",
-      "moves": [
-        "Blizzard",
-        "Ice Shard",
-        "Energy Ball",
-        "Giga Drain"
-      ]
-    }
-  },
-  "Luxray": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Wild Charge",
-        "Ice Fang",
-        "Superpower",
-        "Fire Fang"
-      ]
-    }
-  },
-  "Jellicent": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Scald",
-        "Water Spout",
-        "Shadow Ball",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Mienshao": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Rock Slide",
-        "High Jump Kick",
-        "Drain Punch"
-      ]
-    }
-  },
-  "Gogoat": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Sap Sipper",
-      "item": "Choice Band",
-      "moves": [
-        "Horn Leech",
-        "Earthquake",
-        "Rock Slide",
-        "Wild Charge"
-      ]
-    }
-  },
-  "Flygon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Life Orb",
-      "moves": [
-        "Earthquake",
-        "Earth Power",
-        "Draco Meteor",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Escavalier": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Overcoat",
-      "item": "Life Orb",
-      "moves": [
-        "Iron Head",
-        "Megahorn",
-        "Drill Run",
-        "Knock Off"
-      ]
-    }
-  },
-  "Bouffalant": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Reckless",
-      "item": "Choice Band",
-      "moves": [
-        "Head Charge",
-        "Iron Head",
-        "Rock Slide",
-        "Earthquake"
-      ]
-    }
-  },
-  "Landorus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Sand Force",
-      "item": "Life Orb",
-      "moves": [
-        "Earth Power",
-        "Rock Slide",
-        "Hidden Power Ice",
-        "Earthquake"
-      ]
-    }
-  },
-  "Vileplume": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Chlorophyll",
-      "item": "Black Sludge",
-      "moves": [
-        "Sludge Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Dazzling Gleam"
-      ]
-    }
-  },
-  "Clefairy": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Moonblast",
-        "Icy Wind",
-        "Dazzling Gleam",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Magneton": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 108,
-        "sa": 4,
-        "sd": 4,
-        "sp": 140
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Flash Cannon",
-        "Thunderbolt",
-        "Volt Switch",
-        "Hidden Power Fire"
-      ]
-    }
-  },
-  "Forretress": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 8,
-        "df": 252,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Gyro Ball",
-        "Rapid Spin",
-        "Explosion",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Skarmory": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 236,
-        "sa": 0,
-        "sd": 0,
-        "sp": 24
-      },
-      "nature": "Impish",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Brave Bird",
-        "Iron Head",
-        "Rock Slide",
-        "Feint"
-      ]
-    }
-  },
-  "Volbeat": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Bug Buzz",
-        "Dazzling Gleam",
-        "U-turn",
-        "Bug Bite"
-      ]
-    }
-  },
-  "Archeops": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Defeatist",
-      "item": "Choice Scarf",
-      "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "U-turn",
-        "Acrobatics"
-      ]
-    }
-  },
-  "Bronzong": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 244,
-        "at": 0,
-        "df": 0,
-        "sa": 76,
-        "sd": 188,
-        "sp": 0
-      },
-      "nature": "Sassy",
-      "ability": "Levitate",
-      "item": "",
-      "moves": [
-        "Gyro Ball",
-        "Psychic",
-        "Zen Headbutt",
-        "Earthquake"
-      ]
-    }
-  },
-  "Mightyena": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 156,
-        "at": 212,
-        "df": 0,
-        "sa": 0,
-        "sd": 140,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Life Orb",
-      "moves": [
-        "Sucker Punch",
-        "Crunch",
-        "Play Rough",
-        "Foul Play"
-      ]
-    }
-  },
-  "Diggersby": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Huge Power",
-      "item": "",
-      "moves": [
-        "Earthquake",
-        "Return",
-        "Quick Attack",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Garchomp": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "Lum Berry",
-      "moves": [
-        "Earthquake",
-        "Rock Slide",
-        "Dragon Claw",
-        "Poison Jab"
-      ]
-    }
-  },
-  "Scrafty": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Lum Berry",
-      "moves": [
-        "Fake Out",
-        "Drain Punch",
-        "Knock Off",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Lilligant": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 240,
-        "at": 0,
-        "df": 156,
-        "sa": 12,
-        "sd": 48,
-        "sp": 48
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Giga Drain",
-        "Petal Dance",
-        "Solar Beam",
-        "Energy Ball"
-      ]
-    }
-  },
-  "Latias": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "",
-      "moves": [
-        "Draco Meteor",
-        "Psychic",
-        "Psyshock",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Magmar": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 244,
-        "at": 0,
-        "df": 252,
-        "sa": 4,
-        "sd": 4,
-        "sp": 4
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Overheat",
-        "Heat Wave",
-        "Flamethrower",
-        "Psychic"
-      ]
-    }
-  },
-  "Lucario": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Close Combat",
-        "Bullet Punch",
-        "Flash Cannon",
-        "Aura Sphere"
-      ]
-    }
-  },
-  "Rampardos": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Sheer Force",
-      "item": "Life Orb",
-      "moves": [
-        "Rock Slide",
-        "Earthquake",
-        "Iron Head",
-        "Head Smash"
-      ]
-    }
-  },
-  "Cinccino": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Skill Link",
-      "item": "King's Rock",
-      "moves": [
-        "Rock Blast",
-        "Bullet Seed",
-        "Tail Slap",
-        "U-turn"
-      ]
-    }
-  },
-  "Charmeleon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Solar Power",
-      "item": "Choice Specs",
-      "moves": [
-        "Heat Wave",
-        "Flamethrower",
-        "Overheat",
-        "Ancient Power"
-      ]
-    }
-  },
-  "Scolipede": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Megahorn",
-        "Poison Jab",
-        "Rock Slide",
-        "Earthquake"
-      ]
-    }
-  },
-  "Serperior": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Contrary",
-      "item": "",
-      "moves": [
-        "Leaf Storm",
-        "Dragon Pulse",
-        "Giga Drain",
-        "Hidden Power Ice"
-      ]
-    }
-  },
-  "Staraptor": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Choice Scarf",
-      "moves": [
-        "Brave Bird",
-        "Close Combat",
-        "U-turn",
-        "Double-Edge"
-      ]
-    }
-  },
-  "Ludicolo": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 84,
-        "sa": 148,
-        "sd": 4,
-        "sp": 20
-      },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
-      "moves": [
-        "Fake Out",
-        "Ice Beam",
-        "Giga Drain",
-        "Scald"
-      ]
-    }
-  },
-  "Cloyster": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Skill Link",
-      "item": "Choice Scarf",
-      "moves": [
-        "Icicle Spear",
-        "Rock Blast",
-        "Razor Shell",
-        "Ice Shard"
-      ]
-    }
-  },
-  "Salamence": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Intimidate",
-      "item": "",
-      "moves": [
-        "Draco Meteor",
-        "Dragon Pulse",
-        "Fire Blast",
-        "Flamethrower"
-      ]
-    }
-  },
-  "Haxorus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Mold Breaker",
-      "item": "Choice Scarf",
-      "moves": [
-        "Dragon Claw",
-        "Earthquake",
-        "Poison Jab",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Garbodor": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Gunk Shot",
-        "Drain Punch",
-        "Seed Bomb",
-        "Explosion"
-      ]
-    }
-  },
-  "Marowak": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Lightning Rod",
-      "item": "Thick Club",
-      "moves": [
-        "Bonemerang",
-        "Rock Slide",
-        "Low Kick",
-        "Knock Off"
-      ]
-    }
-  },
-  "Glaceon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 248,
-        "sd": 0,
-        "sp": 4
-      },
-      "nature": "Modest",
-      "ability": "Snow Cloak",
-      "item": "Choice Specs",
-      "moves": [
-        "Blizzard",
-        "Ice Beam",
-        "Shadow Ball",
-        "Hidden Power Ground"
-      ]
-    }
-  },
-  "Hippowdon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 4,
-        "df": 252,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Impish",
-      "ability": "Sand Stream",
-      "item": "Leftovers",
-      "moves": [
-        "Earthquake",
-        "Ice Fang",
-        "Rock Slide",
-        "Crunch"
-      ]
-    }
-  },
-  "Bellossom": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Chlorophyll",
-      "item": "Assault Vest",
-      "moves": [
-        "Giga Drain",
-        "Sludge Bomb",
-        "Hidden Power Rock",
-        "Dazzling Gleam"
-      ]
-    }
-  },
-  "Blissey": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Seismic Toss",
-        "Charge Beam",
-        "Flamethrower",
-        "Shadow Ball"
-      ]
-    }
-  },
-  "Metagross": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Clear Body",
-      "item": "",
-      "moves": [
-        "Zen Headbutt",
-        "Iron Head",
-        "Ice Punch",
-        "Bullet Punch"
-      ]
-    }
-  },
-  "Misdreavus": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 68,
-        "sa": 0,
-        "sd": 188,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Eviolite",
-      "moves": [
-        "Shadow Ball",
-        "Hex",
-        "Foul Play",
-        "Icy Wind"
-      ]
-    }
-  },
-  "Delphox": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Blaze",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "Heat Wave",
-        "Psyshock",
-        "Dazzling Gleam"
-      ]
-    }
-  },
-  "Pelipper": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Calm",
-      "ability": "Rain Dish",
-      "item": "Safety Goggles",
-      "moves": [
-        "Scald",
-        "Hurricane",
-        "Icy Wind",
-        "Air Slash"
-      ]
-    }
-  },
-  "Avalugg": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 84,
-        "at": 84,
-        "df": 84,
-        "sa": 84,
-        "sd": 84,
-        "sp": 84
-      },
-      "nature": "Hardy",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Avalanche",
-        "Gyro Ball",
-        "Rock Slide",
-        "Earthquake"
-      ]
-    }
-  },
-  "Talonflame": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Life Orb",
-      "moves": [
-        "Brave Bird",
-        "Flare Blitz",
-        "U-turn",
-        "Overheat"
-      ]
-    }
-  },
-  "Meganium": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Giga Drain",
-        "Solar Beam",
-        "Earthquake",
-        "Ancient Power"
-      ]
-    }
-  },
-  "Mr. Mime": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Filter",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Fake Out",
-        "Dazzling Gleam",
-        "Icy Wind",
-        "Psychic"
-      ]
-    }
-  },
-  "Barbaracle": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Tough Claws",
-      "item": "",
-      "moves": [
-        "Razor Shell",
-        "Rock Slide",
-        "Poison Jab",
-        "Earthquake"
-      ]
-    }
-  },
-  "Wailord": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Water Spout",
-        "Ice Beam",
-        "Scald",
-        "Hydro Pump"
-      ]
-    }
-  },
-  "Chandelure": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Flash Fire",
-      "item": "",
-      "moves": [
-        "Shadow Ball",
-        "Heat Wave",
-        "Energy Ball",
-        "Overheat"
-      ]
-    }
-  },
-  "Ursaring": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Guts",
-      "item": "Flame Orb",
-      "moves": [
-        "Facade",
-        "Close Combat",
-        "Crunch",
-        "Earthquake"
-      ]
-    }
-  },
-  "Tyrantrum": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Choice Scarf",
-      "moves": [
-        "Head Smash",
-        "Dragon Claw",
-        "Earthquake",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Gardevoir": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Hyper Voice",
-        "Psychic",
-        "Psyshock",
-        "Moonblast"
-      ]
-    }
-  },
-  "Stunfisk": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 252,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Earth Power",
-        "Thunderbolt",
-        "Sludge Bomb",
-        "Foul Play"
-      ]
-    }
-  },
-  "Aromatisse": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 196,
-        "sa": 0,
-        "sd": 56,
-        "sp": 0
-      },
-      "nature": "Relaxed",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Moonblast",
-        "Dazzling Gleam",
-        "Draining Kiss",
-        "Energy Ball"
-      ]
-    }
-  },
-  "Castform": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Forecast",
-      "item": "Life Orb",
-      "moves": [
-        "Weather Ball",
-        "Hurricane",
-        "Thunder",
-        "Ice Beam"
-      ]
-    }
-  },
-  "Cradily": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
-      "moves": [
-        "Giga Drain",
-        "Ancient Power",
-        "Earth Power",
-        "Sludge Bomb"
-      ]
-    }
-  },
-  "Pidgeot": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Hurricane",
-        "Heat Wave",
-        "Hidden Power Ice",
-        "Hyper Beam"
-      ]
-    }
-  },
-  "Kingler": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Hyper Cutter",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Crabhammer",
-        "Knock Off",
-        "Superpower",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Lunatone": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Levitate",
-      "item": "",
-      "moves": [
-        "Psyshock",
-        "Earth Power",
-        "Hidden Power Rock",
-        "Moonblast"
-      ]
-    }
-  },
-  "Roserade": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Technician",
-      "item": "Life Orb",
-      "moves": [
-        "Sludge Bomb",
-        "Leaf Storm",
-        "Giga Drain",
-        "Hidden Power Fire"
-      ]
-    }
-  },
-  "Rapidash": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Flash Fire",
-      "item": "Life Orb",
-      "moves": [
-        "Flare Blitz",
-        "Drill Run",
-        "Wild Charge",
-        "Overheat"
-      ]
-    }
-  },
-  "Electivire": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Motor Drive",
-      "item": "Air Balloon",
-      "moves": [
-        "Ice Punch",
-        "Thunder Punch",
-        "Wild Charge",
-        "Earthquake"
-      ]
-    }
-  },
-  "Suicune": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 100,
-        "sa": 100,
-        "sd": 52,
-        "sp": 4
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Snarl",
-        "Icy Wind"
-      ]
-    }
-  },
-  "Gourgeist-Super": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 36,
-        "sa": 0,
-        "sd": 220,
-        "sp": 0
-      },
-      "nature": "Careful",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Phantom Force",
-        "Seed Bomb",
-        "Shadow Sneak",
-        "Bullet Seed"
-      ]
-    }
-  },
-  "Donphan": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 0,
-        "sd": 252,
-        "sp": 0
-      },
-      "nature": "Careful",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Earthquake",
-        "Ice Shard",
-        "Play Rough",
-        "Knock Off"
-      ]
-    }
-  },
-  "Gastrodon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 244,
-        "at": 0,
-        "df": 108,
-        "sa": 68,
-        "sd": 88,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "Storm Drain",
-      "item": "Leftovers",
-      "moves": [
-        "Earth Power",
-        "Ice Beam",
-        "Scald",
-        "Muddy Water"
-      ]
-    }
-  },
-  "Thundurus-T": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Volt Absorb",
-      "item": "Choice Scarf",
-      "moves": [
-        "Hidden Power Ice",
-        "Thunderbolt",
-        "Volt Switch",
-        "Grass Knot"
-      ]
-    }
-  },
-  "Tyranitar": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Sand Stream",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Crunch",
-        "Ice Beam",
-        "Low Kick"
-      ]
-    }
-  },
-  "Miltank": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 140,
-        "at": 0,
-        "df": 116,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Thick Fat",
-      "item": "Leftovers",
-      "moves": [
-        "Body Slam",
-        "Rock Slide",
-        "Return",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Accelgor": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 4,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Bug Buzz",
-        "Acid Spray",
-        "Energy Ball",
-        "Sludge Bomb"
-      ]
-    }
-  },
-  "Dewgong": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 76,
-        "sa": 0,
-        "sd": 180,
-        "sp": 0
-      },
-      "nature": "Careful",
-      "ability": "Thick Fat",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Fake Out",
-        "Icy Wind",
-        "Ice Beam",
-        "Aqua Jet"
-      ]
-    }
-  },
-  "Muk": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 248,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 8,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "Black Sludge",
-      "moves": [
-        "Gunk Shot",
-        "Poison Jab",
-        "Fire Punch",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Shiftry": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Chlorophyll",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Leaf Blade",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Cryogonal": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "",
-      "moves": [
-        "Freeze-Dry",
-        "Flash Cannon",
-        "Ice Beam",
-        "Icy Wind"
-      ]
-    }
-  },
-  "Beartic": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
-      "moves": [
-        "Icicle Crash",
-        "Superpower",
-        "Aqua Jet",
-        "Rock Slide"
-      ]
-    }
-  },
-  "Regice": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "Clear Body",
-      "item": "Choice Specs",
-      "moves": [
-        "Ice Beam",
-        "Thunderbolt",
-        "Focus Blast",
-        "Blizzard"
-      ]
-    }
-  },
-  "Armaldo": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Swift Swim",
-      "item": "Assault Vest",
-      "moves": [
-        "X-Scissor",
-        "Rock Slide",
-        "Cross Poison",
-        "Earthquake"
-      ]
-    }
-  },
-  "Espeon": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Leftovers",
-      "moves": [
-        "Psychic",
-        "Dazzling Gleam",
-        "Psyshock",
-        "Shadow Ball"
-      ]
-    }
-  },
-  "Shedinja": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Wonder Guard",
-      "item": "",
-      "moves": [
-        "X-Scissor",
-        "Shadow Sneak",
-        "Phantom Force",
-        "Shadow Claw"
-      ]
-    }
-  },
-  "Sneasel": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Knock Off",
-        "Icicle Crash",
-        "Icy Wind"
-      ]
-    }
-  },
-  "Hitmontop": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Fake Out",
-        "Close Combat",
-        "Feint",
-        "Mach Punch"
-      ]
-    }
-  },
-  "Kingdra": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Swift Swim",
-      "item": "Life Orb",
-      "moves": [
-        "Draco Meteor",
-        "Muddy Water",
-        "Ice Beam",
-        "Hydro Pump"
-      ]
-    }
-  },
-    "Primal Kyogre": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Drizzle",
-      "item": "Blue Orb",
-      "moves": [
-        "Origin Pulse",
-        "Water Spout",
-        "Ice Beam",
-        "Thunder"
-      ]
-    }
-  },  
-
-  "Primal Groudon": {
-    "Common Physical Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Drought",
-      "item": "Red Orb",
-      "moves": [
-        "Precipice Blades",
-        "Fire Punch",
-        "Rock Slide",
-        "Earthquake"
-      ]
-    },
-    "Common Mixed Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Drought",
-      "item": "Red Orb",
-      "moves": [
-        "Eruption",
-        "Flamethrower",
-        "Earth Power",
-        "Precipice Blades"
-      ]
-    }
-  },
-
-  "Kyogre": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Drizzle",
-      "item": "Blue Orb",
-      "moves": [
-        "Origin Pulse",
-        "Water Spout",
-        "Ice Beam",
-        "Thunder"
-      ]
-    }
-  },  
-
-  "Groudon": {
-    "Common Physical Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Drought",
-      "item": "Red Orb",
-      "moves": [
-        "Precipice Blades",
-        "Fire Punch",
-        "Rock Slide",
-        "Earthquake"
-      ]
-    },
-    "Common Mixed Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Drought",
-      "item": "Red Orb",
-      "moves": [
-        "Eruption",
-        "Flamethrower",
-        "Earth Power",
-        "Precipice Blades"
-      ]
-    }
-  },
-
-  "Rayquaza": {
-    "Common Showdown Physical": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "Drought",
-      "item": "Life Orb",
-      "moves": [
-        "Dragon Ascent",
-        "Draco Meteor",
-        "Extreme Speed",
-        "Earthquake"
-      ]
-    },
-
-    "Common Showdown Mixed": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 4,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Naive",
-      "ability": "Drought",
-      "item": "Life Orb",
-      "moves": [
-        "Dragon Ascent",
-        "Draco Meteor",
-        "Extreme Speed",
-        "Earthquake"
-      ]
-    }
-  },
-
-  "Xerneas": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Fairy Aura",
-      "item": "",
-      "moves": [
-        "Moonblast",
-        "Dazzling Gleam",
-        "Grass Knot",
-        "Hidden Power Ground"
-      ]
-    }
-  },
-
-  "Yveltal": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Dark Aura",
-      "item": "Life Orb",
-      "moves": [
-        "Oblivion Wing",
-        "Sucker Punch",
-        "Foul Play",
-        "Snarl"
-      ]
-    }
-  },
-
-  "Dialga": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Pressure",
-      "item": "Adamant Orb",
-      "moves": [
-        "Draco Meteor",
-        "Flash Cannon",
-        "Earth Power",
-        "Fire Blast"
-      ]
-    }
-  },
-
-  "Palkia": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Pressure",
-      "item": "Lustrous Orb",
-      "moves": [
-        "Draco Meteor",
-        "Hydro Pump",
-        "Earth Power",
-        "Ice Beam"
-      ]
-    }
-  },
-
-  "Giratina": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Pressure",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Shadow Force",
-        "Shadow Sneak",
-        "Draco Meteor",
-        "Dragon Claw"
-      ]
-    }    
-  },
-
-  "Giratina-O": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Levitate",
-      "item": "Griseous Orb",
-      "moves": [
-        "Shadow Force",
-        "Shadow Sneak",
-        "Draco Meteor",
-        "Dragon Claw"
-      ]
-    }    
-  },  
-
-  "Kyurem-W": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "Turboblaze",
-      "item": "Choice Scarf",
-      "moves": [
-        "Draco Meteor",
-        "Ice Beam",
-        "Fusion Flare",
-        "Earth Power"
-      ]
-    }    
-  },
-
-  "Kyurem-B": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 124,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 124
-      },
-      "nature": "Rash",
-      "ability": "Teravolt",
-      "item": "Life Orb",
-      "moves": [
-        "Fusion Bolt",
-        "Ice Beam",
-        "Earth Power",
-        "Draco Meteor"
-      ]
-    }    
-  },
-
-  "Ho-Oh": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Pressure",
-      "item": "Leftovers",
-      "moves": [
-        "Brave Bird",
-        "Sacred Fire",
-        "Iron Head",
-        "Earth Power"
-      ]
-    }    
-  },
-
-  "Lugia": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Pressure",
-      "item": "Kee Berry",
-      "moves": [
-        "Aeroblast",
-        "Earth Power",
-        "Psychic",
-        "Thunder"
-      ]
-    }    
-  },  
-
-  "Mewtwo": {
-    "Common Showdown Y": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Pressure",
-      "item": "",
-      "moves": [
-        "Psystrike",
-        "Ice Beam",
-        "Flamethrower",
-        "Aura Sphere"
-      ]
-    }    
-  },
-
-  "Decidueye": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Spirit Shackle",
-        "Sucker Punch",
-        "Leaf Blade",
-        "Shadow Ball",
-      ]
-    }    
-  },
-
-  "Incineroar": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Intimidate",
-      "item": "",
-      "moves": [
-        "Flare Blitz",
-        "Darkest Lariat",
-        "Fire Fang",
-        "Snarl",
-      ]
-    }    
-  },
-
-  "Primarina": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Liquid Voice",
-      "item": "",
-      "moves": [
-        "Hyper Voice",
-        "Sparkling Aria",
-        "Moonblast",
-        "Dazzling Gleam",
-      ]
-    }    
-  },
-
-  "Toucannon": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Skill Link",
-      "item": "",
-      "moves": [
-        "Beak Blast",
-        "Rock Blast",
-        "Fury Attack",
-        "Bullet Seed",
-      ]
-    }    
-  },
-
-  "Gumshoos": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Super Fang",
-        "Return",
-        "",
-        "",
-      ]
-    }    
-  }, 
-
-  "Vikavolt": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Bug Buzz",
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Discharge",
-      ]
-    }    
-  },
-
-  "Crabominable": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Iron Fist",
-      "item": "",
-      "moves": [
-        "Ice Hammer",
-        "Power-Up Punch",
-        "Close Combat",
-        "Ice Punch",
-      ]
-    }    
-  },
-
-  "Oricorio": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Revelation Dance",
-        "Air Slash",
-        "",
-        "",
-      ]
-    }    
-  },
-
-  "Ribombee": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Pollen Puff",
-        "Moonblast",
-        "Dazzling Gleam",
-        "Energy Ball",
-      ]
-    }    
-  },
-
-  "Lycanroc-Midday": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Accelerock",
-        "Stone Edge",
-        "Rock Tomb",
-      ]
-    }    
-  },
-
-  "Lycanroc-Midnight": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Accelerock",
-        "Stone Edge",
-        "Rock Tomb",
-      ]
-    }    
-  },
-
-  "Wishiwashi": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 4,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Scald",
-        "Ice Beam",
-        "Waterfall",
-        "Earthquake",
-      ]
-    }    
-  },
-
-  "Toxapex": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 252,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Bold",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Liquidation",
-        "Poison Jab",
-        "",
-        "",
-      ]
-    }
-  },
-
-  "Mudsdale": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "High Horsepower",
-        "Earthquake",
-        "Rock Slide",
-        "Superpower",
-      ]
-    }    
-  },
-
-  "Araquanid": {
-    "God-Tier Pokemon": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 4,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Water Bubble",
-      "item": "",
-      "moves": [
-        "Liquidation",
-        "Leech Life",
-        "Lunge",
-        "Scald",
-      ]
-    }    
-  },
-
-  "Lurantis": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Leaf Blade",
-        "Solar Blade",
-        "Leech Life",
-        "",
-      ]
-    }    
-  },
-
-  "Shiinotic": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Giga Drain",
-        "Grass Knot",
-        "Moonblast",
-        "Dazzling Gleam",
-      ]
-    }    
-  },
-
-  "Salazzle": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Sludge Bomb",
-        "Fire Blast",
-        "Flamethrower",
-      ]
-    }    
-  },
-
-  "Bewear": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Fluffy",
-      "item": "",
-      "moves": [
-        "Return",
-        "Double-Edge",
-        "Superpower",
-        "Rock Slide",
-      ]
-    }    
-  },
-
-  "Tsareena": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Trop Kick",
-        "High Jump Kick",
-        "",
-        "",
-      ]
-    }    
-  },
-
-  "Comfey": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Draining Kiss",
-        "Dazzling Gleam",
-        "",
-        "",
-      ]
-    }    
-  },
-
-  "Oranguru": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "",
-        "",
-        "",
-      ]
-    }    
-  },
-
-  "Passimian": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Defiant",
-      "item": "",
-      "moves": [
-        "Close Combat",
-        "Earthquake",
-        "Feint",
-        "Iron Head",
-      ]
-    }    
-  },
-
-  "Golisopod": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Liquidation",
-        "Leech Life",
-        "Sucker Punch",
-        "First Impression",
-      ]
-    }    
-  },
-
-  "Palossand": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Earth Power",
-        "Giga Drain",
-        "Shadow Ball",
-        "Energy Ball",
-      ]
-    }    
-  },
-
-  "Silvally": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Hasty",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Multi-Attack",
-        "Tri-Attack",
-        "Ice Beam",
-        "Double-Edge",
-      ]
-    }    
-  },
-
-  "Minior": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Hasty",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Rock Slide",
-        "Acrobatics",
-        "Explosion",
-        "Power Gem",
-      ]
-    }    
-  },
-
-  "Komala": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Return",
-        "Sucker Punch",
-        "Earthquake",
-        "Rock Slide",
-      ]
-    }    
-  },
-
-  "Turtonator": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Dragon Pulse",
-        "Draco Meteor",
-        "Flamethrower",
-        "Overheat",
-      ]
-    }    
-  },
-
-  "Togedemaru": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Fake Out",
-        "Nuzzle",
-        "Zing Zap",
-        "Gyro Ball",
-      ]
-    }    
-  },
-
-  "Mimikyu": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Shadow Claw",
-        "Shadow Sneak",
-        "Play Rough",
-        "",
-      ]
-    }    
-  },
-
-  "Bruxish": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Waterfall",
-        "Psychic Fangs",
-        "Aqua Jet",
-        "",
-      ]
-    }
-  },
-
-  "Drampa": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Hyper Voice",
-        "Draco Meteor",
-        "Fire Blast",
-        "Ice Beam",
-      ]
-    }    
-  },
-
-  "Dhelmise": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Steelworker",
-      "item": "",
-      "moves": [
-        "Anchor Shot",
-        "Shadow Claw",
-        "Power Whip",
-        "Phantom Force",
-      ]
-    }    
-  },
-
-  "Kommo-o": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Hasty",
-      "ability": "Soundproof",
-      "item": "",
-      "moves": [
-        "Clanging Scales",
-        "Sky Uppercut",
-        "Draco Meteor",
-        "Dragon Claw",
-      ]
-    }    
-  },
-
-  "Tapu Koko": {
-    "Special Sweeper": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Electric Surge",
-      "item": "Life Orb",
-      "moves": [
-        "Thunderbolt",
-        "Dazzling Gleam",
-        "Hidden Power Ice",
-        "Discharge",
-      ]
-    }, 
-    "Mixed Attacker": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 4,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Hasty",
-      "ability": "Electric Surge",
-      "item": "Life Orb",
-      "moves": [
-        "Wild Charge",
-        "Thunderbolt",
-        "Dazzling Gleam",
-        "Discharge",
-      ]
-    }    
-  },
-
-  "Tapu Lele": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Psychic Surge",
-      "item": "",
-      "moves": [
-        "Psychic",
-        "Moonblast",
-        "Dazzling Gleam",
-        "Energy Ball",
-      ]
-    }    
-  },
-
-  "Tapu Bulu": {
-    "NailsOU's Child": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "Grassy Surge",
-      "item": "",
-      "moves": [
-        "Wood Hammer",
-        "Horn Leech",
-        "Superpower",
-        "Stone Edge",
-      ]
-    }    
-  },
-
-  "Tapu Fini": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "Misty Surge",
-      "item": "",
-      "moves": [
-        "Hydro Pump",
-        "Moonblast",
-        "Ice Beam",
-        "Scald",
-      ]
-    }    
-  },
-
-  "Nihilego": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Power Gem",
-        "Sludge Bomb",
-        "Hidden Power Ice",
-        "Sludge Wave",
-      ]
-    }    
-  },
-
-  "Buzzwole": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Adamant",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Superpower",
-        "Lunge",
-        "Ice Punch",
-        "Fell Stinger",
-      ]
-    }
-  },
-
-  "Pheromosa": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 4,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Naive",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Bug Buzz",
-        "High Jump Kick",
-        "Lunge",
-        "Ice Beam",
-      ]
-    }
-  },
-
-  "Xurkitree": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Thunderbolt",
-        "Discharge",
-        "Volt Switch",
-        "Hidden Power Ice",
-      ]
-    }
-  },
-
-  "Celesteela": {
-    "Physical/Mixed Attacker": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 4,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Heavy Slam",
-        "Flamethrower",
-        "Fire Blast",
-        "",
-      ]
-    },
-    "Special Attacker": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Quiet",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Flash Cannon",
-        "Air Slash",
-        "Flamethrower",
-        "Fire Blast",
-      ]
-    },
-  },
-
-  "Kartana": {
-    "Random Meta Guess": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Jolly",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Smart Strike",
-        "Leaf Blade",
-        "Sacred Sword",
-        "Night Slash",
-      ]
-    }
-  },
-
-  "Guzzlord": {
-    "Special Tank": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 0,
-        "df": 4,
-        "sa": 252,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Modest",
-      "ability": "",
-      "item": "Assault Vest",
-      "moves": [
-        "Draco Meteor",
-        "Dark Pulse",
-        "Flamethrower",
-        "Snarl",
-      ]
-    },
-
-    "Physical Attacker": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "",
-      "item": "",
-      "moves": [
-        "Dragon Claw",
-        "Crunch",
-        "Hammer Arm",
-        "Poison Jab",
-      ]
-    }
-  },
-
-  "Marowak-Alola": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 4,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Lightningrod",
-      "item": "Thick Club",
-      "moves": [
-        "Flare Blitz",
-        "Shadow Bone",
-        "Bonemerang",
-        "Rock Slide"
-      ]
-    }
-  },
-
-  "Ninetales-Alola": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Timid",
-      "ability": "Snow Warning",
-      "item": "",
-      "moves": [
-        "Blizzard",
-        "Ice Beam",
-        "Freeze-Dry",
-        "Moonblast"
-      ]
-    }
-  },
-
-  "Persian-Alola": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 4,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "nature": "Adamant",
-      "ability": "Technician",
-      "item": "Life Orb",
-      "moves": [
-        "Fake Out",
-        "Snarl",
-        "Foul Play",
-        "U-turn"
-      ]
-    }
-  },
-
-  "Muk-Alola": {
-    "Common Showdown": {
-      "level": 50,
-      "evs": {
-        "hp": 252,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 4,
-        "sp": 0
-      },
-      "nature": "Brave",
-      "ability": "Gluttony",
-      "item": "Figy Berry",
-      "moves": [
-        "Gunk Shot",
-        "Poison Jab",
-        "Knock Off",
-        "Crunch"
       ]
     }
   }
