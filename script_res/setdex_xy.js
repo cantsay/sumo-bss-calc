@@ -2,7 +2,7 @@ var SETDEX_XY = {};
 
 var components = [
     SETDEX_SHOWDOWN,
-    SETDEX_XY_BATTLESPOT,
+    SETDEX_XY_BSPOT,
     SETDEX_CUSTOM
 ];
 
@@ -21,7 +21,7 @@ var reloadXYScript = function()
 {
     components = [
     SETDEX_SHOWDOWN,
-    SETDEX_XY_BATTLESPOT,
+    SETDEX_XY_BSPOT,
     SETDEX_CUSTOM
 ];
 
