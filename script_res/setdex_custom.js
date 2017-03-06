@@ -24,7 +24,7 @@ var deletecustom = function()
 {
 	SETDEX_CUSTOM = {}
 	eraseCookie("custom")
-    reloadXYScript()
+    reloadSMScript()
 }
 
 function createCookie(name,value,days) {
@@ -225,7 +225,7 @@ var savecustom = function()
   		SETDEX_CUSTOM[species] = {}
   	SETDEX_CUSTOM[species][spreadName] = customFormat
     document.cookie = "custom="+JSON.stringify(SETDEX_CUSTOM)
-    reloadXYScript()
+    reloadSMScript()
 
 
 }
