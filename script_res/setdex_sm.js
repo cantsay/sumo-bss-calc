@@ -2027,6 +2027,23 @@ var SETDEX_SM={
     }
   },
   "Magnezone": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Analytic",
+      "item": "Assault Vest",
+      "moves": [
+        "Thunderbolt",
+        "Flash Cannon",
+        "Hidden Power Ice",
+        "Volt Switch"
+      ]
+    },
     "Bulky Specs": {
       "level": 50,
       "evs": {
@@ -2322,6 +2339,23 @@ var SETDEX_SM={
         "Shadow Sneak",
         "Wood Hammer"
       ]
+    },
+    "Trick Room Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "nature": "Brave",
+      "ability": "Disguise",
+      "item": "Ghostium Z",
+      "moves": [
+        "Play Rough",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Wood Hammer"
+      ]
     }
   },
   "Minior": {
@@ -2351,7 +2385,7 @@ var SETDEX_SM={
       },
       "nature": "Adamant",
       "ability": "Shields Down",
-      "item": "",
+      "item": "Focus Sash",
       "moves": [
         "Stone Edge",
         "Acrobatics",
@@ -2435,11 +2469,11 @@ var SETDEX_SM={
     }
   },
   "Ninetales-Alola": {
-    "Hail Veil": {
+    "Offensive Veil Setter": {
       "level": 50,
       "evs": {
-        "hp": "252",
-        "sd": "4",
+        "hp": "4",
+        "sa": "252",
         "sp": "252"
       },
       "nature": "Timid",
