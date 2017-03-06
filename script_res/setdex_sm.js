@@ -952,7 +952,7 @@ var SETDEX_SM={
       },
       "nature": "Adamant",
       "ability": "Sand Rush",
-      "item": "Life Orb",
+      "item": "Groundium Z",
       "moves": [
         "Earthquake",
         "Iron Head",
@@ -960,7 +960,7 @@ var SETDEX_SM={
         "Swords Dance"
       ]
     },
-    "Versatile Attacker": {
+    "Assault Vest": {
       "level": 50,
       "evs": {
         "at": "252",
@@ -1012,6 +1012,26 @@ var SETDEX_SM={
       "nature": "Sassy",
       "ability": "Iron Barbs",
       "item": "Leftovers",
+      "moves": [
+        "Power Whip",
+        "Gyro Ball",
+        "Knock Off",
+        "Bullet Seed"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "ivs": {
+        "sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Iron Barbs",
+      "item": "Choice Band",
       "moves": [
         "Power Whip",
         "Gyro Ball",
@@ -1072,7 +1092,7 @@ var SETDEX_SM={
         "Fire Fang"
       ]
     },
-    "Versatile Attacker": {
+    "Mixed Life Orb": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -1144,11 +1164,11 @@ var SETDEX_SM={
       "moves": [
         "Perish Song",
         "Protect",
-        "Substitute",
+        "Shadow Ball",
         "Sludge Bomb"
       ]
     },
-    "CasinoGar": {
+    "CasinoGar (Hypnosis + Hex)": {
       "level": 50,
       "evs": {
         "hp": "188",
@@ -1260,7 +1280,7 @@ var SETDEX_SM={
     }
   },
   "Greninja": {
-    "All-Out Attacker": {
+    "Mixed Life Orb": {
       "level": 50,
       "evs": {
         "at": "20",
@@ -1277,7 +1297,7 @@ var SETDEX_SM={
         "Low Kick"
       ]
     },
-    "Max Attack": {
+    "Physical Attacker": {
       "level": 50,
       "evs": {
         "at": "252",
@@ -1345,6 +1365,23 @@ var SETDEX_SM={
         "Ice Fang",
         "Earthquake",
         "Aqua Tail"
+      ]
+    },
+    "Z-Bounce": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Flynium Z",
+      "moves": [
+        "Bounce",
+        "Waterfall",
+        "Earthquake",
+        "Ice Fang"
       ]
     }
   },
@@ -1625,13 +1662,13 @@ var SETDEX_SM={
         "Sucker Punch"
       ]
     },
-    "Mixed Attacker": {
+    "Special Attacker": {
       "level": 50,
       "evs": {
         "hp": "4",
-        "at": "148",
+        "at": "36",
         "df": "4",
-        "sa": "100",
+        "sa": "212",
         "sp": "252"
       },
       "nature": "Naive",
@@ -1657,10 +1694,10 @@ var SETDEX_SM={
       "ability": "Beast Boost",
       "item": "Life Orb",
       "moves": [
-        "Swords Dance",
         "Leaf Blade",
         "Smart Strike",
-        "Sacred Sword"
+        "Sacred Sword",
+        "Night Slash"
       ]
     },
     "Gotta Go Fast (and not hit hard)": {
@@ -1677,10 +1714,10 @@ var SETDEX_SM={
       "ability": "Beast Boost",
       "item": "Life Orb",
       "moves": [
-        "Swords Dance",
         "Leaf Blade",
         "Smart Strike",
-        "Sacred Sword"
+        "Sacred Sword",
+        "Night Slash"
       ]
     }
   },
@@ -1699,7 +1736,7 @@ var SETDEX_SM={
         "Hydro Pump",
         "Draco Meteor",
         "Ice Beam",
-        "Flash Cannon"
+        "Surf"
       ]
     }
   },
@@ -1755,6 +1792,23 @@ var SETDEX_SM={
         "Outrage",
         "Sky Uppercut",
         "Poison Jab"
+      ]
+    },
+    "Special Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Bullet Proof",
+      "item": "Fightinium Z",
+      "moves": [
+        "Focus Blast",
+        "Clanging Scales",
+        "Flamethrower",
+        "Flash Cannon"
       ]
     }
   },
@@ -1928,6 +1982,25 @@ var SETDEX_SM={
         "Flash Cannon",
         "Vacuum Wave",
         "Dark Pulse"
+      ]
+    }
+  },
+  "Lycanroc-Day": {
+    "Stealth Rock Lead": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "df": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Keen Eye",
+      "item": "Focus Sash",
+      "moves": [
+        "Accelerock",
+        "Rock Tomb",
+        "Brick Break",
+        "Fire Fang"
       ]
     }
   },
