@@ -1,7 +1,8 @@
 var SETDEX_XY = {};
 
 var components = [
-    SETDEX_GLOBALLINK
+    SETDEX_XYBSPOT,
+    SETDEX_CUSTOM
 ];
 
 for (var i=0; i<components.length; i++) {
@@ -18,7 +19,8 @@ for (var i=0; i<components.length; i++) {
 var reloadXYScript = function()
 {
     components = [
-    SETDEX_GLOBALLINK
+    SETDEX_XYBSPOT,
+    SETDEX_CUSTOM
 ];
 
 for (var i=0; i<components.length; i++) {
