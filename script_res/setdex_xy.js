@@ -21,7 +21,7 @@ var reloadXYScript = function()
 {
     components = [
     SETDEX_SHOWDOWN,
-    SETDEX_XYBSPOT,
+    SETDEX_BSPOT,
     SETDEX_CUSTOM
 ];
 
