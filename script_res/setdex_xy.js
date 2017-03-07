@@ -2,7 +2,8 @@ var SETDEX_XY = {};
 
 var components = [
     SETDEX_XYBSPOT,
-    SETDEX_CUSTOM
+    SETDEX_CUSTOM,
+    SETDEX_SHOWDOWN
 ];
 
 for (var i=0; i<components.length; i++) {
@@ -20,7 +21,8 @@ var reloadXYScript = function()
 {
     components = [
     SETDEX_XYBSPOT,
-    SETDEX_CUSTOM
+    SETDEX_CUSTOM,
+    SETDEX_SHOWDOWN
 ];
 
 for (var i=0; i<components.length; i++) {
