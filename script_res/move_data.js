@@ -2105,6 +2105,12 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         bp: 80,
         zp: 160
     },
+    'Fell Stinger': {
+        category: 'Physical'
+        type: 'Bug'
+        bp: 50,
+        zp: 100
+    },
     'Catastropika': {
         category: 'Physical',
         type: 'Electric',
