@@ -99,19 +99,19 @@ var savecustom = function()
 		lastParenth = lines[0].lastIndexOf(')');
 		species = lines[0].substring(firstParenth + 1, lastParenth).trim();
 	}
-	else if(lines[0].indexOf('Type:') != -1)
+	else if(lines[0].indexOf('Type: ') != -1)
 	{
         	species = 'Type: Null';
 	}
-	else if(lines[0].indexOf('Mr.') != -1)
+	else if(lines[0].indexOf('Mr. ') != -1)
 	{
         	species = 'Mr. Mime';
 	}
-	else if(lines[0].indexOf('Jr.') != -1)
+	else if(lines[0].indexOf('Jr. ') != -1)
 	{
         	species = 'Mime Jr.';
 	}
-	else if(lines[0].indexOf('Tapu') != -1)
+	else if(lines[0].indexOf('Tapu ') != -1)
 	{
 		species = lines[0].substring(0, 9)
 	}
