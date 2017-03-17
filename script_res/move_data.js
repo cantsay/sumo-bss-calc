@@ -1676,6 +1676,12 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     },
     'Energy Ball': { bp: 90 },
     'Facade': { ignoresBurn: true },
+    'Fell Stinger': {
+        bp: 30,
+        type: 'Bug',
+        category: 'Physical',
+        makesContact: true
+    },
     'Fire Blast': { bp: 110 },
     'Flamethrower': { bp: 90 },
     'Flying Press': {
@@ -2937,5 +2943,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Dragon Ascent':{
         zp: 190
+    },
+    'Fell Stinger':{
+        bp: 50,
+        zp: 100
     }
 });
