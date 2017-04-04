@@ -691,7 +691,6 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         bp: 70,
         type: 'Normal',
         category: 'Physical',
-        makesContact: false,
         hasSecondaryEffect: true
     },
     'Shadow Punch': {
