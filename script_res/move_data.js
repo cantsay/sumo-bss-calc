@@ -687,6 +687,13 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         category: 'Physical',
         hasSecondaryEffect: true
     },
+    'Secret Power': {
+        bp: 70,
+        type: 'Normal',
+        category: 'Physical',
+        makesContact: false,
+        hasSecondaryEffect: true
+    },
     'Shadow Punch': {
         bp: 60,
         type: 'Ghost',
@@ -2947,5 +2954,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Fell Stinger':{
         bp: 50,
         zp: 100
+    },
+    'Secret Power':{
+        zp: 140
     }
 });
