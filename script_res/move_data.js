@@ -470,6 +470,7 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
         bp: 100,
         type: 'Fire',
         category: 'Physical',
+        makesContact: false,
         hasSecondaryEffect: true
     },
     'Selfdestruct': { bp: 200 },
@@ -691,6 +692,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         bp: 70,
         type: 'Normal',
         category: 'Physical',
+        makesContact: false,
         hasSecondaryEffect: true
     },
     'Shadow Punch': {
