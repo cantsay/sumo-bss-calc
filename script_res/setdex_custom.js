@@ -99,6 +99,22 @@ var savecustom = function()
 		lastParenth = lines[0].lastIndexOf(')');
 		species = lines[0].substring(firstParenth + 1, lastParenth).trim();
 	}
+	else if(lines[0].indexOf('Type: ') != -1)
+	{
+        	species = 'Type: Null';
+	}
+	else if(lines[0].indexOf('Mr. ') != -1)
+	{
+        	species = 'Mr. Mime';
+	}
+	else if(lines[0].indexOf('Jr. ') != -1)
+	{
+        	species = 'Mime Jr.';
+	}
+	else if(lines[0].indexOf('Tapu ') != -1)
+	{
+		species = lines[0].substring(0, 9)
+	}
 	else
 		species = lines[0].split('@')[0].trim(); //species is always first
 	for(var i = 0; i < showdownFormes.length; ++i)
