@@ -3872,7 +3872,7 @@ var SETDEX_SMBSPOT={
       "evs": {
         "hp": "252",
         "df": "252",
-        "s4": "4"
+        "sd": "4"
       },
       "nature": "Bold",
       "ability": "Regenerator",
