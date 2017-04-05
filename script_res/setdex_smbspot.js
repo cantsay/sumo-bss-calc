@@ -2330,7 +2330,7 @@ var SETDEX_SMBSPOT={
         "at": "252",
         "sp": "252"
       },
-      "nature": "Jolly",
+      "nature": "Adamant",
       "ability": "Disguise",
       "item": "Life Orb",
       "moves": [
@@ -3872,7 +3872,7 @@ var SETDEX_SMBSPOT={
       "evs": {
         "hp": "252",
         "df": "252",
-        "s4": "4"
+        "sd": "4"
       },
       "nature": "Bold",
       "ability": "Regenerator",
