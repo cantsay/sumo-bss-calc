@@ -1,4 +1,3 @@
-
 var SETDEX_XYBSPOT={
   "Abomasnow": {
     "Mega": {
