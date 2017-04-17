@@ -20,16 +20,9 @@ var SETDEX_SMBSPOT={
     "Choice Scarf": {
       "level": 50,
       "evs": {
-        "hp": "4",
         "at": "4",
-        "sd": "4",
-        "sa": "248",
-        "sp": "248"
-      },
-      "ivs": {
-        "df": "30",
-        "sa": "30",
-        "sp": "30"
+        "sa": "252",
+        "sp": "252"
       },
       "nature": "Hasty",
       "ability": "Snow Warning",
