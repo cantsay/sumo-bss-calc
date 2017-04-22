@@ -96,7 +96,8 @@ var SETDEX_SMBSPOT={
     "DragonWhale's SubToxic": {
       "level": 50,
       "evs": {
-        "hp": "224",
+        "hp": "220",
+        "de": "4",
         "sa": "156",
         "sd": "36",
         "sp": "92"
@@ -1818,7 +1819,7 @@ var SETDEX_SMBSPOT={
       "item": "Choice Scarf",
       "moves": [
         "Earthquake",
-        "U-Turn",
+        "U-turn",
         "Rock Slide",
         "Superpower"
       ]
@@ -1836,7 +1837,7 @@ var SETDEX_SMBSPOT={
       "moves": [
         "Earthquake",
         "Rock Tomb",
-        "U-Turn",
+        "U-turn",
         "Knock Off"
       ]
     }
