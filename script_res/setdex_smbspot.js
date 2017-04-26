@@ -1850,7 +1850,7 @@ var SETDEX_SMBSPOT={
         "df": "4",
         "sd": "252"
       },
-      "nature": "Careful",
+      "nature": "Calm",
       "ability": "Volt Absorb",
       "item": "Leftovers",
       "moves": [
