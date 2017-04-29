@@ -2559,6 +2559,25 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Pinsir": {
+    "Swords Dance Mega": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Hyper Cutter",
+      "item": "Pinsirite",
+      "moves": [
+        "Return",
+        "Earthquake",
+        "Close Combat",
+        "Quick Attack"
+      ]
+    }
+  },
   "Porygon-Z": {
     "Z-Conversion": {
       "level": 50,
