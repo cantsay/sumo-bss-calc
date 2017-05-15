@@ -1835,6 +1835,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         type: 'Ice', 
         category: 'Special',
         hasSecondaryEffect: true,
+        isSpread: true
     },
     'Dream Eater': {
         bp: 100,
