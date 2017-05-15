@@ -1832,7 +1832,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     },
     'Electroweb': {
         bp: 55,
-        type: 'Ice', 
+        type: 'Electric', 
         category: 'Special',
         hasSecondaryEffect: true,
         isSpread: true
