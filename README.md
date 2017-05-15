@@ -1,5 +1,5 @@
 # B S S D A M A G E C A L C ~
-for all your bs singles calculations. based on the work by Jake White (@squirrelboyvgc))
+for all your bs singles calculations. based on the work by Jake White (@squirrelboyvgc)
 
 The calculator now supports custom sets.  These can be input within the calculator using the official Pokemon Showdown format.
 
