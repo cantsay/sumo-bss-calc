@@ -1829,6 +1829,17 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         bp: 65,
         type: 'Ice', 
         category: 'Special'
+    },
+    'Electroweb': {
+        bp: 55,
+        type: 'Ice', 
+        category: 'Special',
+        hasSecondaryEffect: true,
+    },
+    'Dream Eater': {
+        bp: 100,
+        type: 'Psychic', 
+        category: 'Special'
     }
 });
 
@@ -2958,5 +2969,11 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Secret Power':{
         zp: 140
+    },
+    'Electroweb':{
+        zp: 100
+    },
+    'Dream Eater':{
+        zp: 180
     }
 });
