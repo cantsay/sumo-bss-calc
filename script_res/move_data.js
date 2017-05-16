@@ -2976,5 +2976,12 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Dream Eater':{
         zp: 180
+    },
+    'Mystical Fire':{
+        category: 'Special',
+        type: 'Fire',
+        bp: 75,
+        hasSecondaryEffect: true,
+        zp: 140
     }
 });
