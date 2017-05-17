@@ -631,7 +631,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
     },
     'Hydro Cannon': {
         bp: 150,
-        type: 'Normal',
+        type: 'Water',
         category: 'Special'
     },
     'Knock Off': {
