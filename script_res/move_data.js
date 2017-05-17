@@ -537,6 +537,11 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         category: 'Special',
         isSpread: true
     },
+    'Blast Burn': {
+        bp: 150,
+        type: 'Fire',
+        category: 'Special'
+    },
     'Blaze Kick': {
         bp: 85,
         type: 'Fire',
@@ -560,6 +565,12 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
     'Brick Break': {
         bp: 75,
         type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Dive': {
+        bp: 60,
+        type: 'Water',
         category: 'Physical',
         makesContact: true
     },
@@ -606,12 +617,22 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         makesContact: true,
         isPunch: true
     },
+    'Frenzy Plant': {
+        bp: 150,
+        type: 'Grass',
+        category: 'Special'
+    },
     'Heat Wave': {
         bp: 100,
         type: 'Fire',
         category: 'Special',
         hasSecondaryEffect: true,
         isSpread: true
+    },
+    'Hydro Cannon': {
+        bp: 150,
+        type: 'Normal',
+        category: 'Special'
     },
     'Knock Off': {
         bp: 20,
@@ -875,6 +896,7 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         hasSecondaryEffect: true,
         isSpread: true
     },
+    'Dive': { bp: 80 },
     'Double Hit': {
         bp: 35,
         type: 'Normal',
@@ -1147,6 +1169,11 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         category: 'Physical',
         makesContact: true,
         hasSecondaryEffect: true
+    },
+    'Rock Wrecker': {
+        bp: 150,
+        type: 'Rock',
+        category: 'Physical'
     },
     'Seed Bomb': {
         bp: 80,
@@ -2976,6 +3003,21 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Dream Eater':{
         zp: 180
+    },
+    'Blast Burn':{
+        zp: 200
+    },
+    'Frenzy Plant':{
+        zp: 200
+    },
+    'Hydro Cannon':{
+        zp: 200
+    },
+    'Rock Wrecker':{
+        zp: 200
+    },
+    'Dive':{
+        zp: 160
     },
     'Mystical Fire':{
         category: 'Special',
