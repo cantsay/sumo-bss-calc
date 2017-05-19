@@ -306,6 +306,27 @@ var SETDEX_SMBSPOT={
         "Waterfall",
         "Superpower"
       ]
+    },
+    "cant say's Perish Trap": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "ivs": {
+        "at": "0",
+        "sp": "0"
+      },
+      "nature": "Relaxed",
+      "ability": "Sap Sipper",
+      "item": "Sitrus Berry",
+      "moves": [
+        "Perish Song",
+        "Dive",
+        "Protect",
+        "Hidden Power Poison"
+      ]
     }
   },
   "Beedrill": {
@@ -804,6 +825,25 @@ var SETDEX_SMBSPOT={
         "Psychic",
         "Moonblast",
         "Psyshock"
+      ]
+    }
+  },
+  "Donphan": {
+    "1v1 Beast": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Brave",
+      "ability": "Sturdy",
+      "item": "Expert Belt",
+      "moves": [
+        "Earthquake",
+        "Ice Shard",
+        "Gunk Shot",
+        "Stone Edge"
       ]
     }
   },
@@ -1324,6 +1364,23 @@ var SETDEX_SMBSPOT={
         "Hydro Pump",
         "Extrasensory"
       ]
+    },
+    "cant say's 1v1 Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Protean",
+      "item": "Choice Specs",
+      "moves": [
+        "Hydro Cannon",
+        "Water Shuriken",
+        "Ice Beam",
+        "Hidden Power Poison"
+      ]
     }
   },
     "Gyarados": {
@@ -1376,6 +1433,41 @@ var SETDEX_SMBSPOT={
         "Waterfall",
         "Earthquake",
         "Ice Fang"
+      ]
+    }
+  },"Haxorus": {
+    "Choice Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Mold Breaker",
+      "item": "Choice Scarf",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Iron Tail",
+        "Poison Jab"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Mold Breaker",
+      "item": "Choice Band",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Shadow Claw",
+        "Poison Jab"
       ]
     }
   },
@@ -1839,6 +1931,23 @@ var SETDEX_SMBSPOT={
         "Rock Tomb",
         "U-turn",
         "Knock Off"
+      ]
+    },
+    "Band": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "4",
+        "df": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Intimidate",
+      "item": "Choice Band",
+      "moves": [
+        "Earthquake",
+        "Fly",
+        "Superpower",
+        "Stone Edge"
       ]
     }
   },
@@ -2326,7 +2435,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Adamant",
       "ability": "Disguise",
-      "item": "Life Orb",
+      "item": "Ghostium Z",
       "moves": [
         "Play Rough",
         "Shadow Claw",
@@ -2593,6 +2702,23 @@ var SETDEX_SMBSPOT={
         "Shadow Ball",
         "Conversion",
         "Thunderbolt",
+        "Ice Beam"
+      ]
+    },
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Adaptability",
+      "item": "Choice Specs",
+      "moves": [
+        "Hyper Beam",
+        "Uproar",
+        "Dark Pulse",
         "Ice Beam"
       ]
     }
