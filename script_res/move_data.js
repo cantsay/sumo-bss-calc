@@ -754,6 +754,11 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         category: 'Physical',
         makesContact: true
     },
+    'Uproar': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Special'
+    },
     'Volt Tackle': {
         bp: 120,
         type: 'Electric',
@@ -1641,6 +1646,7 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         category: 'Physical',
         makesContact: true
     },
+    'Uproar': { bp: 90 },
     'V-create': {
         bp: 180,
         type: 'Fire',
@@ -3018,6 +3024,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Dive':{
         zp: 160
+    },
+    'Uproar':{
+        zp: 175
     },
     'Mystical Fire':{
         category: 'Special',
