@@ -112,6 +112,87 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
+  "Alakazam" { 
+    "SubDisable": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 244
+        "sa": 12
+        "se": 252
+      }, 
+      "nature": "Timid", 
+      "ability": "Magic Guard", 
+      "item": "Alakazite", 
+      "moves": [ 
+        "Psychic", 
+        "Submission", 
+        "Protect", 
+        "Disable" 
+      ] 
+    },
+    "Offensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4
+        "sa": 252
+        "se": 252
+      }, 
+      "ivs": { 
+        "at": 1
+      }, 
+      "nature": "Timid", 
+      "ability": "Magic Guard", 
+      "item": "Alakazite", 
+      "moves": [ 
+        "Psychic", 
+        "Focus Blast", 
+        "Shadow Ball", 
+        "Hidden Power Ice" 
+      ] 
+    } 
+  },
+  "Amoonguss" { 
+    "Leftovers": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252
+        "df": 252
+        "sd": 4
+      }, 
+      "ivs": { 
+        "at": 0
+      }, 
+      "nature": "Bold", 
+      "ability": "Regenerator", 
+      "item": "Black Sludge", 
+      "moves": [ 
+        "Giga Drain", 
+        "Sludge Bomb", 
+        "Foul Play", 
+        "Hidden Power Fire" 
+      ] 
+    },
+    "Rocky Helmet": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252
+        "df": 252
+        "sd": 4
+      }, 
+      "ivs": { 
+        "at": 0
+      }, 
+      "nature": "Bold", 
+      "ability": "Regenerator", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Giga Drain", 
+        "Sludge Bomb", 
+        "Foul Play", 
+        "Hidden Power Fire" 
+      ] 
+    } 
+  },
     "Araquanid" { 
     "Waterium Z": { 
       "level": 50, 
@@ -298,7 +379,7 @@ var SETDEX_FACTORYSETS={
         "Superpower" 
       ] 
     },
-    "set name": { 
+    "Assault Vest": { 
       "level": 50, 
       "evs": { 
         "hp": 124
@@ -334,6 +415,28 @@ var SETDEX_FACTORYSETS={
         "Poison Jab", 
         "Drill Run", 
         "Knock Off" 
+      ] 
+    } 
+  },
+  "Blastoise" { 
+    "Mega Turtle": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252
+        "sa": 252
+        "sd": 4
+      }, 
+      "ivs": { 
+        "at": 0
+      }, 
+      "nature": "Modest", 
+      "ability": "Torrent", 
+      "item": "Blastoisinite", 
+      "moves": [ 
+        "Hydro Pump", 
+        "Ice Beam", 
+        "Dark Pulse", 
+        "Aura Sphere" 
       ] 
     } 
   },
