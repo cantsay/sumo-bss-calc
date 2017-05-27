@@ -1,7 +1,7 @@
-var SETDEX_SM = {};
+var SETDEX_FACTORY = {};
 
 var components = [
-    SETDEX_SMBSPOT,
+    SETDEX_FACTORYSETS,
     SETDEX_CUSTOM
 ];
 
@@ -10,7 +10,7 @@ for (var i=0; i<components.length; i++) {
     if (sourceDex) {
         for (var p in sourceDex) {
             if (sourceDex.hasOwnProperty(p)) {
-                SETDEX_SM[p] = $.extend(SETDEX_SM[p], sourceDex[p])
+                SETDEX_FACTORY[p] = $.extend(SETDEX_FACTORY[p], sourceDex[p])
             }
         }
     }
@@ -20,7 +20,7 @@ var reloadXYScript = function()
 {
   console.log(SETDEX_CUSTOM);
     components = [
-    SETDEX_SMBSPOT,
+    SETDEX_FACTORYSETS,
     SETDEX_CUSTOM
 ];
 
@@ -29,7 +29,7 @@ for (var i=0; i<components.length; i++) {
     if (sourceDex) {
         for (var p in sourceDex) {
             if (sourceDex.hasOwnProperty(p)) {
-                SETDEX_SM[p] = $.extend(SETDEX_SM[p], sourceDex[p])
+                SETDEX_FACTORY[p] = $.extend(SETDEX_FACTORY[p], sourceDex[p])
             }
         }
     }
