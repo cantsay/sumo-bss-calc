@@ -1,14 +1,14 @@
 var SETDEX_FACTORYSETS={
-	  "Aegislash" { 
+  "Aegislash" { 
     "Weakness Policy": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "at": 4
-        "sa": 252
+        "hp": "252",
+        "at": "4",
+        "sa": "252"
       }, 
       "ivs": { 
-        "se": 0
+        "sp": "0"
       }, 
       "nature": "Quiet", 
       "ability": "Stance Change", 
@@ -23,12 +23,12 @@ var SETDEX_FACTORYSETS={
     "Special Ghostium Z": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "at": 4
-        "sa": 252
+        "hp": "252",
+        "at": "4",
+        "sa": "252"
       }, 
       "ivs": { 
-        "se": 0
+        "sp": "0"
       }, 
       "nature": "Quiet", 
       "ability": "Stance Change", 
@@ -43,9 +43,9 @@ var SETDEX_FACTORYSETS={
     "Physical Ghostium Z": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "at": 252
-        "sd": 4
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
       }, 
       "nature": "Brave", 
       "ability": "Stance Change", 
@@ -60,9 +60,9 @@ var SETDEX_FACTORYSETS={
     "Fast Physical LO": { 
       "level": 50, 
       "evs": { 
-        "hp": 4
-        "at": 252
-        "se": 252
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Stance Change", 
@@ -77,12 +77,12 @@ var SETDEX_FACTORYSETS={
     "SubToxic": { 
       "level": 50, 
       "evs": { 
-        "hp": 204
-        "sa": 52
-        "se": 252
+        "hp": "204",
+        "sa": "52",
+        "sp": "252"
       }, 
       "ivs": { 
-        "at": 0
+        "at": "0"
       }, 
       "nature": "Timid", 
       "ability": "Stance Change", 
@@ -97,11 +97,11 @@ var SETDEX_FACTORYSETS={
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
-        "hp": 4
-        "sa": 252
-        "se": 252
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
       }, 
-      "nature": "RNature", 
+      "nature": "Rash", 
       "ability": "Stance Change", 
       "item": "Focus Sash", 
       "moves": [ 
@@ -116,9 +116,12 @@ var SETDEX_FACTORYSETS={
     "SubDisable": { 
       "level": 50, 
       "evs": { 
-        "hp": 244
-        "sa": 12
-        "se": 252
+        "hp": "244",
+        "sa": "12",
+        "sp": "252"
+      }, 
+      "ivs": { 
+        "at": "0"
       }, 
       "nature": "Timid", 
       "ability": "Magic Guard", 
@@ -133,12 +136,12 @@ var SETDEX_FACTORYSETS={
     "Offensive": { 
       "level": 50, 
       "evs": { 
-        "hp": 4
-        "sa": 252
-        "se": 252
+        "hp": "4",
+        "sa": "252",
+        "se": "252"
       }, 
       "ivs": { 
-        "at": 1
+        "at": "0"
       }, 
       "nature": "Timid", 
       "ability": "Magic Guard", 
@@ -155,12 +158,12 @@ var SETDEX_FACTORYSETS={
     "Leftovers": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "df": 252
-        "sd": 4
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
       }, 
       "ivs": { 
-        "at": 0
+        "at": "0"
       }, 
       "nature": "Bold", 
       "ability": "Regenerator", 
@@ -175,12 +178,12 @@ var SETDEX_FACTORYSETS={
     "Rocky Helmet": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "df": 252
-        "sd": 4
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
       }, 
       "ivs": { 
-        "at": 0
+        "at": "0"
       }, 
       "nature": "Bold", 
       "ability": "Regenerator", 
@@ -197,9 +200,9 @@ var SETDEX_FACTORYSETS={
     "Waterium Z": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "at": 252
-        "sd": 4
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Water Bubble", 
@@ -214,9 +217,9 @@ var SETDEX_FACTORYSETS={
     "Assault Vest": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "at": 252
-        "sd": 4
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Water Bubble", 
@@ -231,9 +234,9 @@ var SETDEX_FACTORYSETS={
     "Choice Band": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "at": 252
-        "sd": 4
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Water Bubble", 
@@ -245,32 +248,15 @@ var SETDEX_FACTORYSETS={
         "Poison Jab" 
       ] 
     },
-    "Assault Vest": { 
-      "level": 50, 
-      "evs": { 
-        "hp": 252
-        "at": 252
-        "sd": 4
-      }, 
-      "nature": "Quiet", 
-      "ability": "Water Bubble", 
-      "item": "Assault Vest", 
-      "moves": [ 
-        "Scald", 
-        "Leech Life", 
-        "Mirror Coat", 
-        "Ice Beam" 
-      ] 
-    },
     "Choice Specs": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "df": 4
-        "sa": 252
+        "hp": "252",
+        "df": "4",
+        "sa": "252"
       }, 
       "ivs": { 
-        "at": 0
+        "at": "0"
       }, 
       "nature": "Modest", 
       "ability": "Water Bubble", 
@@ -286,9 +272,9 @@ var SETDEX_FACTORYSETS={
     "Firium Z": { 
       "level": 50, 
       "evs": { 
-        "at": 252
-        "sd": 4
-        "se": 252
+        "at": "252",
+        "sd": "4",
+        "se": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Intimidate", 
@@ -303,12 +289,12 @@ var SETDEX_FACTORYSETS={
     "Defensive": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "df": 252
-        "sa": 4
+        "hp": "252",
+        "df": "252",
+        "sa": "4"
       }, 
       "ivs": { 
-        "at": 0
+        "at": "0"
       }, 
       "nature": "Bold", 
       "ability": "Intimidate", 
@@ -325,11 +311,11 @@ var SETDEX_FACTORYSETS={
     "Belly Drum": { 
       "level": 50, 
       "evs": { 
-        "hp": 228
-        "at": 252
-        "df": 12
-        "sd": 12
-        "se": 4
+        "hp": "228",
+        "at": "252",
+        "df": "12",
+        "sd": "12",
+        "se": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -344,11 +330,11 @@ var SETDEX_FACTORYSETS={
     "Z Belly Drum": { 
       "level": 50, 
       "evs": { 
-        "hp": 228
-        "at": 252
-        "df": 12
-        "sd": 12
-        "se": 4
+        "hp": "228",
+        "at": "252",
+        "df": "12",
+        "sd": "12",
+        "se": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -363,11 +349,11 @@ var SETDEX_FACTORYSETS={
     "Choice Band": { 
       "level": 50, 
       "evs": { 
-        "hp": 228
-        "at": 252
-        "df": 12
-        "sd": 12
-        "se": 4
+        "hp": "228",
+        "at": "252",
+        "df": "12",
+        "sd": "12",
+        "se": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -382,11 +368,11 @@ var SETDEX_FACTORYSETS={
     "Assault Vest": { 
       "level": 50, 
       "evs": { 
-        "hp": 124
-        "at": 252
-        "df": 12
-        "sd": 28
-        "se": 92
+        "hp": "124",
+        "at": "252",
+        "df": "12",
+        "sd": "28",
+        "se": "92"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -403,9 +389,9 @@ var SETDEX_FACTORYSETS={
     "Mega": { 
       "level": 50, 
       "evs": { 
-        "hp": 4
-        "at": 252
-        "se": 252
+        "hp": "4",
+        "at": "252",
+        "se": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Swarm", 
@@ -422,12 +408,12 @@ var SETDEX_FACTORYSETS={
     "Mega Turtle": { 
       "level": 50, 
       "evs": { 
-        "hp": 252
-        "sa": 252
-        "sd": 4
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
       }, 
       "ivs": { 
-        "at": 0
+        "at": "0"
       }, 
       "nature": "Modest", 
       "ability": "Torrent", 
@@ -440,4 +426,264 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
+  "Blaziken" { 
+    "Physical Life Orb": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Speed Boost", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Thunder Punch", 
+        "High Jump Kick", 
+        "Flare Blitz", 
+        "Stone Edge" 
+      ] 
+    },
+    "Mixed Life Orb": { 
+      "level": 50, 
+      "evs": { 
+        "at": "52",
+        "sa": "244",
+        "se": "212"
+      }, 
+      "nature": "Naive", 
+      "ability": "Speed Boost", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Hidden Power Ice", 
+        "Overheat", 
+        "High Jump Kick", 
+        "Superpower" 
+      ] 
+    },
+    "Z Solar Beam": { 
+      "level": 50, 
+      "evs": { 
+        "sa": "252",
+        "sd": "4",
+        "se": "252"
+      }, 
+      "nature": "Modest", 
+      "ability": "Speed Boost", 
+      "item": "Grassium Z", 
+      "moves": [ 
+        "Focus Blast", 
+        "Solar Beam", 
+        "Hidden Power Ice",
+        "Overheat" 
+      ] 
+    },
+    "Bulk Up Pass": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "df": "164",
+        "se": "92"
+      }, 
+      "nature": "Impish", 
+      "ability": "Speed Boost", 
+      "item": "Weakness Policy", 
+      "moves": [ 
+        "Substitute", 
+        "Bulk Up", 
+        "Baton Pass", 
+        "High Jump Kick" 
+      ] 
+    }, 
+    "Z Flare Blitz": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Speed Boost", 
+      "item": "Firium Z", 
+      "moves": [ 
+        "Stone Edge", 
+        "High Jump Kick", 
+        "Flare Blitz", 
+        "Thunder Punch" 
+      ] 
+    }, 
+    "Mega Blaziken": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252",
+      }, 
+      "nature": "Adamant", 
+      "ability": "Speed Boost", 
+      "item": "Blazikenite", 
+      "moves": [ 
+        "Flare Blitz", 
+        "High Jump Kick", 
+        "Stone Edge", 
+        "Protect" 
+      ] 
+    } 
+  },
+  "Blissey" { 
+    "PhysDef": { 
+      "level": 50, 
+      "evs": { 
+        "df": "252",
+        "sa": "4",
+        "sd": "252"
+      }, 
+      "ivs": { 
+        "at": "0"
+      }, 
+      "nature": "Bold", 
+      "ability": "Natural Cure", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Flamethrower", 
+        "Shadow Ball", 
+        "Flamethrower", 
+        "Ice Beam" 
+      ] 
+    },
+    "Special Attacking Booster": { 
+      "level": 50, 
+      "evs": { 
+        "df": "252",
+        "sa": "252",
+        "se": "4"
+      }, 
+      "ivs": { 
+        "at": "0"
+      }, 
+      "nature": "Bold", 
+      "ability": "Serene Grace", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Charge Beam", 
+        "Flamethrower", 
+        "Ice Beam", 
+        "Substitute" 
+      ] 
+    },
+    "Rocky Helmet": { 
+      "level": 50, 
+      "evs": { 
+        "df": "252",
+        "sa": "4"
+        "sd": "252"
+      }, 
+      "ivs": { 
+        "at": "0"
+      }, 
+      "nature": "Bold", 
+      "ability": "Natural Cure", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Flamethrower", 
+        "Shadow Ball", 
+        "Seismic Toss", 
+        "Ice Beam" 
+      ] 
+    } 
+  },
+  "Breloom" { 
+    "Focus Sash": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4"
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Technician", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Spore", 
+        "Mach Punch", 
+        "Bullet Seed", 
+        "Rock Tomb" 
+      ] 
+    },
+    "Life Orb": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Technician", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Spore", 
+        "Mach Punch", 
+        "Bullet Seed", 
+        "Rock Tomb" 
+      ] 
+    }, 
+    "SubPunch": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Poison Heal", 
+      "item": "Toxic Orb", 
+      "moves": [ 
+        "Spore", 
+        "Substitute", 
+        "Focus Punch", 
+        "Rock Tomb" 
+      ] 
+    }, 
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "at": "252",
+        "sd": "4"
+        "se": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Technician", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Superpower", 
+        "Bullet Seed", 
+        "Rock Tomb", 
+        "Mach Punch" 
+      ] 
+    } 
+  },
+  "Bronzong" { 
+    "SpDef Trick Room": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "at": "20",
+        "df": "4",
+        "sa": "4",
+        "sd": "228"
+      }, 
+      "ivs": {
+	"sp": "0"
+      }, 
+      "nature": "Sassy", 
+      "ability": "Levitate", 
+      "item": "Occa Berry", 
+      "moves": [ 
+        "Trick Room", 
+        "Stealth Rock","Hidden Power Ice", 
+        "Gyro Ball", 
+        "Explosion" 
+      ] 
+    },
+
 };
