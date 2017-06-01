@@ -128,7 +128,7 @@ var SETDEX_FACTORYSETS={
       "item": "Alakazite", 
       "moves": [ 
         "Psychic", 
-        "Submission", 
+        "Substitute", 
         "Protect", 
         "Disable" 
       ] 
@@ -138,7 +138,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "sa": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "ivs": { 
         "at": "0"
@@ -196,7 +196,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-    "Araquanid" { 
+  "Araquanid" { 
     "Waterium Z": { 
       "level": 50, 
       "evs": { 
@@ -268,13 +268,13 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-    "Arcanine" { 
+  "Arcanine" { 
     "Firium Z": { 
       "level": 50, 
       "evs": { 
         "at": "252",
         "sd": "4",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Intimidate", 
@@ -307,7 +307,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-    "Azumarill" { 
+  "Azumarill" { 
     "Belly Drum": { 
       "level": 50, 
       "evs": { 
@@ -315,7 +315,7 @@ var SETDEX_FACTORYSETS={
         "at": "252",
         "df": "12",
         "sd": "12",
-        "se": "4"
+        "sp": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -334,7 +334,7 @@ var SETDEX_FACTORYSETS={
         "at": "252",
         "df": "12",
         "sd": "12",
-        "se": "4"
+        "sp": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -353,7 +353,7 @@ var SETDEX_FACTORYSETS={
         "at": "252",
         "df": "12",
         "sd": "12",
-        "se": "4"
+        "sp": "4"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -372,7 +372,7 @@ var SETDEX_FACTORYSETS={
         "at": "252",
         "df": "12",
         "sd": "28",
-        "se": "92"
+        "sp": "92"
       }, 
       "nature": "Adamant", 
       "ability": "Huge Power", 
@@ -385,13 +385,13 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-    "Beedrill" { 
+  "Beedrill" { 
     "Mega": { 
       "level": 50, 
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Swarm", 
@@ -432,7 +432,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Speed Boost", 
@@ -449,7 +449,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "at": "52",
         "sa": "244",
-        "se": "212"
+        "sp": "212"
       }, 
       "nature": "Naive", 
       "ability": "Speed Boost", 
@@ -466,7 +466,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "sa": "252",
         "sd": "4",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Modest", 
       "ability": "Speed Boost", 
@@ -483,7 +483,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "252",
         "df": "164",
-        "se": "92"
+        "sp": "92"
       }, 
       "nature": "Impish", 
       "ability": "Speed Boost", 
@@ -500,7 +500,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Speed Boost", 
@@ -517,7 +517,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252",
+        "sp": "252",
       }, 
       "nature": "Adamant", 
       "ability": "Speed Boost", 
@@ -556,7 +556,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "df": "252",
         "sa": "252",
-        "se": "4"
+        "sp": "4"
       }, 
       "ivs": { 
         "at": "0"
@@ -598,7 +598,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4"
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Technician", 
@@ -615,7 +615,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Technician", 
@@ -632,7 +632,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Poison Heal", 
@@ -649,7 +649,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "at": "252",
         "sd": "4"
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Technician", 
@@ -680,10 +680,470 @@ var SETDEX_FACTORYSETS={
       "item": "Occa Berry", 
       "moves": [ 
         "Trick Room", 
-        "Stealth Rock","Hidden Power Ice", 
+        "Hidden Power Ice", 
         "Gyro Ball", 
         "Explosion" 
       ] 
     },
+    "PhysDef Trick Room": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "20", 
+        "df": "228", 
+        "sa": "4", 
+        "sd": "4" 
+      }, 
+	  "ivs": {
+	"sp": "0"
+      },
+      "nature": "Relaxed", 
+      "ability": "Levitate", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Trick Room", 
+        "Hidden Power Ice", 
+        "Gyro Ball", 
+        "Explosion" 
+      ] 
+    }, 
+    "Offensive Psychium Z": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "sa": "252", 
+        "sd": "4" 
+      },
+      "ivs": {
+	"sp": "0"
+      },	  
+      "nature": "Quiet", 
+      "ability": "Levitate", 
+      "item": "Psychium Z", 
+      "moves": [ 
+        "Hypnosis", 
+        "Trick Room", 
+        "Hidden Power Ice", 
+        "Gyro Ball" 
+      ] 
+    } 
+  },
+  "Buzzwole" { 
+    "PhysDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "4", 
+        "df": "252" 
+      }, 
+      "nature": "Impish", 
+      "ability": "Beast Boost", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Leech Life", 
+        "Roost", 
+        "Earthquake", 
+        "Ice Punch" 
+      ] 
+    },
+    "Assault Vest": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "df": "4" 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Beast Boost", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Leech Life",
+        "Superpower", 
+        "Earthquake", 
+        "Ice Punch" 
+      ] 
+    },
+    "Fightinium Z": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Beast Boost", 
+      "item": "Fightinium Z", 
+      "moves": [ 
+        "Leech Life", 
+        "Superpower", 
+        "Earthquake", 
+        "Ice Punch" 
+      ] 
+    }, 
+    "Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Beast Boost", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Leech Life", 
+        "Superpower", 
+        "Earthquake", 
+        "Ice Punch" 
+      ] 
+    } 
+  },
+  "Celesteela" { 
+    "PhysDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "244", 
+        "at": "4", 
+        "df": "252", 
+        "sa": "4", 
+        "sd": "4" 
+      }, 
+      "nature": "Relaxed", 
+      "ability": "Beast Boost", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Heavy Slam", 
+        "Leech Seed", 
+        "Flamethrower", 
+        "Protect" 
+      ] 
+    },
+    "Specially Defensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "244", 
+        "at": "4", 
+        "df": "4", 
+        "sa": "4", 
+        "sd": "252" 
+      }, 
+      "nature": "Sassy", 
+      "ability": "Beast Boost", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Heavy Slam", 
+        "Leech Seed", 
+        "Flamethrower", 
+        "Protect" 
+      ] 
+    },
+    "Fast SubSeed": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "4", 
+        "sp": "252" 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Beast Boost", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Heavy Slam", 
+        "Leech Seed", 
+        "Flame Charge" 
+        "Protect" 
+      ] 
+    },
+    "Autotomize": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Beast Boost", 
+      "item": "", 
+      "moves": [ 
+        "Autotomize", 
+        "Acrobatics", 
+        "Heavy Slam", 
+        "Earthquake" 
+      ] 
+    },
+    "Special AV": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "sa": "252", 
+        "sp": "4" 
+      }, 
+      "nature": "Modest", 
+      "ability": "Beast Boost", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Flash Cannon", 
+        "Flamethrower", 
+        "Hidden Power Ice", 
+        "Air Slash" 
+      ] 
+    },
+    "Physical AV": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "sp": "4" 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Beast Boost", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Heavy Slam", 
+        "Earthquake", 
+        "Rock Slide", 
+        "Flame Charge" 
+      ] 
+    },
+    "Choice Band": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "244", 
+        "at": "252", 
+        "df": "4", 
+        "sd": "4", 
+        "sp": "4", 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Beast Boost", 
+      "item": "Choice Band", 
+      "moves": [ 
+        "Heavy Slam", 
+        "Explosion", 
+        "Stone Edge", 
+        "Earthquake" 
+      ] 
+    },
+    "Physical Flyinium Z": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "244", 
+        "at": "244", 
+        "df": "4", 
+        "sd": "4", 
+        "sp": "12", 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Beast Boost", 
+      "item": "Flyinium Z", 
+      "moves": [ 
+        "Fly", 
+        "Heavy Slam", 
+        "Earthquake", 
+        "Explosion" 
+      ] 
+    } 
+  },
+  "Chandelure" { 
+    "Trick Room": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "sa": "252", 
+        "sd": "4" 
+      }, 
+      "ivs": { 
+        "sp": "0"
+      }, 
+      "nature": "Modest", 
+      "ability": "Flash Fire", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Trick Room", 
+        "Shadow Ball", 
+        "Fire Blast", 
+        "Overheat" 
+      ] 
+    },
+    "Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Infiltrator", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Shadow Ball", 
+        "Fire Blast","Overheat", 
+        "Hidden Power Ice", 
+        "Energy Ball","Memento" 
+      ] 
+    },
+    "Special Attacker": { 
+      "level": 50, 
+      "evs": { 
+        "sa": "252", 
+        "sd": "4", 
+        "sp": "252" 
+      }, 
+      "nature": "Modest", 
+      "ability": "Infiltrator", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Fire Blast", 
+        "Shadow Ball", 
+        "Energy Ball", 
+        "Hidden Power Ice" 
+      ] 
+    } 
+  },
+  "Chansey" { 
+    "": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "44", 
+        "df": "252", 
+        "sd": "212" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Natural Cure", 
+      "item": "Eviolite", 
+      "moves": [ 
+        "Seismic Toss", 
+        "Toxic", 
+        "Soft-Boiled", 
+        "Stealth Rock"
+      ] 
+    } 
+  },
+  "Charizard" { 
+    "Dragon Dance Mega X": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Blaze", 
+      "item": "Charizardite X", 
+      "moves": [ 
+        "Dragon Claw", 
+        "Flare Blitz", 
+        "Outrage","Dragon Claw", 
+        "Earthquake"
+      ] 
+    },
+    "Swords Dance Mega X": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Blaze", 
+      "item": "Charizardite X", 
+      "moves": [ 
+        "Dragon Claw", 
+        "Flame Charge", 
+        "Outrage", 
+        "Flare Blitz" 
+      ] 
+    },
+    "Bulky Mega X": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "204", 
+        "df": "164", 
+        "sp": "140" 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Blaze", 
+      "item": "Charizardite X", 
+      "moves": [ 
+        "Will-O-Wisp", 
+        "Roost", 
+        "Flame Charge", 
+        "Dragon Claw" 
+      ] 
+    },
+    "Offensive Mega Y": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Blaze", 
+      "item": "Charizardite Y", 
+      "moves": [ 
+        "Fire Blast" 
+        "Solar Beam", 
+        "Focus Blast", 
+        "Flame Charge" 
+      ] 
+    },
+    "Bulky Mega Y": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "116", 
+        "sa": "100", 
+        "sd": "4", 
+        "sp": "36" 
+      }, 
+      "nature": "Modest", 
+      "ability": "Blaze", 
+      "item": "Charizardite Y", 
+      "moves": [ 
+        "Flamethrower", 
+        "Overheat", 
+        "Hidden Power Ice", 
+        "Solar Beam" 
+      ] 
+    } 
+  },
+  "Clefable" { 
+    "Calm Mind + Minimize": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Unaware", 
+      "item": "Kee Berry", 
+      "moves": [ 
+        "Calm Mind", 
+        "Minimize", 
+        "Moonblast",
+        "Moonlight" 
+      ] 
+    },
+    "PhysDef Support": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Unaware", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Stealth Rock", 
+        "Thunder Wave", 
+        "Moonblast", 
+        "Moonlight" 
+      ] 
+    } 
+  },
 
-};
+  
+  };
