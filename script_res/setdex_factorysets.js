@@ -694,7 +694,7 @@ var SETDEX_FACTORYSETS={
         "sa": "4", 
         "sd": "4" 
       }, 
-	  "ivs": {
+      "ivs": {
 	"sp": "0"
       },
       "nature": "Relaxed", 
@@ -741,7 +741,7 @@ var SETDEX_FACTORYSETS={
       "item": "Rocky Helmet", 
       "moves": [ 
         "Leech Life", 
-        "Roost", 
+        "Lunge", 
         "Earthquake", 
         "Ice Punch" 
       ] 
@@ -818,7 +818,7 @@ var SETDEX_FACTORYSETS={
         "Protect" 
       ] 
     },
-    "Specially Defensive": { 
+    "SpDef": { 
       "level": 50, 
       "evs": { 
         "hp": "244", 
@@ -837,7 +837,7 @@ var SETDEX_FACTORYSETS={
         "Protect" 
       ] 
     },
-    "Fast SubSeed": { 
+    "Fast Seeds": { 
       "level": 50, 
       "evs": { 
         "hp": "252", 
@@ -871,7 +871,7 @@ var SETDEX_FACTORYSETS={
         "Earthquake" 
       ] 
     },
-    "Special AV": { 
+    "Special Vest": { 
       "level": 50, 
       "evs": { 
         "hp": "252", 
@@ -888,7 +888,7 @@ var SETDEX_FACTORYSETS={
         "Air Slash" 
       ] 
     },
-    "Physical AV": { 
+    "Physical Vest": { 
       "level": 50, 
       "evs": { 
         "hp": "252", 
@@ -982,7 +982,7 @@ var SETDEX_FACTORYSETS={
         "Energy Ball","Memento" 
       ] 
     },
-    "Special Attacker": { 
+    "Fast Sash": { 
       "level": 50, 
       "evs": { 
         "sa": "252", 
@@ -1001,7 +1001,7 @@ var SETDEX_FACTORYSETS={
     } 
   },
   "Chansey" { 
-    "": { 
+    "de blob": { 
       "level": 50, 
       "evs": { 
         "hp": "44", 
@@ -1123,7 +1123,7 @@ var SETDEX_FACTORYSETS={
         "Calm Mind", 
         "Minimize", 
         "Moonblast",
-        "Moonlight" 
+        "Stored Power" 
       ] 
     },
     "PhysDef Support": { 
@@ -1144,6 +1144,373 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
+  "Cloyster" { 
+    "Shell Smash": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Skill Link", 
+      "item": "Focus Sash", 
+      "moves": [  
+        "Icicle Spear", 
+        "Rock Blast", 
+        "Ice Shard",
+	"Razor Shell"
+      ] 
+    } 
+  },
+  "Conkeldurr" { 
+    "Assault Vest (Iron Fist)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "156",
+        "at": "252",
+        "sd": "100"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Iron Fist", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Drain Punch", 
+        "Mach Punch", 
+        "Ice Punch", 
+        "Knock Off" 
+      ] 
+    }, 
+    "Assault Vest (Guts)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "156",
+        "at": "252",
+        "sd": "100"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Guts", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Mach Punch", 
+        "Drain Punch", 
+        "Knock Off", 
+        "Poison Jab" 
+      ] 
+    },
+    "Life Orb": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "84",
+        "at": "252",
+        "sd": "172"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Sheer Force", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Drain Punch", 
+        "Mach Punch", 
+        "Ice Punch", 
+        "Thunder Punch" 
+      ] 
+    } 
+  },
+  "Cresselia" { 
+    "Rocky Helmet": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      }, 
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Bold", 
+      "ability": "Levitate", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Moonlight", 
+        "Ice Beam", 
+        "Toxic", 
+        "Psychic" 
+      ] 
+    }, 
+    "Mago Berry": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      }, 
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Bold", 
+      "ability": "Levitate", 
+      "item": "Mago Berry", 
+      "moves": [ 
+        "Moonlight", 
+        "Ice Beam", 
+        "Psychic", 
+        "Trick Room" 
+      ] 
+    }, 
+    "Calm Mind": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      }, 
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Bold", 
+      "ability": "Levitate", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Ice Beam", 
+        "Psychic", 
+        "Psyshock", 
+        "Moonblast" 
+      ] 
+    },
+    "Flame Orb": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      }, 
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Bold", 
+      "ability": "Levitate", 
+      "item": "Flame Orb", 
+      "moves": [ 
+        "Psycho Shift", 
+        "Ice Beam", 
+        "Moonblast", 
+        "Psychic"
+      ] 
+    } 
+  },
+  "Dragonite" { 
+    "Choice Band": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Multiscale", 
+      "item": "Choice Band", 
+      "moves": [ 
+        "Outrage", 
+        "Earthquake", 
+        "Extreme Speed", 
+        "Fire Punch" 
+      ] 
+    },
+    "Dragon Dance (Lum)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Multiscale", 
+      "item": "Lum Berry", 
+      "moves": [ 
+        "Outrage", 
+        "Earthquake", 
+        "Extreme Speed",
+	"Fire Punch"
+      ] 
+    }, 
+    "Dragon Dance (Z Fly)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Multiscale", 
+      "item": "Flynium Z", 
+      "moves": [ 
+        "Outrage", 
+        "Fly", 
+        "Earthquake",
+	"Extreme Speed" 
+      ] 
+    }, 
+    "Dragon Dance (Z Outrage)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Multiscale", 
+      "item": "Dragonium Z", 
+      "moves": [ 
+        "Outrage", 
+        "Extreme Speed", 
+        "Earthquake",
+	"Fire Punch" 
+      ] 
+    } 
+  },
+  "Eevee" { 
+    "Baton Pass": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "df": "4",
+        "se": "252"
+      }, 
+      "nature": "Timid", 
+      "ability": "Anticipation", 
+      "item": "Eevium Z", 
+      "moves": [ 
+        "Last Resort", 
+        "Baton Pass", 
+        "Substitute", 
+        "Stored Power" 
+      ] 
+    } 
+  },
+  "Entei" { 
+    "Assault Vest": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "132",
+        "at": "252",
+        "df": "52",
+        "sd": "52",
+        "se": "20"
+      }, 
+      "nature": "Adamant", 
+      "ability": "Pressure", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Sacred Fire", 
+        "Stone Edge", 
+        "Bulldoze", 
+        "Flame Charge" 
+      ] 
+    }, 
+    "Choice Band": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "se": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Pressure", 
+      "item": "Choice Band", 
+      "moves": [ 
+        "Sacred Fire", 
+        "Stone Edge", 
+        "Bulldoze", 
+        "Iron Head" 
+      ] 
+    }, 
+    "SubToxic": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "20",
+        "at": "228",
+        "df": "4",
+        "sd": "4",
+        "se": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Pressure", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Substitute", 
+        "Protect", 
+        "Toxic", 
+        "Sacred Fire" 
+      ] 
+    } 
+  },
+  "Espeon" { 
+    "Dual Screens": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "236",
+        "df": "44",
+        "sa": "4",
+        "sd": "4",
+        "se": "220"
+      }, 
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid", 
+      "ability": "Magic Bounce", 
+      "item": "Light Clay", 
+      "moves": [ 
+        "Yawn", 
+        "Psychic", 
+        "Reflect", 
+        "Light Screen" 
+      ] 
+    }, 
+    "Z Future Sight": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "84",
+        "sa": "196",
+        "se": "228"
+      }, 
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid", 
+      "ability": "Magic Bounce", 
+      "item": "Psychium Z", 
+      "moves": [ 
+        "Psychic", 
+        "Future Sight", 
+        "Calm Mind", 
+        "Dazzling Gleam" 
+      ] 
+    }, 
+    "Kee Berry Booster": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "196",
+        "df": "36",
+        "sa": "4",
+        "sd": "52",
+        "se": "220"
+      }, 
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Timid", 
+      "ability": "Magic Bounce", 
+      "item": "Kee Berry", 
+      "moves": [ 
+        "Psychic",
+	"Psyshock",
+	"Stored Power", 
+        "Dazzling Gleam" 
+      ] 
+    } 
+  },
 
-  
-  };
+
+
+};
