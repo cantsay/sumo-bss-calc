@@ -1,5 +1,5 @@
 var SETDEX_XYBSPOT={
-	"Aegislash": {
+  "Aegislash": {
     "THE CRUMBLER (Special Attacker)": {
       "level": 50,
       "evs": {
