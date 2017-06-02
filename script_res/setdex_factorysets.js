@@ -3379,10 +3379,10 @@ var SETDEX_FACTORYSETS={
       "ability": "Pure Power", 
       "item": "Medichamite", 
       "moves": [ 
-        "Fake Out","Bullet Punch", 
+        "Fake Out",
         "High Jump Kick", 
         "Ice Punch", 
-        "Thunder Punch","Zen Headbutt" 
+        "Zen Headbutt" 
       ] 
     } 
   },
