@@ -1,5 +1,5 @@
 var SETDEX_FACTORYSETS={
-  "Aegislash" { 
+  "Aegislash": { 
     "Weakness Policy": { 
       "level": 50, 
       "evs": { 
@@ -112,7 +112,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Alakazam" { 
+  "Alakazam": { 
     "SubDisable": { 
       "level": 50, 
       "evs": { 
@@ -154,7 +154,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Amoonguss" { 
+  "Amoonguss": { 
     "Leftovers": { 
       "level": 50, 
       "evs": { 
@@ -196,7 +196,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Araquanid" { 
+  "Araquanid": { 
     "Waterium Z": { 
       "level": 50, 
       "evs": { 
@@ -268,7 +268,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Arcanine" { 
+  "Arcanine": { 
     "Firium Z": { 
       "level": 50, 
       "evs": { 
@@ -307,7 +307,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Azumarill" { 
+  "Azumarill": { 
     "Belly Drum": { 
       "level": 50, 
       "evs": { 
@@ -385,7 +385,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Beedrill" { 
+  "Beedrill": { 
     "Mega": { 
       "level": 50, 
       "evs": { 
@@ -404,7 +404,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Blastoise" { 
+  "Blastoise": { 
     "Mega Turtle": { 
       "level": 50, 
       "evs": { 
@@ -426,7 +426,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Blaziken" { 
+  "Blaziken": { 
     "Physical Life Orb": { 
       "level": 50, 
       "evs": { 
@@ -530,7 +530,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Blissey" { 
+  "Blissey": { 
     "PhysDef": { 
       "level": 50, 
       "evs": { 
@@ -592,7 +592,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Breloom" { 
+  "Breloom": { 
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
@@ -662,7 +662,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Bronzong" { 
+  "Bronzong": { 
     "SpDef Trick Room": { 
       "level": 50, 
       "evs": { 
@@ -728,7 +728,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Buzzwole" { 
+  "Buzzwole": { 
     "PhysDef": { 
       "level": 50, 
       "evs": { 
@@ -798,7 +798,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Celesteela" { 
+  "Celesteela": { 
     "PhysDef": { 
       "level": 50, 
       "evs": { 
@@ -944,7 +944,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Chandelure" { 
+  "Chandelure": { 
     "Trick Room": { 
       "level": 50, 
       "evs": { 
@@ -1000,7 +1000,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Chansey" { 
+  "Chansey": { 
     "de blob": { 
       "level": 50, 
       "evs": { 
@@ -1019,7 +1019,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Charizard" { 
+  "Charizard": { 
     "Dragon Dance Mega X": { 
       "level": 50, 
       "evs": { 
@@ -1108,7 +1108,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Clefable" { 
+  "Clefable": { 
     "Calm Mind + Minimize": { 
       "level": 50, 
       "evs": { 
@@ -1144,7 +1144,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Cloyster" { 
+  "Cloyster": { 
     "Shell Smash": { 
       "level": 50, 
       "evs": { 
@@ -1163,7 +1163,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Conkeldurr" { 
+  "Conkeldurr": { 
     "Assault Vest (Iron Fist)": { 
       "level": 50, 
       "evs": { 
@@ -1216,7 +1216,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Cresselia" { 
+  "Cresselia": { 
     "Rocky Helmet": { 
       "level": 50, 
       "evs": { 
@@ -1298,7 +1298,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Dragonite" { 
+  "Dragonite": { 
     "Choice Band": { 
       "level": 50, 
       "evs": { 
@@ -1368,7 +1368,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Eevee" { 
+  "Eevee": { 
     "Baton Pass": { 
       "level": 50, 
       "evs": { 
@@ -1387,7 +1387,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Entei" { 
+  "Entei": { 
     "Assault Vest": { 
       "level": 50, 
       "evs": { 
@@ -1444,7 +1444,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Espeon" { 
+  "Espeon": { 
     "Dual Screens": { 
       "level": 50, 
       "evs": { 
@@ -1510,7 +1510,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Excadrill" { 
+  "Excadrill": { 
     "Choice Scarf": { 
       "level": 50, 
       "evs": { 
@@ -1582,7 +1582,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Ferrothorn" { 
+  "Ferrothorn": { 
     "PhysDef": { 
       "level": 50, 
       "evs": { 
@@ -1635,7 +1635,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Garchomp" { 
+  "Garchomp": { 
     "Scarf": { 
       "level": 50, 
       "evs": { 
@@ -1739,7 +1739,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Gengar" { 
+  "Gengar": { 
     "Bulky Mega": { 
       "level": 50, 
       "evs": { 
@@ -1823,7 +1823,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Gigalith" { 
+  "Gigalith": { 
     "PhysDef Sand Setter": { 
       "level": 50, 
       "evs": { 
@@ -1842,7 +1842,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Glalie" { 
+  "Glalie": { 
     "Ice STAB + Sheer Cold/Toxic": { 
       "level": 50, 
       "evs": { 
@@ -1914,7 +1914,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Gliscor" { 
+  "Gliscor": { 
     "Guillotine / Toxic": { 
       "level": 50, 
       "evs": { 
@@ -1971,7 +1971,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Golisopod" { 
+  "Golisopod": { 
     "Assault Vest": { 
       "level": 50, 
       "evs": { 
@@ -2024,7 +2024,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Greninja" { 
+  "Greninja": { 
     "Mixed Life Orb": { 
       "level": 50, 
       "evs": { 
@@ -2130,7 +2130,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Gyarados" { 
+  "Gyarados": { 
     "Defensive": { 
       "level": 50, 
       "evs": { 
@@ -2217,7 +2217,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Heatran" { 
+  "Heatran": { 
     "Fast Toxic/Wisp": { 
       "level": 50, 
       "evs": { 
@@ -2340,7 +2340,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Heracross" { 
+  "Heracross": { 
     "Fast Mega": { 
       "level": 50, 
       "evs": { 
@@ -2393,7 +2393,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Hippowdon" { 
+  "Hippowdon": { 
     "PhysDef Helmet": { 
       "level": 50, 
       "evs": { 
@@ -2463,7 +2463,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Hydreigon" { 
+  "Hydreigon": { 
     "Scarf": { 
       "level": 50, 
       "evs": { 
@@ -2535,7 +2535,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Jellicent" { 
+  "Jellicent": { 
     "Royal Jelly": { 
       "level": 50, 
       "evs": { 
@@ -2557,7 +2557,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Kangaskhan" { 
+  "Kangaskhan": { 
     "All-Out Attacker": { 
       "level": 50, 
       "evs": { 
@@ -2614,7 +2614,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Kartana" { 
+  "Kartana": { 
     "Choice Scarf": { 
       "level": 50, 
       "evs": { 
@@ -2670,7 +2670,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Kingdra" { 
+  "Kingdra": { 
     "Rain Sweeper": { 
       "level": 50, 
       "evs": { 
@@ -2706,7 +2706,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Landorus-T" { 
+  "Landorus-T": { 
     "SpDef Iapapa": { 
       "level": 50, 
       "evs": { 
@@ -2814,7 +2814,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Lapras" { 
+  "Lapras": { 
     "IT'S A ONE-HIT KO!": { 
       "level": 50, 
       "evs": { 
@@ -2833,7 +2833,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Latias" { 
+  "Latias": { 
     "Rocky Helmet": { 
       "level": 50, 
       "evs": { 
@@ -2877,7 +2877,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Latios" { 
+  "Latios": { 
     "Choice Specs": { 
       "level": 50, 
       "evs": { 
@@ -2976,7 +2976,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Lucario" { 
+  "Lucario": { 
     "Physical": { 
       "level": 50, 
       "evs": { 
@@ -3046,7 +3046,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Magnezone" { 
+  "Magnezone": { 
     "Assault Vest (Analytic)": { 
       "level": 50, 
       "evs": { 
@@ -3150,7 +3150,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Mamoswine" { 
+  "Mamoswine": { 
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
@@ -3241,7 +3241,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Mandibuzz" { 
+  "Mandibuzz": { 
     "Bulky Birb": { 
       "level": 50, 
       "evs": { 
@@ -3260,7 +3260,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Marowak-Alola" { 
+  "Marowak-Alola": { 
     "Will-O-Wisp Offense": { 
       "level": 50, 
       "evs": { 
@@ -3313,7 +3313,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Mawile" { 
+  "Mawile": { 
     "Offensive Swords Dance": { 
       "level": 50, 
       "evs": { 
@@ -3366,7 +3366,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Medicham" { 
+  "Medicham": { 
     "I Dream Of Jeannie": { 
       "level": 50, 
       "evs": { 
@@ -3385,7 +3385,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Metagross" { 
+  "Metagross": { 
     "All-Out Attacker": { 
       "level": 50, 
       "evs": { 
@@ -3438,7 +3438,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },	    
-  "Milotic" { 
+  "Milotic": { 
     "Flame Orb + Marvel Scale": { 
       "level": 50, 
       "evs": { 
@@ -3476,7 +3476,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Mimikyu" { 
+  "Mimikyu": { 
     "Swords Dance Z Move": { 
       "level": 50, 
       "evs": { 
@@ -3567,7 +3567,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Muk-Alola" { 
+  "Muk-Alola": { 
     "Assault Vest": { 
       "level": 50, 
       "evs": { 
@@ -3620,7 +3620,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Nihilego" { 
+  "Nihilego": { 
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
@@ -3656,7 +3656,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Ninetales" { 
+  "Ninetales": { 
     "(/☼.☼)/ PRAISE THE SUN \(☼.☼\)": { 
       "level": 50, 
       "evs": { 
@@ -3675,7 +3675,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Ninetales-Alola" { 
+  "Ninetales-Alola": { 
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
@@ -3728,7 +3728,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Pelipper" { 
+  "Pelipper": { 
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
@@ -3781,7 +3781,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Pheromosa" { 
+  "Pheromosa": { 
     "Choice Scarf": { 
       "level": 50, 
       "evs": { 
@@ -3870,7 +3870,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Pidgeot" { 
+  "Pidgeot": { 
     "BIRD JESUS": { 
       "level": 50, 
       "evs": { 
@@ -3889,7 +3889,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Piloswine" { 
+  "Piloswine": { 
     "t h i c c  p i g": { 
       "level": 50, 
       "evs": { 
@@ -3908,7 +3908,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Pinsir" { 
+  "Pinsir": { 
     ":angerychem:": { 
       "level": 50, 
       "evs": { 
@@ -3927,7 +3927,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Politoed" { 
+  "Politoed": { 
     "PhysDef Rain Setter": { 
       "level": 50, 
       "evs": { 
@@ -3963,7 +3963,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Porygon-Z" { 
+  "Porygon-Z": { 
     "Electric Z Conversion": { 
       "level": 50, 
       "evs": { 
@@ -4033,7 +4033,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Porygon2" { 
+  "Porygon2": { 
     "Mixed Analytic": { 
       "level": 50, 
       "evs": { 
@@ -4122,7 +4122,7 @@ var SETDEX_FACTORYSETS={
       ] 
     }
   },	
-  "Primarina" { 
+  "Primarina": { 
     "Primarium Z": { 
       "level": 50, 
       "evs": { 
@@ -4158,7 +4158,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Pyukumuku" { 
+  "Pyukumuku": { 
     "PhysDef Sitrus": { 
       "level": 50, 
       "evs": { 
@@ -4228,7 +4228,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Raikou" { 
+  "Raikou": { 
     "Choice Specs": { 
       "level": 50, 
       "evs": { 
@@ -4281,7 +4281,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Reuniclus" { 
+  "Reuniclus": { 
     "Life Orb CM": { 
       "level": 50, 
       "evs": { 
@@ -4343,7 +4343,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Rhyperior" { 
+  "Rhyperior": { 
     "Z Rock Wrecker": { 
       "level": 50, 
       "evs": { 
@@ -4396,7 +4396,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Rotom-H" { 
+  "Rotom-H": { 
     "Specs": { 
       "level": 50, 
       "evs": { 
@@ -4535,7 +4535,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Rotom-W" { 
+  "Rotom-W": { 
     "Specs": { 
       "level": 50, 
       "evs": { 
@@ -4622,7 +4622,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Salamence" { 
+  "Salamence": { 
     "Offensive DD": { 
       "level": 50, 
       "evs": { 
@@ -4731,7 +4731,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Scizor" { 
+  "Scizor": { 
     "Offensive Mega": { 
       "level": 50, 
       "evs": { 
@@ -4803,7 +4803,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Serperior" { 
+  "Serperior": { 
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
@@ -4856,7 +4856,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Sharpedo" { 
+  "Sharpedo": { 
     "Mega Shark": { 
       "level": 50, 
       "evs": { 
@@ -4892,7 +4892,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Shuckle" { 
+  "Shuckle": { 
     "s t i c c y   w e b s": { 
       "level": 50, 
       "evs": { 
@@ -4911,7 +4911,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Silvally" { 
+  "Silvally": { 
     "Z Explosion": { 
       "level": 50, 
       "evs": { 
@@ -4947,7 +4947,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Silvally-Electric" { 
+  "Silvally-Electric": { 
     "The Theorymon Special": { 
       "level": 50, 
       "evs": { 
@@ -4966,7 +4966,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Silvally-Fighting" { 
+  "Silvally-Fighting": { 
     "UB04 Slayer": { 
       "level": 50, 
       "evs": { 
@@ -4985,7 +4985,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Silvally-Ground" { 
+  "Silvally-Ground": { 
     "UB01 Slayer": { 
       "level": 50, 
       "evs": { 
@@ -5004,7 +5004,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Silvally-Steel" { 
+  "Silvally-Steel": { 
     "Parting Shot Lead": { 
       "level": 50, 
       "evs": { 
@@ -5023,7 +5023,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Skarmory" { 
+  "Skarmory": { 
     "Rocky Helmet": { 
       "level": 50, 
       "evs": { 
@@ -5076,7 +5076,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Slowbro" { 
+  "Slowbro": { 
     "Calm Mind Mega": { 
       "level": 50, 
       "evs": { 
@@ -5154,7 +5154,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Snorlax" { 
+  "Snorlax": { 
     "Whirlwind": { 
       "level": 50, 
       "evs": { 
@@ -5207,7 +5207,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Steelix" { 
+  "Steelix": { 
     "Steelicks": { 
       "level": 50, 
       "evs": { 
@@ -5226,7 +5226,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Suicune" { 
+  "Suicune": { 
     "ChestoResto": { 
       "level": 50, 
       "evs": { 
@@ -5298,7 +5298,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Tapu Bulu" { 
+  "Tapu Bulu": { 
     "Assault Vest": { 
       "level": 50, 
       "evs": { 
@@ -5368,7 +5368,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Tapu Fini" { 
+  "Tapu Fini": { 
     "Aguav Berry": { 
       "level": 50, 
       "evs": { 
@@ -5446,7 +5446,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Tapu Koko" { 
+  "Tapu Koko": { 
     "Life Orb": { 
       "level": 50, 
       "evs": { 
@@ -5550,7 +5550,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Tapu Lele" { 
+  "Tapu Lele": { 
     "Scarf": { 
       "level": 50, 
       "evs": { 
@@ -5620,7 +5620,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Terrakion" { 
+  "Terrakion": { 
     "Focus Sash": { 
       "level": 50, 
       "evs": { 
@@ -5635,7 +5635,7 @@ var SETDEX_FACTORYSETS={
         "Close Combat", 
         "Rock Tomb",  
         "Stone Edge",
-`	"Quick Attack"
+	"Quick Attack"
       ] 
     },
     "Rockium Z": { 
@@ -5656,7 +5656,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Thundurus" { 
+  "Thundurus": { 
     "Nasty Plot": { 
       "level": 50, 
       "evs": { 
@@ -5731,7 +5731,7 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
-  "Thundurus-T" { 
+  "Thundurus-T": { 
     "Specs": { 
       "level": 50, 
       "evs": { 
@@ -5783,5 +5783,5 @@ var SETDEX_FACTORYSETS={
 	"Sludge Wave"
       ] 
     } 
-  },
+  }
 };
