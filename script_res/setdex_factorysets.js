@@ -6451,7 +6451,7 @@ var SETDEX_FACTORYSETS={
       "ability": "Static", 
       "item": "Rocky Helmet", 
       "moves": [ 
-        "Volt Switch"
+        "Volt Switch",
         "Discharge", 
         "Heat Wave", 
         "Hidden Power Ice" 
