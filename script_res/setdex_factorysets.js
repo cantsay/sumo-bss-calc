@@ -3547,7 +3547,7 @@ var SETDEX_FACTORYSETS={
         "Shadow Sneak" 
       ] 
     },
-    "Z-Curse": { 
+    "Z Curse": { 
       "level": 50, 
       "evs": { 
         "hp": "244", 
@@ -3657,7 +3657,7 @@ var SETDEX_FACTORYSETS={
     } 
   },
   "Ninetales": { 
-    "(/☼.☼)/ PRAISE THE SUN \(☼.☼\)": { 
+    "/☼.☼)/ PRAISE THE SUN \\(☼.☼\\": { 
       "level": 50, 
       "evs": { 
         "hp": "4", 
@@ -5635,7 +5635,7 @@ var SETDEX_FACTORYSETS={
         "Close Combat", 
         "Rock Tomb",  
         "Stone Edge",
-	"Quick Attack"
+		"Quick Attack"
       ] 
     },
     "Rockium Z": { 
@@ -5783,5 +5783,696 @@ var SETDEX_FACTORYSETS={
 	"Sludge Wave"
       ] 
     } 
-  }
+  },
+  "Togekiss": { 
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Serene Grace", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Air Slash", 
+        "Fire Blast", 
+        "Aura Sphere", 
+        "Ancient Power" 
+      ] 
+    },
+    "Z Yawn": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Serene Grace", 
+      "item": "Normalium Z", 
+      "moves": [ 
+        "Yawn", 
+        "Air Slash", 
+        "Nasty Plot", 
+        "Flamethrower" 
+      ] 
+    },
+    "Bulky Sitrus": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Serene Grace", 
+      "item": "Sitrus Berry", 
+      "moves": [ 
+        "Thunder Wave", 
+        "Roost", 
+        "Air Slash", 
+        "Flamethrower" 
+      ] 
+    }, 
+    "Z Fire Blast": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Serene Grace", 
+      "item": "Firium Z", 
+      "moves": [ 
+        "Fire Blast", 
+        "Nasty Plot", 
+        "Air Slash", 
+        "Thunder Wave" 
+      ] 
+    } 
+  },
+  "Toxapex": { 
+    "PhysDef": { // Rocky Helmet set is identical bar item so I combined it with this
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "244", 
+        "sd": "12" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Regenerator", 
+      "item": "Black Sludge", 
+      "moves": [ 
+        "Scald", 
+        "Toxic", 
+        "Recover", 
+        "Haze" 
+      ] 
+    }, 
+    "SpDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "4", 
+        "sd": "252" 
+      }, 
+      "nature": "Calm", 
+      "ability": "Regenerator", 
+      "item": "Black Sludge", 
+      "moves": [ 
+        "Scald", 
+        "Toxic",
+        "Recover", 
+        "Haze" 
+      ] 
+    } 
+  },
+  "Tyranitar": { 
+    "PhysDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Sand Stream", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Flamethrower", 
+        "Ice Beam", 
+        "Foul Play", 
+        "Fire Blast" 
+      ] 
+    },
+    "Z Stone Edge": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "172", 
+        "at": "148", 
+        "df": "84", 
+        "sa": "100", 
+        "sp": "4", 
+      }, 
+      "nature": "Brave", 
+      "ability": "Sand Stream", 
+      "item": "Rockium Z", 
+      "moves": [ 
+        "Stealth Rock", 
+        "Stone Edge", 
+        "Fire Blast", 
+        "Ice Beam" 
+      ] 
+    },
+    "Lum Berry Support": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "44", 
+        "df": "4", 
+        "sd": "204", 
+        "sp": "4" 
+      }, 
+      "nature": "Careful", 
+      "ability": "Sand Stream", 
+      "item": "Lum Berry", 
+      "moves": [ 
+        "Foul Play", 
+        "Pursuit", 
+        "Rock Tomb", 
+        "Rock Slide" 
+      ] 
+    }, 
+    "Mixed Bulky Expert Belt": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "4", 
+        "df": "100", 
+        "sa": "20", 
+        "sd": "132" 
+      }, 
+      "nature": "Sassy", 
+      "ability": "Sand Stream", 
+      "item": "Expert Belt", 
+      "moves": [ 
+        "Rock Tomb", 
+        "Ice Beam", 
+        "Fire Blast", 
+        "Stealth Rock" 
+      ] 
+    },
+    "Dragon Dance": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Sand Stream", 
+      "item": "Lum Berry", 
+      "moves": [ 
+        "Earthquake", 
+        "Crunch", 
+        "Stone Edge", 
+        "Ice Punch" 
+      ] 
+    },
+    "Choice Band": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Sand Stream", 
+      "item": "Choice Band", 
+      "moves": [ 
+        "Crunch", 
+        "Stone Edge", 
+        "Ice Punch", 
+        "Superpower" 
+      ] 
+    },
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "at": "132", 
+        "sa": "180", 
+        "sp": "196" 
+      }, 
+      "nature": "Naive", 
+      "ability": "Sand Stream", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Stone Edge", 
+        "Ice Beam", 
+        "Fire Blast", 
+        "Crunch"
+      ] 
+    },
+    "Assault Vest": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "df": "4", 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Sand Stream", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Crunch", 
+        "Stone Edge", 
+        "Ice Punch", 
+        "Fire Punch" 
+      ] 
+    } 
+  },
+  "Umbreon": { 
+    "Z Celebrate": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "156", 
+        "sp": "100" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Inner Focus", 
+      "item": "Normalium Z", 
+      "moves": [ 
+        "Celebrate", 
+        "Baton Pass", 
+        "Wish", 
+        "Foul Play" 
+      ] 
+    }, 
+    "PhysDef": { // functionally identical to Rocky Helmet
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4", 
+      }, 
+      "nature": "Bold", 
+      "ability": "Inner Focus", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Foul Play", 
+        "Toxic", 
+        "Wish", 
+        "Protect" 
+      ] 
+    },
+  },
+  "Venusaur": { 
+    "PhysDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Chlorophyll", 
+      "item": "Venusaurite", 
+      "moves": [ 
+        "Sludge Bomb", 
+        "Giga Drain",
+        "Hidden Power Fire",  
+        "Leech Seed"
+      ] 
+    },
+    "Bulky Offensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "sa": "252", 
+        "sd": "4", 
+      }, 
+      "nature": "Modest", 
+      "ability": "Chlorophyll", 
+      "item": "Venusaurite", 
+      "moves": [ 
+        "Sludge Bomb", 
+        "Giga Drain", 
+        "Synthesis", 
+        "Hidden Power Fire"
+      ] 
+    }, 
+    "SpDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "sd": "252", 
+        "sp": "4", 
+      }, 
+      "nature": "Calm", 
+      "ability": "Chlorophyll", 
+      "item": "Venusaurite", 
+      "moves": [ 
+        "Sludge Bomb", 
+        "Leech Seed", 
+        "Synthesis", 
+        "Giga Drain" 
+      ] 
+    }, 
+    "Fast Offensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "140", 
+        "df": "4", 
+        "sa": "252", 
+        "sd": "4", 
+        "sp": "108", 
+      }, 
+      "nature": "Modest", 
+      "ability": "Chlorophyll", 
+      "item": "Venusaurite", 
+      "moves": [ 
+        "Sludge Bomb", 
+        "Giga Drain", 
+        "Hidden Power Fire", 
+        "Synthesis" 
+      ] 
+    } 
+  },
+  "Volcarona": { 
+    "Z Hurricane": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Modest", 
+      "ability": "Flame Body", 
+      "item": "Flyinium Z", 
+      "moves": [ 
+        "Quiver Dance", 
+        "Hurricane", 
+        "Fire Blast", 
+        "Hidden Power Ground" 
+      ] 
+    },
+    "Z Bug Buzz": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Timid", 
+      "ability": "Swarm", 
+      "item": "Buginium Z", 
+      "moves": [ 
+        "Quiver Dance", 
+        "Bug Buzz", 
+        "Substitute", 
+        "Fiery Dance" 
+      ] 
+    },
+    "Focus Sash": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Modest", 
+      "ability": "Flame Body", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Fiery Dance", 
+        "Fire Blast", 
+        "Giga Drain", 
+        "Hidden Power Ice" 
+      ] 
+    }, 
+    "Grassium Z": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Modest", 
+      "ability": "Flame Body", 
+      "item": "Grassium Z", 
+      "moves": [ 
+        "Giga Drain", 
+        "Solar Beam", 
+        "Fire Blast", 
+        "Hidden Power Ice" 
+      ] 
+    },
+    "Firium Z": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Modest", 
+      "ability": "Flame Body", 
+      "item": "Firium Z", 
+      "moves": [ 
+        "Quiver Dance", 
+        "Fire Blast","Overheat", 
+        "Giga Drain","Bug Buzz", 
+        "Hidden Power Ice" 
+      ] 
+    }, 
+    "Defensive Kee Berry": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "244", 
+        "df": "148", 
+        "sp": "116" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Flame Body", 
+      "item": "Kee Berry", 
+      "moves": [ 
+        "Flamethrower", 
+        "Fire Blast", 
+        "Roost", 
+        "Will-O-Wisp" 
+      ] 
+    },
+	"Z Hyper Beam": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Timid", 
+      "ability": "Flame Body", 
+      "item": "Normalium Z", 
+      "moves": [ 
+        "Fire Blast", 
+        "Hyper Beam", 
+        "Fiery Dance", 
+        "Bug Buzz" 
+      ] 
+    } 
+  },
+  "Weavile": { 
+    "Life Orb": { 
+      "level": 50, 
+      "evs": { 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252" 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Pressure", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Knock Off", 
+        "Low Kick", 
+        "Ice Shard", 
+        "Fake Out" 
+      ] 
+    }, 
+    "Focus Sash": { 
+      "level": 50, 
+      "evs": { 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Pressure", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Knock Off", 
+        "Low Kick", 
+        "Ice Shard", 
+        "Icicle Crash" 
+      ] 
+    } 
+  },
+  "Whimsicott": { 
+    "SubSeed": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4" 
+      }, 
+      "nature": "Bold", 
+      "ability": "Prankster", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Leech Seed", 
+        "Substitute", 
+        "Encore", 
+        "Moonblast" 
+      ] 
+    },
+    "Focus Sash": { 
+      "level": 50, 
+      "evs": { 
+        "df": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Prankster", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Charm", 
+        "Light Screen", 
+        "Memento",
+        "Moonblast" 
+      ] 
+    },
+    "Z Memento": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Prankster", 
+      "item": "Darkinium Z", 
+      "moves": [ 
+        "Memento", 
+        "Encore", 
+        "Moonblast", 
+        "Leech Seed" 
+      ] 
+    },
+  },
+  "Xurkitree": { 
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Thunderbolt", 
+        "Hidden Power Ice", 
+        "Energy Ball", 
+        "Volt Switch" 
+      ] 
+    },
+    "Z Hypnosis": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Psychium Z", 
+      "moves": [ 
+        "Hypnosis", 
+        "Energy Ball", 
+        "Thunderbolt", 
+        "Hidden Power Ice" 
+      ] 
+    },
+    "Z Rain Dance": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Timid", 
+      "ability": "Drizzle", 
+      "item": "Waterium Z", 
+      "moves": [ 
+        "Energy Ball", 
+        "Thunder", 
+        "Hidden Power Water", 
+        "Dazzling Gleam" 
+      ] 
+    },
+    "Electrium Z": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Modest", 
+      "ability": "Beast Boost", 
+      "item": "Electrium Z", 
+      "moves": [ 
+        "Thunder", 
+        "Hidden Power Ice", 
+        "Energy Ball", 
+        "Volt Switch" 
+      ] 
+    },
+    "Shuca Berry": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Modest", 
+      "ability": "Beast Boost", 
+      "item": "Shuca Berry", 
+      "moves": [ 
+        "Thunderbolt", 
+        "Hidden Power Ice", 
+        "Energy Ball", 
+        "Volt Switch" 
+      ] 
+    } 
+  },
+  "Zapdos": { 
+    "PhysDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4", 
+      }, 
+      "nature": "Bold", 
+      "ability": "Static", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Volt Switch"
+        "Discharge", 
+        "Heat Wave", 
+        "Hidden Power Ice" 
+      ] 
+    },
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "df": "4", 
+        "sa": "252", 
+        "sp": "252" 
+      }, 
+      "nature": "Timid", 
+      "ability": "Static", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Thunderbolt", 
+        "Volt Switch", 
+        "Heat Wave", 
+        "Hidden Power Ice" 
+      ] 
+    } 
+  }  
 };
