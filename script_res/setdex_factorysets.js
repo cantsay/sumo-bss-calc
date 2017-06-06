@@ -2006,7 +2006,7 @@ var SETDEX_FACTORYSETS={
         "Sucker Punch" 
       ] 
     }, 
-    "Golisopod": { 
+    "Choice Band": { 
       "level": 50, 
       "evs": { 
         "hp": "244", 
