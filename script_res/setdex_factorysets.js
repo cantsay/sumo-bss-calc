@@ -5378,7 +5378,7 @@ var SETDEX_FACTORYSETS={
         "sd": "20", 
         "sp": "12"
       }, 
-      "nature": "-", 
+      "nature": "Bold", 
       "ability": "Misty Surge", 
       "item": "Aguav Berry", 
       "moves": [ 
