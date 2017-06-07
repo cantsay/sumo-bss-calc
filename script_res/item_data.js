@@ -177,6 +177,10 @@ ITEMS_XY.splice(ITEMS_XY.indexOf('Soul Dew'), 1);
 
 var ITEMS_SM = ITEMS_XY.concat([
     'Figy Berry',
+    'Iapapa Berry',
+    'Wiki Berry',
+    'Aguav Berry',
+    'Mago Berry',
     'Bug Memory',
     'Dark Memory',
     'Dragon Memory',
