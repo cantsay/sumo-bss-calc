@@ -1,6 +1,6 @@
 function getKOChanceText(damage, move, defender, field, isBadDreams) {
     if (isNaN(damage[0])) {
-       return 'something broke; please tell squirrelboy1225';
+       return 'something broke; please tell cant say or LegoFigure';
     }
     if (damage[damage.length-1] === 0) {
         if (field.weather === "Harsh Sun" && move.type === "Water") {
