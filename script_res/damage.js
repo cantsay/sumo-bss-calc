@@ -423,12 +423,12 @@ function getDamageResult(attacker, defender, move, field) {
     
     if ((attacker.item === "Thick Club" && (attacker.name === "Cubone" || attacker.name === "Marowak" || attacker.name === "Marowak-Alola") && move.category === "Physical") ||
             (attacker.item === "Deep Sea Tooth" && attacker.name === "Clamperl" && move.category === "Special") ||
-            (attacker.item === "Light Ball" && attacker.name === "Pikachu")) {
+            (attacker.item === "Light Ball" && attacker.name === "Pikachu") && !move.isZ) {
         atMods.push(0x2000);
         description.attackerItem = attacker.item;
     } else if ((attacker.item === "Soul Dew" && (attacker.name === "Latios" || attacker.name === "Latias") && move.category === "Special") ||
             (attacker.item === "Choice Band" && move.category === "Physical") ||
-            (attacker.item === "Choice Specs" && move.category === "Special")) {
+            (attacker.item === "Choice Specs" && move.category === "Special") && !move.isZ) {
         atMods.push(0x1800);
         description.attackerItem = attacker.item;
     }
@@ -563,10 +563,10 @@ function getDamageResult(attacker, defender, move, field) {
         finalMods.push(0xC00);
         description.defenderAbility = defAbility;
     }
-    if (attacker.item === "Expert Belt" && typeEffectiveness > 1) {
+    if (attacker.item === "Expert Belt" && typeEffectiveness > 1 && !move.isZ) {
         finalMods.push(0x1333);
         description.attackerItem = attacker.item;
-    } else if (attacker.item === "Life Orb") {
+    } else if (attacker.item === "Life Orb" && !move.isZ) {
         finalMods.push(0x14CC);
         description.attackerItem = attacker.item;
     }
