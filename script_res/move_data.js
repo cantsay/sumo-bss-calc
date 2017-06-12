@@ -1985,7 +1985,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Special',
         type: 'Fire',
         bp: 150,
-        zp: 200
+        zp: 200,
+        isSpread: true
     },
     'Genesis Supernova': {
         category: 'Special',
