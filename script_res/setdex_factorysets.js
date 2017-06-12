@@ -1150,7 +1150,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Skill Link", 
@@ -1304,7 +1304,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Multiscale", 
@@ -1321,7 +1321,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Multiscale", 
@@ -1338,7 +1338,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Multiscale", 
@@ -1355,7 +1355,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Multiscale", 
@@ -1374,7 +1374,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "252",
         "df": "4",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Timid", 
       "ability": "Anticipation", 
@@ -1395,7 +1395,7 @@ var SETDEX_FACTORYSETS={
         "at": "252",
         "df": "52",
         "sd": "52",
-        "se": "20"
+        "sp": "20"
       }, 
       "nature": "Adamant", 
       "ability": "Pressure", 
@@ -1412,7 +1412,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "4",
         "at": "252",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Pressure", 
@@ -1431,7 +1431,7 @@ var SETDEX_FACTORYSETS={
         "at": "228",
         "df": "4",
         "sd": "4",
-        "se": "252"
+        "sp": "252"
       }, 
       "nature": "Jolly", 
       "ability": "Pressure", 
@@ -1452,7 +1452,7 @@ var SETDEX_FACTORYSETS={
         "df": "44",
         "sa": "4",
         "sd": "4",
-        "se": "220"
+        "sp": "220"
       }, 
       "ivs": {
         "at": "0"
@@ -1472,7 +1472,7 @@ var SETDEX_FACTORYSETS={
       "evs": { 
         "hp": "84",
         "sa": "196",
-        "se": "228"
+        "sp": "228"
       }, 
       "ivs": {
         "at": "0"
@@ -1494,7 +1494,7 @@ var SETDEX_FACTORYSETS={
         "df": "36",
         "sa": "4",
         "sd": "52",
-        "se": "220"
+        "sp": "220"
       }, 
       "ivs": {
         "at": "0"
