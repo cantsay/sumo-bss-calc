@@ -171,6 +171,40 @@ var SETDEX_SMBSPOT={
         "Poison Jab",
         "Crunch"
       ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Water Bubble",
+      "item": "Choice Band",
+      "moves": [
+        "Liquidation",
+        "Leech Life",
+        "Poison Jab",
+        "Crunch"
+      ]
+    },
+    "Waterium Z": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Water Bubble",
+      "item": "Waterium Z",
+      "moves": [
+        "Liquidation",
+        "Leech Life",
+        "Poison Jab",
+        "Crunch"
+      ]
     }
   },
   "Arcanine": {
@@ -269,7 +303,7 @@ var SETDEX_SMBSPOT={
         "Superpower"
       ]
     },
-    "All Out Attcker": {
+    "Assault Vest": {
       "level": 50,
       "evs": {
         "hp": "228",
@@ -387,6 +421,23 @@ var SETDEX_SMBSPOT={
     }
   },
   "Blaziken": {
+    "Physical Mega": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Speed Boost",
+      "item": "Blazekinite",
+      "moves": [
+        "Flare Blitz",
+        "High Jump Kick",
+        "Stone Edge",
+        "Thunder Punch"
+      ]
+    },
     "Mixed Attacker": {
       "level": 50,
       "evs": {
@@ -408,7 +459,7 @@ var SETDEX_SMBSPOT={
         "High Jump Kick"
       ]
     },
-    "Physical Attacker": {
+    "Physical Life Orb": {
       "level": 50,
       "evs": {
         "at": "252",
@@ -420,9 +471,43 @@ var SETDEX_SMBSPOT={
       "item": "Life Orb",
       "moves": [
         "Flare Blitz",
-        "Superpower",
+        "High Jump Kick",
         "Stone Edge",
         "Knock Off"
+      ]
+    },
+    "Special Z Move": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Speed Boost",
+      "item": "Firium Z",
+      "moves": [
+        "Fire Blast",
+        "Focus Blast",
+        "Solar Beam",
+        "Hidden Power Ice"
+      ]
+    },
+    "Physical Z Move": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Speed Boost",
+      "item": "Firium Z",
+      "moves": [
+        "Flare Blitz",
+        "High Jump Kick",
+        "Stone Edge",
+        "Thunder Punch"
       ]
     },
     "Baton Pass": {
@@ -444,7 +529,7 @@ var SETDEX_SMBSPOT={
     }
   },
   "Breloom": {
-    "Offensive Spore": {
+    "Focus Sash": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -1311,6 +1396,23 @@ var SETDEX_SMBSPOT={
         "Aqua Jet",
         "Sucker Punch"
       ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Emergency Exit",
+      "item": "Choice Band",
+      "moves": [
+        "First Impression",
+        "Liquidation",
+        "Aqua Jet",
+        "Poison Jab"
+      ]
     }
   },
   "Greninja": {
@@ -1383,7 +1485,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-    "Gyarados": {
+  "Gyarados": {
     "Mega Dragon Dance": {
       "level": 50,
       "evs": {
@@ -1418,7 +1520,7 @@ var SETDEX_SMBSPOT={
         "Aqua Tail"
       ]
     },
-    "Z-Bounce": {
+    "Z Bounce": {
       "level": 50,
       "evs": {
         "at": "252",
@@ -1435,7 +1537,8 @@ var SETDEX_SMBSPOT={
         "Ice Fang"
       ]
     }
-  },"Haxorus": {
+  },
+  "Haxorus": {
     "Choice Scarf": {
       "level": 50,
       "evs": {
@@ -1602,7 +1705,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-    "Hydreigon": {
+  "Hydreigon": {
     "Choice Specs": {
       "level": 50,
       "evs": {
@@ -1786,7 +1889,7 @@ var SETDEX_SMBSPOT={
         "Night Slash"
       ]
     },
-    "Gotta Go Fast (and not hit hard)": {
+    "Timid Physical Attacker (Life Orb Speed Boosts)": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -1898,7 +2001,24 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-    "Landorus-T": {
+  "Landorus-T": {
+    "Assault Vest": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Intimidate",
+      "item": "Choice Scarf",
+      "moves": [
+        "Earthquake",
+        "U-turn",
+        "Rock Slide",
+        "Superpower"
+      ]
+    },
     "Scarf": {
       "level": 50,
       "evs": {
@@ -2155,7 +2275,7 @@ var SETDEX_SMBSPOT={
         "sd": "4"
       },
       "nature": "Modest",
-      "ability": "Magnet Pull",
+      "ability": "Analytic",
       "item": "Choice Specs",
       "moves": [
         "Thunderbolt",
@@ -2231,6 +2351,23 @@ var SETDEX_SMBSPOT={
       "nature": "Impish",
       "ability": "Thick Fat",
       "item": "Rocky Helmet",
+      "moves": [
+        "Earthquake",
+        "Icicle Spear",
+        "Ice Shard",
+        "Knock Off"
+      ]
+    },
+    "Life Orb": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Thick Fat",
+      "item": "Life Orb",
       "moves": [
         "Earthquake",
         "Icicle Spear",
@@ -2834,7 +2971,24 @@ var SETDEX_SMBSPOT={
         "Sparkling Aria",
         "Moonblast",
         "Ice Beam",
-        "Energy Ball"
+        "Hidden Power Fire"
+      ]
+    },
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Torrent",
+      "item": "Choice Specs",
+      "moves": [
+        "Sparkling Aria",
+        "Moonblast",
+        "Ice Beam",
+        "Hidden Power Fire"
       ]
     }
   },
@@ -3176,6 +3330,23 @@ var SETDEX_SMBSPOT={
         "Hyper Voice"
       ]
     },
+    "Special Attacker": {
+      "level": 50,
+      "evs": {
+        "at": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Intimidate",
+      "item": "Salamencite",
+      "moves": [
+        "Hyper Voice",
+        "Draco Meteor",
+        "Fire Blast",
+        "Hyper Beam"
+      ]
+    },
     "SpD Facade": {
       "level": 50,
       "evs": {
@@ -3210,6 +3381,23 @@ var SETDEX_SMBSPOT={
         "Substitute",
         "Roost",
         "Return"
+      ]
+    },
+    "Flyinium Z": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Moxie",
+      "item": "Salamencite",
+      "moves": [
+        "Fly",
+        "Outrage",
+        "Earthquake",
+        "Dragon Claw"
       ]
     }
   },
@@ -3272,18 +3460,16 @@ var SETDEX_SMBSPOT={
     "All-Out Attacker": {
       "level": 50,
       "evs": {
-        "sa": "248",
-        "sd": "12",
-        "sp": "248"
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "ivs": {
-        "at": "0",
-        "sa": "30",
-        "sp": "30"
+        "at": "0"
       },
       "nature": "Timid",
-      "ability": "",
-      "item": "Life Orb",
+      "ability": "Contrary",
+      "item": "Focus Sash",
       "moves": [
         "Leaf Storm",
         "Dragon Pulse",
@@ -3573,11 +3759,48 @@ var SETDEX_SMBSPOT={
         "Scald",
         "Ice Beam",
         "Icy Wind",
-        "Shadow Ball"
+        "Hidden Power Fire"
+      ]
+    },
+    "Assault Vest" : {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4",
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Modest",
+      "ability": "Pressure",
+      "item": "Assault Vest",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Icy Wind",
+        "Hidden Power Fire"
       ]
     }
   },
   "Swampert": {
+    "Rain Sweeper": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Torrent",
+      "item": "Swampertite",
+      "moves": [
+        "Waterfall",
+        "Earthquake",
+        "Ice Punch",
+        "Superpower"
+      ]
+    },
     "Rocks Lead": {
       "level": 50,
       "evs": {
@@ -3760,7 +3983,7 @@ var SETDEX_SMBSPOT={
     }
   },
   "Tapu Koko": {
-    "Special Attack": {
+    "Special Attacker": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -4068,7 +4291,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Jolly",
       "ability": "Sand Stream",
-      "item": "Lum Berry",
+      "item": "Tyranitarite",
       "moves": [
         "Stone Edge",
         "Crunch",
