@@ -10557,7 +10557,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 90
     },
     "w": 999.7,
-    "ab": "Desolate Land"
+    "ab": "Desolate Land",
+    "isAlternateForme": true
   },
   "Primal Kyogre": {
     "t1": "Water",
@@ -10570,7 +10571,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sp": 90
     },
     "w": 430.0,
-    "ab": "Primordial Sea"
+    "ab": "Primordial Sea",
+    "isAlternateForme": true
   },
   "Pumpkaboo-Average": {
     "t1": "Ghost",
