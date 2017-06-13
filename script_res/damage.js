@@ -5,6 +5,8 @@ function CALCULATE_ALL_MOVES_BW(p1, p2, field) {
     checkForecast(p2, field.getWeather());
     checkKlutz(p1);
     checkKlutz(p2);
+    checkSeeds(p1, field);
+    checkSeeds(p2, field);
     p1.stats[DF] = getModifiedStat(p1.rawStats[DF], p1.boosts[DF]);
     p1.stats[SD] = getModifiedStat(p1.rawStats[SD], p1.boosts[SD]);
     p1.stats[SP] = getFinalSpeed(p1, field.getWeather());
@@ -774,6 +776,15 @@ function checkForecast(pokemon, weather) {
 function checkKlutz(pokemon) {
     if (pokemon.ability === "Klutz") {
         pokemon.item = "";
+    }
+}
+
+function checkSeeds(pokemon, field){
+    if(pokemon.item ==="Psychic Seed" || pokemon.item === "Misty Seed"){
+        pokemon.boosts[SD] = Math.min(6, pokemon.boosts[SD] + 1);
+    }
+    else if(pokemon.item ==="Electric Seed" || pokemon.item === "Grassy Seed"){
+        pokemon.boosts[DF] = Math.min(6, pokemon.boosts[DF] + 1);
     }
 }
 function checkIntimidate(source, target) {
