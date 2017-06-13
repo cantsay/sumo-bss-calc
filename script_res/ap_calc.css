@@ -23,6 +23,9 @@ th {
     font-size: 1.5em;
     margin: 0.5em 1em 0.5em 0;
 }
+.generation-select {
+    margin: 0.5em 1em 0.5em 0;
+}
 .big-text {
     font-weight: bold;
     font-size: 1.1em;
