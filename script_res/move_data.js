@@ -1911,13 +1911,15 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Bug',
         bp: 80,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Zing Zap': {
         category: 'Physical',
         type: 'Electric',
         bp: 80,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Moongeist Beam': {
         category: 'Special',
@@ -1929,13 +1931,15 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Steel',
         bp: 100,
-        zp: 180
+        zp: 180,
+        makesContact: true
     },
     'Spectral Thief': {
         category: 'Physical',
         type: 'Ghost',
         bp: 90,
-        zp: 175
+        zp: 175,
+        makesContact: true
     },
     'Prismatic Laser': {
         category: 'Special',
@@ -1947,13 +1951,15 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Water',
         bp: 85,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Accelerock': {
         category: 'Physical',
         type: 'Rock',
         bp: 40,
-        zp: 100
+        zp: 100,
+        makesContact: true
     },
     'Shadow Bone': {
         category: 'Physical',
@@ -1965,7 +1971,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Ground',
         bp: 75,
-        zp: 140
+        zp: 140,
+        makesContact: true
     },
     'Psychic Fangs': {
         category: 'Physical',
@@ -1973,7 +1980,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         makesContact: true,
         bp: 85,
         zp: 160,
-        isBite: true
+        isBite: true,
+        makesContact: true
     },
     'Fleur Cannon': {
         category: 'Special',
@@ -2028,13 +2036,15 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         type: 'Dark',
         bp: 60,
         isSpread: true,
-        zp: 120
+        zp: 120,
+        makesContact: true
     },
     'Dragon Hammer': {
         category: 'Physical',
         type: 'Dragon',
         bp: 90,
-        zp: 175
+        zp: 175,
+        makesContact: true
     },
     'Clanging Scales': {
         category: 'Special',
@@ -2046,13 +2056,15 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Flying',
         bp: 100,
-        zp: 180
+        zp: 180,
+        makesContact: true
     },
     'Trop Kick': {
         category: 'Physical',
         type: 'Grass',
         bp: 70,
-        zp: 140
+        zp: 140,
+        makesContact: true
     },
     'Core Enforcer': {
         category: 'Special',
@@ -2071,13 +2083,15 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Steel',
         bp: 70,
-        zp: 140
+        zp: 140,
+        makesContact: true
     },
     'Multi Attack': {
         category: 'Physical',
         type: 'Normal',
         bp: 90,
-        zp: 185
+        zp: 185,
+        makesContact: true
     },
     'Burn Up': {
         category: 'Special',
@@ -2089,25 +2103,29 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Dark',
         bp: 20,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Fire Lash': {
         category: 'Physical',
         type: 'Fire',
         bp: 80,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Lunge': {
         category: 'Physical',
         type: 'Bug',
         bp: 80,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Anchor Shot': {
         category: 'Physical',
         type: 'Steel',
         bp: 80,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Pollen Puff': {
         category: 'Special',
@@ -2119,31 +2137,36 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Dark',
         bp: 80,
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Solar Blade': {
         category: 'Physical',
         type: 'Grass',
         bp: 125,
-        zp: 190
+        zp: 190,
+        makesContact: true
     },
     'High Horsepower': {
         category: 'Physical',
         type: 'Ground',
         bp: 95,
-        zp: 175
+        zp: 175,
+        makesContact: true
     },
     'Ice Hammer': {
         category: 'Physical',
         type: 'Ice',
         bp: 100,
-        zp: 180
+        zp: 180,
+        makesContact: true
     },
     'First Impression': {
         category: 'Physical',
         type: 'Bug',
         bp: '90',
         zp: '175',
+        makesContact: true
     },
     'Sparkling Aria': {
          category: 'Special',
@@ -2157,7 +2180,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         type: 'Dark',
         bp: 85,
         zp:160,
-        ignoresDefenseBoosts: true
+        ignoresDefenseBoosts: true,
+        makesContact: true
     },
     'Spirit Shackle': {
         category: 'Physical',
@@ -2354,7 +2378,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Super Fang':{
         type: "Normal",
         category: "Physical",
-        zp: 100
+        zp: 100,
+        makesContact: true
     },
     'Thief':{
         zp: 120
@@ -2485,7 +2510,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Endeavor':{
         type: 'Normal',
         category: 'Physical',
-        zp: 160
+        zp: 160,
+        makesContact: true
     },
     'Eruption':{
         zp: 200
@@ -2975,7 +3001,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Electric',
         bp: 20,
-        zp: 100
+        zp: 100,
+        makesContact: true
     },
     'Power-Up Punch':{
         zp: 100
