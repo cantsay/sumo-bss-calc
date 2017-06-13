@@ -35,6 +35,7 @@ function CALCULATE_ALL_MOVES_BW(p1, p2, field) {
 
 function getDamageResult(attacker, defender, move, field) {
     var moveDescName = move.name;
+    var isQuarteredByProtect = false;
     if(move.isZ){
         var tempMove = move;
         //turning it into a generic single-target Z-move
@@ -50,6 +51,9 @@ function getDamageResult(attacker, defender, move, field) {
         move.isCrit = tempMove.isCrit;
         move.hits = 1;
         moveDescName = ZMOVES_LOOKUP[move.type] + " (" + move.bp + " BP)";
+        if(field.isProtect){
+            isQuarteredByProtect = true;
+        }
     }
     var description = {
         "attackerName": attacker.name,
@@ -586,6 +590,10 @@ function getDamageResult(attacker, defender, move, field) {
         finalMods.push(0x800);
         description.defenderAbility = defAbility;
     }
+    if(isQuarteredByProtect){
+        finalMods.push(0x400);
+        description.isQuarteredByProtect = true;
+    }
     var finalMod = chainMods(finalMods);
     
     var damage = [], pbDamage = [];
@@ -688,6 +696,13 @@ function buildDescription(description) {
     if (description.isCritical) {
         output += " on a critical hit";
     }
+    if (description.isFriendGuard) {
+          output += " with Friend Guard";
+      }
+    if(description.isQuarteredByProtect) {
+        output += " through Protect";
+    }
+    
     return output;
 }
 
