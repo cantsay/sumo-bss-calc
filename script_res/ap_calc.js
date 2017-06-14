@@ -673,6 +673,15 @@ function getMoveDetails(moveInfo) {
     });
 }
 
+function getZMoveName(moveName, moveType, item) {
+    return moveName.indexOf("Hidden Power") !== -1 ? "Breakneck Blitz" // Hidden Power will become Breakneck Blitz
+            : moveName === "Thunderbolt" && item === "Aloraichium Z" ? "Stoked Sparksurfer"
+            : moveName === "Spirit Shackle" && item === "Decidium Z" ? "Sinister Arrow Raid"
+            : moveName === "Darkest Lariat" && item === "Incinium Z" ? "Malicious Moonsault"
+            : moveName === "Sparkling Aria" && item === "Primarium Z" ? "Oceanic Operetta"
+            : ZMOVES_TYPING[moveType];
+}
+
 function Field() {
     var format = $("input:radio[name='format']:checked").val();
     var isGravity = $("#gravity").prop("checked");
