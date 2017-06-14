@@ -662,37 +662,16 @@ function Pokemon(pokeInfo) {
 function getMoveDetails(moveInfo) {
     var moveName = moveInfo.find("select.move-selector").val();
     var defaultDetails = moves[moveName];
-    var isZMove = gen >= 7 && moveInfo.find("input.move-z").prop("checked");
-
-    // If z-move is checked but there isn't a corresponding z-move, use the original move
-    if (isZMove && defaultDetails.hasOwnProperty("zp")) {
-        var zMoveName = getZMoveName(moveName, defaultDetails.type, item);
-        return $.extend({}, moves[zMoveName], {
-            name: zMoveName,
-            bp: moves[zMoveName].bp === 1 ? defaultDetails.zp : moves[zMoveName].bp,
-            category: defaultDetails.category,
-            isCrit: moveInfo.find(".move-crit").prop("checked"),
-            hits: 1
-        });
-    } else {
-        return $.extend({}, defaultDetails, {
-            name: moveName,
-            bp: ~~moveInfo.find(".move-bp").val(),
-            type: moveInfo.find(".move-type").val(),
-            category: moveInfo.find(".move-cat").val(),
-            isCrit: moveInfo.find(".move-crit").prop("checked"),
-            hits: defaultDetails.isMultiHit ? ~~moveInfo.find(".move-hits").val() : defaultDetails.isTwoHit ? 2 : 1
-        });
+    return $.extend({}, defaultDetails, {
+        name: moveName,
+        bp: ~~moveInfo.find(".move-bp").val(),
+        type: moveInfo.find(".move-type").val(),
+        category: moveInfo.find(".move-cat").val(),
+        isCrit: moveInfo.find(".move-crit").prop("checked"),
+        isZ: moveInfo.find(".move-z").prop("checked"),
+        hits: (defaultDetails.isMultiHit && !moveInfo.find(".move-z").prop("checked")) ? ~~moveInfo.find(".move-hits").val() : defaultDetails.isTwoHit ? 2 : 1
+    });
     }
-}
-
-function getZMoveName(moveName, moveType, item) {
-    return moveName.indexOf("Hidden Power") !== -1 ? "Breakneck Blitz" // Hidden Power will become Breakneck Blitz
-            : moveName === "Thunderbolt" && item === "Aloraichium Z" ? "Stoked Sparksurfer"
-            : moveName === "Spirit Shackle" && item === "Decidium Z" ? "Sinister Arrow Raid"
-            : moveName === "Darkest Lariat" && item === "Incinium Z" ? "Malicious Moonsault"
-            : moveName === "Sparkling Aria" && item === "Primarium Z" ? "Oceanic Operetta"
-            : ZMOVES_TYPING[moveType];
 }
 
 function Field() {
