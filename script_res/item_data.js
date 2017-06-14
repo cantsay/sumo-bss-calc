@@ -176,7 +176,6 @@ ITEMS_XY.splice(ITEMS_XY.indexOf('Soul Dew'), 1);
 
 
 var ITEMS_SM = ITEMS_XY.concat([
-    'Adrenaline Orb',
     'Figy Berry',
     'Iapapa Berry',
     'Wiki Berry',
@@ -186,10 +185,6 @@ var ITEMS_SM = ITEMS_XY.concat([
     'Psychic Seed',
     'Misty Seed',
     'Grassy Seed',
-    'Decidium Z',
-    'Incinium Z',
-    'Primarium Z',
-    'Aloraichium Z',
     'Bug Memory',
     'Dark Memory',
     'Dragon Memory',
