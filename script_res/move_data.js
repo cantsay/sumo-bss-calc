@@ -2005,13 +2005,11 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         type: 'Normal',
         bp: 210,
-        isZ: True
     },
     'Stoked Sparksurfer': {
         category: 'Special',
         type: 'Electric',
         bp: 175,
-        isZ: True
     },
     'Soul-Stealing 7-Star Strike': {
         category: 'Physical',
@@ -2022,19 +2020,16 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Special',
         type: 'Water',
         bp: 195,
-        isZ: True
     },
     'Malicious Moonsault': {
         category: 'Physical',
         type: 'Dark',
         bp: 180,
-        isZ: True
     },
     'Sinister Arrow Raid': {
         category: 'Physical',
         type: 'Ghost',
         bp: 180,
-        isZ: True
     },
     'Brutal Swing': {
         category: 'Physical',
