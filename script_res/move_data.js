@@ -2020,19 +2020,16 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Special',
         type: 'Water',
         bp: 195,
-        isZ: true,
     },
     'Malicious Moonsault': {
         category: 'Physical',
         type: 'Dark',
         bp: 180,
-        isZ: true,
     },
     'Sinister Arrow Raid': {
         category: 'Physical',
         type: 'Ghost',
         bp: 180,
-        isZ: true,
     },
     'Brutal Swing': {
         category: 'Physical',
@@ -2200,75 +2197,57 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Breakneck Blitz': {
         type: 'Normal',
-        isZ: true,
     },
     'Inferno Overdrive': {
         type: 'Fire',
-        isZ: true,
     },
     'Subzero Slammer': {
         type: 'Ice',
-        isZ: true,
     },
     'Hydro Vortex': {
         type: 'Water',
-        isZ: true,
     },
     'Gigavolt Havoc': {
         type: 'Electric',
-        isZ: true,
     },
     'All-Out Pummeling': {
         type: 'Fighting',
-        isZ: true,
     },
     'Bloom Doom': {
         type: 'Grass',
-        isZ: true,
     },
     'Shattered Psyche': {
         type: 'Psychic',
-        isZ: true,
     },
     'Savage Spin-Out': {
         type: 'Bug',
-        isZ: true,
     },
     'Acid Downpour': {
         type: 'Poison',
-        isZ: true,
     },
     'Supersonic Skystrike': {
         type: 'Flying',
-        isZ: true,
     },
     'Devastating Drake': {
         type: 'Dragon',
-        isZ: true,
     },
     'Continental Crush': {
         type: 'Rock',
-        isZ: true,
     },
     'Tectonic Rage': {
         type: 'Ground',
-        isZ: true,
     },
     'Corkscrew Crash': {
         type: 'Steel',
-        isZ: true,
     },
     'Twinkle Tackle': {
         type: 'Fairy',
-        isZ: true,
     },
     'Never-Ending Nightmare': {
-        type: 'Ghost',
-        isZ: true,
+        type: 'Ghost',    
     },
     'Black Hole Eclipse': {
         type: 'Dark',
-        isZ: true,
     },
     'Fire Punch':{
         zp: 140
