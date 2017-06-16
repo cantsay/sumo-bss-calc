@@ -202,6 +202,10 @@ var ITEMS_SM = ITEMS_XY.concat([
     'Rock Memory',
     'Steel Memory',
     'Water Memory',
+    'Decidium Z',
+    'Incinium Z',
+    'Primarium Z',
+    'Aloraichium Z',
 ]);
 
 function getItemBoostType(item) {
