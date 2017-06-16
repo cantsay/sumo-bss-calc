@@ -4959,7 +4959,7 @@ var SETDEX_FACTORYSETS={
       "ability": "RKS System", 
       "item": "Electric Memory", 
       "moves": [ 
-        "Multi-Attack", 
+        "Multi Attack", 
         "Flame Charge", 
         "Crunch",
 	"Ice Fang" 
@@ -4978,7 +4978,7 @@ var SETDEX_FACTORYSETS={
       "ability": "RKS System", 
       "item": "Fighting Memory", 
       "moves": [ 
-        "Multi-Attack", 
+        "Multi Attack", 
         "Swords Dance", 
         "Flame Charge", 
         "Shadow Claw" 
@@ -4997,7 +4997,7 @@ var SETDEX_FACTORYSETS={
       "ability": "RKS System", 
       "item": "Ground Memory", 
       "moves": [ 
-        "Multi-Attack", 
+        "Multi Attack", 
         "Flame Charge", 
         "Rock Slide",
 	"Stone Edge" 
