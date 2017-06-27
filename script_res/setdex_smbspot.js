@@ -1881,7 +1881,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Jolly",
       "ability": "Beast Boost",
-      "item": "Life Orb",
+      "item": "Darkinium Z",
       "moves": [
         "Leaf Blade",
         "Smart Strike",
@@ -2002,7 +2002,7 @@ var SETDEX_SMBSPOT={
     }
   },
   "Landorus-T": {
-    "Assault Vest": {
+    "Offensive Assault Vest": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -2011,7 +2011,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Adamant",
       "ability": "Intimidate",
-      "item": "Choice Scarf",
+      "item": "Assault Vest",
       "moves": [
         "Earthquake",
         "U-turn",
@@ -2019,7 +2019,7 @@ var SETDEX_SMBSPOT={
         "Superpower"
       ]
     },
-    "Scarf": {
+    "Choice Scarf": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -2053,12 +2053,12 @@ var SETDEX_SMBSPOT={
         "Knock Off"
       ]
     },
-    "Band": {
+    "Choice Band": {
       "level": 50,
       "evs": {
-        "hp": "252",
-        "at": "4",
-        "df": "252"
+        "hp": "4",
+        "at": "252",
+        "se": "252"
       },
       "nature": "Adamant",
       "ability": "Intimidate",
@@ -3738,6 +3738,42 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Snorlax": {
+    "Offensive Booster": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "df": "4"
+      },
+      "nature": "Adamant",
+      "ability": "Gluttony",
+      "item": "Figy Berry",
+      "moves": [
+        "Return",
+        "Earthquake",
+        "Fire Punch",
+        "Heavy Slam"
+      ]
+    },
+    "Defensive Phaser": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Impish",
+      "ability": "Gluttony",
+      "item": "Figy Berry",
+      "moves": [
+        "Return",
+        "Earthquake",
+        "Fire Punch",
+        "Heavy Slam"
+      ]
+    }
+  },
   "Suicune": {
     "Fully Defensive" : {
       "level": 50,
@@ -4045,14 +4081,14 @@ var SETDEX_SMBSPOT={
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Timid",
+      "nature": "Modest",
       "ability": "Psychic Surge",
       "item": "Choice Scarf",
       "moves": [
         "Psychic",
         "Moonblast",
         "Shadow Ball",
-        "Thunderbolt"
+        "Hidden Power Fire"
       ]
     },
     "Specs": {
@@ -4497,12 +4533,32 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Bold",
       "ability": "Pressure",
-      "item": "Leftovers",
+      "item": "Sitrus Berry",
       "moves": [
         "Roost",
         "Discharge",
         "Heat Wave",
         "Hidden Power Ice"
+      ]
+    },
+    "Choice Scarf": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "se": "252"
+      },
+      "ivs": {
+        "sp": "30"
+      },
+      "nature": "Modest",
+      "ability": "Pressure",
+      "item": "Choice Scarf",
+      "moves": [
+        "Thunderbolt",
+        "Heat Wave",
+        "Hidden Power Ice",
+        "Volt Switch"
       ]
     }
   }
