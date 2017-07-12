@@ -827,7 +827,7 @@ $(".gen").change(function () {
 			break;
 		case 21:
             pokedex = POKEDEX_SM;
-            setdex = SETDEX_FACTORY;
+            setdex = SETDEX_SM;
             typeChart = TYPE_CHART_INVERSE;
             moves = MOVES_SM;
             items = ITEMS_SM;
