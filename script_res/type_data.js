@@ -455,8 +455,8 @@ var TYPE_CHART_XY = $.extend(true, {}, TYPE_CHART_GSC, {
 });
 
 var TYPE_CHART_INVERSE = {
-	Normal: {
-		Normal: 1,
+    Normal: {
+	Normal: 1,
         Grass: 1,
         Fire: 1,
         Water: 1,
@@ -475,8 +475,8 @@ var TYPE_CHART_INVERSE = {
         Steel: 2,
         Fairy: 1
 	},
-	Grass: {
-		Normal: 1,
+    Grass: {
+	Normal: 1,
         Grass: 2,
         Fire: 2,
         Water: 0.5,
@@ -506,14 +506,14 @@ var TYPE_CHART_INVERSE = {
         Bug: 0.5,
         Poison: 1,
         Ground: 1,
-        Rock: 02,
+        Rock: 2,
         Fighting: 1,
         Psychic: 1,
         Ghost: 1,
         Dragon: 2,
-		Dark: 1,
-		Steel: 0.5,
-		Fairy: 1
+	Dark: 1,
+	Steel: 0.5,
+	Fairy: 1
     },
     Water: {
         Normal: 1,
@@ -531,9 +531,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 1,
         Dragon: 2,
-		Dark: 1,
-		Steel: 1,
-		Fairy: 1
+	Dark: 1,
+	Steel: 1,
+	Fairy: 1
     },
     Electric: {
         Normal: 1,
@@ -551,9 +551,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 1,
         Dragon: 2,
-		Dark: 1,
-		Steel: 1,
-		Fairy: 1
+	Dark: 1,
+	Steel: 1,
+	Fairy: 1
     },
 	Ice: {
         Normal: 1,
@@ -571,9 +571,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 1,
         Dragon: 0.5,
-		Dark: 1,
-		Steel: 2,
-		Fairy: 1
+	Dark: 1,
+	Steel: 2,
+	Fairy: 1
     },
 	Flying: {
         Normal: 1,
@@ -591,9 +591,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 1,
         Dragon: 1,
-		Dark: 1,
-		Steel: 2,
-		Fairy: 1
+	Dark: 1,
+	Steel: 2,
+	Fairy: 1
     },
 	Bug: {
         Normal: 1,
@@ -611,9 +611,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 0.5,
         Ghost: 2,
         Dragon: 1,
-		Dark: 0.5,
-		Steel: 2,
-		Fairy: 2
+	Dark: 0.5,
+	Steel: 2,
+	Fairy: 2
     },
 	Poison: {
         Normal: 1,
@@ -631,9 +631,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 2,
         Dragon: 1,
-		Dark: 1,
-		Steel: 2,
-		Fairy: 0.5
+	Dark: 1,
+	Steel: 2,
+	Fairy: 0.5
     },
 	Ground: {
         Normal: 1,
@@ -651,9 +651,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 1,
         Dragon: 1,
-		Dark: 1,
-		Steel: 0.5,
-		Fairy: 1
+	Dark: 1,
+	Steel: 0.5,
+	Fairy: 1
     },
 	Rock: {
         Normal: 1,
@@ -671,9 +671,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 1,
         Dragon: 1,
-		Dark: 1,
-		Steel: 2,
-		Fairy: 1
+	Dark: 1,
+	Steel: 2,
+	Fairy: 1
     },
 	Fighting: {
         Normal: 0.5,
@@ -691,9 +691,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 2,
         Ghost: 0,
         Dragon: 1,
-		Dark: 0.5,
-		Steel: 0.5,
-		Fairy: 2
+	Dark: 0.5,
+	Steel: 0.5,
+	Fairy: 2
     },
 	Psychic: {
         Normal: 1,
@@ -711,9 +711,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 2,
         Ghost: 1,
         Dragon: 1,
-		Dark: 2,
-		Steel: 2,
-		Fairy: 1
+	Dark: 2,
+	Steel: 2,
+	Fairy: 1
     },
 	Ghost: {
         Normal: 2,
@@ -731,9 +731,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 2,
         Ghost: 0.5,
         Dragon: 1,
-		Dark: 2,
-		Steel: 1,
-		Fairy: 1
+	Dark: 2,
+	Steel: 1,
+	Fairy: 1
     },
 	Dragon: {
         Normal: 1,
@@ -751,9 +751,9 @@ var TYPE_CHART_INVERSE = {
         Psychic: 1,
         Ghost: 1,
         Dragon: 0.5,
-		Dark: 1,
-		Steel: 2,
-		Fairy: 2
+	Dark: 1,
+	Steel: 2,
+	Fairy: 2
     },
 	Dark: {
         Normal: 1,
@@ -773,7 +773,7 @@ var TYPE_CHART_INVERSE = {
         Dragon: 1,
         Dark: 2,
         Steel: 1,
-		Fairy: 2
+	Fairy: 2
     },
 	Steel: {
         Normal: 1,
@@ -793,7 +793,7 @@ var TYPE_CHART_INVERSE = {
         Dragon: 1,
         Dark: 1,
         Steel: 2,
-		Fairy: 0.5
+	Fairy: 0.5
     },
     Fairy: {
         Normal: 1,
