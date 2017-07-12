@@ -3494,7 +3494,7 @@ var SETDEX_SMBSPOT={
       "moves": [
         "Bullet Punch",
         "U-turn",
-        "Thief",
+        "Knock Off",
         "Superpower"
       ]
     },
