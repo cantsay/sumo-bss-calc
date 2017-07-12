@@ -689,7 +689,7 @@ var TYPE_CHART_INVERSE = {
         Rock: 0.5,
         Fighting: 1,
         Psychic: 2,
-        Ghost: 0,
+        Ghost: 2,
         Dragon: 1,
 	Dark: 0.5,
 	Steel: 0.5,
