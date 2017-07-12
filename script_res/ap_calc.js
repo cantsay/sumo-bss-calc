@@ -824,6 +824,18 @@ $(".gen").change(function () {
             calculateAllMoves = CALCULATE_ALL_MOVES_BW;
             calcHP = CALC_HP_ADV;
             calcStat = CALC_STAT_ADV;
+			break;
+		case 21:
+            pokedex = POKEDEX_SM;
+            setdex = SETDEX_FACTORY;
+            typeChart = TYPE_CHART_INVERSE;
+            moves = MOVES_SM;
+            items = ITEMS_SM;
+            abilities = ABILITIES_SM;
+            STATS = STATS_GSC;
+            calculateAllMoves = CALCULATE_ALL_MOVES_BW;
+            calcHP = CALC_HP_ADV;
+            calcStat = CALC_STAT_ADV;
     }
     clearField();
     $(".gen-specific.g" + gen).show();
