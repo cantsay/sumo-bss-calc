@@ -474,7 +474,7 @@ var TYPE_CHART_INVERSE = {
         Dark: 1,
         Steel: 2,
         Fairy: 1
-	};
+	},
 	Grass: {
 		Normal: 1,
         Grass: 2,
