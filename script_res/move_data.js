@@ -2050,6 +2050,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Special',
         type: 'Dragon',
         bp: 110,
+        isSpread: true,
         zp: 185
     },
     'Beak Blast': {
