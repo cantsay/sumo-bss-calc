@@ -1,6 +1,6 @@
-var AT = "at", DF = "df", SA = "sa", SD = "sd", SP = "sp", SL = "sl";
+var AT = "at", DF = "df", SA = "sa", SD = "sd", SP = "sp", SL = "sl", AC = "ac", ES = "es";
 var STATS_RBY = [AT, DF, SL, SP];
-var STATS_GSC = [AT, DF, SA, SD, SP];
+var STATS_GSC = [AT, DF, SA, SD, SP, AC, ES];
 
 function CALC_HP_RBY(poke) {
     var hp = poke.find(".hp");
