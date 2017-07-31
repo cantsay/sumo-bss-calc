@@ -1,4 +1,4 @@
-function getKOChanceText(damage, move, attacker, defender, field, isBadDreams) {
+function getKOChanceText(damage, move, defender, field, isBadDreams) {
     if (isNaN(damage[0])) {
        return 'something broke; please tell cant say or LegoFigure11';
     }
@@ -108,21 +108,10 @@ function getKOChanceText(damage, move, attacker, defender, field, isBadDreams) {
             eotText.push('Black Sludge damage');
         }
     }
-    if (field.isDefenderSeeded) {
+    if (field.isSeeded) {
         if (defender.ability !== 'Magic Guard') {
             eot -= gen >= 2 ? Math.floor(defender.maxHP / 8) : Math.floor(defender.maxHP / 16); // 1/16 in gen 1, 1/8 in gen 2 onwards
             eotText.push('Leech Seed damage');
-        }
-    }
-    if (field.isAttackerSeeded) {
-        if (attacker.ability === "Magic Guard") {
-            // No effect
-        } else if (attacker.ability === "Liquid Ooze") {
-            eot -= gen >= 2 ? Math.floor(attacker.maxHP / 8) : Math.floor(attacker.maxHP / 16);
-            eotText.push("Liquid Ooze damage");
-        } else {
-            eot += gen >= 2 ? Math.floor(attacker.maxHP / 8) : Math.floor(attacker.maxHP / 16);
-            eotText.push("Leech Seed recovery");
         }
     }
     if (field.terrain === "Grassy") {
