@@ -24,6 +24,7 @@ var ABILITIES_ADV = [
     'Sand Veil',
     'Shell Armor',
     'Soundproof',
+    'Sticky Hold',
     'Swarm',
     'Swift Swim',
     'Thick Fat',
