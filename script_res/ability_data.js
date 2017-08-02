@@ -110,6 +110,7 @@ var ABILITIES_XY = ABILITIES_BW.concat([
 
 var ABILITIES_SM = ABILITIES_XY.concat([
     'Electric Surge',
+	'Power Construct',
     'Psychic Surge',
     'Grassy Surge',
     'Misty Surge',
