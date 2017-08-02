@@ -131,7 +131,44 @@ var SETDEX_SMBSPOT={
         "Shadow Sneak",
         "Sacred Sword"
       ]
-    }
+    },
+    "NO HOLDS BARRED: Lefties SD": { 
+      "level": 100, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "sd": "4", 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Stance Change", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Shadow Sneak", 
+        "Sacred Sword", 
+        "Iron Head", 
+        "Shadow Claw" 
+      ] 
+    },
+    "NO HOLDS BARRED: Special Weakness Policy": { 
+      "level": 100, 
+      "evs": { 
+        "hp": "252", 
+        "at": "4", 
+        "sa": "252", 
+      }, 
+      "ivs": { 
+        "sp": "0"
+      }, 
+      "nature": "Quiet", 
+      "ability": "Stance Change", 
+      "item": "Weakness Policy", 
+      "moves": [ 
+        "Shadow Ball", 
+        "Flash Cannon", 
+        "Shadow Sneak", 
+        "Hidden Power Ice" 
+      ] 
+    } 
   },
   "Alakazam": {
     "Bulky MegaZam": {
@@ -526,7 +563,41 @@ var SETDEX_SMBSPOT={
         "Baton Pass",
         "Blaze Kick"
       ]
-    }
+    },
+    "NO HOLDS BARRED: Mega": { 
+      "level": 100, 
+      "evs": { 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Speed Boost", 
+      "item": "Blazikenite", 
+      "moves": [ 
+        "Protect", 
+        "Flare Blitz", 
+        "High Jump Kick", 
+        "Superpower" 
+      ] 
+    },
+    "NO HOLDS BARRED: Sash / Z Move": { 
+      "level": 100, 
+      "evs": { 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Speed Boost", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Flare Blitz", 
+        "High Jump Kick", 
+        "Thunder Punch", 
+        "Low Kick" 
+      ] 
+    } 
   },
   "Breloom": {
     "Focus Sash": {
@@ -744,7 +815,24 @@ var SETDEX_SMBSPOT={
         "Acrobatics",
         "Earthquake"
       ]
-    }
+    },
+    "NO HOLDS BARRED: PhysDef": { 
+      "level": 100, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4", 
+      }, 
+      "nature": "Impish", 
+      "ability": "Beast Boost", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Leech Seed", 
+        "Protect", 
+        "Heavy Slam", 
+        "Flame Charge" 
+      ] 
+    } 
   },
   "Chansey": {
     "Standard": {
@@ -780,7 +868,27 @@ var SETDEX_SMBSPOT={
         "Shadow Ball",
         "Flamethrower"
       ]
-    }
+    },
+    "NO HOLDS BARRED": { 
+      "level": 100, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4", 
+      }, 
+      "ivs": { 
+        "at": "0", 
+      }, 
+      "nature": "Bold", 
+      "ability": "Natural Cure", 
+      "item": "Eviolite", 
+      "moves": [ 
+        "Seismic Toss", 
+        "Soft-Boiled", 
+        "Toxic", 
+        "Heal Bell" 
+      ] 
+    } 
   },
   "Charizard": {
     "SD Flame Charge X": {
@@ -4563,7 +4671,7 @@ var SETDEX_SMBSPOT={
     }
   },
     "Zygarde": { 
-    "Physically Defensive - NO HOLDS BARRED": { 
+    "NO HOLDS BARRED: PhysDef": { 
       "level": 100, 
       "evs": { 
         "hp": 252,
@@ -4578,6 +4686,23 @@ var SETDEX_SMBSPOT={
         "Coil", 
         "Dragon Tail", 
         "Thousand Arrows" 
+      ] 
+    },
+    "NO HOLDS BARRED: Offensive Yache": { 
+      "level": 100, 
+      "evs": { 
+        "at": 252,
+        "sd": 4,
+        "sp": 252
+      }, 
+      "nature": "Adamant", 
+      "ability": "Power Construct", 
+      "item": "Yache Berry", 
+      "moves": [ 
+        "Thousand Arrows", 
+        "Extreme Speed", 
+        "Outrage", 
+        "Stone Edge" 
       ] 
     } 
   }
