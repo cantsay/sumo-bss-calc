@@ -4561,5 +4561,24 @@ var SETDEX_SMBSPOT={
         "Volt Switch"
       ]
     }
+  },
+    "Zygarde" { 
+    "Physically Defensive - NO HOLDS BARRED": { 
+      "level": 100, 
+      "evs": { 
+        "hp": 252
+        "df": 252
+        "sd": 4
+      }, 
+      "nature": "Impish", 
+      "ability": "Power Construct", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Rest", 
+        "Coil", 
+        "Dragon Tail", 
+        "Thousand Arrows" 
+      ] 
+    } 
   }
 };
