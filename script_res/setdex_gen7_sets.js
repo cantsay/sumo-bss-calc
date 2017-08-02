@@ -4566,8 +4566,8 @@ var SETDEX_SMBSPOT={
     "Physically Defensive - NO HOLDS BARRED": { 
       "level": 100, 
       "evs": { 
-        "hp": 252
-        "df": 252
+        "hp": 252,
+        "df": 252,
         "sd": 4
       }, 
       "nature": "Impish", 
