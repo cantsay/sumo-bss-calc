@@ -12561,7 +12561,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "df": 71,
       "sa": 61,
       "sd": 85,
-      "sp": 114
+      "sp": 115
     },
     "w": 33.5,
     "ab": "Power Construct",
