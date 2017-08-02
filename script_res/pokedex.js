@@ -10901,6 +10901,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 
   //new forms
   "Greninja": { "formes": ["Greninja", "Ash-Greninja"] },
+  "Zygarde": { "formes": ["Zygarde", "Zygarde-Complete", "Zygarde-10%"] },
 
   //abilities
   "Pelipper": { "bs": { "sa": 95 }, "ab": "Drizzle"},
@@ -12550,6 +12551,36 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 125
     },
     "w": 22.2,
+  },
+    "Zygarde-10%": {
+    "t1": "Dragon",
+    "t2": "Ground",
+    "bs": {
+      "hp": 54,
+      "at": 100,
+      "df": 71,
+      "sa": 61,
+      "sd": 85,
+      "sp": 114
+    },
+    "w": 33.5,
+    "ab": "Power Construct",
+    "isAlternateForme": true
+  },
+    "Zygarde-Complete": {
+    "t1": "Dragon",
+    "t2": "Ground",
+    "bs": {
+      "hp": 216,
+      "at": 100,
+      "df": 121,
+      "sa": 91,
+      "sd": 95,
+      "sp": 85
+    },
+    "w": 610,
+    "ab": "Power Construct",
+    "isAlternateForme": true
   },
 
 });

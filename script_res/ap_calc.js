@@ -327,6 +327,7 @@ $(".set-selector").change(function() {
         for (i = 0; i < STATS.length; i++) {
             pokeObj.find("." + STATS[i] + " .base").val(pokemon.bs[STATS[i]]);
         }
+		pokeObj.find(".hp").val("calcHP");
         pokeObj.find(".weight").val(pokemon.w);
         pokeObj.find(".boost").val(0);
         pokeObj.find(".percent-hp").val(100);
@@ -429,8 +430,11 @@ $(".forme").change(function() {
     for (var i = 0; i < STATS.length; i++) {
         var baseStat = container.find("." + STATS[i]).find(".base");
         baseStat.val(altForme.bs[STATS[i]]);
+		var altHP = container.find(".hp .base").val(altForme.bs.hp);
+		altHP.keyup();
         baseStat.keyup();
     }
+	
 
     if (abilities.indexOf(altForme.ab) > -1) {
         container.find(".ability").val(altForme.ab);
@@ -440,6 +444,8 @@ $(".forme").change(function() {
         container.find(".ability").val("");
     }
     container.find(".ability").keyup();
+	
+	
 
     if ($(this).val().indexOf("Mega") === 0 && $(this).val() !== "Mega Rayquaza") {
         container.find(".item").val("").keyup();
@@ -452,6 +458,10 @@ $(".forme").change(function() {
     if (pokemonName === "Darmanitan") {
         container.find(".percent-hp").val($(this).val() === "Darmanitan-Z" ? "50" : "100").keyup();
     }
+	// This is where we would make Zygarde's Forme change @50% HP, need to define var formeName
+	//if (pokemonName === "Zygarde" && (formeName === "Zygarde-10%" || formeName === "Zygarde")) {
+    //    container.find(".percent-hp").val($(this).val() === "Darmanitan-Complete" ? "50" : "100").keyup();
+    //}
 });
 
 function getTerrainEffects() {
