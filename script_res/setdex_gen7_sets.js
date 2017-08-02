@@ -4562,7 +4562,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-    "Zygarde" { 
+    "Zygarde": { 
     "Physically Defensive - NO HOLDS BARRED": { 
       "level": 100, 
       "evs": { 
