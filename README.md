@@ -19,6 +19,9 @@ IVs: # Stat
 The calculator also adds manual auras and aura breaks, as well as a completely new list of SM BSS sets.  
 
 Handy Links:
+
 [Calc](https://cantsay.github.io/sumo-bss-calc/)
+
 [Parser](https://legofigure11.github.io/custom-calc-parser/)
+
 Contribute directly in this repo or at our smogon thread [here](https://www.smogon.com/forums/threads/3597699/)!
