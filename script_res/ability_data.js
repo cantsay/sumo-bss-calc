@@ -109,8 +109,9 @@ var ABILITIES_XY = ABILITIES_BW.concat([
 ]);
 
 var ABILITIES_SM = ABILITIES_XY.concat([
+    'Battle Bond',
     'Electric Surge',
-	'Power Construct',
+    'Power Construct',
     'Psychic Surge',
     'Grassy Surge',
     'Misty Surge',
