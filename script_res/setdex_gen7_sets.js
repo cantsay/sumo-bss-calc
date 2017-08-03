@@ -1063,7 +1063,7 @@ var SETDEX_SMBSPOT={
       ] 
     } 
   },
-  "Deoxys-A" { 
+  "Deoxys-A": { 
     "NO HOLDS BARRED: Offensive Sash": { 
       "level": 100, 
       "evs": { 
@@ -1082,7 +1082,7 @@ var SETDEX_SMBSPOT={
       ] 
     } 
   },
-  "Deoxys-S" { 
+  "Deoxys-S": { 
     "NO HOLDS BARRED: Lead": { 
       "level": 100, 
       "evs": { 
@@ -1101,7 +1101,7 @@ var SETDEX_SMBSPOT={
       ] 
     } 
   },
-  "Ditto" { 
+  "Ditto": { 
     "Why would you ever need to calc this?": { 
       "level": 100, 
       "evs": { 
@@ -2296,7 +2296,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Jirachi" { 
+  "Jirachi": { 
     "NO HOLDS BARRED: ScarfRachi": { 
       "level": 100, 
       "evs": { 
@@ -2814,7 +2814,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Magearna" { 
+  "Magearna": { 
     "NO HOLDS BARRED: Trick Room": { 
       "level": 100, 
       "evs": { 
@@ -3098,7 +3098,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Marshadow" { 
+  "Marshadow": { 
     "NO HOLDS BARRED: Mixed Sash": { 
       "level": 100, 
       "evs": { 
@@ -4119,7 +4119,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Scolipede" { 
+  "Scolipede": { 
     "Offensive Baton Pass": { 
       "level": 100, 
       "evs": { 
@@ -4302,7 +4302,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Shaymin-Sky" { 
+  "Shaymin-Sky": { 
     "NO HOLDS BARRED: Choice Scarf": { 
       "level": 100, 
       "evs": { 
@@ -4512,7 +4512,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Smeargle" { 
+  "Smeargle": { 
     "Lead": { 
       "level": 50, 
       "evs": { 
