@@ -1762,7 +1762,7 @@ var SETDEX_SMBSPOT={
         "Shadow Ball",
         "Focus Blast"
       ]
-    }
+    },
     "NO HOLDS BARRED: Offensive": { 
       "level": 100, 
       "evs": { 
