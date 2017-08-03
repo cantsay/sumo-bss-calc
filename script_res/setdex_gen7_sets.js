@@ -1041,7 +1041,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Darkrai" { 
+  "Darkrai": { 
     "NO HOLDS BARRED: Offensive": { 
       "level": 100, 
       "evs": { 
