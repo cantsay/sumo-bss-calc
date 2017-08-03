@@ -960,27 +960,6 @@ var SETDEX_SMBSPOT={
         "Fire Blast",
         "Thunderbolt"
       ]
-    }
-  },
-  "Cloyster": {
-    "Shell Smash": {
-      "level": 50,
-      "evs": {
-        "hp": "108",
-        "at": "252",
-        "df": "4",
-        "sd": "4",
-        "sp": "140"
-      },
-      "nature": "Adamant",
-      "ability": "Skill Link",
-      "item": "King's Rock",
-      "moves": [
-        "Razor Shell",
-        "Icicle Spear",
-        "Rock Blast",
-        "Ice Shard"
-      ]
     },
     "NO HOLDS BARRED: Defensive Support": { 
       "level": 100, 
@@ -1002,6 +981,27 @@ var SETDEX_SMBSPOT={
         "Moonlight" 
       ] 
     } 
+  },
+  "Cloyster": {
+    "Shell Smash": {
+      "level": 50,
+      "evs": {
+        "hp": "108",
+        "at": "252",
+        "df": "4",
+        "sd": "4",
+        "sp": "140"
+      },
+      "nature": "Adamant",
+      "ability": "Skill Link",
+      "item": "King's Rock",
+      "moves": [
+        "Razor Shell",
+        "Icicle Spear",
+        "Rock Blast",
+        "Ice Shard"
+      ]
+    }
   },
   "Conkeldurr": {
     "Assault Vest": {
@@ -1101,7 +1101,7 @@ var SETDEX_SMBSPOT={
       ] 
     } 
   },
-    "Ditto" { 
+  "Ditto" { 
     "Why would you ever need to calc this?": { 
       "level": 100, 
       "evs": { 
@@ -1495,7 +1495,7 @@ var SETDEX_SMBSPOT={
       ]
     },
     "NO HOLDS BARRED: PhysDef": { 
-      "level": 50, 
+      "level": 100, 
       "evs": { 
         "hp": "252", 
         "df": "252", 
@@ -1512,7 +1512,7 @@ var SETDEX_SMBSPOT={
       ] 
     }, 
     "NO HOLDS BARRED: SpDef": { 
-      "level": 50, 
+      "level": 100, 
       "evs": { 
         "hp": "252", 
         "df": "4", 
@@ -1529,7 +1529,7 @@ var SETDEX_SMBSPOT={
       ] 
     },
     "NO HOLDS BARRED: Choice Band": { 
-      "level": 50, 
+      "level": 100, 
       "evs": { 
         "hp": "252", 
         "at": "252", 
