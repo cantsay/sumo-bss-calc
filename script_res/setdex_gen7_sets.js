@@ -1616,7 +1616,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Genesect" { 
+  "Genesect": { 
     "NO HOLDS BARRED: Mixed Scarf": { 
       "level": 100, 
       "evs": { 
