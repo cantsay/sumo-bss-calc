@@ -1892,6 +1892,12 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         type: 'Water',
         category: 'Special',
         hasSecondaryEffect: true
+    },
+    'Dig': {
+        bp: 60,
+        type: 'Ground',
+        category: 'Physical',
+        makesContact: true
     }
 });
 
@@ -3092,5 +3098,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Steam Eruption':{
         zp: 185
+    },
+    'Dig':{
+        bp: 80,
+        zp: 160
     }
 });
