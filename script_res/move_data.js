@@ -1886,6 +1886,12 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         type: 'Ground',
         category: 'Physical',
         isSpread: true
+    },
+    'Steam Eruption': {
+        bp: 110,
+        type: 'Water',
+        category: 'Special',
+        hasSecondaryEffect: true
     }
 });
 
@@ -3083,5 +3089,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Thousand Waves':{
         zp: 175
+    },
+    'Steam Eruption':{
+        zp: 185
     }
 });
