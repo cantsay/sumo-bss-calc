@@ -3335,6 +3335,65 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Nidoking": { 
+    "Focus Sash": { 
+      "level": 50, 
+      "evs": { 
+        "at": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "nature": "Mild", 
+      "ability": "Sheer Force", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Sludge Wave", 
+        "Earth Power", 
+        "Flamethrower", 
+        "Sucker Punch" 
+      ] 
+    },
+    "Life Orb": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Modest", 
+      "ability": "Sheer Force", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Sludge Wave", 
+        "Earth Power", 
+        "Flamethrower", 
+        "Ice Beam" 
+      ] 
+    },
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Sheer Force", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Sludge Wave", 
+        "Earth Power", 
+        "Flamethrower", 
+        "Ice Beam" 
+      ] 
+    } 
+  },
   "Nihilego": {
     "Offensive": {
       "level": 50,
@@ -5241,6 +5300,28 @@ var SETDEX_SMBSPOT={
         "Volt Switch"
       ]
     }
+  },
+  "Volcanion": { 
+    "NO HOLDS BARRED: Offensive Assault Vest": { 
+      "level": 100, 
+      "evs": { 
+        "hp": 216, 
+        "sa": 252, 
+        "sd": 40, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Modest", 
+      "ability": "Water Absorb", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Steam Eruption", 
+        "Flamethrower", 
+        "Earth Power", 
+        "Fire Blast" 
+      ] 
+    } 
   },
   "Volcarona": {
     "Quiver Dancer": {
