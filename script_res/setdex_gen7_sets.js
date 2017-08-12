@@ -4361,7 +4361,7 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Shaymin-Sky": { 
+  "Shaymin-S": { 
     "NO HOLDS BARRED: Choice Scarf": { 
       "level": 100, 
       "evs": { 
