@@ -127,6 +127,10 @@ function getDamageResult(attacker, defender, move, field) {
     var typeEffect1 = getMoveEffectiveness(move, defender.type1, attacker.ability === "Scrappy" || field.isForesight, field.isGravity);
     var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, attacker.ability === "Scrappy" || field.isForesight, field.isGravity) : 1;
     var typeEffectiveness = typeEffect1 * typeEffect2;
+	    
+    if (typeEffectiveness === 0 && move.name === "Thousand Arrows") {
+    typeEffectiveness = 1;
+    }
     
     if (typeEffectiveness === 0) {
         return {"damage":[0], "description":buildDescription(description)};
@@ -137,12 +141,13 @@ function getDamageResult(attacker, defender, move, field) {
             (move.type === "Water" && ["Dry Skin", "Storm Drain", "Water Absorb"].indexOf(defAbility) !== -1) ||
             (move.type === "Electric" && ["Lightning Rod", "Lightningrod", "Motor Drive", "Volt Absorb"].indexOf(defAbility) !== -1) ||
             (move.type === "Ground" && !field.isGravity && defAbility === "Levitate") ||
+            (move.type === "Ground" && !field.isGravity && move.name !== "Thousand Arrows" && defAbility === "Levitate") ||
             (move.isBullet && defAbility === "Bulletproof") ||
             (move.isSound && defAbility === "Soundproof")) {
         description.defenderAbility = defAbility;
         return {"damage":[0], "description":buildDescription(description)};
     }
-    if (move.type === "Ground" && !field.isGravity && defender.item === "Air Balloon") {
+    if (move.type === "Ground" && move.name !== "Thousand Arrows" && !field.isGravity && defender.item === "Air Balloon") {
         description.defenderItem = defender.item;
         return {"damage":[0], "description":buildDescription(description)};
     }
