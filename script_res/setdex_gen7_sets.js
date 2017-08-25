@@ -3733,6 +3733,48 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Quagsire": { 
+    "PhysDef": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252, 
+        "df": 252, 
+        "sd": 4, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Bold", 
+      "ability": "Unaware", 
+      "item": "Icium Z", 
+      "moves": [ 
+        "Scald", 
+        "Recover", 
+        "Haze", 
+        "Toxic" 
+      ] 
+    },
+    "NO HOLDS BARRED: PhysDef": { 
+      "level": 100, 
+      "evs": { 
+        "hp": 252, 
+        "df": 252, 
+        "sd": 4, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Bold", 
+      "ability": "Unaware", 
+      "item": "Icium Z", 
+      "moves": [ 
+        "Scald", 
+        "Recover", 
+        "Haze", 
+        "Toxic" 
+      ] 
+    } 
+  },
   "Raichu-Alola": {
     "Offensive": {
       "level": 50,
@@ -4414,7 +4456,7 @@ var SETDEX_SMBSPOT={
       "moves": [ 
         "Sticky Web", 
         "Stealth Rock", 
-        "Encore", 
+        "Rock Tomb", 
         "Knock Off" 
       ] 
     } 
@@ -5318,7 +5360,7 @@ var SETDEX_SMBSPOT={
       "moves": [ 
         "Steam Eruption", 
         "Flamethrower", 
-        "Earth Power", 
+        "Sludge Wave", 
         "Fire Blast" 
       ] 
     } 
@@ -5528,6 +5570,24 @@ var SETDEX_SMBSPOT={
         "Outrage", 
         "Stone Edge" 
       ] 
+    },
+    "NO HOLDS BARRED: SubDD": { 
+      "level": 100, 
+      "evs": { 
+        "at": 252, 
+        "df": 4, 
+        "sp": 252, 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Power Construct", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Substitute", 
+        "Dragon Dance", 
+        "Thousand Arrows", 
+        "Extreme Speed" 
+      ] 
     } 
+  },
   }
 };
