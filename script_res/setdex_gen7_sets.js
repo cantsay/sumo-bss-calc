@@ -5588,6 +5588,5 @@ var SETDEX_SMBSPOT={
         "Extreme Speed" 
       ] 
     } 
-  },
   }
 };
