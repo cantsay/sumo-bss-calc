@@ -3369,9 +3369,9 @@ var SETDEX_FACTORYSETS={
   "Medicham": { 
     "I Dream Of Jeannie": { 
       "level": 50, 
-      "evs": { 
-        "hp": "4", 
+      "evs": {  
         "at": "252", 
+	"sd": "4",
         "sp": "252"
       }, 
       "nature": "Jolly", 
