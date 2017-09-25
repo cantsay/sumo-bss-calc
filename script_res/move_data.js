@@ -3096,6 +3096,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Thousand Waves':{
         zp: 175
     },
+    'Last Resort':{
+        zp: 200
+    },
     'Steam Eruption':{
         zp: 185
     },
