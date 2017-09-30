@@ -151,6 +151,14 @@ function getDamageResult(attacker, defender, move, field) {
         description.defenderItem = defender.item;
         return {"damage":[0], "description":buildDescription(description)};
     }
+    if (defender.item === "Ring Target" && typeEffectiveness === 0) {
+	if (typeChart[move.type][defender.type1] === 0) {
+		typeEffectiveness = typeEffect2;
+	}
+	else if (typeChart[move.type][defender.type2] === 0) {
+		typeEffectiveness = typeEffect1;
+	}
+    }
     if ((field.weather === "Harsh Sun" && move.type === "Water") || (field.weather === "Heavy Rain" && move.type === "Fire")) {
         return {"damage":[0], "description":buildDescription(description)};
     }
