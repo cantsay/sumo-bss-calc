@@ -136,6 +136,7 @@ var ITEMS_BW = ITEMS_DPP.concat([
     'Normal Gem',
     'Poison Gem',
     'Psychic Gem',
+    'Ring Target',
     'Rock Gem',
     'Steel Gem',
     'Water Gem'
