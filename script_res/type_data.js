@@ -373,11 +373,10 @@ var TYPE_CHART_GSC = $.extend(true, {}, TYPE_CHART_RBY, {
         Psychic: 1,
         Ghost: 1,
         Dragon: 1,
-        Dark: 1,
+        Dark: 0.5,
         Steel: 0.5
     }
 });
-
 var TYPE_CHART_XY = $.extend(true, {}, TYPE_CHART_GSC, {
     Normal: {
         Fairy: 1
