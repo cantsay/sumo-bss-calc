@@ -1808,6 +1808,12 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         isSpread: true
     },
     'Overheat': { bp: 130 },
+    'Parabolic Charge': {
+        bp: 50,
+        type: 'Electric',
+        category: 'Special',
+        givesHealth: true,
+    },
     'Phantom Force': {
         bp: 90,
         type: 'Ghost',
@@ -3105,5 +3111,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Dig':{
         bp: 80,
         zp: 160
+    },
+    'Parabolic Charge':{ 
+        bp: 65, 
+        zp:120 
     }
 });
