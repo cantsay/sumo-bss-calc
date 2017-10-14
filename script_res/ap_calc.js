@@ -989,7 +989,7 @@ $(document).ready(function() {
             var results = [];
             for (var i = 0; i < setOptions.length; i++) {
                 var pokeName = setOptions[i].pokemon.toUpperCase();
-                if (!query.term || pokeName.indexOf(query.term.toUpperCase()) === 0 || pokeName.indexOf("-" + query.term.toUpperCase()) >= 0 || pokeName.indexOf(" " + query.term.toUpperCase()) >= 0) {
+                if (!query.term || pokeName.indexOf(query.term.toUpperCase()) === 0 || pokeName.indexOf("" + query.term.toUpperCase()) >= 0 ) {
                     results.push(setOptions[i]);
                 }
             }
