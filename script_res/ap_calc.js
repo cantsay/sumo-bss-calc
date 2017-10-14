@@ -536,14 +536,23 @@ function calculate() {
         if(p1.moves[i].isMLG){
             result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=iD92h-M474g'>it's a one-hit KO!</a>"; //dank memes
         }
+		var recoveryText = '';
+        if (p1.moves[i].givesHealth) {
+            var minHealthRecovered = "%" === '%' ? Math.floor(minDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) / 
+                10 : Math.floor(minDamage * p1.moves[i].percentHealed * 48 / p1.maxHP);
+            var maxHealthRecovered = "%" === '%' ? Math.floor(maxDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) / 
+                10 : Math.floor(maxDamage * p1.moves[i].percentHealed * 48 / p1.maxHP);
+            recoveryText = ' (recovers between ' + minHealthRecovered + "%" + ' and ' + maxHealthRecovered + "%" + ')';
+        }
         $(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("Hidden Power", "HP"));
-        $(resultLocations[0][i].damage).text(minPercent + " - " + maxPercent + "%");
+        $(resultLocations[0][i].damage).text(minPercent + " - " + maxPercent + "%"  + recoveryText);
         if (maxPercent > highestMaxPercent) {
             highestMaxPercent = maxPercent;
             bestResult = $(resultLocations[0][i].move);
         }
         
         result = damageResults[1][i];
+		var recoveryText = '';
         minDamage = result.damage[0] * p2.moves[i].hits;
         maxDamage = result.damage[result.damage.length-1] * p2.moves[i].hits;
         minPercent = Math.floor(minDamage * 1000 / p1.maxHP) / 10;
@@ -554,8 +563,15 @@ function calculate() {
         if(p2.moves[i].isMLG){
             result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=iD92h-M474g'>it's a one-hit KO!</a>";
         }
+        if (p2.moves[i].givesHealth) {
+            var minHealthRecovered = "%" === '%' ? Math.floor(minDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) / 
+                10 : Math.floor(minDamage * p2.moves[i].percentHealed * 48 / p2.maxHP);
+            var maxHealthRecovered = "%" === '%' ? Math.floor(maxDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) / 
+                10 : Math.floor(maxDamage * p2.moves[i].percentHealed * 48 / p2.maxHP);
+            recoveryText = ' (recovers between ' + minHealthRecovered + "%" + ' and ' + maxHealthRecovered + "%" + ')';
+        }
         $(resultLocations[1][i].move + " + label").text(p2.moves[i].name.replace("Hidden Power", "HP"));
-        $(resultLocations[1][i].damage).text(minPercent + " - " + maxPercent + "%");
+        $(resultLocations[1][i].damage).text(minPercent + " - " + maxPercent + "%"  + recoveryText);
         if (maxPercent > highestMaxPercent) {
             highestMaxPercent = maxPercent;
             bestResult = $(resultLocations[1][i].move);

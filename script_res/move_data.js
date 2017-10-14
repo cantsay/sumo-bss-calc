@@ -134,7 +134,9 @@ var MOVES_RBY = {
     },
     'Mega Drain': {
         bp: 40,
-        type: 'Grass'
+        type: 'Grass',
+		givesHealth: true,
+		percentHealed: 0.5
     },
     'Night Shade': {
         bp: 100,
@@ -325,7 +327,9 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
     'Giga Drain': {
         bp: 60,
         type: 'Grass',
-        category: 'Special'
+        category: 'Special',
+		givesHealth: true,
+		percentHealed: 0.5
     },
     'Headbutt': {
         bp: 70,
@@ -932,7 +936,9 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Fighting',
         category: 'Physical',
         makesContact: true,
-        isPunch: true
+        isPunch: true,
+		givesHealth: true,
+		percentHealed: 0.5
     },
     'Earth Power': {
         bp: 90,
@@ -1469,7 +1475,9 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         bp: 75,
         type: 'Grass',
         category: 'Physical',
-        makesContact: true
+        makesContact: true,
+		givesHealth: true,
+		percentHealed: 0.5
     },
     'Hurricane': {
         bp: 120,
@@ -1714,6 +1722,8 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         type: 'Fairy',
         category: 'Special',
         makesContact: true,
+		givesHealth: true,
+		percentHealed: 0.75
     },
     'Energy Ball': { bp: 90 },
     'Facade': { ignoresBurn: true },
@@ -1799,7 +1809,9 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     'Oblivion Wing': {
         bp: 80,
         type: 'Flying',
-        category: 'Special'
+        category: 'Special',
+		givesHealth: true,
+		percentHealed: 0.75
     },
     'Origin Pulse': {
         bp: 110,
@@ -1813,6 +1825,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         type: 'Electric',
         category: 'Special',
         givesHealth: true,
+		percentHealed: 0.5
     },
     'Phantom Force': {
         bp: 90,
@@ -1879,7 +1892,9 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     'Dream Eater': {
         bp: 100,
         type: 'Psychic', 
-        category: 'Special'
+        category: 'Special',
+		givesHealth: true,
+		percentHealed: 0.5
     },
     'Thousand Arrows': {
         bp: 90,
@@ -1942,7 +1957,9 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         type: 'Bug',
         bp: 80,
         zp: 160,
-        makesContact: true
+        makesContact: true,
+		givesHealth: true,
+		percentHealed: 0.5
     },
     'Zing Zap': {
         category: 'Physical',
