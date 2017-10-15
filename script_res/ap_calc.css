@@ -127,7 +127,7 @@ th {
 }
 
 .locked-move:checked + .btn {
-    font-color: #ffffff;
+    color: #ffffff;
     background: #b88df0;
 }
 
