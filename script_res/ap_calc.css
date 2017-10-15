@@ -103,8 +103,7 @@ th {
 }
 .btn-input:checked + .btn {
     font-weight: bold;
-    font-color: #000000;
-    color: #fcfcff;
+    color: #555555;
     background: #ffffab;
 }
 .btn-input[type="radio"]:checked + .btn {
