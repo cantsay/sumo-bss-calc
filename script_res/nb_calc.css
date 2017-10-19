@@ -40,6 +40,15 @@ body, html {
     padding:15px 6px 15px 6px;
 }
 
+/*
+.themeselect {
+	display:block;
+    list-style:none;
+    margin:0;
+    padding:0;
+	float: right;
+	padding:15px 6px 15px 6px;	
+} */
 
 
 .button{
