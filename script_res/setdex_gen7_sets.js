@@ -4605,7 +4605,7 @@ var SETDEX_SMBSPOT={
       "level": 50,
       "evs": {
         "sa": "252",
-	"sd"; "4",
+	"sd": "4",
         "sp": "252"
       },
       "nature": "Timid",
