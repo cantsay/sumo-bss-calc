@@ -131,44 +131,7 @@ var SETDEX_SMBSPOT={
         "Shadow Sneak",
         "Sacred Sword"
       ]
-    },
-    "NO HOLDS BARRED: Lefties SD": { 
-      "level": 100, 
-      "evs": { 
-        "hp": "252", 
-        "at": "252", 
-        "sd": "4", 
-      }, 
-      "nature": "Adamant", 
-      "ability": "Stance Change", 
-      "item": "Leftovers", 
-      "moves": [ 
-        "Shadow Sneak", 
-        "Sacred Sword", 
-        "Iron Head", 
-        "Shadow Claw" 
-      ] 
-    },
-    "NO HOLDS BARRED: Special Weakness Policy": { 
-      "level": 100, 
-      "evs": { 
-        "hp": "252", 
-        "at": "4", 
-        "sa": "252", 
-      }, 
-      "ivs": { 
-        "sp": "0"
-      }, 
-      "nature": "Quiet", 
-      "ability": "Stance Change", 
-      "item": "Weakness Policy", 
-      "moves": [ 
-        "Shadow Ball", 
-        "Flash Cannon", 
-        "Shadow Sneak", 
-        "Hidden Power Ice" 
-      ] 
-    } 
+    }
   },
   "Alakazam": {
     "Bulky MegaZam": {
@@ -475,7 +438,7 @@ var SETDEX_SMBSPOT={
         "Thunder Punch"
       ]
     },
-    "Mixed Attacker": {
+    "Mixed Life Orb": {
       "level": 50,
       "evs": {
         "at": "52",
@@ -564,40 +527,23 @@ var SETDEX_SMBSPOT={
         "Blaze Kick"
       ]
     },
-    "NO HOLDS BARRED: Mega": { 
-      "level": 100, 
-      "evs": { 
-        "at": "252", 
-        "sd": "4", 
-        "sp": "252", 
-      }, 
-      "nature": "Adamant", 
-      "ability": "Speed Boost", 
-      "item": "Blazikenite", 
-      "moves": [ 
-        "Protect", 
-        "Flare Blitz", 
-        "High Jump Kick", 
-        "Superpower" 
-      ] 
-    },
-    "NO HOLDS BARRED: Sash / Z Move": { 
-      "level": 100, 
-      "evs": { 
-        "at": "252", 
-        "sd": "4", 
-        "sp": "252", 
-      }, 
-      "nature": "Jolly", 
-      "ability": "Speed Boost", 
-      "item": "Focus Sash", 
-      "moves": [ 
-        "Flare Blitz", 
-        "High Jump Kick", 
-        "Thunder Punch", 
-        "Low Kick" 
-      ] 
-    } 
+    "Community Create-a-Team": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Speed Boost",
+      "item": "Electrium Z",
+      "moves": [
+        "Flare Blitz",
+        "Thunder Punch",
+        "Swords Dance",
+        "Protect"
+      ]
+    }
   },
   "Breloom": {
     "Focus Sash": {
@@ -815,24 +761,7 @@ var SETDEX_SMBSPOT={
         "Acrobatics",
         "Earthquake"
       ]
-    },
-    "NO HOLDS BARRED: PhysDef": { 
-      "level": 100, 
-      "evs": { 
-        "hp": "252", 
-        "df": "252", 
-        "sd": "4", 
-      }, 
-      "nature": "Impish", 
-      "ability": "Beast Boost", 
-      "item": "Leftovers", 
-      "moves": [ 
-        "Leech Seed", 
-        "Protect", 
-        "Heavy Slam", 
-        "Flame Charge" 
-      ] 
-    } 
+    }
   },
   "Chansey": {
     "Standard": {
@@ -868,27 +797,7 @@ var SETDEX_SMBSPOT={
         "Shadow Ball",
         "Flamethrower"
       ]
-    },
-    "NO HOLDS BARRED": { 
-      "level": 100, 
-      "evs": { 
-        "hp": "252", 
-        "df": "252", 
-        "sd": "4", 
-      }, 
-      "ivs": { 
-        "at": "0", 
-      }, 
-      "nature": "Bold", 
-      "ability": "Natural Cure", 
-      "item": "Eviolite", 
-      "moves": [ 
-        "Seismic Toss", 
-        "Soft-Boiled", 
-        "Toxic", 
-        "Heal Bell" 
-      ] 
-    } 
+    }
   },
   "Charizard": {
     "SD Flame Charge X": {
@@ -960,27 +869,7 @@ var SETDEX_SMBSPOT={
         "Fire Blast",
         "Thunderbolt"
       ]
-    },
-    "NO HOLDS BARRED: Defensive Support": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "df": 252, 
-        "sd": 4, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Bold", 
-      "ability": "Unaware", 
-      "item": "Rocky Helmet", 
-      "moves": [ 
-        "Moonblast", 
-        "Stealth Rock", 
-        "Thunder Wave", 
-        "Moonlight" 
-      ] 
-    } 
+    }
   },
   "Cloyster": {
     "Shell Smash": {
@@ -1122,28 +1011,7 @@ var SETDEX_SMBSPOT={
         "", 
         "" 
       ] 
-    },
-    "NO HOLDS BARRED: level 100": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "df": 252, 
-        "sd": 4, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-        "sp": 0, 
-      }, 
-      "nature": "Relaxed", 
-      "ability": "Imposter", 
-      "item": "Choice Scarf", 
-      "moves": [ 
-        "Transform", 
-        "", 
-        "", 
-        "" 
-      ] 
-    } 
+    }
   },
   "Donphan": {
     "1v1 Beast": {
@@ -1338,47 +1206,7 @@ var SETDEX_SMBSPOT={
 		    "Dazzling Gleam", 
         "Hidden Power Fire" 
       ] 
-    },
-    "NO HOLDS BARRED: Lead": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "df": 4, 
-        "sp": 252, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Timid", 
-      "ability": "Magic Bounce", 
-      "item": "Light Clay", 
-      "moves": [ 
-        "Psychic", 
-        "Reflect", 
-        "Light Screen", 
-        "Yawn" 
-      ] 
-    },
-    "NO HOLDS BARRED: Baton Pass Receiver": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "df": 252, 
-        "sp": 4, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Bold", 
-      "ability": "Synchronize", 
-      "item": "Leftovers", 
-      "moves": [ 
-        "Stored Power", 
-        "Dazzling Gleam", 
-        "Psychic", 
-        "Psyshock" 
-      ] 
-    } 
+    }
   },
   "Excadrill": {
     "Choice Scarf": {
@@ -1493,58 +1321,7 @@ var SETDEX_SMBSPOT={
         "Knock Off",
         "Bullet Seed"
       ]
-    },
-    "NO HOLDS BARRED: PhysDef": { 
-      "level": 100, 
-      "evs": { 
-        "hp": "252", 
-        "df": "252", 
-        "sd": "4"
-      }, 
-      "nature": "Relaxed", 
-      "ability": "Iron Barbs", 
-      "item": "Rocky Helmet", 
-      "moves": [ 
-        "Gyro Ball", 
-        "Power Whip", 
-        "Leech Seed", 
-        "Stealth Rock" 
-      ] 
-    }, 
-    "NO HOLDS BARRED: SpDef": { 
-      "level": 100, 
-      "evs": { 
-        "hp": "252", 
-        "df": "4", 
-        "sd": "252"
-      }, 
-      "nature": "Sassy", 
-      "ability": "Iron Barbs", 
-      "item": "Leftovers", 
-      "moves": [ 
-        "Gyro Ball", 
-        "Power Whip", 
-        "Leech Seed", 
-        "Stealth Rock" 
-      ] 
-    },
-    "NO HOLDS BARRED: Choice Band": { 
-      "level": 100, 
-      "evs": { 
-        "hp": "252", 
-        "at": "252", 
-        "df": "4"
-      }, 
-      "nature": "Brave", 
-      "ability": "Iron Barbs", 
-      "item": "Choice Band", 
-      "moves": [ 
-        "Gyro Ball", 
-        "Power Whip", 
-        "Bullet Seed", 
-        "Bulldoze" 
-      ] 
-    } 
+    }
   },
   "Garchomp": {
     "Lurechomp": {
@@ -1762,47 +1539,7 @@ var SETDEX_SMBSPOT={
         "Shadow Ball",
         "Focus Blast"
       ]
-    },
-    "NO HOLDS BARRED: Offensive": { 
-      "level": 100, 
-      "evs": { 
-        "sa": 252, 
-        "sd": 4, 
-        "sp": 252, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Timid", 
-      "ability": "Cursed Body", 
-      "item": "Gengarite", 
-      "moves": [ 
-        "Shadow Ball", 
-        "Sludge Wave", 
-        "Icy Wind", 
-        "Focus Blast" 
-      ] 
-    },
-    "NO HOLDS BARRED: Bulky": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "sa": 4, 
-        "sp": 252, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Timid", 
-      "ability": "Cursed Body", 
-      "item": "Gengarite", 
-      "moves": [ 
-        "Hex", 
-        "Sludge Bomb", 
-        "Shadow Ball", 
-        "Icy Wind" 
-      ] 
-    } 
+    }
   },
   "Glalie": {
     "Moody": {
@@ -1929,57 +1666,6 @@ var SETDEX_SMBSPOT={
         "Hydro Pump",
         "Extrasensory"
       ]
-    },
-    "NO HOLDS BARRED: Mixed Life Orb": { 
-      "level": 100, 
-      "evs": { 
-        "at": 4, 
-        "sa": 252, 
-        "sp": 252, 
-      }, 
-      "nature": "Naive", 
-      "ability": "Protean", 
-      "item": "Life Orb", 
-      "moves": [ 
-        "Ice Beam", 
-        "Dark Pulse", 
-        "Water Shuriken", 
-        "Gunk Shot" 
-      ] 
-    },
-    "NO HOLDS BARRED: Ash Greninja": { 
-      "level": 100, 
-      "evs": { 
-        "at": 4, 
-        "sa": 252, 
-        "sp": 252, 
-      }, 
-      "nature": "Naive", 
-      "ability": "Battle Bond", 
-      "item": "Life Orb", 
-      "moves": [ 
-        "Ice Beam", 
-        "Dark Pulse", 
-        "Water Shuriken", 
-        "Gunk Shot" 
-      ] 
-    },
-    "cant say's 1v1 Specs": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "sa": "252",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "Protean",
-      "item": "Choice Specs",
-      "moves": [
-        "Hydro Cannon",
-        "Water Shuriken",
-        "Ice Beam",
-        "Hidden Power Poison"
-      ]
     }
   },
   "Gyarados": {
@@ -2032,6 +1718,23 @@ var SETDEX_SMBSPOT={
         "Waterfall",
         "Earthquake",
         "Ice Fang"
+      ]
+    },
+    "Community Create-a-Team": {
+      "level": 50,
+      "evs": {
+        "hp": "36",
+        "at": "220",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Gyaradosite",
+      "moves": [
+        "Waterfall",
+        "Ice Fang",
+        "Dragon Dance",
+        "Earthquake"
       ]
     }
   },
@@ -2123,6 +1826,23 @@ var SETDEX_SMBSPOT={
         "Flash Cannon",
         "Earth Power",
         "Ancient Power"
+      ]
+    },
+    "Community Create-a-Team": {
+      "level": 50,
+      "evs": {
+        "hp": "212",
+        "df": "44",
+        "sd": "252"
+      },
+      "nature": "Careful",
+      "ability": "Flash Fire",
+      "item": "Leftovers",
+      "moves": [
+        "Magmar Storm",
+        "Earth Power",
+        "Toxic",
+        "Protect"
       ]
     }
   },
@@ -2441,24 +2161,7 @@ var SETDEX_SMBSPOT={
         "Sacred Sword",
         "Night Slash"
       ]
-    },
-    "NO HOLDS BARRED: Standard": { 
-      "level": 100, 
-      "evs": { 
-        "at": 252, 
-        "sd": 4, 
-        "sp": 252, 
-      }, 
-      "nature": "Jolly", 
-      "ability": "Beast Boost", 
-      "item": "Focus Sash", 
-      "moves": [ 
-        "Leaf Blade", 
-        "Smart Strike", 
-        "Sacred Sword", 
-        "Night Slash" 
-      ] 
-    } 
+    }
   },
   "Kingdra": {
     "Rain Sweeper": {
@@ -2513,27 +2216,7 @@ var SETDEX_SMBSPOT={
         "Foul Play",
         "Thunder Wave"
       ]
-    },
-    "NO HOLDS BARRED: SwagPlay": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "df": 252, 
-        "sd": 4, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Bold", 
-      "ability": "Prankster", 
-      "item": "Leftovers", 
-      "moves": [ 
-        "Thunder Wave", 
-        "Swagger", 
-        "Foul Play", 
-        "Substitute" 
-      ] 
-    } 
+    }
   },
   "Kommo-o": {
     "Dragon Dance": {
@@ -2640,23 +2323,25 @@ var SETDEX_SMBSPOT={
         "Stone Edge"
       ]
     },
-    "NO HOLDS BARRED: Offensive Lead": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 4, 
-        "at": 252, 
-        "sp": 252, 
-      }, 
-      "nature": "Adamant", 
-      "ability": "Intimidate", 
-      "item": "Focus Sash", 
-      "moves": [ 
-        "Earthquake", 
-        "Rock Tomb", 
-        "Stealth Rock", 
-        "U-turn" 
-      ] 
-    } 
+    "Community Create-a-Team": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "at": "4",
+        "df": "236",
+	"sd": "4",
+	"sp": "20"
+      },
+      "nature": "Impish",
+      "ability": "Intimidate",
+      "item": "Rocky Helmet",
+      "moves": [
+        "Earthquake",
+        "Rock Tomb",
+        "Stealth Rock",
+        "U-turn"
+      ]
+    }
   },
   "Lanturn": {
     "Specially Defensive": {
@@ -3225,24 +2910,7 @@ var SETDEX_SMBSPOT={
         "Shadow Sneak",
         "Wood Hammer"
       ]
-    },
-    "NO HOLDS BARRED: Standard Offensive": { 
-      "level": 100, 
-      "evs": { 
-        "at": 252, 
-        "sd": 4, 
-        "sp": 252, 
-      }, 
-      "nature": "Jolly", 
-      "ability": "Disguise", 
-      "item": "Focus Sash", 
-      "moves": [ 
-        "Swords Dance", 
-        "Shadow Claw", 
-        "Play Rough", 
-        "Shadow Sneak" 
-      ] 
-    } 
+    }
   },
   "Minior": {
     "Special Shell Smash": {
@@ -3485,24 +3153,7 @@ var SETDEX_SMBSPOT={
         "Hidden Power Ground",
         "Focus Blast"
       ]
-    },
-    "NO HOLDS BARRED: Offensive Sash": { 
-      "level": 100, 
-      "evs": { 
-        "at": 252, 
-        "sa": 4, 
-        "sp": 252, 
-      }, 
-      "nature": "Naughty", 
-      "ability": "Beast Boost", 
-      "item": "Focus Sash", 
-      "moves": [ 
-        "High Jump Kick", 
-        "U-turn", 
-        "Ice Beam", 
-        "Poison Jab" 
-      ] 
-    } 
+    }
   },
   "Pidgeot": {
     "Specially Offensive": {
@@ -3753,27 +3404,7 @@ var SETDEX_SMBSPOT={
         "Haze", 
         "Toxic" 
       ] 
-    },
-    "NO HOLDS BARRED: PhysDef": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "df": 252, 
-        "sd": 4, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Bold", 
-      "ability": "Unaware", 
-      "item": "Icium Z", 
-      "moves": [ 
-        "Scald", 
-        "Recover", 
-        "Haze", 
-        "Toxic" 
-      ] 
-    } 
+    }
   },
   "Raichu-Alola": {
     "Offensive": {
@@ -4057,24 +3688,7 @@ var SETDEX_SMBSPOT={
         "Foul Play",
         "Sucker Punch"
       ]
-    },
-    "NO HOLDS BARRED: PhysDef": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "df": 252, 
-        "sd": 4, 
-      }, 
-      "nature": "Impish", 
-      "ability": "Prankster", 
-      "item": "Sablenite", 
-      "moves": [ 
-        "Will-O-Wisp", 
-        "Recover", 
-        "Sucker Punch", 
-        "Knock Off" 
-      ] 
-    } 
+    }
   },
   "Salamence": {
     "Dragon Dance": {
@@ -4237,24 +3851,7 @@ var SETDEX_SMBSPOT={
         "Earthquake", 
         "Protect" 
       ] 
-    },
-    "NO HOLDS BARRED: Offensive Baton Pass": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 4, 
-        "at": 252, 
-        "sp": 252, 
-      }, 
-      "nature": "Jolly", 
-      "ability": "Speed Boost", 
-      "item": "Black Sludge", 
-      "moves": [ 
-        "X-Scissor", 
-        "Poison Jab", 
-        "Earthquake", 
-        "Protect" 
-      ] 
-    } 
+    }
   },
   "Serperior": {
     "Solid Snake": {
@@ -4442,24 +4039,7 @@ var SETDEX_SMBSPOT={
         "Encore", 
         "Knock Off" 
       ] 
-    },
-    "NO HOLDS BARRED: Lead": { 
-      "level": 50, 
-      "evs": { 
-        "hp": "252", 
-        "df": "252", 
-        "sd": "4" 
-      }, 
-      "nature": "Impish", 
-      "ability": "Sturdy", 
-      "item": "Red Card", 
-      "moves": [ 
-        "Sticky Web", 
-        "Stealth Rock", 
-        "Rock Tomb", 
-        "Knock Off" 
-      ] 
-    } 
+    }
   },
   "Silvally": {
     "Z-Explosion": {
@@ -4632,26 +4212,7 @@ var SETDEX_SMBSPOT={
         "Coil", 
         "Stored Power" 
       ] 
-    },
-    "NO HOLDS BARRED: Lead": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 252, 
-        "sp": 252, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Timid", 
-      "ability": "Moody", 
-      "item": "Focus Sash", 
-      "moves": [ 
-        "Spore", 
-        "Geomancy", 
-        "Coil", 
-        "Stored Power" 
-      ] 
-    } 
+    }
   },
   "Snorlax": {
     "Offensive Booster": {
@@ -4895,6 +4456,23 @@ var SETDEX_SMBSPOT={
         "Horn Leech",
         "Stone Edge"
       ]
+    },
+    "Community Create-a-Team": {
+      "level": 50,
+      "evs": {
+        "hp": "236",
+        "at": "164",
+        "sd": "108"
+      },
+      "nature": "Adamant",
+      "ability": "Grassy Surge",
+      "item": "Assault Vest",
+      "moves": [
+        "Wood Hammer",
+        "Horn Leech",
+        "Supoerpower",
+        "Rock Tomb"
+      ]
     }
   },
   "Tapu Fini": {
@@ -4986,24 +4564,7 @@ var SETDEX_SMBSPOT={
         "U-turn",
         "Dazzling Gleam"
       ]
-    },
-    "NO HOLDS BARRED: Special Life Orb": { 
-      "level": 100, 
-      "evs": { 
-        "sa": 252, 
-        "sd": 4, 
-        "sp": 252, 
-      }, 
-      "nature": "Timid", 
-      "ability": "Electric Surge", 
-      "item": "Life Orb", 
-      "moves": [ 
-        "Thunderbolt", 
-        "Dazzling Gleam", 
-        "Volt Switch", 
-        "Hidden Power Fire" 
-      ] 
-    } 
+    }
   },
   "Tapu Lele": {
     "Scarf": {
@@ -5030,7 +4591,7 @@ var SETDEX_SMBSPOT={
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Modest",
+      "nature": "Timid",
       "ability": "Psychic Surge",
       "item": "Choice Specs",
       "moves": [
@@ -5040,26 +4601,23 @@ var SETDEX_SMBSPOT={
         "Hidden Power Fire"
       ]
     },
-    "NO HOLDS BARRED: Offensive": { 
-      "level": 100, 
-      "evs": { 
-        "hp": 4, 
-        "sa": 252, 
-        "sp": 252, 
-      }, 
-      "ivs": { 
-        "at": 0, 
-      }, 
-      "nature": "Timid", 
-      "ability": "Psychic Surge", 
-      "item": "Focus Sash", 
-      "moves": [ 
-        "Psychic", 
-        "Psyshock", 
-        "Moonblast", 
-        "Shadow Ball" 
-      ] 
-    } 
+    "Community Create-a-Team": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+	"sd"; "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Psychic Surge",
+      "item": "Focus Sash",
+      "moves": [
+        "Psyshock",
+        "Moonblast",
+        "Calm Mind",
+        "Taunt"
+      ]
+    }
   },
   "Thundurus": {
     "Attacker": {
