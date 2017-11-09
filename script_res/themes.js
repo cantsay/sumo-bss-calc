@@ -24,7 +24,7 @@ function removejscssfile(filename, filetype){
     }
 }
 
-function createCookie(name,value,days) {
+/* function createCookie(name,value,days) {
 	if (days) {
 		var date = new Date();
 		date.setTime(date.getTime()+(days*24*60*60*1000));
@@ -48,7 +48,7 @@ function readCookie(name) {
 
 function eraseCookie(name) {
 	createCookie(name,"",-1);
-}
+} */
 /*
 if (readCookie("selectedItem")!=null) {
 var selectedItem = readCookie("selectedItem");
