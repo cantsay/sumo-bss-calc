@@ -2244,6 +2244,19 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         bp: 210,
         isZ: true,
     },
+    'Mind Blown': {
+        category: 'Special',
+        type: 'Fire',
+        bp: 150,
+        isSpread: true,
+        zp: 200
+    },
+    'Plasma Fists': {
+        category: 'Physical',
+        type: 'Electric',
+        bp: 100,
+        zp: 180
+    },
     'Breakneck Blitz': {
         type: 'Normal',
     },
