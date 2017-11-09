@@ -3003,6 +3003,25 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Necrozma-Dusk Mane": {
+    "test": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Prism Armor",
+      "item": "Ultranecrozium Z",
+      "moves": [
+        "Flame Charge",
+        "Zen Headbutt",
+        "Outrage",
+        "Return"
+      ]
+    }
+  },
   "Nidoking": { 
     "Focus Sash": { 
       "level": 50, 
