@@ -4389,7 +4389,7 @@ var SETDEX_SMBSPOT={
         "sd": "4"
       },
       "ivs": {
-	"df": "15"
+	"df": "15",
 	"sp": "0"
       },
       "nature": "Lonely",
