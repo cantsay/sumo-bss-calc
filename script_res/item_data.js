@@ -211,7 +211,7 @@ var ITEMS_SM = ITEMS_XY.concat([
     'Icium Z',
     'Flyinium Z',
     'Buginium Z',
-    'Poisonium Z,
+    'Poisonium Z',
     'Groundium Z',
     'Rockium Z',
     'Fightinium Z',
