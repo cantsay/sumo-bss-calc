@@ -1686,6 +1686,11 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     },
     'Assurance': { bp: 60 },
     'Aura Sphere': { bp: 80 },
+    'Belch': {
+        bp: 120,
+	type: 'Poison',
+	category: 'Special'
+    },
     'Blizzard': { bp: 110 },
     'Boomburst': {
         bp: 140,
@@ -3195,5 +3200,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Parabolic Charge':{ 
         bp: 65, 
         zp:120 
+    },
+    'Belch':{
+	zp: 190
     }
 });
