@@ -401,6 +401,25 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Blacephalon": {
+    "Sample Set (Special Flame Charge)": {
+      "level": 50,
+      "evs": {
+        "at": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Mild",
+      "ability": "Beast Boost",
+      "item": "Firium Z",
+      "moves": [
+        "Mind Blown",
+        "Shadow Ball",
+        "Hidden Power Ice",
+        "Flame Charge"
+      ]
+    }
+  },
   "Blastoise": {
     "Wallbreaker": {
       "level": 50,
@@ -3003,8 +3022,27 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Naganadel": {
+    "Sample Set (Offensive)": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Modest",
+      "ability": "Beast Boost",
+      "item": "Dragonium Z",
+      "moves": [
+        "Sludge Wave",
+        "Draco Meteor",
+        "Fire Blast",
+        "Hidden Power Ground"
+      ]
+    }
+  },
   "Necrozma-Dusk Mane": {
-    "test": {
+    "ULTRA Swords Dance": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -3015,10 +3053,63 @@ var SETDEX_SMBSPOT={
       "ability": "Prism Armor",
       "item": "Ultranecrozium Z",
       "moves": [
-        "Flame Charge",
-        "Zen Headbutt",
+        "Photon Geyser",
         "Outrage",
-        "Return"
+        "Earthquake",
+        "Light That Burns the Sky"
+      ]
+    },
+    "REGULAR Swords Dance": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Adamant",
+      "ability": "Prism Armor",
+      "item": "Life Orb",
+      "moves": [
+        "Photon Geyser",
+        "Sunsteel Strike",
+        "Earthquake",
+        "Rock Tomb"
+      ]
+    }
+  },
+  "Necrozma-Dawn Wings": {
+    "ULTRA Calm Mind": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Prism Armor",
+      "item": "Ultranecrozium Z",
+      "moves": [
+        "Photon Geyser",
+        "Earth Power",
+        "Heat Wave",
+        "Light That Burns the Sky"
+      ]
+    },
+    "REGULAR Calm Mind": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "sa": "252",
+        "sd": "4"
+      },
+      "nature": "Modest",
+      "ability": "Prism Armor",
+      "item": "Leftovers",
+      "moves": [
+        "Photon Geyser",
+        "Earth Power",
+        "Heat Wave",
+        "Stored Power"
       ]
     }
   },
@@ -4266,6 +4357,49 @@ var SETDEX_SMBSPOT={
         "Earthquake",
         "Fire Punch",
         "Heavy Slam"
+      ]
+    }
+  },
+  "Stakataka": {
+    "Trick Room Setter": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "ivs": {
+	"sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Beast Boost",
+      "item": "Life Orb",
+      "moves": [
+        "Trick Room",
+        "Gyro Ball",
+        "Rock Blast",
+        "Earthquake"
+      ]
+    },
+    "Attack Booster": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "ivs": {
+	"df": "15"
+	"sp": "0"
+      },
+      "nature": "Lonely",
+      "ability": "Beast Boost",
+      "item": "Life Orb",
+      "moves": [
+        "Trick Room",
+        "Gyro Ball",
+        "Rock Blast",
+        "Earthquake"
       ]
     }
   },
