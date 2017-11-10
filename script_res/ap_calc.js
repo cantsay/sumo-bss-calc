@@ -679,10 +679,10 @@ function Pokemon(pokeInfo) {
     this.status = pokeInfo.find(".status").val();
     this.toxicCounter = this.status === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0;
     this.moves = [
-        getMoveDetails(pokeInfo.find(".move1")),
-        getMoveDetails(pokeInfo.find(".move2")),
-        getMoveDetails(pokeInfo.find(".move3")),
-        getMoveDetails(pokeInfo.find(".move4"))
+        getMoveDetails(pokeInfo.find(".move1"), this.item),
+        getMoveDetails(pokeInfo.find(".move2"), this.item),
+        getMoveDetails(pokeInfo.find(".move3"), this.item),
+        getMoveDetails(pokeInfo.find(".move4"), this.item)
     ];
     this.weight = +pokeInfo.find(".weight").val();
 }
@@ -700,6 +700,23 @@ function getMoveDetails(moveInfo) {
         hits: (defaultDetails.isMultiHit && !moveInfo.find(".move-z").prop("checked")) ? ~~moveInfo.find(".move-hits").val() : (defaultDetails.isTwoHit && !moveInfo.find(".move-z").prop("checked")) ? 2 : 1
     });
 }
+
+function getZMoveName(moveName, moveType, item) {
+    return moveName.indexOf("Hidden Power") !== -1 ? "Breakneck Blitz" // Hidden Power will become Breakneck Blitz
+            : moveName === "Giga Impact" && item === "Snorlium Z" ? "Pulverizing Pancake"
+            : moveName === "Thunderbolt" && item === "Aloraichium Z" ? "Stoked Sparksurfer"
+            : moveName === "Volt Tackle" && item === "Pikanium Z" ? "Catastropika"
+            : moveName === "Thunderbolt" && item === "Pikashunium Z" ? "10,000,000 Volt Thunderbolt"
+            : moveName === "Psychic" && item === "Mewnium Z" ? "Genesis Supernova"
+            : moveName === "Spirit Shackle" && item === "Decidium Z" ? "Sinister Arrow Raid"
+            : moveName === "Darkest Lariat" && item === "Incinium Z" ? "Malicious Moonsault"
+            : moveName === "Sparkling Aria" && item === "Primarium Z" ? "Oceanic Operetta"
+            : moveName === "Spectral Thief" && item === "Marshadium Z" ? "Soul-Stealing 7-Star Strike"
+	    : moveName === "Play Rough" && item === "Mimikium Z" ? "Let's Snuggle Forever"
+	    : moveName === "Photon Geyser" && item === "Ultranecrozium Z" ? "Light That Burns the Sky"
+            : ZMOVES_TYPING[moveType];
+}
+
 
 function Field() {
     var format = $("input:radio[name='format']:checked").val();
