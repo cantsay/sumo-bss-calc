@@ -2078,6 +2078,37 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         type: 'Ghost',
         bp: 180,
     },
+    'Light That Burns the Sky': {
+         bp: 200,
+         type: 'Psychic',
+         category: 'Special',
+     },
+     'Searing Sunraze Smash': {
+         bp: 200,
+         type: 'Steel',
+         category: 'Physical',
+     },
+     'Menacing Moonraze Maelstrom': {
+         bp: 200,
+         type: 'Ghost',
+         category: 'Special',
+     },
+     'Let\'s Snuggle Forever': {
+         bp: 190,
+         type: 'Fairy',
+         category: 'Physical',
+     },
+     'Splintered Stormshards': {
+         bp: 190,
+         type: 'Rock',
+         category: 'Physical',
+     },
+     'Clangorous Soulblaze': {
+         bp: 185,
+         type: 'Dragon',
+         category: 'Special',
+         isSpread: true
+     },
     'Brutal Swing': {
         category: 'Physical',
         type: 'Dark',
@@ -2254,6 +2285,12 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Plasma Fists': {
         category: 'Physical',
         type: 'Electric',
+        bp: 100,
+        zp: 180
+    },
+    'Photon Geyser': {
+        category: 'Special',
+        type: 'Psychic',
         bp: 100,
         zp: 180
     },
