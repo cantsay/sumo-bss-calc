@@ -399,9 +399,12 @@ function getDamageResult(attacker, defender, move, field) {
     ////////////////////////////////
     ////////// (SP)ATTACK //////////
     ////////////////////////////////
+    var necrozmaMove = move.name == "Photon Geyser" || move.name == "Light That Burns the Sky";
     var attack;
     var attackSource = move.name === "Foul Play" ? defender : attacker;
-    var attackStat = move.category === "Physical" ? AT : SA;
+    var usesPhysicalAttackStat = move.category === "Physical" || (necrozmaMove && attacker.stats[AT] >= attacker.stats[SA]);
+    console.log(move.name + " " + usesPhysicalAttackStat);
+    var attackStat = usesPhysicalAttackStat ? AT : SA;
     description.attackEVs = attacker.evs[attackStat] +
             (NATURES[attacker.nature][0] === attackStat ? "+" : NATURES[attacker.nature][1] === attackStat ? "-" : "") + " " +
             toSmogonStat(attackStat);
