@@ -11548,6 +11548,18 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 25.0
   },
+  "Lycanroc-Dusk": {
+    "t1": "Rock",
+    "bs": {
+      "hp": 75,
+      "at": 117,
+      "df": 65,
+      "sa": 55,
+      "sd": 65,
+      "sp": 110
+    },
+    "w": 25.0
+  },
   "Wishiwashi": {
     "t1": "Water",
     "bs": {
