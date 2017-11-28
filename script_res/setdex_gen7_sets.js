@@ -402,21 +402,21 @@ var SETDEX_SMBSPOT={
     }
   },
   "Blacephalon": {
-    "Sample Set (Special Flame Charge)": {
+    "Special Attacker": {
       "level": 50,
       "evs": {
-        "at": "4",
         "sa": "252",
+        "sd": "4",
         "sp": "252"
       },
-      "nature": "Mild",
+      "nature": "Timid",
       "ability": "Beast Boost",
       "item": "Firium Z",
       "moves": [
         "Mind Blown",
         "Shadow Ball",
         "Hidden Power Ice",
-        "Flame Charge"
+        "Fire Blast"
       ]
     }
   },
@@ -2477,7 +2477,7 @@ var SETDEX_SMBSPOT={
       "moves": [
         "Close Combat",
         "Extreme Speed",
-        "Iron Tail",
+        "Meteor Mash",
         "Ice Punch"
       ]
     },
@@ -2905,29 +2905,29 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Adamant",
       "ability": "Disguise",
-      "item": "Ghostium Z",
+      "item": "Mimikium Z",
       "moves": [
         "Play Rough",
         "Shadow Claw",
         "Shadow Sneak",
-        "Wood Hammer"
+        "Let\'s Snuggle Forever"
       ]
     },
-    "Trick Room Setter": {
+    "Curse": {
       "level": 50,
       "evs": {
-        "hp": "252",
+        "hp": "228",
         "at": "252",
-        "sd": "4"
+        "df": "28"
       },
-      "nature": "Brave",
+      "nature": "Adamant",
       "ability": "Disguise",
-      "item": "Ghostium Z",
+      "item": "Mimikium Z",
       "moves": [
         "Play Rough",
         "Shadow Claw",
         "Shadow Sneak",
-        "Wood Hammer"
+        "Let\s Snuggle Forever"
       ]
     }
   },
@@ -3023,14 +3023,31 @@ var SETDEX_SMBSPOT={
     }
   },
   "Naganadel": {
-    "Sample Set (Offensive)": {
+    "Nasty Plot": {
+      "level": 50,
+      "evs": {
+        "hp": "20",
+        "sa": "236",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Beast Boost",
+      "item": "Dragonium Z",
+      "moves": [
+        "Sludge Wave",
+        "Draco Meteor",
+        "Fire Blast",
+        "Hidden Power Ground"
+      ]
+    },
+    "Choice Scarf / Focus Sash": {
       "level": 50,
       "evs": {
         "sa": "252",
         "sd": "4",
         "sp": "252"
       },
-      "nature": "Modest",
+      "nature": "Timid",
       "ability": "Beast Boost",
       "item": "Dragonium Z",
       "moves": [
@@ -4373,7 +4390,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Brave",
       "ability": "Beast Boost",
-      "item": "Life Orb",
+      "item": "Rockium Z",
       "moves": [
         "Trick Room",
         "Gyro Ball",
@@ -4381,7 +4398,7 @@ var SETDEX_SMBSPOT={
         "Earthquake"
       ]
     },
-    "Attack Booster": {
+    "Lonely Attack Booster": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -4394,12 +4411,32 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Lonely",
       "ability": "Beast Boost",
-      "item": "Life Orb",
+      "item": "Rockium Z",
       "moves": [
         "Trick Room",
         "Gyro Ball",
         "Rock Blast",
         "Earthquake"
+      ]
+    },
+    "Choice Band": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "at": "252",
+        "sd": "4"
+      },
+      "ivs": {
+	"sp": "0"
+      },
+      "nature": "Brave",
+      "ability": "Beast Boost",
+      "item": "Choice Band",
+      "moves": [
+        "Gyro Ball",
+        "Rock Blast",
+        "Earthquake",
+	"Superpower"
       ]
     }
   },
