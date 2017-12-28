@@ -10986,6 +10986,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 80,
       "sp": 77
     },
+    "w": 25.5,
     "formes": ["Raticate-Alola", "Raticate-Alola-Totem"]
   },
   "Raticate-Alola-Totem": {
@@ -11054,7 +11055,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 34.0,
     "formes": ["Marowak-Alola", "Marowak-Alola-Totem"]
   },
-  "Raticate-Alola-Totem": {
+  "Marowak-Alola-Totem": {
     "t1": "Fire",
     "t2": "Ghost",
     "bs": {
