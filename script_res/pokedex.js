@@ -11418,7 +11418,6 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "ab": "Adaptability",
     "isAlternateForme": true
   },
-  },
   "Grubbin": {
     "t1": "Bug",
     "bs": {
