@@ -10986,7 +10986,22 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 80,
       "sp": 77
     },
-    "w": 25.5,
+    "formes": ["Raticate-Alola", "Raticate-Alola-Totem"]
+  },
+  "Raticate-Alola-Totem": {
+    "t1": "Dark",
+    "t2": "Normal",
+    "bs": {
+      "hp": 75,
+      "at": 71,
+      "df": 70,
+      "sa": 40,
+      "sd": 80,
+      "sp": 77
+    },
+    "w": 105.0,
+    "ab": "Thick Fat",
+    "isAlternateForme": true
   },
   "Meowth-Alola": {
     "t1": "Dark",
@@ -11037,6 +11052,22 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 45
     },
     "w": 34.0,
+    "formes": ["Marowak-Alola", "Marowak-Alola-Totem"]
+  },
+  "Raticate-Alola-Totem": {
+    "t1": "Fire",
+    "t2": "Ghost",
+    "bs": {
+      "hp": 60,
+      "at": 80,
+      "df": 110,
+      "sa": 50,
+      "sd": 80,
+      "sp": 45
+    },
+    "w": 98.0,
+    "ab": "Rock Head",
+    "isAlternateForme": true
   },
   "Geodude-Alola": {
     "t1": "Rock",
@@ -11369,7 +11400,23 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 60,
       "sp": 45
     },
-    "w": 14.2
+    "w": 14.2,
+    "formes": ["Gumshoos", "Gumshoos-Totem"]
+  },
+  "Gumshoos-Totem": {
+    "t1": "Normal",
+    "bs": {
+      "hp": 88,
+      "at": 110,
+      "df": 60,
+      "sa": 55,
+      "sd": 60,
+      "sp": 45
+    },
+    "w": 60.0,
+    "ab": "Adaptability",
+    "isAlternateForme": true
+  },
   },
   "Grubbin": {
     "t1": "Bug",
@@ -11407,7 +11454,23 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 75,
       "sp": 43
     },
-    "w": 45.0
+    "w": 45.0,
+    "formes": ["Vikavolt", "Vikavolt-Totem"]
+  },
+  "Vikavolt-Totem": {
+    "t1": "Bug",
+    "t2": "Electric",
+    "bs": {
+      "hp": 77,
+      "at": 70,
+      "df": 90,
+      "sa": 145,
+      "sd": 75,
+      "sp": 43
+    },
+    "w": 147.5,
+    "ab": "Levitate",
+    "isAlternateForme": true
   },
   "Crabrawler": {
     "t1": "Fighting",
@@ -11510,7 +11573,23 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 70,
       "sp": 124
     },
-    "w": 0.5
+    "w": 0.5,
+    "formes": ["Ribombee", "Ribombee-Totem"]
+  },
+  "Ribombee-Totem": {
+    "t1": "Bug",
+    "t2": "Fairy",
+    "bs": {
+      "hp": 60,
+      "at": 55,
+      "df": 60,
+      "sa": 95,
+      "sd": 70,
+      "sp": 124
+    },
+    "w": 2.0,
+    "ab": "Sweet Veil",
+    "isAlternateForme": true
   },
   "Rockruff": {
     "t1": "Rock",
@@ -11675,6 +11754,22 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "ab": "Water Bubble",
     "w": 82.0,
+    "formes": ["Araquanid", "Araquanid-Totem"]
+  },
+  "Araquanid-Totem": {
+    "t1": "Water",
+    "t2": "Bug",
+    "bs": {
+      "hp": 68,
+      "at": 70,
+      "df": 92,
+      "sa": 50,
+      "sd": 132,
+      "sp": 42
+    },
+    "w": 217.5,
+    "ab": "Water Bubble",
+    "isAlternateForme": true
   },
   "Fomantis": {
     "t1": "Grass",
@@ -11699,6 +11794,21 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 45
     },
     "w": 19.5,
+    "formes": ["Lurantis", "Lurantis-Totem"]
+  },
+  "Lurantis-Totem": {
+    "t1": "Grass",
+    "bs": {
+      "hp": 70,
+      "at": 105,
+      "df": 90,
+      "sa": 80,
+      "sd": 90,
+      "sp": 45
+    },
+    "w": 58.0,
+    "ab": "Leaf Guard",
+    "isAlternateForme": true
   },
   "Morelull": {
     "t1": "Grass",
@@ -11751,6 +11861,22 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 117
     },
     "w": 22.2,
+    "formes": ["Salazzle", "Salazzle-Totem"]
+  },
+  "Salazzle-Totem": {
+    "t1": "Poison",
+    "t2": "Fire",
+    "bs": {
+      "hp": 68,
+      "at": 64,
+      "df": 60,
+      "sa": 111,
+      "sd": 60,
+      "sp": 117
+    },
+    "w": 81.0,
+    "ab": "Corossion",
+    "isAlternateForme": true
   },
   "Stufful": {
     "t1": "Normal",
@@ -12224,6 +12350,22 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 96
     },
     "w": 3.3,
+    "formes": ["Togedemaru", "Togedemaru-Totem"]
+  },
+  "Togedemaru-Totem": {
+    "t1": "Electric",
+    "t2": "Steel",
+    "bs": {
+      "hp": 65,
+      "at": 98,
+      "df": 63,
+      "sa": 40,
+      "sd": 73,
+      "sp": 96
+    },
+    "w": 13.0,
+    "ab": "Sturdy",
+    "isAlternateForme": true
   },
   "Mimikyu": {
     "t1": "Ghost",
@@ -12237,8 +12379,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 96
     },
     "w": 0.7,
+    "formes": ["Mimikyu", "Mimikyu-Totem"]
   },
-  "Mimikyu": {
+  "Mimikyu-Totem": {
     "t1": "Ghost",
     "t2": "Fairy",
     "bs": {
@@ -12249,7 +12392,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 105,
       "sp": 96
     },
-    "w": 0.7,
+    "w": 2.8,
+    "ab": "Disguise",
+    "isAlternateForme": true
   },
   "Bruxish": {
     "t1": "Water",
@@ -12327,6 +12472,22 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 85
     },
     "w": 78.2,
+    "formes": ["Kommo-o", "Kommo-o-Totem"]
+  },
+  "Kommo-o-Totem": {
+    "t1": "Dragon",
+    "t2": "Fighting",
+    "bs": {
+      "hp": 75,
+      "at": 110,
+      "df": 125,
+      "sa": 100,
+      "sd": 105,
+      "sp": 85
+    },
+    "w": 207.5,
+    "ab": "Overcoat",
+    "isAlternateForme": true
   },
   "Tapu Koko": {
     "t1": "Electric",
