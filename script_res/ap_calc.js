@@ -565,7 +565,6 @@ function calculate() {
  			recoilText = ' (' + minRecoilDamage + ' - ' + maxRecoilDamage + notation + ' recoil damage)';
  		}
  		if (p1.moves[i].hasRecoil && hasHalfRecoil) {
- 			var minRecoilDamage = notation === '%' ? Math.floor(minDamage * (1/4) * 1000 / p1.maxHP) / 10 :
  			var maxRecoilDamage = notation === '%' ? Math.floor(maxDamage * (1/4) * 1000 / p1.maxHP) / 10 :
  				Math.floor(minDamage * (1/4) * 48 / p1.maxHP);
  			recoilText = ' (' + minRecoilDamage + ' - ' + maxRecoilDamage + notation + ' recoil damage)';
