@@ -324,7 +324,7 @@ var SETDEX_FACTORYSETS={
         "Superpower", 
         "Aqua Jet", 
         "Play Rough", 
-        "Waterfall" 
+        "Liquidation" 
       ] 
     },
     "Z Belly Drum": { 
@@ -343,7 +343,7 @@ var SETDEX_FACTORYSETS={
         "Superpower", 
         "Aqua Jet", 
         "Play Rough", 
-        "Waterfall" 
+        "Liquidation" 
       ] 
     },
     "Choice Band": { 
@@ -361,7 +361,7 @@ var SETDEX_FACTORYSETS={
       "moves": [ 
         "Aqua Jet", 
         "Play Rough", 
-        "Waterfall", 
+        "Liquidation", 
         "Superpower" 
       ] 
     },
@@ -380,7 +380,7 @@ var SETDEX_FACTORYSETS={
       "moves": [ 
         "Aqua Jet", 
         "Play Rough", 
-        "Waterfall", 
+        "Liquidation", 
         "Superpower" 
       ] 
     } 
@@ -401,6 +401,108 @@ var SETDEX_FACTORYSETS={
         "Poison Jab", 
         "Drill Run", 
         "Knock Off" 
+      ] 
+    } 
+  },
+    "Blacephalon": { 
+    "Z Move": { 
+      "level": 50, 
+      "evs": { 
+        "sa": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Firium Z", 
+      "moves": [ 
+        "Mind Blown", 
+        "Shadow Ball", 
+        "Hidden Power Ice", 
+        "Fire Blast" 
+      ] 
+    },
+    "SubSplit": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Fire Blast", 
+        "Shadow Ball", 
+        "Flamethrower", 
+        "Pain Split" 
+      ] 
+    },
+    "SubCM": { 
+      "level": 50, 
+      "evs": { 
+        "sa": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Mago Berry", 
+      "moves": [ 
+        "Mind Blown", 
+        "Shadow Ball", 
+        "Substitute", 
+        "Calm Mind" 
+      ] 
+    },
+    "Focus Sash": { 
+      "level": 50, 
+      "evs": { 
+        "sa": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Hasty", 
+      "ability": "Beast Boost", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Shadow Ball", 
+        "Hidden Power Ice", 
+        "Fire Blast", 
+        "Flame Charge" 
+      ] 
+    },
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "sa": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Mind Blown / Trick", 
+        "Shadow Ball", 
+        "Hidden Power Ice", 
+        "Flamethrower / Fire Blast" 
       ] 
     } 
   },
@@ -1159,7 +1261,7 @@ var SETDEX_FACTORYSETS={
         "Icicle Spear", 
         "Rock Blast", 
         "Ice Shard",
-		"Razor Shell"
+	"Liquidation"
       ] 
     } 
   },
@@ -2533,6 +2635,23 @@ var SETDEX_FACTORYSETS={
         "Thunder Wave", 
         "Roost" 
       ] 
+    },
+    "Z Belch": { 
+      "level": 50, 
+      "evs": { 
+        "sa": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "nature": "Modest", 
+      "ability": "Levitate", 
+      "item": "Poisonium Z", 
+      "moves": [ 
+        "Belch", 
+        "Dark Pulse", 
+        "Draco Meteor", 
+        "Fire Blast" 
+      ] 
     } 
   },
   "Jellicent": { 
@@ -2705,6 +2824,75 @@ var SETDEX_FACTORYSETS={
         "Yawn"
       ] 
     } 
+  },
+  "Kommo-o": { 
+    "Mixed Kommonium": { 
+      "level": 50, 
+      "evs": { 
+        "at": "4", 
+        "sa": "252", 
+        "sp": "252"
+      }, 
+      "nature": "Naive", 
+      "ability": "Overcoat", 
+      "item": "Kommonium Z", 
+      "moves": [ 
+        "Clangorous Soulblaze", 
+        "Close Combat", 
+        "Flamethrower", 
+        "Flash Cannon"
+      ] 
+    },
+    "Special Kommonium": { 
+      "level": 50, 
+      "evs": { 
+        "sa": "252", 
+        "sd": "4", 
+        "sp": "252"
+      }, 
+      "nature": "Modest", 
+      "ability": "Overcoat", 
+      "item": "Kommonium Z", 
+      "moves": [ 
+        "Clangorous Soulblaze", 
+        "Focus Blast", 
+        "Flamethrower", 
+        "Flash Cannon" 
+      ] 
+    },
+    "Focus Sash": { 
+      "level": 50, 
+      "evs": { 
+        "at": "252", 
+        "sp": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Bulletproof", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Stealth Rock", 
+        "Close Combat", 
+        "Rock Tomb", 
+        "Endeavor" 
+      ] 
+    },
+    "Belly Drum": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Bulletproof", 
+      "item": "Salac Berry", 
+      "moves": [ 
+        "Drain Punch", 
+        "Poison Jab", 
+        "Iron Head", 
+        "Shadow Claw"
+      ] 
+    }
   },
   "Landorus-T": { 
     "SpDef Iapapa": { 
@@ -3477,7 +3665,7 @@ var SETDEX_FACTORYSETS={
     } 
   },
   "Mimikyu": { 
-    "Swords Dance Z Move": { 
+    "Offensive Z Move": { 
       "level": 50, 
       "evs": { 
         "hp": "4", 
@@ -3528,42 +3716,38 @@ var SETDEX_FACTORYSETS={
         "Shadow Sneak" 
       ] 
     },
-    "Curse + Fairium Z": { 
+    "Bulky Mimikium": { 
       "level": 50, 
       "evs": { 
-        "hp": "244", 
-        "at": "196", 
-        "df": "4", 
-        "sd": "12", 
-        "sp": "52" 
+        "hp": "228", 
+        "at": "252", 
+        "df": "28"
       }, 
       "nature": "Adamant", 
       "ability": "Disguise", 
       "item": "Fairium Z", 
       "moves": [ 
-        "Curse", 
+        "Swords Dance", 
         "Play Rough", 
-        "Trick Room", 
-        "Shadow Sneak" 
+        "Shadow Sneak", 
+        "Curse" 
       ] 
     },
-    "Z Curse": { 
+    "Sub + Pain Split": { 
       "level": 50, 
       "evs": { 
-        "hp": "244", 
-        "at": "4", 
-        "df": "4", 
-        "sd": "188", 
-        "sp": "68" 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252" 
       }, 
-      "nature": "Careful", 
+      "nature": "Jolly", 
       "ability": "Disguise", 
       "item": "Ghostium Z", 
       "moves": [ 
-        "Shadow Claw", 
         "Curse", 
         "Substitute", 
-        "Pain Split" 
+        "Pain Split", 
+        "Shadow Claw" 
       ] 
     } 
   },
@@ -3581,8 +3765,8 @@ var SETDEX_FACTORYSETS={
       "moves": [ 
         "Gunk Shot", 
         "Knock Off", 
-        "Shadow Sneak", 
-        "Flamethrower" 
+        "Pursuit", 
+        "Fire Punch" 
       ] 
     }, 
     "SpDef Minimize": { 
@@ -3613,10 +3797,63 @@ var SETDEX_FACTORYSETS={
       "ability": "Gluttony", 
       "item": "Figy Berry", 
       "moves": [ 
-        "Gunk Shot", 
         "Knock Off", 
-        "Poison Jab", 
+        "Fire Punch", 
+        "Gunk Shot", 
         "Shadow Sneak" 
+      ] 
+    } 
+  },
+  "Naganadel": { 
+    "Dragonium Z": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "20", 
+        "at": "226", 
+        "sp": "252"
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Dragonium Z", 
+      "moves": [ 
+        "Draco Meteor", 
+        "Sludge Wave", 
+        "Fire Blast", 
+        "Hidden Power Ground" 
+      ] 
+    },
+    "Choice Specs": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252"
+      }, 
+      "nature": "Timid", 
+      "ability": "Beast Boost", 
+      "item": "Choice Specs", 
+      "moves": [ 
+        "Draco Meteor", 
+        "Sludge Wave", 
+        "Fire Blast", 
+        "Hidden Power Ground" 
+      ] 
+    },
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252"
+      }, 
+      "nature": "Modest", 
+      "ability": "Beast Boost", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Draco Meteor", 
+        "Sludge Wave", 
+        "Fire Blast", 
+        "Hidden Power Ground" 
       ] 
     } 
   },
@@ -5154,6 +5391,29 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
+  "Slurpuff": { 
+    "s t i c c": { 
+      "level": 50, 
+      "evs": { 
+        "at": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "hp": 0, 
+        "df": 0, 
+        "sd": 0, 
+      }, 
+      "nature": "Hasty", 
+      "ability": "Unburden", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Sticky Web", 
+        "Endeavor", 
+        "Yawn", 
+        "Play Rough" 
+      ] 
+    } 
+  },
   "Snorlax": { 
     "Whirlwind": { 
       "level": 50, 
@@ -5204,6 +5464,90 @@ var SETDEX_FACTORYSETS={
 	"Fire Punch", 
         "Return", 
         "Belly Drum" 
+      ] 
+    } 
+  },
+  "Stakataka": { 
+    "Z Move (Brave)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "df": "4" 
+      }, 
+      "ivs": {
+	"sp": "0"
+      },
+      "nature": "Brave", 
+      "ability": "Beast Boost", 
+      "item": "Rockium Z", 
+      "moves": [ 
+        "Gyro Ball", 
+        "Rock Blast", 
+        "Earthquake", 
+        "Stone Edge" 
+      ] 
+    },
+    "Z Move (Lonely)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "sd": "4" 
+      }, 
+      "ivs": {
+	"df": "15",
+	"sp": "0"
+      },
+      "nature": "Lonely", 
+      "ability": "Beast Boost", 
+      "item": "Rockium Z", 
+      "moves": [ 
+        "Gyro Ball", 
+        "Rock Blast", 
+        "Earthquake", 
+        "Stone Edge" 
+      ] 
+    }, 
+    "Choice Band (Brave)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "df": "4" 
+      }, 
+      "ivs": {
+	"sp": "0"
+      },
+      "nature": "Brave", 
+      "ability": "Beast Boost", 
+      "item": "Choice Band", 
+      "moves": [ 
+        "Gyro Ball", 
+        "Rock Blast", 
+        "Earthquake", 
+        "Superpower" 
+      ] 
+    }, 
+    "Choice Band (Lonely)": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "at": "252", 
+        "sd": "4" 
+      }, 
+      "ivs": {
+	"df": "15",
+	"sp": "0"
+      },
+      "nature": "Lonely", 
+      "ability": "Beast Boost", 
+      "item": "Choice Band", 
+      "moves": [ 
+        "Gyro Ball", 
+        "Rock Blast", 
+        "Earthquake", 
+        "Superpower" 
       ] 
     } 
   },
