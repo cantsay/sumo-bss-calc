@@ -568,7 +568,7 @@ function calculate() {
  			var maxRecoilDamage = notation === '%' ? Math.floor(maxDamage * (1/4) * 1000 / p1.maxHP) / 10 :
  				Math.floor(minDamage * (1/4) * 48 / p1.maxHP);
  			recoilText = ' (' + minRecoilDamage + ' - ' + maxRecoilDamage + notation + ' recoil damage)';
- 		}				Math.floor(minDamage * (1/4) * 48 / p1.maxHP);
+ 		}
         $(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("Hidden Power", "HP"));
         $(resultLocations[0][i].damage).text(minPercent + " - " + maxPercent + "%"  + recoveryText + recoilText);
         if (maxPercent > highestMaxPercent) {
