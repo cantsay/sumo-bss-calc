@@ -3674,7 +3674,7 @@ var SETDEX_FACTORYSETS={
       }, 
       "nature": "Adamant", 
       "ability": "Disguise", 
-      "item": "Ghostium Z", 
+      "item": "Mimikium Z", 
       "moves": [ 
         "Swords Dance", 
         "Shadow Claw", 
@@ -3725,7 +3725,7 @@ var SETDEX_FACTORYSETS={
       }, 
       "nature": "Adamant", 
       "ability": "Disguise", 
-      "item": "Fairium Z", 
+      "item": "Mimikium Z", 
       "moves": [ 
         "Swords Dance", 
         "Play Rough", 
@@ -3809,7 +3809,7 @@ var SETDEX_FACTORYSETS={
       "level": 50, 
       "evs": { 
         "hp": "20", 
-        "at": "226", 
+        "sa": "236", 
         "sp": "252"
       }, 
       "nature": "Timid", 
@@ -3826,7 +3826,7 @@ var SETDEX_FACTORYSETS={
       "level": 50, 
       "evs": { 
         "hp": "4", 
-        "at": "252", 
+        "sa": "252", 
         "sp": "252"
       }, 
       "nature": "Timid", 
@@ -3843,7 +3843,7 @@ var SETDEX_FACTORYSETS={
       "level": 50, 
       "evs": { 
         "hp": "4", 
-        "at": "252", 
+        "sa": "252", 
         "sp": "252"
       }, 
       "nature": "Modest", 
