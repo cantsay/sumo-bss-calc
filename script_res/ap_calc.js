@@ -555,14 +555,14 @@ function calculate() {
         }
 	var recoilText = '';
 	if (p1.moves[i].hasRecoil) {
-		var minRecoilDamage = notation === '%' ? Math.floor(minDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
+		var minRecoilDamage = "%" === '%' ? Math.floor(minDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
 		  Math.floor(minDamage * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
-		var maxRecoilDamage = notation === '%' ? Math.floor(maxDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
+		var maxRecoilDamage = "%" === '%' ? Math.floor(maxDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
 		  Math.floor(minDamage * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
-		if (minRecoilDamage > 100  && notation === '%') {
+		if (minRecoilDamage > 100  && "%" === '%') {
 		  minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 		  maxRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
-		} else if (notation !== '%' && minRecoilDamage > 48) {
+		} else if ("%" !== '%' && minRecoilDamage > 48) {
 		  minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
 		  maxRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
 		}
