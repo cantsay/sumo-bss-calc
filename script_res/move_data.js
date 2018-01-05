@@ -57,7 +57,8 @@ var MOVES_RBY = {
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
-        hasRecoil: true
+	hasRecoil: true,
+	recoilPercentage: 0.33    
     },
     'Drill Peck': {
         bp: 80,
@@ -203,7 +204,10 @@ var MOVES_RBY = {
     },
     'Submission': {
         bp: 80,
-        type: 'Fighting'
+        type: 'Fighting',
+	makeContact: true,
+	hasRecoil: true,
+	recoilPercentage: 0.25
     },
     'Surf': {
         bp: 95,
@@ -769,7 +773,8 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         category: 'Physical',
         makesContact: true,
         hasSecondaryEffect: true,
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.33
     },
     'Water Pulse': {
         bp: 60,
@@ -838,7 +843,8 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Flying',
         category: 'Physical',
         makesContact: true,
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.33
     },
     'Brine': {
         bp: 65,
@@ -967,7 +973,8 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         category: 'Physical',
         makesContact: true,
         hasSecondaryEffect: true,
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.33
     },
     'Flash Cannon': {
         bp: 80,
@@ -1031,7 +1038,8 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Rock',
         category: 'Physical',
         makesContact: true,
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.5
     },
     'Hi Jump Kick': { bp: 100 },
     'Hyper Voice': {
@@ -1281,7 +1289,8 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Grass',
         category: 'Physical',
         makesContact: true,
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.33
     },
     'X-Scissor': {
         bp: 80,
@@ -1457,7 +1466,8 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.25
     },
     'Heavy Slam': {
         bp: 1,
@@ -1671,7 +1681,8 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         type: 'Electric',
         category: 'Physical',
         makesContact: true,
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.25
     }
 });
 
@@ -1792,7 +1803,8 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         bp: 140,
         type: 'Fairy',
         category: 'Special',
-        hasRecoil: true
+        hasRecoil: true,
+	recoilPercentage: 0.5
     },
     'Low Sweep': { bp: 65 },
     'Magma Storm': { bp: 100 },
