@@ -563,7 +563,7 @@ function calculate() {
 		  minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 		  maxRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 		} else if (minDamage < p2.curHP && maxDamage > p2.curHP) {
-		  minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
+		  minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP);
 		  maxRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 		} else if ("%" !== '%' && minRecoilDamage > 48) {
 		  minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
@@ -614,7 +614,7 @@ function calculate() {
 		  minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 		  maxRecoilDamage = Math.floor(p1.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 		} else if (minDamage < p1.curHP && maxDamage > p1.curHP) {
-		  minRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 48 / p2.maxHP);
+		  minRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 1000 / p2.maxHP);
 		  maxRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10;
 		} else if ("%" !== '%' && minRecoilDamage > 48) {
 		  minRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 48 / p1.maxHP);
