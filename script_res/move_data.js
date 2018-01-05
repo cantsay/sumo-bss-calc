@@ -57,6 +57,7 @@ var MOVES_RBY = {
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
+	suffersRecoil: true,
 	hasRecoil: true,
 	recoilPercentage: 0.33    
     },
@@ -206,6 +207,7 @@ var MOVES_RBY = {
         bp: 80,
         type: 'Fighting',
 	makeContact: true,
+	suffersRecoil: true,
 	hasRecoil: true,
 	recoilPercentage: 0.25
     },
@@ -773,6 +775,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         category: 'Physical',
         makesContact: true,
         hasSecondaryEffect: true,
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.33
     },
@@ -843,6 +846,7 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Flying',
         category: 'Physical',
         makesContact: true,
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.33
     },
@@ -973,6 +977,7 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         category: 'Physical',
         makesContact: true,
         hasSecondaryEffect: true,
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.33
     },
@@ -1038,6 +1043,7 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Rock',
         category: 'Physical',
         makesContact: true,
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.5
     },
@@ -1289,6 +1295,7 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Grass',
         category: 'Physical',
         makesContact: true,
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.33
     },
@@ -1466,6 +1473,7 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         type: 'Normal',
         category: 'Physical',
         makesContact: true,
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.25
     },
@@ -1681,6 +1689,7 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         type: 'Electric',
         category: 'Physical',
         makesContact: true,
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.25
     }
@@ -1803,6 +1812,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         bp: 140,
         type: 'Fairy',
         category: 'Special',
+	suffersRecoil: true,
         hasRecoil: true,
 	recoilPercentage: 0.5
     },

@@ -554,7 +554,7 @@ function calculate() {
             recoveryText = ' (recovers between ' + minHealthRecovered + "%" + ' and ' + maxHealthRecovered + "%" + ')';
         }
 	var recoilText = '';
-	if (p1.moves[i].hasRecoil) {
+	if (p1.moves[i].suffersRecoil) {
 		var minRecoilDamage = "%" === '%' ? Math.floor(minDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
 		  Math.floor(minDamage * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
 		var maxRecoilDamage = "%" === '%' ? Math.floor(maxDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
@@ -602,7 +602,7 @@ function calculate() {
             recoveryText = ' (recovers between ' + minHealthRecovered + "%" + ' and ' + maxHealthRecovered + "%" + ')';
 	}
 	var recoilText = '';
-	if (p2.moves[i].hasRecoil) {
+	if (p2.moves[i].suffersRecoil) {
 		var minRecoilDamage = "%" === '%' ? Math.floor(minDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
 		  Math.floor(minDamage * p2.moves[i].recoilPercentage * 48 / p2.maxHP);
 		var maxRecoilDamage = "%" === '%' ? Math.floor(maxDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
