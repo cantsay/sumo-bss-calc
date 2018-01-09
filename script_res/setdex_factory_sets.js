@@ -3164,6 +3164,25 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
+  "Lopunny": { 
+    "Wascally Wabbit": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Limber", 
+      "item": "Lopunnite", 
+      "moves": [ 
+        "Fake Out", 
+        "High Jump Kick", 
+        "Return", 
+        "Ice Punch"
+      ] 
+    } 
+  },
   "Lucario": { 
     "Physical": { 
       "level": 50, 
@@ -5558,6 +5577,9 @@ var SETDEX_FACTORYSETS={
         "hp": "244", 
         "at": "148", 
         "sd": "116"
+      }, 
+      "ivs": { 
+        "sp": "0"
       }, 
       "nature": "Brave", 
       "ability": "Sturdy", 
