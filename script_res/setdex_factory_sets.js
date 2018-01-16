@@ -154,6 +154,44 @@ var SETDEX_FACTORYSETS={
       ] 
     } 
   },
+  "Altaria": { 
+    "Dragon Dance": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4",
+        "at": "252",
+        "sp": "252"
+      }, 
+      "nature": "Jolly", 
+      "ability": "Natural Cure", 
+      "item": "Altarianite", 
+      "moves": [ 
+        "Dragon Dance", 
+        "Return", 
+        "Earthquake", 
+        "Roost" 
+      ] 
+    },
+    "Hyper Voice": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252",
+        "df": "52",
+        "sa": "76",
+	"sd": "124",
+	"sp": "4"
+      }, 
+      "nature": "Timid", 
+      "ability": "Magic Guard", 
+      "item": "Alakazite", 
+      "moves": [ 
+        "Psychic", 
+        "Focus Blast", 
+        "Shadow Ball", 
+        "Hidden Power Ice" 
+      ] 
+    } 
+  },
   "Amoonguss": { 
     "Leftovers": { 
       "level": 50, 
