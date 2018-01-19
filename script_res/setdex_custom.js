@@ -16,7 +16,9 @@ var showdownFormes = [["Kyurem-White", "Kyurem-W"],
 ["Wormadan-Sandy", "Wormadan-G"],
 ["Wormadan-Trash", "Wormadan-S"],
 ["Groudon-Primal", "Groudon"],
-["Kyogre-Primal", "Kyogre"]];
+["Kyogre-Primal", "Kyogre"],
+["Necrozma-Dusk-Mane", "Necrozma-Dusk Mane"],
+["Necrozma-Dawn-Wings", "Necrozma-Dawn Wings"]];
 if(readCookie("custom") != null){
 	var SETDEX_CUSTOM = JSON.parse(readCookie("custom"))
 }
