@@ -399,7 +399,6 @@ function getDamageResult(attacker, defender, move, field) {
     ////////////////////////////////
     ////////// (SP)ATTACK //////////
     ////////////////////////////////
-    var necrozmaMove = move.name == "Photon Geyser" || move.name == "Light That Burns the Sky";
     var attack;
     var attackSource = move.name === "Foul Play" ? defender : attacker;
     if (move.usesHighestAttackStat) {
