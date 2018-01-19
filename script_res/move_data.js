@@ -2116,6 +2116,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         bp: 200,
         type: 'Psychic',
         category: 'Special',
+	usesHighestAttackStat: true,
 	isZ: true,
      },
      'Searing Sunraze Smash': {
@@ -2331,6 +2332,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Photon Geyser': {
         category: 'Special',
         type: 'Psychic',
+	usesHighestAttackStat: true,
         bp: 100,
         zp: 180
     },
