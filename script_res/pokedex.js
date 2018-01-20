@@ -9080,7 +9080,7 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
     },
     "w": 53.0,
     "ab": "Stance Change",
-    "formes": ["Aegislash-Shield", "Aegislash-Blade"]
+    "formes": ["Aegislash-Shield", "Aegislash-Blade", "Aegislash-Both"]
   },
   "Aegislash-Blade": {
     "t1": "Steel",
@@ -9105,6 +9105,21 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "at": 50,
       "df": 150,
       "sa": 50,
+      "sd": 150,
+      "sp": 60
+    },
+    "w": 53.0,
+    "ab": "Stance Change",
+    "isAlternateForme": true
+  },
+  "Aegislash-Both": {
+    "t1": "Steel",
+    "t2": "Ghost",
+    "bs": {
+      "hp": 60,
+      "at": 150,
+      "df": 150,
+      "sa": 150,
       "sd": 150,
       "sp": 60
     },
