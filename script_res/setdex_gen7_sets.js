@@ -243,6 +243,25 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Arceus": { 
+    "Silk Scarf [Sample Set]": { 
+      "level": 50, 
+      "evs": { 
+        "at": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Multitype", 
+      "item": "Silk Scarf", 
+      "moves": [ 
+        "Extreme Speed", 
+        "Earthquake", 
+        "Shadow Claw", 
+        "Zen Headbutt" 
+      ] 
+    } 
+  },
   "Articuno": {
     "Theorymon's Sheer Cold Fisher": {
       "level": 50,
@@ -1413,8 +1432,8 @@ var SETDEX_SMBSPOT={
     }
   },
   "Genesect": { 
-    "NO HOLDS BARRED: Mixed Scarf": { 
-      "level": 100, 
+    "Mixed Scarf": { 
+      "level": 50, 
       "evs": { 
         "at": 252, 
         "sa": 4, 
@@ -1430,8 +1449,8 @@ var SETDEX_SMBSPOT={
         "Ice Beam" 
       ] 
     },
-    "NO HOLDS BARRED: Choice Band": { 
-      "level": 100, 
+    "Choice Band": { 
+      "level": 50, 
       "evs": { 
         "at": 252, 
         "sd": 4, 
@@ -1687,6 +1706,42 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Groudon": { 
+    "Bulky Physical Attacker": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252, 
+        "at": 252, 
+        "df": 4, 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Drought", 
+      "item": "Red Orb", 
+      "moves": [ 
+        "Precipice Blades", 
+        "Fire Punch", 
+        "Dragon Claw", 
+        "Stone Edge" 
+      ] 
+    }, 
+    "Bulky Special Attacker": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252, 
+        "df": 4, 
+        "sa": 252, 
+      }, 
+      "nature": "Modest", 
+      "ability": "Drought", 
+      "item": "Red Orb", 
+      "moves": [ 
+        "Eruption", 
+        "Earth Power", 
+        "Dragon Pulse", 
+        "Solar Beam" 
+      ] 
+    } 
+  },
   "Gyarados": {
     "Mega Dragon Dance": {
       "level": 50,
@@ -1922,6 +1977,42 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Ho-Oh": { 
+    "Defensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252, 
+        "df": 252, 
+        "sd": 4, 
+      }, 
+      "nature": "Impish", 
+      "ability": "Regenerator", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Sacred Fire", 
+        "Brave Bird", 
+        "Recover", 
+        "Earthquake" 
+      ] 
+    }, 
+    "Offensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "at": 252, 
+        "sp": 252, 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Regenerator", 
+      "item": "Normalium Z", 
+      "moves": [ 
+        "Sacred Fire", 
+        "Brave Bird", 
+        "Earthquake", 
+        "Flame Charge" 
+      ] 
+    } 
+  },
   "Houndoom": {
     "Mega Doom": {
       "level": 50,
@@ -2036,8 +2127,8 @@ var SETDEX_SMBSPOT={
     }
   },
   "Jirachi": { 
-    "NO HOLDS BARRED: ScarfRachi": { 
-      "level": 100, 
+    "ScarfRachi": { 
+      "level": 50, 
       "evs": { 
         "at": 252, 
         "sd": 4, 
@@ -2053,8 +2144,8 @@ var SETDEX_SMBSPOT={
         "Fire Punch" 
       ] 
     },
-    "NO HOLDS BARRED: Bulky Offensive": { 
-      "level": 100, 
+    "Bulky Offensive": { 
+      "level": 50, 
       "evs": { 
         "hp": 224, 
         "at": 252, 
@@ -2272,6 +2363,48 @@ var SETDEX_SMBSPOT={
         "Flash Cannon"
       ]
     }
+  },
+  "Kyogre": { 
+    "Bulky Blue Orb": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252, 
+        "sa": 252, 
+        "sd": 4, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Modest", 
+      "ability": "Drizzle", 
+      "item": "Blue Orb", 
+      "moves": [ 
+        "Origin Pulse", 
+        "Ice Beam", 
+        "Thunder", 
+        "Water Spout" 
+      ] 
+    }, 
+    "Fast Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Drizzle", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Water Spout", 
+        "Ice Beam", 
+        "Thunder", 
+        "Origin Pulse" 
+      ] 
+    } 
   },
   "Landorus-T": {
     "Offensive Assault Vest": {
@@ -2499,6 +2632,50 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Lugia": { 
+    "Fast Toxic": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Pressure", 
+      "item": "Leftovers", 
+      "moves": [ 
+        "Toxic", 
+        "Roost", 
+        "Aeroblast", 
+        "Earth Power" 
+      ] 
+    } 
+  },
+  "Lunala": { 
+    "Offensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Shadow Shield", 
+      "item": "Lunalium Z", 
+      "moves": [ 
+        "Moongeist Beam", 
+        "Moonblast", 
+        "Psychic", 
+        "Focus Blast" 
+      ] 
+    } 
+  },
   "Lycanroc-Day": {
     "Stealth Rock Lead": {
       "level": 50,
@@ -2519,8 +2696,8 @@ var SETDEX_SMBSPOT={
     }
   },
   "Magearna": { 
-    "NO HOLDS BARRED: Trick Room": { 
-      "level": 100, 
+    "Trick Room": { 
+      "level": 50, 
       "evs": { 
         "hp": 252, 
         "sa": 252, 
@@ -2803,8 +2980,8 @@ var SETDEX_SMBSPOT={
     }
   },
   "Marshadow": { 
-    "NO HOLDS BARRED: Mixed Sash": { 
-      "level": 100, 
+    "Mixed Sash": { 
+      "level": 50, 
       "evs": { 
         "at": 252, 
         "sa": 4, 
@@ -2875,6 +3052,45 @@ var SETDEX_SMBSPOT={
         "Meteor Mash"
       ]
     }
+  },
+  "Mewtwo": { 
+    "Standard X": { 
+      "level": 50, 
+      "evs": { 
+        "at": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Pressure", 
+      "item": "Mewtwonite X", 
+      "moves": [ 
+        "Drain Punch", 
+        "Zen Headbutt", 
+        "Ice Punch", 
+        "Self-Destruct" 
+      ] 
+    }, 
+    "Standard Y": { 
+      "level": 50, 
+      "evs": { 
+        "sa": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Pressure", 
+      "item": "Mewtwonite Y", 
+      "moves": [ 
+        "Psystrike", 
+        "Ice Beam", 
+        "Flamethrower", 
+        "Focus Blast" 
+      ] 
+    } 
   },
   "Milotic": {
     "Wall": {
@@ -3596,6 +3812,25 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Rayquaza": { 
+    "Physical Life Orb": { 
+      "level": 50, 
+      "evs": { 
+        "at": 252, 
+        "sd": 4, 
+        "sp": 252, 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Air Lock", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Dragon Ascent", 
+        "Earthquake", 
+        "Extreme Speed", 
+        "V-create" 
+      ] 
+    } 
+  },
   "Rhyperior": {
     "Assault Vest": {
       "level": 50,
@@ -4128,8 +4363,8 @@ var SETDEX_SMBSPOT={
     }
   },
   "Shaymin-S": { 
-    "NO HOLDS BARRED: Choice Scarf": { 
-      "level": 100, 
+    "Choice Scarf": { 
+      "level": 50, 
       "evs": { 
         "sa": 252, 
         "sd": 4, 
@@ -5189,6 +5424,28 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Xerneas": { 
+    "Offensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Modest", 
+      "ability": "Fairy Aura", 
+      "item": "Power Herb", 
+      "moves": [ 
+        "Moonblast", 
+        "Thunderbolt", 
+        "Focus Blast", 
+        "Psyshock" 
+      ] 
+    } 
+  },
   "Xurkitree": {
     "Tail Glow": {
       "level": 50,
@@ -5242,6 +5499,45 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Yveltal": { 
+    "Special Attacker": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "sa": 252, 
+        "sp": 252, 
+      }, 
+      "ivs": { 
+        "at": 0, 
+      }, 
+      "nature": "Timid", 
+      "ability": "Dark Aura", 
+      "item": "Darkinium Z", 
+      "moves": [ 
+        "Dark Pulse", 
+        "Hurricane", 
+        "Focus Blast", 
+        "Foul Play" 
+      ] 
+    }, 
+    "Physical Attacker": { 
+      "level": 50, 
+      "evs": { 
+        "hp": 4, 
+        "at": 252, 
+        "sp": 252, 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Dark Aura", 
+      "item": "Darkinium Z", 
+      "moves": [ 
+        "Sucker Punch", 
+        "U-turn", 
+        "Foul Play", 
+        "Knock Off" 
+      ] 
+    } 
+  },
   "Zapdos": {
     "Defensive": {
       "level": 50,
@@ -5249,9 +5545,6 @@ var SETDEX_SMBSPOT={
         "hp": "252",
         "df": "252",
         "sa": "4"
-      },
-      "ivs": {
-        "sp": "30"
       },
       "nature": "Bold",
       "ability": "Pressure",
@@ -5270,9 +5563,6 @@ var SETDEX_SMBSPOT={
         "sa": "252",
         "se": "252"
       },
-      "ivs": {
-        "sp": "30"
-      },
       "nature": "Modest",
       "ability": "Pressure",
       "item": "Choice Scarf",
@@ -5285,8 +5575,8 @@ var SETDEX_SMBSPOT={
     }
   },
     "Zygarde": { 
-    "NO HOLDS BARRED: PhysDef": { 
-      "level": 100, 
+    "PhysDef": { 
+      "level": 50, 
       "evs": { 
         "hp": 252,
         "df": 252,
@@ -5302,8 +5592,8 @@ var SETDEX_SMBSPOT={
         "Thousand Arrows" 
       ] 
     },
-    "NO HOLDS BARRED: Offensive Yache": { 
-      "level": 100, 
+    "Offensive Yache": { 
+      "level": 50, 
       "evs": { 
         "at": 252,
         "sd": 4,
@@ -5319,8 +5609,8 @@ var SETDEX_SMBSPOT={
         "Stone Edge" 
       ] 
     },
-    "NO HOLDS BARRED: SubDD": { 
-      "level": 100, 
+    "SubDD": { 
+      "level": 50, 
       "evs": { 
         "at": 252, 
         "df": 4, 
