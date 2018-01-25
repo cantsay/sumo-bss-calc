@@ -3085,7 +3085,6 @@ var SETDEX_SMBSPOT={
       ] 
     } 
   },
-  },
   "Mawile": {
     "Physical Attacker": {
       "level": 50,
