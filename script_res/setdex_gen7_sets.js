@@ -247,9 +247,9 @@ var SETDEX_SMBSPOT={
     "Silk Scarf [Sample Set]": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "nature": "Adamant", 
       "ability": "Multitype", 
@@ -928,7 +928,24 @@ var SETDEX_SMBSPOT={
         "Rock Blast",
         "Ice Shard"
       ]
-    }
+    },
+    "cant say's QR Team": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "244", 
+        "sp": "12", 
+      }, 
+      "nature": "Impish", 
+      "ability": "Skill Link", 
+      "item": "Iapapa Berry", 
+      "moves": [ 
+        "Shell Smash", 
+        "Icicle Spear", 
+        "Rock Blast", 
+        "Liquidation" 
+      ] 
+    } 
   },
   "Conkeldurr": {
     "Assault Vest": {
@@ -1435,9 +1452,9 @@ var SETDEX_SMBSPOT={
     "Mixed Scarf": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "sa": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "sa": "4", 
+        "sp": "252", 
       }, 
       "nature": "Hasty", 
       "ability": "Download", 
@@ -1452,9 +1469,9 @@ var SETDEX_SMBSPOT={
     "Choice Band": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "nature": "Jolly", 
       "ability": "Download", 
@@ -1710,9 +1727,9 @@ var SETDEX_SMBSPOT={
     "Bulky Physical Attacker": { 
       "level": 50, 
       "evs": { 
-        "hp": 252, 
-        "at": 252, 
-        "df": 4, 
+        "hp": "252", 
+        "at": "252", 
+        "df": "4", 
       }, 
       "nature": "Adamant", 
       "ability": "Drought", 
@@ -1727,9 +1744,9 @@ var SETDEX_SMBSPOT={
     "Bulky Special Attacker": { 
       "level": 50, 
       "evs": { 
-        "hp": 252, 
-        "df": 4, 
-        "sa": 252, 
+        "hp": "252", 
+        "df": "4", 
+        "sa": "252", 
       }, 
       "nature": "Modest", 
       "ability": "Drought", 
@@ -1739,6 +1756,23 @@ var SETDEX_SMBSPOT={
         "Earth Power", 
         "Dragon Pulse", 
         "Solar Beam" 
+      ] 
+    }, 
+    "cant say's QR Team": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "148", 
+        "at": "252", 
+        "sp": "108", 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Drought", 
+      "item": "Red Orb", 
+      "moves": [ 
+        "Bulk Up", 
+        "Precipice Blades", 
+        "Fire Punch", 
+        "Dragon Claw" 
       ] 
     } 
   },
@@ -1981,9 +2015,9 @@ var SETDEX_SMBSPOT={
     "Defensive": { 
       "level": 50, 
       "evs": { 
-        "hp": 252, 
-        "df": 252, 
-        "sd": 4, 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4", 
       }, 
       "nature": "Impish", 
       "ability": "Regenerator", 
@@ -1998,9 +2032,9 @@ var SETDEX_SMBSPOT={
     "Offensive": { 
       "level": 50, 
       "evs": { 
-        "hp": 4, 
-        "at": 252, 
-        "sp": 252, 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252", 
       }, 
       "nature": "Jolly", 
       "ability": "Regenerator", 
@@ -2130,9 +2164,9 @@ var SETDEX_SMBSPOT={
     "ScarfRachi": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "nature": "Jolly", 
       "ability": "Serene Grace", 
@@ -2147,9 +2181,9 @@ var SETDEX_SMBSPOT={
     "Bulky Offensive": { 
       "level": 50, 
       "evs": { 
-        "hp": 224, 
-        "at": 252, 
-        "sp": 32, 
+        "hp": "224", 
+        "at": "252", 
+        "sp": "32", 
       }, 
       "nature": "Adamant", 
       "ability": "Serene Grace", 
@@ -2271,7 +2305,26 @@ var SETDEX_SMBSPOT={
         "Sacred Sword",
         "Night Slash"
       ]
-    }
+    },
+    "cant say's QR Team": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "180", 
+        "df": "4", 
+        "sd": "108", 
+        "sp": "212", 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Beast Boost", 
+      "item": "Fightinium Z", 
+      "moves": [ 
+        "Leaf Blade", 
+        "Sacred Sword", 
+        "Knock Off", 
+        "Swords Dance" 
+      ] 
+    } 
   },
   "Kingdra": {
     "Rain Sweeper": {
@@ -2368,12 +2421,12 @@ var SETDEX_SMBSPOT={
     "Bulky Blue Orb": { 
       "level": 50, 
       "evs": { 
-        "hp": 252, 
-        "sa": 252, 
-        "sd": 4, 
+        "hp": "252", 
+        "sa": "252", 
+        "sd": "4", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Modest", 
       "ability": "Drizzle", 
@@ -2388,12 +2441,12 @@ var SETDEX_SMBSPOT={
     "Fast Choice Scarf": { 
       "level": 50, 
       "evs": { 
-        "hp": 4, 
-        "sa": 252, 
-        "sp": 252, 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Timid", 
       "ability": "Drizzle", 
@@ -2487,6 +2540,23 @@ var SETDEX_SMBSPOT={
       "nature": "Impish",
       "ability": "Intimidate",
       "item": "Rocky Helmet",
+      "moves": [
+        "Earthquake",
+        "Rock Tomb",
+        "Stealth Rock",
+        "U-turn"
+      ]
+    },
+    "cant say's QR Team": {
+      "level": 50,
+      "evs": {
+        "hp": "244",
+        "df": "236",
+	"sp": "38"
+      },
+      "nature": "Careful",
+      "ability": "Intimidate",
+      "item": "Mago Berry",
       "moves": [
         "Earthquake",
         "Rock Tomb",
@@ -2636,12 +2706,12 @@ var SETDEX_SMBSPOT={
     "Fast Toxic": { 
       "level": 50, 
       "evs": { 
-        "hp": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "hp": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Timid", 
       "ability": "Pressure", 
@@ -2658,12 +2728,12 @@ var SETDEX_SMBSPOT={
     "Offensive": { 
       "level": 50, 
       "evs": { 
-        "hp": 4, 
-        "sa": 252, 
-        "sp": 252, 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Timid", 
       "ability": "Shadow Shield", 
@@ -2699,13 +2769,13 @@ var SETDEX_SMBSPOT={
     "Trick Room": { 
       "level": 50, 
       "evs": { 
-        "hp": 252, 
-        "sa": 252, 
-        "sd": 4, 
+        "hp": "252", 
+        "sa": "252", 
+        "sd": "4", 
       }, 
       "ivs": { 
-        "at": 0, 
-        "sp": 0, 
+        "at": "0", 
+        "sp": "0", 
       }, 
       "nature": "Quiet", 
       "ability": "Soul-Heart", 
@@ -2980,12 +3050,29 @@ var SETDEX_SMBSPOT={
     }
   },
   "Marshadow": { 
+    "Physical Sash": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Technician", 
+      "item": "Focus Sash", 
+      "moves": [ 
+        "Spectral Thief", 
+        "Close Combat", 
+        "Shadow Sneak", 
+        "Ice Punch" 
+      ] 
+    }, 
     "Mixed Sash": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "sa": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "sa": "4", 
+        "sp": "252", 
       }, 
       "nature": "Naive", 
       "ability": "Technician", 
@@ -2997,6 +3084,7 @@ var SETDEX_SMBSPOT={
         "Hidden Power Ice" 
       ] 
     } 
+  },
   },
   "Mawile": {
     "Physical Attacker": {
@@ -3057,9 +3145,9 @@ var SETDEX_SMBSPOT={
     "Standard X": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "nature": "Jolly", 
       "ability": "Pressure", 
@@ -3074,12 +3162,12 @@ var SETDEX_SMBSPOT={
     "Standard Y": { 
       "level": 50, 
       "evs": { 
-        "sa": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "sa": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Timid", 
       "ability": "Pressure", 
@@ -3145,7 +3233,27 @@ var SETDEX_SMBSPOT={
         "Shadow Sneak",
         "Let\s Snuggle Forever"
       ]
-    }
+    },
+    "cant say's QR Team": { 
+      "level": 50, 
+      "evs": { 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
+      }, 
+      "ivs": { 
+        "hp": "29", 
+      }, 
+      "nature": "Adamant", 
+      "ability": "Disguise", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Play Rough", 
+        "Swords Dance", 
+        "Shadow Sneak", 
+        "Drain Punch" 
+      ] 
+    } 
   },
   "Minior": {
     "Special Shell Smash": {
@@ -3292,7 +3400,7 @@ var SETDEX_SMBSPOT={
         "Light That Burns the Sky"
       ]
     },
-    "REGULAR Swords Dance": {
+    "REGULAR Double Dance": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -3301,14 +3409,32 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Adamant",
       "ability": "Prism Armor",
-      "item": "Life Orb",
+      "item": "Weakness Policy",
       "moves": [
         "Photon Geyser",
         "Sunsteel Strike",
         "Earthquake",
         "Rock Tomb"
       ]
-    }
+    }, 
+    "cant say's QR Team": { 
+      "level": 50, 
+      "evs": { 
+        "at": 252, 
+        "sa": 4, 
+        "sp": 252, 
+      }, 
+      "nature": "Naive", 
+      "ability": "Prism Armor", 
+      "item": "Ultranecrozium Z", 
+      "moves": [ 
+        "Photon Geyser", 
+        "Swords Dance", 
+        "Brick Break", 
+        "Dragon Pulse" 
+      ] 
+    } 
+  },
   },
   "Necrozma-Dawn Wings": {
     "ULTRA Calm Mind": {
@@ -3816,9 +3942,9 @@ var SETDEX_SMBSPOT={
     "Physical Life Orb": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "nature": "Jolly", 
       "ability": "Air Lock", 
@@ -4366,12 +4492,12 @@ var SETDEX_SMBSPOT={
     "Choice Scarf": { 
       "level": 50, 
       "evs": { 
-        "sa": 252, 
-        "sd": 4, 
-        "sp": 252, 
+        "sa": "252", 
+        "sd": "4", 
+        "sp": "252", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Timid", 
       "ability": "Serene Grace", 
@@ -4946,12 +5072,29 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Timid",
       "ability": "Electric Surge",
-      "item": "Life Orb",
+      "item": "Electrium Z",
       "moves": [
         "Thunderbolt",
         "Dazzling Gleam",
         "Volt Switch",
-        "Hidden Power Ground"
+        "Hidden Power Ice"
+      ]
+    },
+    "Choice Specs": {
+      "level": 50,
+      "evs": {
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Electric Surge",
+      "item": "Electrium Z",
+      "moves": [
+        "Thunderbolt",
+        "Dazzling Gleam",
+        "Volt Switch",
+        "Hidden Power Fire"
       ]
     },
     "Calm Mind": {
@@ -5271,6 +5414,25 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Umbreon": {
+    "Defensive Standard": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
+      },
+      "nature": "Bold",
+      "ability": "Synchronise",
+      "item": "Leftovers",
+      "moves": [
+        "Foul Play",
+        "Wish",
+        "Protect",
+        "Yawn"
+      ]
+    }
+  },
   "Venusaur": {
     "Offensive Mega": {
       "level": 50,
@@ -5428,12 +5590,12 @@ var SETDEX_SMBSPOT={
     "Offensive": { 
       "level": 50, 
       "evs": { 
-        "hp": 4, 
-        "sa": 252, 
-        "sp": 252, 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Modest", 
       "ability": "Fairy Aura", 
@@ -5503,12 +5665,12 @@ var SETDEX_SMBSPOT={
     "Special Attacker": { 
       "level": 50, 
       "evs": { 
-        "hp": 4, 
-        "sa": 252, 
-        "sp": 252, 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
       }, 
       "ivs": { 
-        "at": 0, 
+        "at": "0", 
       }, 
       "nature": "Timid", 
       "ability": "Dark Aura", 
@@ -5523,9 +5685,9 @@ var SETDEX_SMBSPOT={
     "Physical Attacker": { 
       "level": 50, 
       "evs": { 
-        "hp": 4, 
-        "at": 252, 
-        "sp": 252, 
+        "hp": "4", 
+        "at": "252", 
+        "sp": "252", 
       }, 
       "nature": "Jolly", 
       "ability": "Dark Aura", 
@@ -5574,13 +5736,13 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-    "Zygarde": { 
+  "Zygarde": { 
     "PhysDef": { 
       "level": 50, 
       "evs": { 
-        "hp": 252,
-        "df": 252,
-        "sd": 4
+        "hp": "252",
+        "df": "252",
+        "sd": "4"
       }, 
       "nature": "Impish", 
       "ability": "Power Construct", 
@@ -5595,9 +5757,9 @@ var SETDEX_SMBSPOT={
     "Offensive Yache": { 
       "level": 50, 
       "evs": { 
-        "at": 252,
-        "sd": 4,
-        "sp": 252
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
       }, 
       "nature": "Adamant", 
       "ability": "Power Construct", 
@@ -5612,9 +5774,9 @@ var SETDEX_SMBSPOT={
     "SubDD": { 
       "level": 50, 
       "evs": { 
-        "at": 252, 
-        "df": 4, 
-        "sp": 252, 
+        "at": "252", 
+        "df": "4", 
+        "sp": "252", 
       }, 
       "nature": "Jolly", 
       "ability": "Power Construct", 
