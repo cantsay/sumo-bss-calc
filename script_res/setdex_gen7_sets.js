@@ -3434,7 +3434,6 @@ var SETDEX_SMBSPOT={
       ] 
     } 
   },
-  },
   "Necrozma-Dawn Wings": {
     "ULTRA Calm Mind": {
       "level": 50,
