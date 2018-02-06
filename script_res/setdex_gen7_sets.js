@@ -134,6 +134,23 @@ var SETDEX_SMBSPOT={
     }
   },
   "Alakazam": {
+    "Offensive Mega": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Magic Guard",
+      "item": "Alakazite",
+      "moves": [
+        "Psychic",
+        "Focus Blast",
+        "Shadow Ball",
+        "Hidden Power Ice"
+      ]
+    },
     "Bulky MegaZam": {
       "level": 50,
       "evs": {
@@ -146,6 +163,23 @@ var SETDEX_SMBSPOT={
       "nature": "Timid",
       "ability": "Magic Guard",
       "item": "Alakazite",
+      "moves": [
+        "Psychic",
+        "Focus Blast",
+        "Shadow Ball",
+        "Hidden Power Ice"
+      ]
+    },
+    "Focus Sash": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Magic Guard",
+      "item": "Focus Sash",
       "moves": [
         "Psychic",
         "Focus Blast",
@@ -2138,6 +2172,59 @@ var SETDEX_SMBSPOT={
         "Darkest Lariat",
         "Cross Chop",
         "Earthquake"
+      ]
+    }
+  },
+  "Infernape": {
+    "Mixed Sash": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sa": "4",
+        "sp": "252"
+      },
+      "nature": "Hasty",
+      "ability": "Blaze",
+      "item": "Focus Sash",
+      "moves": [
+        "Close Combat",
+        "Overheat",
+        "Thunder Punch",
+        "Mach Punch"
+      ]
+    },
+    "Physical Life Orb": {
+      "level": 50,
+      "evs": {
+        "at": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Jolly",
+      "ability": "Iron Fist",
+      "item": "Life Orb",
+      "moves": [
+        "Close Combat",
+        "Flare Blitz",
+        "Mach Punch",
+        "Thunder Punch"
+      ]
+    },
+    "Special Attacker": {
+      "level": 50,
+      "evs": {
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
+      },
+      "nature": "Timid",
+      "ability": "Blaze",
+      "item": "Focus Sash",
+      "moves": [
+        "Overheat",
+        "Hidden Power Ice",
+        "Focus Blast",
+        "Vacuum Wave"
       ]
     }
   },
@@ -4799,6 +4886,42 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
+  "Staraptor": { 
+    "Choice Band": { 
+      "level": 50, 
+      "evs": { 
+        "at": "252", 
+        "df": "4", 
+        "sp": "252", 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Reckless", 
+      "item": "Choice Band", 
+      "moves": [ 
+        "Brave Bird", 
+        "Double Edge", 
+        "U-turn", 
+        "Close Combat" 
+      ] 
+    },
+    "Choice Scarf": { 
+      "level": 50, 
+      "evs": { 
+        "at": "252", 
+        "df": "4", 
+        "sp": "252", 
+      }, 
+      "nature": "Jolly", 
+      "ability": "Reckless", 
+      "item": "Choice Scarf", 
+      "moves": [ 
+        "Brave Bird", 
+        "Double Edge", 
+        "U-turn", 
+        "Close Combat" 
+      ] 
+    } 
+  },
   "Suicune": {
     "Fully Defensive" : {
       "level": 50,
@@ -4970,6 +5093,42 @@ var SETDEX_SMBSPOT={
         "Roost"
       ]
     }
+  },
+  "Tangrowth": { 
+    "Physically Defensive": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "252", 
+        "sd": "4", 
+      }, 
+      "nature": "Relaxed", 
+      "ability": "Regenerator", 
+      "item": "Rocky Helmet", 
+      "moves": [ 
+        "Giga Drain", 
+        "Knock Off", 
+        "Earthquake", 
+        "Hidden Power Ice" 
+      ] 
+    },
+    "Assault Vest": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "252", 
+        "df": "4", 
+        "sd": "252", 
+      }, 
+      "nature": "Sassy", 
+      "ability": "Regenerator", 
+      "item": "Assault Vest", 
+      "moves": [ 
+        "Giga Drain", 
+        "Knock Off", 
+        "Earthquake", 
+        "Hidden Power Ice"  
+      ] 
+    } 
   },
   "Tapu Bulu": {
     "Choice Band": {
@@ -5658,6 +5817,42 @@ var SETDEX_SMBSPOT={
         "Rain Dance"
       ]
     }
+  },
+  "Yanmega": { 
+    "Choice Specs": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Timid", 
+      "ability": "Tinted Lens", 
+      "item": "Choice Specs", 
+      "moves": [ 
+        "Bug Buzz", 
+        "Air Slash", 
+        "Ancient Power", 
+        "Hidden Power Ice" 
+      ] 
+    },
+    "Speed Boost": { 
+      "level": 50, 
+      "evs": { 
+        "hp": "4", 
+        "sa": "252", 
+        "sp": "252", 
+      }, 
+      "nature": "Timid", 
+      "ability": "Speed Boost", 
+      "item": "Life Orb", 
+      "moves": [ 
+        "Bug Buzz", 
+        "Air Slash", 
+        "Ancient Power", 
+        "Hidden Power Ice"  
+      ] 
+    } 
   },
   "Yveltal": { 
     "Special Attacker": { 
