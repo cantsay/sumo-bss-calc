@@ -15,6 +15,9 @@
     <meta charset="UTF-8" />
     <title>cantsaycalc BETA</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="script_res/themes/select2.css" />
+    <link type="text/css" rel="stylesheet" href="script_res/themes/ap_calc.css" />
+    <link type="text/css" rel="stylesheet" href="script_res/themes/nb_calc.css" />
 	<script type="text/javascript" src="script_res/themes.js"></script>
     <base target="_blank">
 </head>
@@ -48,9 +51,9 @@ if (drop === "aegislash") {
 	loadjscssfile("script_res/themes/select2.css", "css")
 }
 } else {
-loadjscssfile("script_res/themes/ap_calc.css", "css")
-loadjscssfile("script_res/themes/nb_calc.css", "css")
-loadjscssfile("script_res/themes/select2.css", "css")
+	loadjscssfile("script_res/themes/ap_calc.css", "css")
+	loadjscssfile("script_res/themes/nb_calc.css", "css")
+	loadjscssfile("script_res/themes/select2.css", "css")
 }
 </script>
 
@@ -69,7 +72,7 @@ loadjscssfile("script_res/themes/select2.css", "css")
 				
 		<input class="gen btn-input" type="radio" name="gen" value="20" id="gen20" /><label class="btn btn-small btn-right" for="gen20">Factory</label>
             </span>
-		<span><button type = "button" onclick = "rememberTheme()">Set current theme as default</button>  <span id="themeOut"></span></span>
+		<span>Information on "Factory" can be found <a href="https://www.smogon.com/forums/threads/3604845/">here</a></span>
 
         </div>
         <hr/>
