@@ -771,7 +771,7 @@ function getZMoveName(moveName, moveType, item) {
 		             moveName === "Thunderbolt" && item === "Pikashunium Z" ? "10,000,000 Volt Thunderbolt" :
 		              moveName === "Volt Tackle" && item === "Pikanium Z" ? "Catastropika" :
 		               moveName === "Nature\'s Madness" && item === "Tapunium Z" ? "Guardian of Alola" :
-																		ZMOVES_TYPING[moveType];
+		                ZMOVES_TYPING[moveType];
 }
 
 
