@@ -24,17 +24,6 @@ function removejscssfile(filename, filetype){
     }
 }
 
-/* function createCookie(name,value,days) {
-	if (days) {
-		var date = new Date();
-		date.setTime(date.getTime()+(days*24*60*60*1000));
-		var expires = "; expires="+date.toGMTString();
-	}
-	else var expires = "";
-	document.cookie = name+"="+value+expires+"; path=/";
-	console.log("cookie written")
-}
-
 function readCookie(name) {
 	var nameEQ = name + "=";
 	var ca = document.cookie.split(';');
@@ -45,36 +34,3 @@ function readCookie(name) {
 	}
 	return null;
 }
-
-function eraseCookie(name) {
-	createCookie(name,"",-1);
-} */
-/*
-if (readCookie("selectedItem")!=null) {
-var selectedItem = readCookie("selectedItem");
-var select = document.getElementById("theme");
-select.value = selectedItem;
-}
-
-if (document.getElementById("theme")!=null)
-{
-	var drop = document.getElementById("theme").value
-
-if (drop === "aegi") {
-loadjscssfile("script_res/themes/ap_calc.css", "css")
-loadjscssfile("script_res/themes/nb_calc.css", "css")
-loadjscssfile("script_res/themes/select2.css", "css")
-} else if (drop === "dark") {
-	loadjscssfile("script_res/themes/dark_ap_calc.css", "css")
-	loadjscssfile("script_res/themes/dark_nb_calc.css", "css")
-	loadjscssfile("script_res/themes/select2.css", "css")
-} else if (drop === "legacy") {
-	loadjscssfile("script_res/themes/legacy_ap_calc.css", "css")
-	loadjscssfile("script_res/themes/legacy_nb_calc.css", "css")
-	loadjscssfile("script_res/themes/select2.css", "css")
-}
-} else {*/	
-loadjscssfile("script_res/themes/ap_calc.css", "css")
-loadjscssfile("script_res/themes/nb_calc.css", "css")
-loadjscssfile("script_res/themes/select2.css", "css")
-//}
