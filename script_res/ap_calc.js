@@ -739,18 +739,26 @@ function Pokemon(pokeInfo) {
     this.weight = +pokeInfo.find(".weight").val();
 }
 
-function getMoveDetails(moveInfo) {
-    var moveName = moveInfo.find("select.move-selector").val();
-    var defaultDetails = moves[moveName];
-    return $.extend({}, defaultDetails, {
-        name: moveName,
-        bp: ~~moveInfo.find(".move-bp").val(),
-        type: moveInfo.find(".move-type").val(),
-        category: moveInfo.find(".move-cat").val(),
-        isCrit: moveInfo.find(".move-crit").prop("checked"),
-        isZ: moveInfo.find(".move-z").prop("checked"),
-        hits: (defaultDetails.isMultiHit && !moveInfo.find(".move-z").prop("checked")) ? ~~moveInfo.find(".move-hits").val() : (defaultDetails.isTwoHit && !moveInfo.find(".move-z").prop("checked")) ? 2 : 1
-    });
+// If z-move is checked but there isn't a corresponding z-move, use the original move
+	if (isZMove && "zp" in defaultDetails) {
+		var zMoveName = getZMoveName(moveName, defaultDetails.type, item);
+		return $.extend({}, moves[zMoveName], {
+			name: zMoveName,
+			bp: moves[zMoveName].bp === 1 ? defaultDetails.zp : moves[zMoveName].bp,
+			category: defaultDetails.category,
+			isCrit: moveInfo.find(".move-crit").prop("checked"),
+			hits: 1
+		});
+	} else {
+		return $.extend({}, defaultDetails, {
+			name: moveName,
+			bp: ~~moveInfo.find(".move-bp").val(),
+			type: moveInfo.find(".move-type").val(),
+			category: moveInfo.find(".move-cat").val(),
+			isCrit: moveInfo.find(".move-crit").prop("checked"),
+			hits: defaultDetails.isMultiHit ? ~~moveInfo.find(".move-hits").val() : defaultDetails.isTwoHit ? 2 : 1,
+			usedTimes: defaultDetails.dropsStats ? ~~moveInfo.find(".stat-drops").val() : 1
+		});
 }
 
 function getZMoveName(moveName, moveType, item) {
