@@ -40,7 +40,7 @@ var selectedItem = readCookie("selectedItem");
 var select = document.getElementById("theme");
 select.value = selectedItem;
 }*/
-
+/*
 console.log(document.getElementById("theme"))
 if (document.getElementById("theme")!=null)
 {
@@ -63,4 +63,4 @@ loadjscssfile("script_res/themes/select2.css", "css")
 loadjscssfile("script_res/themes/ap_calc.css", "css")
 loadjscssfile("script_res/themes/nb_calc.css", "css")
 loadjscssfile("script_res/themes/select2.css", "css")
-}
+}*/

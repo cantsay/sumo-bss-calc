@@ -28,7 +28,29 @@ if (readCookie("selectedItem")!=null) {
 var selectedItem = readCookie("selectedItem");
 var select = document.getElementById("theme");
 select.value = selectedItem;
-console.log(select.value)
+}
+
+if (document.getElementById("theme")!=null)
+{
+	var drop = document.getElementById("theme").value
+
+if (drop === "aegislash") {
+	loadjscssfile("script_res/themes/ap_calc.css", "css")
+	loadjscssfile("script_res/themes/nb_calc.css", "css")
+	loadjscssfile("script_res/themes/select2.css", "css")
+} else if (drop === "dark") {
+	loadjscssfile("script_res/themes/dark_ap_calc.css", "css")
+	loadjscssfile("script_res/themes/dark_nb_calc.css", "css")
+	loadjscssfile("script_res/themes/select2.css", "css")
+} else if (drop === "legacy") {
+	loadjscssfile("script_res/themes/legacy_ap_calc.css", "css")
+	loadjscssfile("script_res/themes/legacy_nb_calc.css", "css")
+	loadjscssfile("script_res/themes/select2.css", "css")
+}
+} else {
+loadjscssfile("script_res/themes/ap_calc.css", "css")
+loadjscssfile("script_res/themes/nb_calc.css", "css")
+loadjscssfile("script_res/themes/select2.css", "css")
 }
 </script>
 
