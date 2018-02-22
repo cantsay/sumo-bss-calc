@@ -35,11 +35,11 @@ function readCookie(name) {
 	return null;
 }
 
-if (readCookie("selectedItem")!=null) {
+/*if (readCookie("selectedItem")!=null) {
 var selectedItem = readCookie("selectedItem");
 var select = document.getElementById("theme");
 select.value = selectedItem;
-}
+}*/
 
 console.log(document.getElementById("theme"))
 if (document.getElementById("theme")!=null)
