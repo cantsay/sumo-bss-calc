@@ -42,23 +42,6 @@ function getDamageResult(attacker, defender, move, field) {
             move.zp = (field.terrain === "Electric" || field.terrain === "Grassy" || field.terrain === "Psychic" || field.terrain === "Misty") ? 175 : 160;
             move.type = field.terrain === "Electric" ? "Electric" : field.terrain === "Grassy" ? "Grass" : field.terrain === "Misty" ? "Fairy" : move.type = field.terrain === "Psychic" ? "Psychic" : "Normal";
         }
-        var tempMove = move;
-        //turning it into a generic single-target Z-move
-        move = moves[ZMOVES_LOOKUP[tempMove.type]];
-        move.bp = tempMove.zp;
-        move.name = "Z-"+tempMove.name;
-        move.isZ = true;
-        move.category = tempMove.category;
-        if (move.name.includes("Hidden Power")){
-            move.type = "Normal";
-        }
-        else move.type = tempMove.type;
-        move.isCrit = tempMove.isCrit;
-        move.hits = 1;
-        moveDescName = ZMOVES_LOOKUP[move.type] + " (" + move.bp + " BP)";
-        if(field.isProtect){
-            isQuarteredByProtect = true;
-        }
     }
     var description = {
         "attackerName": attacker.name,
