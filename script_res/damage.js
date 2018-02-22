@@ -42,23 +42,6 @@ function getDamageResult(attacker, defender, move, field) {
             move.zp = (field.terrain === "Electric" || field.terrain === "Grassy" || field.terrain === "Psychic" || field.terrain === "Misty") ? 175 : 160;
             move.type = field.terrain === "Electric" ? "Electric" : field.terrain === "Grassy" ? "Grass" : field.terrain === "Misty" ? "Fairy" : move.type = field.terrain === "Psychic" ? "Psychic" : "Normal";
         }
-        var tempMove = move;
-        //turning it into a generic single-target Z-move
-        move = moves[ZMOVES_LOOKUP[tempMove.type]];
-        move.bp = tempMove.zp;
-        move.name = "Z-"+tempMove.name;
-        move.isZ = true;
-        move.category = tempMove.category;
-        if (move.name.includes("Hidden Power")){
-            move.type = "Normal";
-        }
-        else move.type = tempMove.type;
-        move.isCrit = tempMove.isCrit;
-        move.hits = 1;
-        moveDescName = ZMOVES_LOOKUP[move.type] + " (" + move.bp + " BP)";
-        if(field.isProtect){
-            isQuarteredByProtect = true;
-        }
     }
     var description = {
         "attackerName": attacker.name,
@@ -342,7 +325,12 @@ function getDamageResult(attacker, defender, move, field) {
             (defender.item.indexOf(" Z") !== -1))) {
         bpMods.push(0x1800);
         description.moveBP = move.bp * 1.5;
-    }
+	} else if (["Breakneck Blitz", "Bloom Doom", "Inferno Overdrive", "Hydro Vortex", "Gigavolt Havoc", "Subzero Slammer", "Supersonic Skystrike",
+		"Savage Spin-Out", "Acid Downpour", "Tectonic Rage", "Continental Crush", "All-Out Pummeling", "Shattered Psyche", "Never-Ending Nightmare",
+		"Devastating Drake", "Black Hole Eclipse", "Corkscrew Crash", "Twinkle Tackle"].indexOf(move.name) !== -1) {
+		// show z-move power in description
+		description.moveBP = move.bp;
+	}
     
     if (field.isHelpingHand) {
         bpMods.push(0x1800);
@@ -401,9 +389,6 @@ function getDamageResult(attacker, defender, move, field) {
     ////////////////////////////////
     var attack;
     var attackSource = move.name === "Foul Play" ? defender : attacker;
-    if (move.usesHighestAttackStat) {
-            move.category = attackSource.stats[AT] >= attackSource.stats[SA] ? "Physical" : "Special";
-    }
     var attackStat = move.category === "Physical" ? AT : SA;
     description.attackEVs = attacker.evs[attackStat] +
             (NATURES[attacker.nature][0] === attackStat ? "+" : NATURES[attacker.nature][1] === attackStat ? "-" : "") + " " +
@@ -596,10 +581,6 @@ function getDamageResult(attacker, defender, move, field) {
     }
     if (attacker.ability === "Sniper" && isCritical) {
         finalMods.push(0x1800);
-        description.attackerAbility = attacker.ability;
-    }
-    if (attacker.ability === "Neuroforce" && typeEffectiveness > 1 && !move.isZ) {
-        finalMods.push(0x1333);
         description.attackerAbility = attacker.ability;
     }
     if ((defAbility === "Solid Rock" || defAbility === "Filter" || defAbility === "Prism Armor") && typeEffectiveness > 1) {
@@ -864,21 +845,6 @@ function checkEvo(p1, p2){
         p2.boosts[SA] = Math.min(6, p2.boosts[SA] + 2);
         p2.boosts[SD] = Math.min(6, p2.boosts[SD] + 2);
         p2.boosts[SP] = Math.min(6, p2.boosts[SP] + 2);
-    }
-
-    if($('#clangL').prop("checked")){
-        p1.boosts[AT] = Math.min(6, p1.boosts[AT] + 1);
-        p1.boosts[DF] = Math.min(6, p1.boosts[DF] + 1);
-        p1.boosts[SA] = Math.min(6, p1.boosts[SA] + 1);
-        p1.boosts[SD] = Math.min(6, p1.boosts[SD] + 1);
-        p1.boosts[SP] = Math.min(6, p1.boosts[SP] + 1);
-    }
-    if($('#clangR').prop("checked")){
-        p2.boosts[AT] = Math.min(6, p2.boosts[AT] + 1);
-        p2.boosts[DF] = Math.min(6, p2.boosts[DF] + 1);
-        p2.boosts[SA] = Math.min(6, p2.boosts[SA] + 1);
-        p2.boosts[SD] = Math.min(6, p2.boosts[SD] + 1);
-        p2.boosts[SP] = Math.min(6, p2.boosts[SP] + 1);
     }
 
 }
