@@ -461,8 +461,8 @@ $(".forme").change(function() {
         container.find(".percent-hp").val($(this).val() === "Darmanitan-Z" ? "50" : "100").keyup();
     }
 	// This is where we would make Zygarde's Forme change @50% HP, need to define var formeName
-	//if (pokemonName === "Zygarde" && (formeName === "Zygarde-10%" || formeName === "Zygarde")) {
-    //    container.find(".percent-hp").val($(this).val() === "Darmanitan-Complete" ? "50" : "100").keyup();
+	// if (pokemonName === "Zygarde" && (formeName === "Zygarde-10%" || formeName === "Zygarde")) {
+    //    container.find(".percent-hp").val($(this).val() === "Zygarde-Complete" ? "50" : "100").keyup();
     //}
 });
 
@@ -703,54 +703,132 @@ function findDamageResult(resultMoveObj) {
 }
 
 function Pokemon(pokeInfo) {
-    var setName = pokeInfo.find("input.set-selector").val();
-    if (setName.indexOf("(") === -1) {
-        this.name = setName;
-    } else {
-        var pokemonName = setName.substring(0, setName.indexOf(" ("));
-        this.name = (pokedex[pokemonName].formes) ? pokeInfo.find(".forme").val() : pokemonName;
-    }
-    this.type1 = pokeInfo.find(".type1").val();
-    this.type2 = pokeInfo.find(".type2").val();
-    this.level = ~~pokeInfo.find(".level").val();
-    this.maxHP = ~~pokeInfo.find(".hp .total").text();
-    this.curHP = ~~pokeInfo.find(".current-hp").val();
-    this.HPEVs = ~~pokeInfo.find(".hp .evs").val();
-    this.rawStats = {};
-    this.boosts = {};
-    this.stats = {};
-    this.evs = {};
-    for (var i = 0; i < STATS.length; i++) {
-        this.rawStats[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .total").text();
-        this.boosts[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .boost").val();
-        this.evs[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .evs").val();
-    }
-    this.nature = pokeInfo.find(".nature").val();
-    this.ability = pokeInfo.find(".ability").val();
-    this.item = pokeInfo.find(".item").val();
-    this.status = pokeInfo.find(".status").val();
-    this.toxicCounter = this.status === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0;
-    this.moves = [
-        getMoveDetails(pokeInfo.find(".move1"), this.item),
-        getMoveDetails(pokeInfo.find(".move2"), this.item),
-        getMoveDetails(pokeInfo.find(".move3"), this.item),
-        getMoveDetails(pokeInfo.find(".move4"), this.item)
-    ];
-    this.weight = +pokeInfo.find(".weight").val();
+	if (typeof pokeInfo === "string") { // in this case, pokeInfo is the id of an individual setOptions value whose moveset's tier matches the selected tier(s)
+		this.name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
+		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
+		var pokemon = pokedex[this.name];
+		this.type1 = pokemon.t1;
+		this.type2 = (pokemon.t2 && typeof pokemon.t2 !== "undefined") ? pokemon.t2 : "";
+		this.rawStats = [];
+		this.boosts = [];
+		this.stats = [];
+		this.evs = [];
+
+		var set = setdex[this.name][setName];
+		this.level = set.level;
+		this.HPEVs = (set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0;
+		if (gen < 3) {
+			var HPDVs = 15;
+			this.maxHP = ~~(((pokemon.bs.hp + HPDVs) * 2 + 63) * this.level / 100) + this.level + 10;
+		} else if (pokemon.bs.hp === 1) {
+			this.maxHP = 1;
+		} else {
+			var HPIVs = 31;
+			this.maxHP = ~~((pokemon.bs.hp * 2 + HPIVs + ~~(this.HPEVs / 4)) * this.level / 100) + this.level + 10;
+		}
+		this.curHP = this.maxHP;
+		this.nature = set.nature;
+		for (var i = 0; i < STATS.length; i++) {
+			var stat = STATS[i];
+			this.boosts[stat] = 0;
+			this.evs[stat] = (set.evs && typeof set.evs[stat] !== "undefined") ? set.evs[stat] : 0;
+			if (gen < 3) {
+				var dvs = 15;
+				this.rawStats[stat] = ~~(((pokemon.bs[stat] + dvs) * 2 + 63) * this.level / 100) + 5;
+			} else {
+				var ivs = (set.ivs && typeof set.ivs[stat] !== "undefined") ? set.ivs[stat] : 31;
+				var natureMods = NATURES[this.nature];
+				var nature = natureMods[0] === stat ? 1.1 : natureMods[1] === stat ? 0.9 : 1;
+				this.rawStats[stat] = ~~((~~((pokemon.bs[stat] * 2 + ivs + ~~(this.evs[stat] / 4)) * this.level / 100) + 5) * nature);
+			}
+		}
+		this.ability = (set.ability && typeof set.ability !== "undefined") ? set.ability :
+			(pokemon.ab && typeof pokemon.ab !== "undefined") ? pokemon.ab : "";
+		this.item = (set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0)) ? set.item : "";
+		this.status = "Healthy";
+		this.toxicCounter = 0;
+		this.moves = [];
+		for (var i = 0; i < 4; i++) {
+			var moveName = set.moves[i];
+			var defaultDetails = moves[moveName] || moves['(No Move)'];
+			this.moves.push($.extend({}, defaultDetails, {
+				name: (defaultDetails.bp === 0) ? "(No Move)" : moveName,
+				bp: defaultDetails.bp,
+				type: defaultDetails.type,
+				category: defaultDetails.category,
+				isCrit: !!defaultDetails.alwaysCrit,
+				hits: defaultDetails.isMultiHit ? ((this.ability === "Skill Link" || this.item === "Grip Claw") ? 5 : 3) : defaultDetails.isTwoHit ? 2 : 1,
+				usedTimes: 1
+			}));
+		}
+		this.weight = pokemon.weight;
+	} else {
+		var setName = pokeInfo.find("input.set-selector").val();
+		if (setName.indexOf("(") === -1) {
+			this.name = setName;
+		} else {
+			var pokemonName = setName.substring(0, setName.indexOf(" ("));
+			this.name = (pokedex[pokemonName].formes) ? pokeInfo.find(".forme").val() : pokemonName;
+		}
+		this.type1 = pokeInfo.find(".type1").val();
+		this.type2 = pokeInfo.find(".type2").val();
+		this.level = ~~pokeInfo.find(".level").val();
+		this.maxHP = ~~pokeInfo.find(".hp .total").text();
+		this.curHP = ~~pokeInfo.find(".current-hp").val();
+		this.HPEVs = ~~pokeInfo.find(".hp .evs").val();
+		this.rawStats = [];
+		this.boosts = [];
+		this.stats = [];
+		this.evs = [];
+		for (var i = 0; i < STATS.length; i++) {
+			this.rawStats[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .total").text();
+			this.boosts[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .boost").val();
+			this.evs[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .evs").val();
+		}
+		this.nature = pokeInfo.find(".nature").val();
+		this.ability = pokeInfo.find(".ability").val();
+		this.item = pokeInfo.find(".item").val();
+		this.status = pokeInfo.find(".status").val();
+		this.toxicCounter = this.status === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0;
+		this.moves = [
+			getMoveDetails(pokeInfo.find(".move1"), this.item),
+			getMoveDetails(pokeInfo.find(".move2"), this.item),
+			getMoveDetails(pokeInfo.find(".move3"), this.item),
+			getMoveDetails(pokeInfo.find(".move4"), this.item)
+		];
+		this.weight = +pokeInfo.find(".weight").val();
+	}
+	this.hasType = function(type) {
+		return this.type1 === type || this.type2 === type;
+	};
 }
 
-function getMoveDetails(moveInfo) {
-    var moveName = moveInfo.find("select.move-selector").val();
-    var defaultDetails = moves[moveName];
-    return $.extend({}, defaultDetails, {
-        name: moveName,
-        bp: ~~moveInfo.find(".move-bp").val(),
-        type: moveInfo.find(".move-type").val(),
-        category: moveInfo.find(".move-cat").val(),
-        isCrit: moveInfo.find(".move-crit").prop("checked"),
-        isZ: moveInfo.find(".move-z").prop("checked"),
-        hits: (defaultDetails.isMultiHit && !moveInfo.find(".move-z").prop("checked")) ? ~~moveInfo.find(".move-hits").val() : (defaultDetails.isTwoHit && !moveInfo.find(".move-z").prop("checked")) ? 2 : 1
-    });
+function getMoveDetails(moveInfo, item) {
+	var moveName = moveInfo.find("select.move-selector").val();
+	var defaultDetails = moves[moveName];
+	var isZMove = gen >= 7 && moveInfo.find("input.move-z").prop("checked");
+
+	// If z-move is checked but there isn't a corresponding z-move, use the original move
+	if (isZMove && "zp" in defaultDetails) {
+		var zMoveName = getZMoveName(moveName, defaultDetails.type, item);
+		return $.extend({}, moves[zMoveName], {
+			name: zMoveName,
+			bp: moves[zMoveName].bp === 1 ? defaultDetails.zp : moves[zMoveName].bp,
+			category: defaultDetails.category,
+			isCrit: moveInfo.find(".move-crit").prop("checked"),
+			hits: 1
+		});
+	} else {
+		return $.extend({}, defaultDetails, {
+			name: moveName,
+			bp: ~~moveInfo.find(".move-bp").val(),
+			type: moveInfo.find(".move-type").val(),
+			category: moveInfo.find(".move-cat").val(),
+			isCrit: moveInfo.find(".move-crit").prop("checked"),
+			hits: defaultDetails.isMultiHit ? ~~moveInfo.find(".move-hits").val() : defaultDetails.isTwoHit ? 2 : 1,
+			usedTimes: defaultDetails.dropsStats ? ~~moveInfo.find(".stat-drops").val() : 1
+		});
+	}
 }
 
 function getZMoveName(moveName, moveType, item) {
