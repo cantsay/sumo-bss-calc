@@ -9,7 +9,7 @@ var changetheme = function()
 		console.log("loaded aegislash theme")
 		var select = document.getElementById("theme");
 		var selectedItem = select.value;
-		createCookie("selectedItem",selectedItem)
+		createCookie("selectedItem",selectedItem,3000)
 		removejscssfile("script_res/themes/dark_ap_calc.css", "css")
 		removejscssfile("script_res/themes/dark_nb_calc.css", "css")
 		document.getElementById("midimg").src="script_res/image_res/aegi trozei.png"
@@ -22,7 +22,7 @@ var changetheme = function()
 		loadjscssfile("script_res/themes/dark_nb_calc.css", "css")
 		var select = document.getElementById("theme");
 		var selectedItem = select.value;
-		createCookie("selectedItem",selectedItem)
+		createCookie("selectedItem",selectedItem,3000)
 		document.getElementById("midimg").src="script_res/image_res/cantsay.png"
 		//loadjscssfile("script_res/dark_select2.css", "css")
 		/*removejscssfile("script_res/themes/ap_calc.css", "css")
@@ -41,7 +41,7 @@ var changetheme = function()
 		document.getElementById("midimg").src="script_res/image_res/cantsay.png"
 		var select = document.getElementById("theme");
 		var selectedItem = select.value;
-		createCookie("selectedItem",selectedItem)
+		createCookie("selectedItem",selectedItem,3000)
 		//removejscssfile("script_res/themes/dark_select2.css", "css")
 		/*removejscssfile("script_res/themes/ap_calc.css", "css")
 		removejscssfile("script_res/themes/nb_calc.css", "css")
