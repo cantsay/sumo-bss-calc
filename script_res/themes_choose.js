@@ -1,7 +1,5 @@
 var changetheme = function()
-{
-	
-	
+{	
 	if (document.getElementById("theme").value === "aegislash") {
 		loadjscssfile("script_res/themes/ap_calc.css", "css")
 		loadjscssfile("script_res/themes/nb_calc.css", "css")

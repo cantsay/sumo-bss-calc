@@ -49,7 +49,7 @@ function readCookie(name) {
 function eraseCookie(name) {
 	createCookie(name,"",-1);
 } */
-/*
+
 if (readCookie("selectedItem")!=null) {
 var selectedItem = readCookie("selectedItem");
 var select = document.getElementById("theme");
@@ -60,7 +60,7 @@ if (document.getElementById("theme")!=null)
 {
 	var drop = document.getElementById("theme").value
 
-if (drop === "aegi") {
+if (drop === "aegislash") {
 loadjscssfile("script_res/themes/ap_calc.css", "css")
 loadjscssfile("script_res/themes/nb_calc.css", "css")
 loadjscssfile("script_res/themes/select2.css", "css")
@@ -73,8 +73,8 @@ loadjscssfile("script_res/themes/select2.css", "css")
 	loadjscssfile("script_res/themes/legacy_nb_calc.css", "css")
 	loadjscssfile("script_res/themes/select2.css", "css")
 }
-} else {*/	
+} else {
 loadjscssfile("script_res/themes/ap_calc.css", "css")
 loadjscssfile("script_res/themes/nb_calc.css", "css")
 loadjscssfile("script_res/themes/select2.css", "css")
-//}
+}
