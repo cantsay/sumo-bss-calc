@@ -24,17 +24,6 @@ function removejscssfile(filename, filetype){
     }
 }
 
- function createCookie(name,value,days) {
-	if (days) {
-		var date = new Date();
-		date.setTime(date.getTime()+(days*24*60*60*1000));
-		var expires = "; expires="+date.toGMTString();
-	}
-	else var expires = "";
-	document.cookie = name+"="+value+expires+"; path=/";
-	console.log("cookie written")
-}
-
 function readCookie(name) {
 	var nameEQ = name + "=";
 	var ca = document.cookie.split(';');
@@ -46,16 +35,13 @@ function readCookie(name) {
 	return null;
 }
 
-function eraseCookie(name) {
-	createCookie(name,"",-1);
-}
-
 if (readCookie("selectedItem")!=null) {
 var selectedItem = readCookie("selectedItem");
 var select = document.getElementById("theme");
 select.value = selectedItem;
 }
 
+console.log(document.getElementById("theme"))
 if (document.getElementById("theme")!=null)
 {
 	var drop = document.getElementById("theme").value
