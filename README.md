@@ -28,5 +28,7 @@ The calculator also adds manual auras and aura breaks, as well as a completely n
 
 ## Testing with eslint
 run ``npm i -g eslint`` (First time only)
+
 run ``npm test``
+
 run ``eslint --fix dir``
