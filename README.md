@@ -1,5 +1,6 @@
 # B S S D A M A G E C A L C ~
 [![Build Status](https://travis-ci.org/LegoFigure11/sumo-bss-calc.svg)](https://travis-ci.org/LegoFigure11/sumo-bss-calc)
+
 for all your bs singles calculations. based on the work by Jake White ([@squirrelboyvgc](https://twitter.com/squirrelboyvgc))
 
 The calculator now supports custom sets.  These can be input within the calculator using the official Pokemon Showdown format.
