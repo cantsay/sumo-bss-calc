@@ -9,7 +9,8 @@
 		"browser": true
 	},
 	"globals": {
-		"_": false
+	"globals": {
+		"_": false, "buildDescription": false, "Field": false, "gen": false, "mode": false, "NATURES": false, "Pokemon": false,  "typeChart": false 
 	},
 	"extends": "eslint:recommended",
 	"rules": {
