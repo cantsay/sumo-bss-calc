@@ -155,7 +155,7 @@ function getDamageResult(attacker, defender, move, field) {
 
 	description.HPEVs = defender.HPEVs + " HP";
 
-	if (move.name === "Seismic Toss" || move.name === "Night Shade") {
+	if (["Seismic Toss", "Night Shade"].indexOf(move.name) !== -1) {
 		var lv = attacker.level;
 		if (attacker.ability === "Parental Bond") {
 			lv *= 2;
@@ -616,12 +616,14 @@ function getDamageResult(attacker, defender, move, field) {
 	var child, childDamage, j;
 	if (attacker.ability === "Parental Bond" && move.hits === 1 && (field.format === "Singles" || !move.isSpread)) {
 		child = JSON.parse(JSON.stringify(attacker));
+		child.rawStats = attacker.rawStats;
+		child.stats = attacker.stats;
 		child.ability = '';
 		child.isChild = true;
-		if (move.name === 'Power-Up Punch') {
-			child.boosts[AT]++;
-			child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);
-		}
+		//if (move.name === 'Power-Up Punch') {
+		//	child.boosts[AT]++;
+		//	child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);
+		//}
 		childDamage = getDamageResult(child, defender, move, field).damage;
 		description.attackerAbility = attacker.ability;
 	}
