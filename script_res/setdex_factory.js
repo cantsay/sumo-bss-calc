@@ -1,37 +1,36 @@
 var SETDEX_FACTORY = {};
 
 var components = [
-    SETDEX_FACTORYSETS,
-    SETDEX_CUSTOM
+	SETDEX_FACTORYSETS,
+	SETDEX_CUSTOM
 ];
 
-for (var i=0; i<components.length; i++) {
-    var sourceDex = components[i];
-    if (sourceDex) {
-        for (var p in sourceDex) {
-            if (sourceDex.hasOwnProperty(p)) {
-                SETDEX_FACTORY[p] = $.extend(SETDEX_FACTORY[p], sourceDex[p])
-            }
-        }
-    }
+for (var i = 0; i < components.length; i++) {
+	var sourceDex = components[i];
+	if (sourceDex) {
+		for (var p in sourceDex) {
+			if (sourceDex.hasOwnProperty(p)) {
+				SETDEX_FACTORY[p] = $.extend(SETDEX_FACTORY[p], sourceDex[p]);
+			}
+		}
+	}
 }
 
-var reloadXYScript = function()
-{
-  console.log(SETDEX_CUSTOM);
-    components = [
-    SETDEX_FACTORYSETS,
-    SETDEX_CUSTOM
-];
+var reloadXYScript = function () {
+	console.log(SETDEX_CUSTOM);
+	components = [
+		SETDEX_FACTORYSETS,
+		SETDEX_CUSTOM
+	];
 
-for (var i=0; i<components.length; i++) {
-    sourceDex = components[i];
-    if (sourceDex) {
-        for (var p in sourceDex) {
-            if (sourceDex.hasOwnProperty(p)) {
-                SETDEX_FACTORY[p] = $.extend(SETDEX_FACTORY[p], sourceDex[p])
-            }
-        }
-    }
-}
-}
+	for (var i = 0; i < components.length; i++) {
+		sourceDex = components[i];
+		if (sourceDex) {
+			for (var p in sourceDex) {
+				if (sourceDex.hasOwnProperty(p)) {
+					SETDEX_FACTORY[p] = $.extend(SETDEX_FACTORY[p], sourceDex[p]);
+				}
+			}
+		}
+	}
+};
