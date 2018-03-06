@@ -1,2 +1,2 @@
-var SETDEX_GBUSETS={
+var SETDEX_GBUSETS = {
 };
