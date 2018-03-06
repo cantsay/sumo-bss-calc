@@ -157,3 +157,4 @@
 		"no-restricted-syntax": ["error", "TaggedTemplateExpression", "ObjectPattern", "ArrayPattern"]
 	}
 }
+}
