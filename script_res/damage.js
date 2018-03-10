@@ -628,7 +628,7 @@ function getDamageResult(attacker, defender, move, field) {
 		description.attackerAbility = attacker.ability;
 		if (move.name === 'Power-Up Punch') {
 			child.boosts[AT]--;
-			child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);  
+			child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);
 		}
 	}
 	for (var i = 0; i < 16; i++) {
