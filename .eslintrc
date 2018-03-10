@@ -9,8 +9,7 @@
 		"browser": true
 	},
 	"globals": {
-	"globals": {
-		"_": false, "buildDescription": false, "Field": false, "gen": false, "mode": false, "NATURES": false, "Pokemon": false,  "typeChart": false 
+		"_": false
 	},
 	"extends": "eslint:recommended",
 	"rules": {
@@ -73,7 +72,7 @@
 		"radix": ["error", "as-needed"],
 		"vars-on-top": "off",
 		"wrap-iife": ["error", "inside"],
-		"yoda": "warn",
+		"yoda": "off",
 
 		"init-declarations": "off",
 		"no-catch-shadow": "off",
@@ -156,5 +155,4 @@
 		"template-curly-spacing": ["error", "never"],
 		"no-restricted-syntax": ["error", "TaggedTemplateExpression", "ObjectPattern", "ArrayPattern"]
 	}
-}
 }
