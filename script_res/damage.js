@@ -620,12 +620,16 @@ function getDamageResult(attacker, defender, move, field) {
 		child.stats = attacker.stats;
 		child.ability = '';
 		child.isChild = true;
-		//if (move.name === 'Power-Up Punch') {
-		//	child.boosts[AT]++;
-		//	child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);
-		//}
+		if (move.name === 'Power-Up Punch') {
+			child.boosts[AT]++;
+			child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);
+		}
 		childDamage = getDamageResult(child, defender, move, field).damage;
 		description.attackerAbility = attacker.ability;
+		if (move.name === 'Power-Up Punch') {
+			child.boosts[AT]--;
+			child.stats[AT] = getModifiedStat(child.rawStats[AT], child.boosts[AT]);  
+		}
 	}
 	for (var i = 0; i < 16; i++) {
 		damage[i] = Math.floor(baseDamage * (85 + i) / 100);
