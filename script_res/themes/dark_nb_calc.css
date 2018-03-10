@@ -29,6 +29,7 @@ a {
 .move-cat,
 button,
 textarea,
+select,
 input {
     color: #ffffff;
     background:#4a4c51;
