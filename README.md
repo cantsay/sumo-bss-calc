@@ -28,9 +28,9 @@ The calculator also adds manual auras and aura breaks, as well as a completely n
 * [PS! Calc](https://pokemonshowdown.com/damagecalc/) ([git](https://github.com/Zarel/honko-damagecalc))
 * Contribute directly in this repo or at our smogon thread [here](https://www.smogon.com/forums/threads/3597699/)!
 
-## Testing with eslint
+## Testing with eslint (requires node)
 run ``npm i -g eslint`` (First time only)
 
 run ``npm test``
 
-run ``eslint --fix dir``
+run ``eslint --fix .``
