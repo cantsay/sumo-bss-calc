@@ -1,9 +1,9 @@
 {
   "name": "sumo-bss-calc",
-  "private": true,
-  "version": "0.3.0",
+  "private": false,
+  "version": "1.0.0",
   "scripts": {
-    "test": "eslint --cache ."
+    "test": "eslint ."
   },
   "homepage": "https://cantsay.github.io/sumo-bss-calc/",
   "repository": {

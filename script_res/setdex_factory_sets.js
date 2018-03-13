@@ -2746,9 +2746,9 @@ var SETDEX_FACTORYSETS = {
 			"item": "Kangaskhanite",
 			"moves": [
 				"Secret Power",
-				"Power-Up Punch",
+				"Rock Slide",
 				"Sucker Punch",
-				"Rock Slide"
+				"Power-Up Punch"
 			]
 		},
 		"Mixed Attacker": {

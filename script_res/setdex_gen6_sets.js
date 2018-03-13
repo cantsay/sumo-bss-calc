@@ -1186,10 +1186,10 @@ var SETDEX_XYBSPOT = {
 			"ability": "Scrappy",
 			"item": "Kangaskhanite",
 			"moves": [
-				"Power-Up Punch",
+				"Earthquake",
 				"Double-Edge",
 				"Sucker Punch",
-				"Earthquake"
+				"Power-Up Punch"
 			]
 		},
 		"All-Out Attacker": {
@@ -1221,9 +1221,9 @@ var SETDEX_XYBSPOT = {
 			"item": "Kangaskhanite",
 			"moves": [
 				"Secret Power",
-				"Power-Up Punch",
+				"Sucker Punch",
 				"Rock Slide",
-				"Sucker Punch"
+				"Power-Up Punch"
 			]
 		},
 		"Mixed Attacker": {

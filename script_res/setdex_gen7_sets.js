@@ -2295,10 +2295,10 @@ var SETDEX_SMBSPOT = {
 			"ability": "Scrappy",
 			"item": "Kangaskhanite",
 			"moves": [
-				"Power-Up Punch",
+				"Earthquake",
 				"Double-Edge",
 				"Sucker Punch",
-				"Earthquake"
+				"Power-Up Punch"
 			]
 		},
 		"All-Out Attacker": {
@@ -2330,9 +2330,9 @@ var SETDEX_SMBSPOT = {
 			"item": "Kangaskhanite",
 			"moves": [
 				"Secret Power",
-				"Power-Up Punch",
+				"Sucker Punch",
 				"Rock Slide",
-				"Sucker Punch"
+				"Power-Up Punch"
 			]
 		},
 		"Special Attacker": {

@@ -1,60 +1,60 @@
 function getKOChanceText(damage, move, defender, field, isBadDreams) {
 	if (isNaN(damage[0])) {
-		return 'something broke; please tell cant say or LegoFigure11';
+		return "something broke; please tell cant say or LegoFigure11";
 	}
 	if (damage[damage.length - 1] === 0) {
 		if (field.weather === "Harsh Sun" && move.type === "Water") {
-			return 'the Water-Type attack evaporated in the harsh sunlight';
+			return "the Water-Type attack evaporated in the harsh sunlight";
 		} else if (field.weather === "Heavy Rain" && move.type === "Fire") {
-			return 'the Fire-Type attack fizzled out in the heavy rain';
+			return "the Fire-Type attack fizzled out in the heavy rain";
 		}
-		return 'aim for the horn next time';
+		return "aim for the horn next time";
 	}
-	var hasSitrus = defender.item === 'Sitrus Berry';
-	var hasFigy = defender.item === 'Figy Berry';
-	var hasIapapa = defender.item === 'Iapapa Berry';
-	var hasWiki = defender.item === 'Wiki Berry';
-	var hasAguav = defender.item === 'Aguav Berry';
-	var hasMago = defender.item === 'Mago Berry';
+	var hasSitrus = defender.item === "Sitrus Berry";
+	var hasFigy = defender.item === "Figy Berry";
+	var hasIapapa = defender.item === "Iapapa Berry";
+	var hasWiki = defender.item === "Wiki Berry";
+	var hasAguav = defender.item === "Aguav Berry";
+	var hasMago = defender.item === "Mago Berry";
 	var gluttony = defender.ability === "Gluttony";
-	if ((damage.length !== 256 || (!hasSitrus && !hasFigy && !hasIapapa && !hasWiki && !hasAguav && !hasMago)) && damage[0] >= defender.curHP) {
-		return 'guaranteed OHKO';
+	if ((damage.length !== 256 || !hasSitrus && !hasFigy && !hasIapapa && !hasWiki && !hasAguav && !hasMago) && damage[0] >= defender.curHP) {
+		return "guaranteed OHKO";
 	} else if (damage.length === 256 && hasSitrus && damage[0] >= defender.curHP + Math.floor(defender.maxHP / 4)) {
-		return 'guaranteed OHKO';
+		return "guaranteed OHKO";
 	} else if (damage.length === 256 && hasFigy && damage[0] >= defender.curHP + Math.floor(defender.maxHP / 2)) {
-		return 'guaranteed OHKO';
+		return "guaranteed OHKO";
 	} else if (damage.length === 256 && hasIapapa && damage[0] >= defender.curHP + Math.floor(defender.maxHP / 2)) {
-		return 'guaranteed OHKO';
+		return "guaranteed OHKO";
 	} else if (damage.length === 256 && hasWiki && damage[0] >= defender.curHP + Math.floor(defender.maxHP / 2)) {
-		return 'guaranteed OHKO';
+		return "guaranteed OHKO";
 	} else if (damage.length === 256 && hasAguav && damage[0] >= defender.curHP + Math.floor(defender.maxHP / 2)) {
-		return 'guaranteed OHKO';
+		return "guaranteed OHKO";
 	} else if (damage.length === 256 && hasMago && damage[0] >= defender.curHP + Math.floor(defender.maxHP / 2)) {
-		return 'guaranteed OHKO';
+		return "guaranteed OHKO";
 	}
 
 	var hazards = 0;
 	var hazardText = [];
-	if (field.isSR && defender.ability !== 'Magic Guard') {
-		var effectiveness = typeChart['Rock'][defender.type1] * (defender.type2 ? typeChart['Rock'][defender.type2] : 1);
+	if (field.isSR && defender.ability !== "Magic Guard") {
+		var effectiveness = typeChart["Rock"][defender.type1] * (defender.type2 ? typeChart["Rock"][defender.type2] : 1);
 		hazards += Math.floor(effectiveness * defender.maxHP / 8);
-		hazardText.push('Stealth Rock');
+		hazardText.push("Stealth Rock");
 	}
-	if ([defender.type1, defender.type2].indexOf('Flying') === -1 &&
-            ['Magic Guard', 'Levitate'].indexOf(defender.ability) === -1 && defender.item !== 'Air Balloon') {
+	if ([defender.type1, defender.type2].indexOf("Flying") === -1 &&
+            ["Magic Guard", "Levitate"].indexOf(defender.ability) === -1 && defender.item !== "Air Balloon") {
 		if (field.spikes === 1) {
 			hazards += Math.floor(defender.maxHP / 8);
 			if (gen === 2) {
-				hazardText.push('Spikes');
+				hazardText.push("Spikes");
 			} else {
-				hazardText.push('1 layer of Spikes');
+				hazardText.push("1 layer of Spikes");
 			}
 		} else if (field.spikes === 2) {
 			hazards += Math.floor(defender.maxHP / 6);
-			hazardText.push('2 layers of Spikes');
+			hazardText.push("2 layers of Spikes");
 		} else if (field.spikes === 3) {
 			hazards += Math.floor(defender.maxHP / 4);
-			hazardText.push('3 layers of Spikes');
+			hazardText.push("3 layers of Spikes");
 		}
 	}
 	if (isNaN(hazards)) {
@@ -63,163 +63,163 @@ function getKOChanceText(damage, move, defender, field, isBadDreams) {
 
 	var eot = 0;
 	var eotText = [];
-	if (field.weather === 'Sun') {
-		if (defender.ability === 'Dry Skin' || defender.ability === 'Solar Power') {
+	if (field.weather === "Sun") {
+		if (defender.ability === "Dry Skin" || defender.ability === "Solar Power") {
 			eot -= Math.floor(defender.maxHP / 8);
-			eotText.push(defender.ability + ' damage');
+			eotText.push(defender.ability + " damage");
 		}
-	} else if (field.weather === 'Rain') {
-		if (defender.ability === 'Dry Skin') {
+	} else if (field.weather === "Rain") {
+		if (defender.ability === "Dry Skin") {
 			eot += Math.floor(defender.maxHP / 8);
-			eotText.push('Dry Skin recovery');
-		} else if (defender.ability === 'Rain Dish') {
+			eotText.push("Dry Skin recovery");
+		} else if (defender.ability === "Rain Dish") {
 			eot += Math.floor(defender.maxHP / 16);
-			eotText.push('Rain Dish recovery');
+			eotText.push("Rain Dish recovery");
 		}
-	} else if (field.weather === 'Sand') {
-		if (['Rock', 'Ground', 'Steel'].indexOf(defender.type1) === -1 &&
-                ['Rock', 'Ground', 'Steel'].indexOf(defender.type2) === -1 &&
-                ['Magic Guard', 'Overcoat', 'Sand Force', 'Sand Rush', 'Sand Veil'].indexOf(defender.ability) === -1 &&
-                defender.item !== 'Safety Goggles') {
+	} else if (field.weather === "Sand") {
+		if (["Rock", "Ground", "Steel"].indexOf(defender.type1) === -1 &&
+                ["Rock", "Ground", "Steel"].indexOf(defender.type2) === -1 &&
+                ["Magic Guard", "Overcoat", "Sand Force", "Sand Rush", "Sand Veil"].indexOf(defender.ability) === -1 &&
+                defender.item !== "Safety Goggles") {
 			eot -= Math.floor(defender.maxHP / 16);
-			eotText.push('sandstorm damage');
+			eotText.push("sandstorm damage");
 		}
-	} else if (field.weather === 'Hail') {
-		if (defender.ability === 'Ice Body') {
+	} else if (field.weather === "Hail") {
+		if (defender.ability === "Ice Body") {
 			eot += Math.floor(defender.maxHP / 16);
-			eotText.push('Ice Body recovery');
-		} else if (defender.type1 !== 'Ice' && defender.type2 !== 'Ice' &&
-                ['Magic Guard', 'Overcoat', 'Snow Cloak'].indexOf(defender.ability) === -1 &&
-                defender.item !== 'Safety Goggles') {
+			eotText.push("Ice Body recovery");
+		} else if (defender.type1 !== "Ice" && defender.type2 !== "Ice" &&
+                ["Magic Guard", "Overcoat", "Snow Cloak"].indexOf(defender.ability) === -1 &&
+                defender.item !== "Safety Goggles") {
 			eot -= Math.floor(defender.maxHP / 16);
-			eotText.push('hail damage');
+			eotText.push("hail damage");
 		}
 	}
-	if (defender.item === 'Leftovers') {
+	if (defender.item === "Leftovers") {
 		eot += Math.floor(defender.maxHP / 16);
-		eotText.push('Leftovers recovery');
-	} else if (defender.item === 'Black Sludge') {
-		if (defender.type1 === 'Poison' || defender.type2 === 'Poison') {
+		eotText.push("Leftovers recovery");
+	} else if (defender.item === "Black Sludge") {
+		if (defender.type1 === "Poison" || defender.type2 === "Poison") {
 			eot += Math.floor(defender.maxHP / 16);
-			eotText.push('Black Sludge recovery');
-		} else if (defender.ability !== 'Magic Guard' && defender.ability !== 'Klutz') {
+			eotText.push("Black Sludge recovery");
+		} else if (defender.ability !== "Magic Guard" && defender.ability !== "Klutz") {
 			eot -= Math.floor(defender.maxHP / 8);
-			eotText.push('Black Sludge damage');
+			eotText.push("Black Sludge damage");
 		}
 	}
 	if (field.isSeeded) {
-		if (defender.ability !== 'Magic Guard') {
+		if (defender.ability !== "Magic Guard") {
 			eot -= gen >= 2 ? Math.floor(defender.maxHP / 8) : Math.floor(defender.maxHP / 16); // 1/16 in gen 1, 1/8 in gen 2 onwards
-			eotText.push('Leech Seed damage');
+			eotText.push("Leech Seed damage");
 		}
 	}
 	if (field.terrain === "Grassy") {
-		if (field.isGravity || (defender.type1 !== "Flying" && defender.type2 !== "Flying" &&
-                defender.item !== "Air Balloon" && defender.ability !== "Levitate")) {
+		if (field.isGravity || defender.type1 !== "Flying" && defender.type2 !== "Flying" &&
+                defender.item !== "Air Balloon" && defender.ability !== "Levitate") {
 			eot += Math.floor(defender.maxHP / 16);
-			eotText.push('Grassy Terrain recovery');
+			eotText.push("Grassy Terrain recovery");
 		}
 	}
 	var toxicCounter = 0;
-	if (defender.status === 'Poisoned') {
-		if (defender.ability === 'Poison Heal') {
+	if (defender.status === "Poisoned") {
+		if (defender.ability === "Poison Heal") {
 			eot += Math.floor(defender.maxHP / 8);
-			eotText.push('Poison Heal');
-		} else if (defender.ability !== 'Magic Guard') {
+			eotText.push("Poison Heal");
+		} else if (defender.ability !== "Magic Guard") {
 			eot -= Math.floor(defender.maxHP / 8);
-			eotText.push('poison damage');
+			eotText.push("poison damage");
 		}
-	} else if (defender.status === 'Badly Poisoned') {
-		if (defender.ability === 'Poison Heal') {
+	} else if (defender.status === "Badly Poisoned") {
+		if (defender.ability === "Poison Heal") {
 			eot += Math.floor(defender.maxHP / 8);
-			eotText.push('Poison Heal');
-		} else if (defender.ability !== 'Magic Guard') {
-			eotText.push('toxic damage');
+			eotText.push("Poison Heal");
+		} else if (defender.ability !== "Magic Guard") {
+			eotText.push("toxic damage");
 			toxicCounter = defender.toxicCounter;
 		}
-	} else if (defender.status === 'Burned') {
-		if (defender.ability === 'Heatproof') {
+	} else if (defender.status === "Burned") {
+		if (defender.ability === "Heatproof") {
 			eot -= Math.floor(defender.maxHP / 16);
-			eotText.push('reduced burn damage');
-		} else if (defender.ability !== 'Magic Guard') {
+			eotText.push("reduced burn damage");
+		} else if (defender.ability !== "Magic Guard") {
 			eot -= Math.floor(defender.maxHP / 8);
-			eotText.push('burn damage');
+			eotText.push("burn damage");
 		}
-	} else if (defender.status === 'Asleep' && isBadDreams && defender.ability !== 'Magic Guard') {
+	} else if (defender.status === "Asleep" && isBadDreams && defender.ability !== "Magic Guard") {
 		eot -= Math.floor(defender.maxHP / 8);
-		eotText.push('Bad Dreams');
+		eotText.push("Bad Dreams");
 	}
 
 	// multi-hit moves have too many possibilities for brute-forcing to work, so reduce it to an approximate distribution
-	var qualifier = '';
+	var qualifier = "";
 	if (move.hits > 1) {
-		qualifier = 'approx. ';
+		qualifier = "approx. ";
 		damage = squashMultihit(damage, move.hits);
 	}
 
 	var multihit = damage.length === 256 || move.hits > 1;
 	var c = getKOChance(damage, multihit, defender.curHP - hazards, 0, 1, defender.maxHP, toxicCounter, hasSitrus, hasFigy, hasIapapa, hasWiki, hasAguav, hasMago, gluttony);
-	var afterText = hazardText.length > 0 ? ' after ' + serializeText(hazardText) : '';
+	var afterText = hazardText.length > 0 ? " after " + serializeText(hazardText) : "";
 	if (c === 1) {
-		return 'guaranteed OHKO' + afterText;
+		return "guaranteed OHKO" + afterText;
 	} else if (c > 0) {
-		return qualifier + Math.round(c * 1000) / 10 + '% chance to OHKO' + afterText;
+		return qualifier + Math.round(c * 1000) / 10 + "% chance to OHKO" + afterText;
 	}
 
-	if (hasSitrus && move.name !== 'Knock Off') {
-		eotText.push('Sitrus Berry recovery');
+	if (hasSitrus && move.name !== "Knock Off") {
+		eotText.push("Sitrus Berry recovery");
 	}
 
-	if (hasFigy && move.name !== 'Knock Off') {
-		if (gluttony) eotText.push('Gluttony Figy Berry recovery');
-		else eotText.push('Figy Berry recovery');
-
-	}
-
-	if (hasIapapa && move.name !== 'Knock Off') {
-		if (gluttony) eotText.push('Gluttony Iapapa Berry recovery');
-		else eotText.push('Iapapa Berry recovery');
+	if (hasFigy && move.name !== "Knock Off") {
+		if (gluttony) eotText.push("Gluttony Figy Berry recovery");
+		else eotText.push("Figy Berry recovery");
 
 	}
 
-	if (hasWiki && move.name !== 'Knock Off') {
-		if (gluttony) eotText.push('Gluttony Wiki Berry recovery');
-		else eotText.push('Wiki Berry recovery');
+	if (hasIapapa && move.name !== "Knock Off") {
+		if (gluttony) eotText.push("Gluttony Iapapa Berry recovery");
+		else eotText.push("Iapapa Berry recovery");
 
 	}
 
-	if (hasAguav && move.name !== 'Knock Off') {
-		if (gluttony) eotText.push('Gluttony Aguav Berry recovery');
-		else eotText.push('Aguav Berry recovery');
+	if (hasWiki && move.name !== "Knock Off") {
+		if (gluttony) eotText.push("Gluttony Wiki Berry recovery");
+		else eotText.push("Wiki Berry recovery");
 
 	}
 
-	if (hasMago && move.name !== 'Knock Off') {
-		if (gluttony) eotText.push('Gluttony Mago Berry recovery');
-		else eotText.push('Mago Berry recovery');
+	if (hasAguav && move.name !== "Knock Off") {
+		if (gluttony) eotText.push("Gluttony Aguav Berry recovery");
+		else eotText.push("Aguav Berry recovery");
+
 	}
-	afterText = hazardText.length > 0 || eotText.length > 0 ? ' after ' + serializeText(hazardText.concat(eotText)) : '';
+
+	if (hasMago && move.name !== "Knock Off") {
+		if (gluttony) eotText.push("Gluttony Mago Berry recovery");
+		else eotText.push("Mago Berry recovery");
+	}
+	afterText = hazardText.length > 0 || eotText.length > 0 ? " after " + serializeText(hazardText.concat(eotText)) : "";
 	var i;
 	for (i = 2; i <= 4; i++) {
 		c = getKOChance(damage, multihit, defender.curHP - hazards, eot, i, defender.maxHP, toxicCounter, hasSitrus, hasFigy, hasIapapa, hasWiki, hasAguav, hasMago, gluttony);
 		if (c === 1) {
-			return 'guaranteed ' + i + 'HKO' + afterText;
+			return "guaranteed " + i + "HKO" + afterText;
 		} else if (c > 0) {
 			var pct = Math.round(c * 1000) / 10;
-			var chance = pct ? qualifier + pct + '%' : 'Miniscule';
-			return chance + ' chance to ' + i + 'HKO' + afterText;
+			var chance = pct ? qualifier + pct + "%" : "Miniscule";
+			return chance + " chance to " + i + "HKO" + afterText;
 		}
 	}
 
 	for (i = 5; i <= 9; i++) {
 		if (predictTotal(damage[0], eot, i, toxicCounter, defender.curHP - hazards, defender.maxHP, hasSitrus, hasFigy, hasIapapa, hasWiki, hasAguav, hasMago, gluttony) >= defender.curHP - hazards) {
-			return 'guaranteed ' + i + 'HKO' + afterText;
+			return "guaranteed " + i + "HKO" + afterText;
 		} else if (predictTotal(damage[damage.length - 1], eot, i, toxicCounter, defender.curHP - hazards, defender.maxHP, hasSitrus, hasFigy, hasIapapa, hasWiki, hasAguav, hasMago, gluttony) >= defender.curHP - hazards) {
-			return 'possible ' + i + 'HKO' + afterText;
+			return "possible " + i + "HKO" + afterText;
 		}
 	}
 
-	return 'possibly the worst move ever';
+	return "possibly the worst move ever";
 }
 
 function getKOChance(damage, multihit, hp, eot, hits, maxHP, toxicCounter, hasSitrus, hasFigy, hasIapapa, hasWiki, hasAguav, hasMago, gluttony) {
@@ -244,7 +244,7 @@ function getKOChance(damage, multihit, hp, eot, hits, maxHP, toxicCounter, hasSi
 			return 0;
 		}
 		for (i = 0; i < n; i++) {
-			if ((!multihit || (!hasSitrus && !hasFigy && !hasIapapa && !hasWiki && !hasAguav && !hasMago)) && damage[i] >= hp) {
+			if ((!multihit || !hasSitrus && !hasFigy && !hasIapapa && !hasWiki && !hasAguav && !hasMago) && damage[i] >= hp) {
 				return (n - i) / n;
 			} else if (multihit && hasSitrus && damage[i] >= hp + Math.floor(maxHP / 4)) {
 				return (n - i) / n;
@@ -275,22 +275,22 @@ function getKOChance(damage, multihit, hp, eot, hits, maxHP, toxicCounter, hasSi
 	var sum = 0;
 	var lastC = 0;
 	for (i = 0; i < n; i++) {
-		if ((hp - damage[i] <= maxHP / 2) && hasSitrus) {
+		if (hp - damage[i] <= maxHP / 2 && hasSitrus) {
 			hp += Math.floor(maxHP / 4);
 			hasSitrus = false;
-		} else if (((hp - damage[i] <= maxHP / 4) && hasFigy && !gluttony) || ((hp - damage[i] <= maxHP / 2) && hasFigy && gluttony)) {
+		} else if (hp - damage[i] <= maxHP / 4 && hasFigy && !gluttony || hp - damage[i] <= maxHP / 2 && hasFigy && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasFigy = false;
-		} else if (((hp - damage[i] <= maxHP / 4) && hasIapapa && !gluttony) || ((hp - damage[i] <= maxHP / 2) && hasIapapa && gluttony)) {
+		} else if (hp - damage[i] <= maxHP / 4 && hasIapapa && !gluttony || hp - damage[i] <= maxHP / 2 && hasIapapa && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasIapapa = false;
-		} else if (((hp - damage[i] <= maxHP / 4) && hasWiki && !gluttony) || ((hp - damage[i] <= maxHP / 2) && hasWiki && gluttony)) {
+		} else if (hp - damage[i] <= maxHP / 4 && hasWiki && !gluttony || hp - damage[i] <= maxHP / 2 && hasWiki && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasWiki = false;
-		} else if (((hp - damage[i] <= maxHP / 4) && hasAguav && !gluttony) || ((hp - damage[i] <= maxHP / 2) && hasAguav && gluttony)) {
+		} else if (hp - damage[i] <= maxHP / 4 && hasAguav && !gluttony || hp - damage[i] <= maxHP / 2 && hasAguav && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasAguav = false;
-		} else if (((hp - damage[i] <= maxHP / 4) && hasMago && !gluttony) || ((hp - damage[i] <= maxHP / 2) && hasMago && gluttony)) {
+		} else if (hp - damage[i] <= maxHP / 4 && hasMago && !gluttony || hp - damage[i] <= maxHP / 2 && hasMago && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasMago = false;
 		}
@@ -301,7 +301,7 @@ function getKOChance(damage, multihit, hp, eot, hits, maxHP, toxicCounter, hasSi
 			c = lastC;
 		}
 		if (c === 1) {
-			sum += (n - i);
+			sum += n - i;
 			break;
 		} else {
 			sum += c;
@@ -315,22 +315,22 @@ function predictTotal(damage, eot, hits, toxicCounter, hp, maxHP, hasSitrus, has
 	var total = 0;
 	for (var i = 0; i < hits; i++) {
 		total += damage;
-		if ((hp - total <= maxHP / 2) && hasSitrus) {
+		if (hp - total <= maxHP / 2 && hasSitrus) {
 			total -= Math.floor(maxHP / 4);
 			hasSitrus = false;
-		} else if (((hp - total <= maxHP / 4) && hasFigy && !gluttony) || ((hp - total <= maxHP / 2) && hasFigy && gluttony)) {
+		} else if (hp - total <= maxHP / 4 && hasFigy && !gluttony || hp - total <= maxHP / 2 && hasFigy && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasFigy = false;
-		} else if (((hp - total <= maxHP / 4) && hasIapapa && !gluttony) || ((hp - total <= maxHP / 2) && hasIapapa && gluttony)) {
+		} else if (hp - total <= maxHP / 4 && hasIapapa && !gluttony || hp - total <= maxHP / 2 && hasIapapa && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasIapapa = false;
-		} else if (((hp - total <= maxHP / 4) && hasWiki && !gluttony) || ((hp - total <= maxHP / 2) && hasWiki && gluttony)) {
+		} else if (hp - total <= maxHP / 4 && hasWiki && !gluttony || hp - total <= maxHP / 2 && hasWiki && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasWiki = false;
-		} else if (((hp - total <= maxHP / 4) && hasAguav && !gluttony) || ((hp - total <= maxHP / 2) && hasAguav && gluttony)) {
+		} else if (hp - total <= maxHP / 4 && hasAguav && !gluttony || hp - total <= maxHP / 2 && hasAguav && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasAguav = false;
-		} else if (((hp - total <= maxHP / 4) && hasMago && !gluttony) || ((hp - total <= maxHP / 2) && hasMago && gluttony)) {
+		} else if (hp - total <= maxHP / 4 && hasMago && !gluttony || hp - total <= maxHP / 2 && hasMago && gluttony) {
 			hp += Math.floor(maxHP / 2);
 			hasMago = false;
 		}
@@ -429,16 +429,16 @@ function squashMultihit(d, hits) {
 
 function serializeText(arr) {
 	if (arr.length === 0) {
-		return '';
+		return "";
 	} else if (arr.length === 1) {
 		return arr[0];
 	} else if (arr.length === 2) {
 		return arr[0] + " and " + arr[1];
 	} else {
-		var text = '';
+		var text = "";
 		for (var i = 0; i < arr.length - 1; i++) {
-			text += arr[i] + ', ';
+			text += arr[i] + ", ";
 		}
-		return text + 'and ' + arr[arr.length - 1];
+		return text + "and " + arr[arr.length - 1];
 	}
 }

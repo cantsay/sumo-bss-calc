@@ -1,6 +1,6 @@
 var TYPE_CHART_RBY = {
 	Normal: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 1,
 		Grass: 1,
 		Fire: 1,
@@ -18,7 +18,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Grass: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 0.5,
 		Fire: 0.5,
@@ -36,7 +36,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 0.5
 	},
 	Fire: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 2,
 		Fire: 0.5,
@@ -54,7 +54,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 0.5
 	},
 	Water: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 0.5,
 		Fire: 2,
@@ -72,7 +72,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 0.5
 	},
 	Electric: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 0.5,
 		Fire: 1,
@@ -90,7 +90,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 0.5
 	},
 	Ice: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 2,
 		Fire: 1,
@@ -108,7 +108,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 2
 	},
 	Flying: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 1,
 		Grass: 2,
 		Fire: 1,
@@ -126,7 +126,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Bug: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 1,
 		Grass: 2,
 		Fire: 0.5,
@@ -144,7 +144,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Poison: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 1,
 		Grass: 2,
 		Fire: 1,
@@ -162,7 +162,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Ground: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 1,
 		Grass: 0.5,
 		Fire: 2,
@@ -180,7 +180,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Rock: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 1,
 		Grass: 1,
 		Fire: 2,
@@ -198,7 +198,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Fighting: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 2,
 		Grass: 1,
 		Fire: 1,
@@ -216,7 +216,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Psychic: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 1,
 		Fire: 1,
@@ -234,7 +234,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Ghost: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 0,
 		Grass: 1,
 		Fire: 1,
@@ -252,7 +252,7 @@ var TYPE_CHART_RBY = {
 		Dragon: 1
 	},
 	Dragon: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 1,
 		Fire: 1,
@@ -337,7 +337,7 @@ var TYPE_CHART_GSC = $.extend(true, {}, TYPE_CHART_RBY, {
 		Steel: 0.5
 	},
 	Dark: {
-		category: 'Special',
+		category: "Special",
 		Normal: 1,
 		Grass: 1,
 		Fire: 1,
@@ -357,7 +357,7 @@ var TYPE_CHART_GSC = $.extend(true, {}, TYPE_CHART_RBY, {
 		Steel: 0.5
 	},
 	Steel: {
-		category: 'Physical',
+		category: "Physical",
 		Normal: 1,
 		Grass: 1,
 		Fire: 0.5,

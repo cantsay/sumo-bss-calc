@@ -34,64 +34,64 @@ $(".hp .base, .hp .evs, .hp .ivs").bind("keyup change", function () {
 	calcHP($(this).closest(".poke-info"));
 });
 $(".at .base, .at .evs, .at .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'at');
+	calcStat($(this).closest(".poke-info"), "at");
 });
 $(".df .base, .df .evs, .df .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'df');
+	calcStat($(this).closest(".poke-info"), "df");
 });
 $(".sa .base, .sa .evs, .sa .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'sa');
+	calcStat($(this).closest(".poke-info"), "sa");
 });
 $(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'sd');
+	calcStat($(this).closest(".poke-info"), "sd");
 });
 $(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'sp');
+	calcStat($(this).closest(".poke-info"), "sp");
 });
 $(".evs").bind("keyup change", function () {
 	calcEvTotal($(this).closest(".poke-info"));
 });
 $(".sl .base").keyup(function () {
-	calcStat($(this).closest(".poke-info"), 'sl');
+	calcStat($(this).closest(".poke-info"), "sl");
 });
 $(".at .dvs").keyup(function () {
 	var poke = $(this).closest(".poke-info");
-	calcStat(poke, 'at');
+	calcStat(poke, "at");
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
 $(".df .dvs").keyup(function () {
 	var poke = $(this).closest(".poke-info");
-	calcStat(poke, 'df');
+	calcStat(poke, "df");
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
 $(".sa .dvs").keyup(function () {
 	var poke = $(this).closest(".poke-info");
-	calcStat(poke, 'sa');
+	calcStat(poke, "sa");
 	poke.find(".sd .dvs").val($(this).val());
-	calcStat(poke, 'sd');
+	calcStat(poke, "sd");
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
 $(".sp .dvs").keyup(function () {
 	var poke = $(this).closest(".poke-info");
-	calcStat(poke, 'sp');
+	calcStat(poke, "sp");
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
 $(".sl .dvs").keyup(function () {
 	var poke = $(this).closest(".poke-info");
-	calcStat(poke, 'sl');
+	calcStat(poke, "sl");
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
 
 function getHPDVs(poke) {
-	return (~~poke.find(".at .dvs").val() % 2) * 8 +
-            (~~poke.find(".df .dvs").val() % 2) * 4 +
-            (~~poke.find(gen === 1 ? ".sl .dvs" : ".sa .dvs").val() % 2) * 2 +
-            (~~poke.find(".sp .dvs").val() % 2);
+	return ~~poke.find(".at .dvs").val() % 2 * 8 +
+            ~~poke.find(".df .dvs").val() % 2 * 4 +
+            ~~poke.find(gen === 1 ? ".sl .dvs" : ".sa .dvs").val() % 2 * 2 +
+            ~~poke.find(".sp .dvs").val() % 2;
 }
 
 function calcStats(poke) {
@@ -102,12 +102,12 @@ function calcStats(poke) {
 
 function calcEvTotal(poke) {
 	var total = 0;
-	poke.find('.evs').each(function (idx, elt) { total += 1 * $(elt).val(); });
+	poke.find(".evs").each(function (idx, elt) { total += 1 * $(elt).val(); });
 
-	var newClass = total > 510 ? 'overLimit' : 'underLimit';
+	var newClass = total > 510 ? "overLimit" : "underLimit";
 
-	var evTotal = poke.find('.ev-total');
-	evTotal.removeClass('underLimit overLimit').text(total).addClass(newClass);
+	var evTotal = poke.find(".ev-total");
+	evTotal.removeClass("underLimit overLimit").text(total).addClass(newClass);
 }
 
 function calcCurrentHP(poke, max, percent) {
@@ -133,7 +133,7 @@ $(".percent-hp").keyup(function () {
 
 var lastAura = [false, false, false];
 $(".ability").bind("keyup change", function () {
-	$(this).closest(".poke-info").find(".move-hits").val($(this).val() === 'Skill Link' ? 5 : 3);
+	$(this).closest(".poke-info").find(".move-hits").val($(this).val() === "Skill Link" ? 5 : 3);
 	autoSetAura();
 	autoSetTerrain();
 });
@@ -167,18 +167,18 @@ function autoSetAura() {
 function autoSetTerrain() {
 	var ability1 = $("#p1 .ability").val();
 	var ability2 = $("#p2 .ability").val();
-	if ((ability1 == "Electric Surge" || ability2 == "Electric Surge")) {
+	if (ability1 == "Electric Surge" || ability2 == "Electric Surge") {
 		$("input:radio[id='electric']").prop("checked", true);
-		lastTerrain = 'electric';
-	} else if ((ability1 == "Grassy Surge" || ability2 == "Grassy Surge")) {
+		lastTerrain = "electric";
+	} else if (ability1 == "Grassy Surge" || ability2 == "Grassy Surge") {
 		$("input:radio[id='grassy']").prop("checked", true);
-		lastTerrain = 'grassy';
-	} else if ((ability1 == "Misty Surge" || ability2 == "Misty Surge")) {
+		lastTerrain = "grassy";
+	} else if (ability1 == "Misty Surge" || ability2 == "Misty Surge") {
 		$("input:radio[id='misty']").prop("checked", true);
-		lastTerrain = 'misty';
-	} else if ((ability1 == "Psychic Surge" || ability2 == "Psychic Surge")) {
+		lastTerrain = "misty";
+	} else if (ability1 == "Psychic Surge" || ability2 == "Psychic Surge") {
 		$("input:radio[id='psychic']").prop("checked", true);
-		lastTerrain = 'psychic';
+		lastTerrain = "psychic";
 	} else
 		$("input:radio[id='noterrain']").prop("checked", true);
 }
@@ -274,7 +274,7 @@ function autosetStatus(p, item) {
 }
 
 $(".status").bind("keyup change", function () {
-	if ($(this).val() === 'Badly Poisoned') {
+	if ($(this).val() === "Badly Poisoned") {
 		$(this).parent().children(".toxic-counter").show();
 	} else {
 		$(this).parent().children(".toxic-counter").hide();
@@ -284,7 +284,7 @@ $(".status").bind("keyup change", function () {
 // auto-update move details on select
 $(".move-selector").change(function () {
 	var moveName = $(this).val();
-	var move = moves[moveName] || moves['(No Move)'];
+	var move = moves[moveName] || moves["(No Move)"];
 	var moveGroupObj = $(this).parent();
 	moveGroupObj.children(".move-bp").val(move.bp);
 	moveGroupObj.children(".move-type").val(move.type);
@@ -292,7 +292,7 @@ $(".move-selector").change(function () {
 	moveGroupObj.children(".move-crit").prop("checked", move.alwaysCrit === true);
 	if (move.isMultiHit) {
 		moveGroupObj.children(".move-hits").show();
-		moveGroupObj.children(".move-hits").val($(this).closest(".poke-info").find(".ability").val() === 'Skill Link' ? 5 : 3);
+		moveGroupObj.children(".move-hits").val($(this).closest(".poke-info").find(".ability").val() === "Skill Link" ? 5 : 3);
 	} else {
 		moveGroupObj.children(".move-hits").hide();
 	}
@@ -333,13 +333,13 @@ $(".set-selector").change(function () {
 		if (pokemonName in setdex && setName in setdex[pokemonName]) {
 			var set = setdex[pokemonName][setName];
 			pokeObj.find(".level").val(set.level);
-			pokeObj.find(".hp .evs").val((set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0);
-			pokeObj.find(".hp .ivs").val((set.ivs && typeof set.ivs.hp !== "undefined") ? set.ivs.hp : 31);
-			pokeObj.find(".hp .dvs").val((set.dvs && typeof set.dvs.hp !== "undefined") ? set.dvs.hp : 15);
+			pokeObj.find(".hp .evs").val(set.evs && typeof set.evs.hp !== "undefined" ? set.evs.hp : 0);
+			pokeObj.find(".hp .ivs").val(set.ivs && typeof set.ivs.hp !== "undefined" ? set.ivs.hp : 31);
+			pokeObj.find(".hp .dvs").val(set.dvs && typeof set.dvs.hp !== "undefined" ? set.dvs.hp : 15);
 			for (i = 0; i < STATS.length; i++) {
-				pokeObj.find("." + STATS[i] + " .evs").val((set.evs && typeof set.evs[STATS[i]] !== "undefined") ? set.evs[STATS[i]] : 0);
-				pokeObj.find("." + STATS[i] + " .ivs").val((set.ivs && typeof set.ivs[STATS[i]] !== "undefined") ? set.ivs[STATS[i]] : 31);
-				pokeObj.find("." + STATS[i] + " .dvs").val((set.dvs && typeof set.dvs[STATS[i]] !== "undefined") ? set.dvs[STATS[i]] : 15);
+				pokeObj.find("." + STATS[i] + " .evs").val(set.evs && typeof set.evs[STATS[i]] !== "undefined" ? set.evs[STATS[i]] : 0);
+				pokeObj.find("." + STATS[i] + " .ivs").val(set.ivs && typeof set.ivs[STATS[i]] !== "undefined" ? set.ivs[STATS[i]] : 31);
+				pokeObj.find("." + STATS[i] + " .dvs").val(set.dvs && typeof set.dvs[STATS[i]] !== "undefined" ? set.dvs[STATS[i]] : 15);
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
 			setSelectValueIfValid(abilityObj, pokemon.ab ? pokemon.ab : set.ability, "");
@@ -386,19 +386,19 @@ $(".set-selector").change(function () {
 function showFormes(formeObj, setName, pokemonName, pokemon) {
 	var defaultForme = 0;
 
-	if (setName !== 'Blank Set') {
+	if (setName !== "Blank Set") {
 		var set = setdex[pokemonName][setName];
 
 		// Repurpose the previous filtering code to provide the "different default" logic
-		if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
-            (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
-            (pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
-            (pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
-            (pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1) ||
-        (pokemonName === "Necrozma-Dusk Mane" && set.item.indexOf("Ultranecrozium Z") !== -1) ||
-        (pokemonName === "Necrozma-Dawn Wings" && set.item.indexOf("Ultranecrozium Z") !== -1)) {
+		if (set.item.indexOf("ite") !== -1 && set.item.indexOf("ite Y") === -1 ||
+            pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1 ||
+            pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1 ||
+            pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1 ||
+            pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1 ||
+        pokemonName === "Necrozma-Dusk Mane" && set.item.indexOf("Ultranecrozium Z") !== -1 ||
+        pokemonName === "Necrozma-Dawn Wings" && set.item.indexOf("Ultranecrozium Z") !== -1) {
 			defaultForme = 1;
-		} else if (set.item.indexOf('ite Y') !== -1) {
+		} else if (set.item.indexOf("ite Y") !== -1) {
 			defaultForme = 2;
 		}
 	}
@@ -431,7 +431,6 @@ $(".forme").change(function () {
 		baseStat.keyup();
 	}
 
-
 	if (abilities.indexOf(altForme.ab) > -1) {
 		container.find(".ability").val(altForme.ab);
 	} else if (setName !== "Blank Set" && abilities.indexOf(setdex[pokemonName][setName].ability) > -1) {
@@ -440,7 +439,6 @@ $(".forme").change(function () {
 		container.find(".ability").val("");
 	}
 	container.find(".ability").keyup();
-
 
 	if ($(this).val().indexOf("Mega") === 0 && $(this).val() !== "Mega Rayquaza") {
 		container.find(".item").val("").keyup();
@@ -494,8 +492,8 @@ function getTerrainEffects() {
 }
 
 function isGrounded(pokeInfo) {
-	return $("#gravity").prop("checked") || (pokeInfo.find(".type1").val() !== "Flying" && pokeInfo.find(".type2").val() !== "Flying" &&
-            pokeInfo.find(".ability").val() !== "Levitate" && pokeInfo.find(".item").val() !== "Air Balloon");
+	return $("#gravity").prop("checked") || pokeInfo.find(".type1").val() !== "Flying" && pokeInfo.find(".type2").val() !== "Flying" &&
+            pokeInfo.find(".ability").val() !== "Levitate" && pokeInfo.find(".item").val() !== "Air Balloon";
 }
 
 var resultLocations = [[], []];
@@ -526,44 +524,44 @@ function calculate() {
 		minPercent = Math.floor(minDamage * 1000 / p2.maxHP) / 10;
 		maxPercent = Math.floor(maxDamage * 1000 / p2.maxHP) / 10;
 		result.damageText = minDamage + "-" + maxDamage + " (" + minPercent + " - " + maxPercent + "%)";
-		result.koChanceText = p1.moves[i].bp === 0 ? 'nice move' :
-			getKOChanceText(result.damage, p1.moves[i], p2, field.getSide(1), p1.ability === 'Bad Dreams');
+		result.koChanceText = p1.moves[i].bp === 0 ? "nice move" :
+			getKOChanceText(result.damage, p1.moves[i], p2, field.getSide(1), p1.ability === "Bad Dreams");
 		if (p1.moves[i].isMLG) {
 			result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=iD92h-M474g'>it's a one-hit KO!</a>"; //dank memes
 		}
-		var recoveryText = '';
+		var recoveryText = "";
 		if (p1.moves[i].givesHealth) {
-			var minHealthRecovered = "%" === '%' ? Math.floor(minDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) /
+			var minHealthRecovered = "%" === "%" ? Math.floor(minDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) /
                 10 : Math.floor(minDamage * p1.moves[i].percentHealed * 48 / p1.maxHP);
-			var maxHealthRecovered = "%" === '%' ? Math.floor(maxDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) /
+			var maxHealthRecovered = "%" === "%" ? Math.floor(maxDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) /
                 10 : Math.floor(maxDamage * p1.moves[i].percentHealed * 48 / p1.maxHP);
-			if (minHealthRecovered > 100 && "%" === '%') {
+			if (minHealthRecovered > 100 && "%" === "%") {
 				minHealthRecovered = Math.floor(p2.maxHP * p1.moves[i].percentHealed * 1000 / p1.maxHP) / 10;
 				maxHealthRecovered = Math.floor(p2.maxHP * p1.moves[i].percentHealed * 1000 / p1.maxHP) / 10;
-			} else if ("%" !== '%' && minHealthRecovered > 48) {
+			} else if ("%" !== "%" && minHealthRecovered > 48) {
 				minHealthRecovered = Math.floor(p2.maxHP * p1.moves[i].percentHealed * 48 / p1.maxHP);
 				maxHealthRecovered = Math.floor(p2.maxHP * p1.moves[i].percentHealed * 48 / p1.maxHP);
 			}
-			recoveryText = ' (recovers between ' + minHealthRecovered + "%" + ' and ' + maxHealthRecovered + "%" + ')';
+			recoveryText = " (recovers between " + minHealthRecovered + "%" + " and " + maxHealthRecovered + "%" + ")";
 		}
-		var recoilText = '';
+		var recoilText = "";
 		if (p1.moves[i].suffersRecoil) {
-			var minRecoilDamage = "%" === '%' ? Math.floor(minDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
+			var minRecoilDamage = "%" === "%" ? Math.floor(minDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
 				Math.floor(minDamage * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
-			var maxRecoilDamage = "%" === '%' ? Math.floor(maxDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
+			var maxRecoilDamage = "%" === "%" ? Math.floor(maxDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
 				Math.floor(minDamage * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
 			if (minDamage > p2.curHP) {
 				minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 				maxRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
 			} else if (minDamage < p2.curHP && maxDamage > p2.curHP) {
-				minRecoilDamage = "%" === '%' ? Math.floor(minDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
+				minRecoilDamage = "%" === "%" ? Math.floor(minDamage * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10 :
 					Math.floor(minDamage * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
 				maxRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 1000 / p1.maxHP) / 10;
-			} else if ("%" !== '%' && minRecoilDamage > 48) {
+			} else if ("%" !== "%" && minRecoilDamage > 48) {
 				minRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
 				maxRecoilDamage = Math.floor(p2.maxHP * p1.moves[i].recoilPercentage * 48 / p1.maxHP);
 			}
-			recoilText = ' (' + minRecoilDamage + ' - ' + maxRecoilDamage + "%" + ' recoil damage)';
+			recoilText = " (" + minRecoilDamage + " - " + maxRecoilDamage + "%" + " recoil damage)";
 		}
 		$(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("Hidden Power", "HP"));
 		$(resultLocations[0][i].damage).text(minPercent + " - " + maxPercent + "%" + recoveryText + recoilText);
@@ -573,49 +571,49 @@ function calculate() {
 		}
 
 		result = damageResults[1][i];
-		var recoveryText = '';
+		var recoveryText = "";
 		minDamage = result.damage[0] * p2.moves[i].hits;
 		maxDamage = result.damage[result.damage.length - 1] * p2.moves[i].hits;
 		minPercent = Math.floor(minDamage * 1000 / p1.maxHP) / 10;
 		maxPercent = Math.floor(maxDamage * 1000 / p1.maxHP) / 10;
 		result.damageText = minDamage + "-" + maxDamage + " (" + minPercent + " - " + maxPercent + "%)";
-		result.koChanceText = p2.moves[i].bp === 0 ? 'nice move' :
-			getKOChanceText(result.damage, p2.moves[i], p1, field.getSide(0), p2.ability === 'Bad Dreams');
+		result.koChanceText = p2.moves[i].bp === 0 ? "nice move" :
+			getKOChanceText(result.damage, p2.moves[i], p1, field.getSide(0), p2.ability === "Bad Dreams");
 		if (p2.moves[i].isMLG) {
 			result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=iD92h-M474g'>it's a one-hit KO!</a>";
 		}
 		if (p2.moves[i].givesHealth) {
-			var minHealthRecovered = "%" === '%' ? Math.floor(minDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) /
+			var minHealthRecovered = "%" === "%" ? Math.floor(minDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) /
                 10 : Math.floor(minDamage * p2.moves[i].percentHealed * 48 / p2.maxHP);
-			var maxHealthRecovered = "%" === '%' ? Math.floor(maxDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) /
+			var maxHealthRecovered = "%" === "%" ? Math.floor(maxDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) /
                 10 : Math.floor(maxDamage * p2.moves[i].percentHealed * 48 / p2.maxHP);
-			if (minHealthRecovered > 100 && "%" === '%') {
+			if (minHealthRecovered > 100 && "%" === "%") {
 				minHealthRecovered = Math.floor(p1.maxHP * p2.moves[i].percentHealed * 1000 / p2.maxHP) / 10;
 				maxHealthRecovered = Math.floor(p1.maxHP * p2.moves[i].percentHealed * 1000 / p2.maxHP) / 10;
-			} else if ("%" !== '%' && minHealthRecovered > 48) {
+			} else if ("%" !== "%" && minHealthRecovered > 48) {
 				minHealthRecovered = Math.floor(p1.maxHP * p2.moves[i].percentHealed * 48 / p2.maxHP);
 				maxHealthRecovered = Math.floor(p1.maxHP * p2.moves[i].percentHealed * 48 / p2.maxHP);
 			}
-			recoveryText = ' (recovers between ' + minHealthRecovered + "%" + ' and ' + maxHealthRecovered + "%" + ')';
+			recoveryText = " (recovers between " + minHealthRecovered + "%" + " and " + maxHealthRecovered + "%" + ")";
 		}
-		var recoilText = '';
+		var recoilText = "";
 		if (p2.moves[i].suffersRecoil) {
-			var minRecoilDamage = "%" === '%' ? Math.floor(minDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
+			var minRecoilDamage = "%" === "%" ? Math.floor(minDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
 				Math.floor(minDamage * p2.moves[i].recoilPercentage * 48 / p2.maxHP);
-			var maxRecoilDamage = "%" === '%' ? Math.floor(maxDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
+			var maxRecoilDamage = "%" === "%" ? Math.floor(maxDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
 				Math.floor(minDamage * p2.moves[i].recoilPercentage * 48 / p2.maxHP);
 			if (minDamage > p1.curHP) {
 				minRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10;
 				maxRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10;
 			} else if (minDamage < p1.curHP && maxDamage > p1.curHP) {
-				minRecoilDamage = "%" === '%' ? Math.floor(minDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
+				minRecoilDamage = "%" === "%" ? Math.floor(minDamage * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10 :
 					Math.floor(minDamage * p2.moves[i].recoilPercentage * 48 / p2.maxHP);
 				maxRecoilDamage = Math.floor(p2.maxHP * p2.moves[i].recoilPercentage * 1000 / p2.maxHP) / 10;
-			} else if ("%" !== '%' && minRecoilDamage > 48) {
+			} else if ("%" !== "%" && minRecoilDamage > 48) {
 				minRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 48 / p2.maxHP);
 				maxRecoilDamage = Math.floor(p1.maxHP * p2.moves[i].recoilPercentage * 48 / p2.maxHP);
 			}
-			recoilText = ' (' + minRecoilDamage + ' - ' + maxRecoilDamage + "%" + ' recoil damage)';
+			recoilText = " (" + minRecoilDamage + " - " + maxRecoilDamage + "%" + " recoil damage)";
 		}
 		$(resultLocations[1][i].move + " + label").text(p2.moves[i].name.replace("Hidden Power", "HP"));
 		$(resultLocations[1][i].damage).text(minPercent + " - " + maxPercent + "%" + recoveryText + recoilText);
@@ -624,8 +622,8 @@ function calculate() {
 			bestResult = $(resultLocations[1][i].move);
 		}
 	}
-	if ($('.locked-move').length) {
-		bestResult = $('.locked-move');
+	if ($(".locked-move").length) {
+		bestResult = $(".locked-move");
 	} else {
 		stickyMoves.setSelectedMove(bestResult.prop("id"));
 	}
@@ -653,12 +651,12 @@ $(".result-move").change(function () {
 // Need to close over "lastClicked", so we'll do it the old-fashioned way to avoid
 // needlessly polluting the global namespace.
 var stickyMoves = (function () {
-	var lastClicked = 'resultMoveL1';
+	var lastClicked = "resultMoveL1";
 	$(".result-move").click(function () {
 		if (this.id === lastClicked) {
 			$(this).toggleClass("locked-move");
 		} else {
-			$('.locked-move').removeClass('locked-move');
+			$(".locked-move").removeClass("locked-move");
 		}
 		lastClicked = this.id;
 	});
@@ -666,17 +664,17 @@ var stickyMoves = (function () {
 	return {
 		clearStickyMove: function () {
 			lastClicked = null;
-			$('.locked-move').removeClass('locked-move');
+			$(".locked-move").removeClass("locked-move");
 		},
 		setSelectedMove: function (slot) {
 			lastClicked = slot;
 		},
 		getSelectedSide: function () {
 			if (lastClicked) {
-				if (lastClicked.indexOf('resultMoveL') !== -1) {
-					return 'p1';
-				} else if (lastClicked.indexOf('resultMoveR') !== -1) {
-					return 'p2';
+				if (lastClicked.indexOf("resultMoveL") !== -1) {
+					return "p1";
+				} else if (lastClicked.indexOf("resultMoveR") !== -1) {
+					return "p2";
 				}
 			}
 			return null;
@@ -701,7 +699,7 @@ function Pokemon(pokeInfo) {
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
 		var pokemon = pokedex[this.name];
 		this.type1 = pokemon.t1;
-		this.type2 = (pokemon.t2 && typeof pokemon.t2 !== "undefined") ? pokemon.t2 : "";
+		this.type2 = pokemon.t2 && typeof pokemon.t2 !== "undefined" ? pokemon.t2 : "";
 		this.rawStats = [];
 		this.boosts = [];
 		this.stats = [];
@@ -709,7 +707,7 @@ function Pokemon(pokeInfo) {
 
 		var set = setdex[this.name][setName];
 		this.level = set.level;
-		this.HPEVs = (set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0;
+		this.HPEVs = set.evs && typeof set.evs.hp !== "undefined" ? set.evs.hp : 0;
 		if (gen < 3) {
 			var HPDVs = 15;
 			this.maxHP = ~~(((pokemon.bs.hp + HPDVs) * 2 + 63) * this.level / 100) + this.level + 10;
@@ -724,33 +722,33 @@ function Pokemon(pokeInfo) {
 		for (var i = 0; i < STATS.length; i++) {
 			var stat = STATS[i];
 			this.boosts[stat] = 0;
-			this.evs[stat] = (set.evs && typeof set.evs[stat] !== "undefined") ? set.evs[stat] : 0;
+			this.evs[stat] = set.evs && typeof set.evs[stat] !== "undefined" ? set.evs[stat] : 0;
 			if (gen < 3) {
 				var dvs = 15;
 				this.rawStats[stat] = ~~(((pokemon.bs[stat] + dvs) * 2 + 63) * this.level / 100) + 5;
 			} else {
-				var ivs = (set.ivs && typeof set.ivs[stat] !== "undefined") ? set.ivs[stat] : 31;
+				var ivs = set.ivs && typeof set.ivs[stat] !== "undefined" ? set.ivs[stat] : 31;
 				var natureMods = NATURES[this.nature];
 				var nature = natureMods[0] === stat ? 1.1 : natureMods[1] === stat ? 0.9 : 1;
 				this.rawStats[stat] = ~~((~~((pokemon.bs[stat] * 2 + ivs + ~~(this.evs[stat] / 4)) * this.level / 100) + 5) * nature);
 			}
 		}
-		this.ability = (set.ability && typeof set.ability !== "undefined") ? set.ability :
-			(pokemon.ab && typeof pokemon.ab !== "undefined") ? pokemon.ab : "";
-		this.item = (set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0)) ? set.item : "";
+		this.ability = set.ability && typeof set.ability !== "undefined" ? set.ability :
+			pokemon.ab && typeof pokemon.ab !== "undefined" ? pokemon.ab : "";
+		this.item = set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0) ? set.item : "";
 		this.status = "Healthy";
 		this.toxicCounter = 0;
 		this.moves = [];
 		for (var i = 0; i < 4; i++) {
 			var moveName = set.moves[i];
-			var defaultDetails = moves[moveName] || moves['(No Move)'];
+			var defaultDetails = moves[moveName] || moves["(No Move)"];
 			this.moves.push($.extend({}, defaultDetails, {
-				name: (defaultDetails.bp === 0) ? "(No Move)" : moveName,
+				name: defaultDetails.bp === 0 ? "(No Move)" : moveName,
 				bp: defaultDetails.bp,
 				type: defaultDetails.type,
 				category: defaultDetails.category,
 				isCrit: !!defaultDetails.alwaysCrit,
-				hits: defaultDetails.isMultiHit ? ((this.ability === "Skill Link" || this.item === "Grip Claw") ? 5 : 3) : defaultDetails.isTwoHit ? 2 : 1,
+				hits: defaultDetails.isMultiHit ? this.ability === "Skill Link" || this.item === "Grip Claw" ? 5 : 3 : defaultDetails.isTwoHit ? 2 : 1,
 				usedTimes: 1
 			}));
 		}
@@ -761,7 +759,7 @@ function Pokemon(pokeInfo) {
 			this.name = setName;
 		} else {
 			var pokemonName = setName.substring(0, setName.indexOf(" ("));
-			this.name = (pokedex[pokemonName].formes) ? pokeInfo.find(".forme").val() : pokemonName;
+			this.name = pokedex[pokemonName].formes ? pokeInfo.find(".forme").val() : pokemonName;
 		}
 		this.type1 = pokeInfo.find(".type1").val();
 		this.type2 = pokeInfo.find(".type2").val();
@@ -782,7 +780,7 @@ function Pokemon(pokeInfo) {
 		this.ability = pokeInfo.find(".ability").val();
 		this.item = pokeInfo.find(".item").val();
 		this.status = pokeInfo.find(".status").val();
-		this.toxicCounter = this.status === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0;
+		this.toxicCounter = this.status === "Badly Poisoned" ? ~~pokeInfo.find(".toxic-counter").val() : 0;
 		this.moves = [
 			getMoveDetails(pokeInfo.find(".move1"), this.item),
 			getMoveDetails(pokeInfo.find(".move2"), this.item),
@@ -845,7 +843,6 @@ function getZMoveName(moveName, moveType, item) {
 																		ZMOVES_TYPING[moveType];
 }
 
-
 function Field() {
 	var format = $("input:radio[name='format']:checked").val();
 	var isGravity = $("#gravity").prop("checked");
@@ -860,7 +857,7 @@ function Field() {
 		weather = $("input:radio[name='weather']:checked").val();
 		spikes = [~~$("input:radio[name='spikesL']:checked").val(), ~~$("input:radio[name='spikesR']:checked").val()];
 	}
-	var terrain = ($("input:radio[name='terrain']:checked").val()) ? $("input:radio[name='terrain']:checked").val() : "";
+	var terrain = $("input:radio[name='terrain']:checked").val() ? $("input:radio[name='terrain']:checked").val() : "";
 	var isReflect = [$("#reflectL").prop("checked"), $("#reflectR").prop("checked")];
 	var isLightScreen = [$("#lightScreenL").prop("checked"), $("#lightScreenR").prop("checked")];
 	var isSeeded = [$("#leechSeedL").prop("checked"), $("#leechSeedR").prop("checked")];
@@ -1106,16 +1103,16 @@ function getSelectOptions(arr, sort, defaultIdx) {
 	if (sort) {
 		arr.sort();
 	}
-	var r = '';
+	var r = "";
 	// Zero is of course falsy too, but this is mostly to coerce undefined.
 	if (!defaultIdx) {
 		defaultIdx = 0;
 	}
 	for (var i = 0; i < arr.length; i++) {
 		if (i === defaultIdx) {
-			r += '<option value="' + arr[i] + '" selected="selected">' + arr[i] + '</option>';
+			r += '<option value="' + arr[i] + '" selected="selected">' + arr[i] + "</option>";
 		} else {
-			r += '<option value="' + arr[i] + '">' + arr[i] + '</option>';
+			r += '<option value="' + arr[i] + '">' + arr[i] + "</option>";
 		}
 	}
 	return r;
@@ -1128,7 +1125,7 @@ $(document).ready(function () {
 	$(".calc-trigger").bind("change keyup", calculate);
 	$(".set-selector").select2({
 		formatResult: function (object) {
-			return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
+			return object.set ? "&nbsp;&nbsp;&nbsp;" + object.set : "<b>" + object.text + "</b>";
 		},
 		query: function (query) {
 			var setOptions = getSetOptions();

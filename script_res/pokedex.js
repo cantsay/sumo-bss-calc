@@ -6854,37 +6854,37 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 	}
 });
 
-delete POKEDEX_DPP['Machop'].ab;
-delete POKEDEX_DPP['Machoke'].ab;
-delete POKEDEX_DPP['Machamp'].ab;
-delete POKEDEX_DPP['Seel'].ab;
-delete POKEDEX_DPP['Dewgong'].ab;
-delete POKEDEX_DPP['Shellder'].ab;
-delete POKEDEX_DPP['Cloyster'].ab;
-delete POKEDEX_DPP['Tangela'].ab;
-delete POKEDEX_DPP['Horsea'].ab;
-delete POKEDEX_DPP['Mr. Mime'].ab;
-delete POKEDEX_DPP['Scyther'].ab;
-delete POKEDEX_DPP['Pinsir'].ab;
-delete POKEDEX_DPP['Tauros'].ab;
-delete POKEDEX_DPP['Hoppip'].ab;
-delete POKEDEX_DPP['Skiploom'].ab;
-delete POKEDEX_DPP['Jumpluff'].ab;
-delete POKEDEX_DPP['Sunkern'].ab;
-delete POKEDEX_DPP['Sunflora'].ab;
-delete POKEDEX_DPP['Granbull'].ab;
-delete POKEDEX_DPP['Scizor'].ab;
-delete POKEDEX_DPP['Ursaring'].ab;
-delete POKEDEX_DPP['Kingdra'].ab;
-delete POKEDEX_DPP['Stantler'].ab;
-delete POKEDEX_DPP['Tyrogue'].ab;
-delete POKEDEX_DPP['Hitmontop'].ab;
-delete POKEDEX_DPP['Miltank'].ab;
-delete POKEDEX_DPP['Mightyena'].ab;
-delete POKEDEX_DPP['Tropius'].ab;
-delete POKEDEX_DPP['Spheal'].ab;
-delete POKEDEX_DPP['Sealeo'].ab;
-delete POKEDEX_DPP['Walrein'].ab;
+delete POKEDEX_DPP["Machop"].ab;
+delete POKEDEX_DPP["Machoke"].ab;
+delete POKEDEX_DPP["Machamp"].ab;
+delete POKEDEX_DPP["Seel"].ab;
+delete POKEDEX_DPP["Dewgong"].ab;
+delete POKEDEX_DPP["Shellder"].ab;
+delete POKEDEX_DPP["Cloyster"].ab;
+delete POKEDEX_DPP["Tangela"].ab;
+delete POKEDEX_DPP["Horsea"].ab;
+delete POKEDEX_DPP["Mr. Mime"].ab;
+delete POKEDEX_DPP["Scyther"].ab;
+delete POKEDEX_DPP["Pinsir"].ab;
+delete POKEDEX_DPP["Tauros"].ab;
+delete POKEDEX_DPP["Hoppip"].ab;
+delete POKEDEX_DPP["Skiploom"].ab;
+delete POKEDEX_DPP["Jumpluff"].ab;
+delete POKEDEX_DPP["Sunkern"].ab;
+delete POKEDEX_DPP["Sunflora"].ab;
+delete POKEDEX_DPP["Granbull"].ab;
+delete POKEDEX_DPP["Scizor"].ab;
+delete POKEDEX_DPP["Ursaring"].ab;
+delete POKEDEX_DPP["Kingdra"].ab;
+delete POKEDEX_DPP["Stantler"].ab;
+delete POKEDEX_DPP["Tyrogue"].ab;
+delete POKEDEX_DPP["Hitmontop"].ab;
+delete POKEDEX_DPP["Miltank"].ab;
+delete POKEDEX_DPP["Mightyena"].ab;
+delete POKEDEX_DPP["Tropius"].ab;
+delete POKEDEX_DPP["Spheal"].ab;
+delete POKEDEX_DPP["Sealeo"].ab;
+delete POKEDEX_DPP["Walrein"].ab;
 
 var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
 	"Rotom-C": {"t2": "Grass"},
@@ -10898,19 +10898,18 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 	}
 });
 
-delete POKEDEX_XY['Duskull'].ab;
-delete POKEDEX_XY['Snivy'].ab;
-delete POKEDEX_XY['Servine'].ab;
-delete POKEDEX_XY['Serperior'].ab;
-delete POKEDEX_XY['Tepig'].ab;
-delete POKEDEX_XY['Pignite'].ab;
-delete POKEDEX_XY['Emboar'].ab;
-delete POKEDEX_XY['Oshawott'].ab;
-delete POKEDEX_XY['Dewott'].ab;
-delete POKEDEX_XY['Samurott'].ab;
+delete POKEDEX_XY["Duskull"].ab;
+delete POKEDEX_XY["Snivy"].ab;
+delete POKEDEX_XY["Servine"].ab;
+delete POKEDEX_XY["Serperior"].ab;
+delete POKEDEX_XY["Tepig"].ab;
+delete POKEDEX_XY["Pignite"].ab;
+delete POKEDEX_XY["Emboar"].ab;
+delete POKEDEX_XY["Oshawott"].ab;
+delete POKEDEX_XY["Dewott"].ab;
+delete POKEDEX_XY["Samurott"].ab;
 
 var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
-
 
 	//new forms
 	"Greninja": {"formes": ["Greninja", "Ash-Greninja"]},
@@ -12882,10 +12881,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"isAlternateForme": true
 	},
 
-
 });
 
-delete POKEDEX_SM['Gengar'].ab;
-delete POKEDEX_SM['Raikou'].ab;
-delete POKEDEX_SM['Entei'].ab;
-delete POKEDEX_SM['Suicune'].ab;
+delete POKEDEX_SM["Gengar"].ab;
+delete POKEDEX_SM["Raikou"].ab;
+delete POKEDEX_SM["Entei"].ab;
+delete POKEDEX_SM["Suicune"].ab;
