@@ -1,4 +1,22 @@
 var TYPE_CHART_RBY = {
+	var TYPE_CHART_RBY = {
+	None: {
+		Normal: 1,
+		Grass: 1,
+		Fire: 1,
+		Water: 1,
+		Electric: 1,
+		Ice: 1,
+		Flying: 1,
+		Bug: 1,
+		Poison: 1,
+		Ground: 1,
+		Rock: 1,
+		Fighting: 1,
+		Psychic: 1,
+		Ghost: 1,
+		Dragon: 1
+	},
 	Normal: {
 		category: "Physical",
 		Normal: 1,
