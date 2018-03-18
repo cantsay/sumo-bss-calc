@@ -5649,7 +5649,7 @@ var SETDEX_SMBSPOT = {
 		"Standard": {
 			"level": 50,
 			"evs": {
-				"at": "44",
+				"hp": "44",
 				"sa": "212",
 				"sp": "252"
 			},
