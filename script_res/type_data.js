@@ -1,5 +1,4 @@
 var TYPE_CHART_RBY = {
-	var TYPE_CHART_RBY = {
 	None: {
 		Normal: 1,
 		Grass: 1,
