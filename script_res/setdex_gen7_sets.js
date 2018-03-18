@@ -5645,6 +5645,25 @@ var SETDEX_SMBSPOT = {
 			]
 		}
 	},
+	"Vivillon": {
+		"Standard": {
+			"level": 50,
+			"evs": {
+				"at": "44",
+				"sa": "212",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Compoundeyes",
+			"item": "Leftovers",
+			"moves": [
+				"Sleep Powder",
+				"Substitute",
+				"Quiver Dance",
+				"Hurricane"
+			]
+		}
+	},
 	"Volcanion": {
 		"NO HOLDS BARRED: Offensive Assault Vest": {
 			"level": 100,
