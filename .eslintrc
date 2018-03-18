@@ -43,7 +43,7 @@
 		"no-extend-native": "error",
 		"no-extra-bind": "warn",
 		"no-extra-label": "error",
-		"no-extra-parens": "error",
+		"no-extra-parens": "off",
 		"no-implicit-coercion": "off",
 		"no-invalid-this": "off",
 		"no-iterator": "error",
