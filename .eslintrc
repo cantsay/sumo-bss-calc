@@ -11,6 +11,14 @@
 	"globals": {
 		"_": false
 	},
+   "plugins": [
+        "html"
+    ],
+	"settings": {
+		"html/html-extensions": [".html"],
+		"html/indent": "tab",
+	   "html/report-bad-indent": "error",
+	  },
 	"extends": "eslint:recommended",
 	"rules": {
 		"no-cond-assign": ["error", "except-parens"],
@@ -153,6 +161,6 @@
 		"prefer-arrow-callback": "off",
 		"rest-spread-spacing": ["error", "never"],
 		"template-curly-spacing": ["error", "never"],
-		"no-restricted-syntax": ["error", "TaggedTemplateExpression", "ObjectPattern", "ArrayPattern"]
+		"no-restricted-syntax": ["error", "TaggedTemplateExpression", "ObjectPattern", "ArrayPattern"],
 	}
 }
