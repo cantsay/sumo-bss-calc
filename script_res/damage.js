@@ -43,6 +43,9 @@ function getDamageResult(attacker, defender, move, field) {
 			move.type = field.terrain === "Electric" ? "Electric" : field.terrain === "Grassy" ? "Grass" : field.terrain === "Misty" ? "Fairy" : move.type = field.terrain === "Psychic" ? "Psychic" : "Normal";
 		}
 	}
+	if (field.isProtect) {
+	  isQuarteredByProtect = true;
+	}
 	var description = {
 		"attackerName": attacker.name,
 		"moveName": moveDescName,
