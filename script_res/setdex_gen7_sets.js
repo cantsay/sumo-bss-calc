@@ -1332,6 +1332,23 @@ var SETDEX_SMBSPOT = {
 				"Swords Dance"
 			]
 		},
+		"cant say's stream excadrill": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"df": "4",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Sand Rush",
+			"item": "Groundium Z",
+			"moves": [
+				"Earthquake",
+				"Iron Head",
+				"Rock Slide",
+				"Swords Dance"
+			]
+		},
 		"Assault Vest": {
 			"level": 50,
 			"evs": {
