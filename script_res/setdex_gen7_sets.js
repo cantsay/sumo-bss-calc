@@ -5952,7 +5952,7 @@ var SETDEX_SMBSPOT = {
 			"evs": {
 				"hp": "4",
 				"sa": "252",
-				"se": "252"
+				"sp": "252"
 			},
 			"nature": "Modest",
 			"ability": "Pressure",
