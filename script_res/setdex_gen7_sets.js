@@ -5263,7 +5263,7 @@ var SETDEX_SMBSPOT = {
 			},
 			"nature": "Timid",
 			"ability": "Electric Surge",
-			"item": "Electrium Z",
+			"item": "Choice Specs",
 			"moves": [
 				"Thunderbolt",
 				"Dazzling Gleam",
