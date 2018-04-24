@@ -6,6 +6,7 @@ function CALCULATE_ALL_MOVES_BW(p1, p2, field) {
 	checkKlutz(p1);
 	checkKlutz(p2);
 	checkEvo(p1, p2);
+	checkMinimize(p1, p2);
 	checkSeeds(p1, field);
 	checkSeeds(p2, field);
 	p1.stats[DF] = getModifiedStat(p1.rawStats[DF], p1.boosts[DF]);
@@ -277,6 +278,11 @@ function getDamageResult(attacker, defender, move, field) {
 	if (field.isBattery && move.category === "Special") {
 		bpMods.push(0x14CD);
 		description.isBattery = true;
+	}
+
+	if (field.isMinimized && (move.name === "Stomp" || move.name === "Heavy Slam")) {
+		bpMods.push(0x2000);
+		description.isMinimized = true;
 	}
 
 	if (defAbility === "Heatproof" && move.type === "Fire") {
@@ -708,6 +714,9 @@ function buildDescription(description) {
 	}
 	output = appendIfSet(output, description.defenderItem);
 	output = appendIfSet(output, description.defenderAbility);
+	if (description.isMinimized) {
+		output += "Minimized ";
+	}
 	output += description.defenderName;
 	if (description.weather) {
 		output += " in " + description.weather;
@@ -851,6 +860,16 @@ function checkIntimidate(source, target) {
 		}
 	}
 }
+
+function checkMinimize(p1, p2) {
+	if ($("#minimL").prop("checked")) {
+		p1.boosts[ES] = Math.min(6, p2.boosts[ES] + 2);
+	}
+	if ($("#minimR").prop("checked")) {
+		p2.boosts[ES] = Math.min(6, p2.boosts[ES] + 2);
+	}
+}
+
 function checkEvo(p1, p2) {
 	if ($("#evoL").prop("checked")) {
 		p1.boosts[AT] = Math.min(6, p1.boosts[AT] + 2);
@@ -881,7 +900,6 @@ function checkEvo(p1, p2) {
 		p2.boosts[SD] = Math.min(6, p2.boosts[SD] + 1);
 		p2.boosts[SP] = Math.min(6, p2.boosts[SP] + 1);
 	}
-
 }
 
 function checkDownload(source, target) {

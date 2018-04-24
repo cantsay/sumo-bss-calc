@@ -356,6 +356,13 @@ var MOVES_RBY = {
 		bp: 0,
 		type: "Grass"
 	},
+	"Stomp": {
+		bp: 65,
+		type: "Normal",
+		category: "Physical",
+		makesContact: true,
+		hasSecondaryEffect: true,
+	},
 	"Struggle": {
 		bp: 50,
 		type: "Normal",
@@ -3405,6 +3412,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
 		category: "Special",
 		isZ: true
 	},
+	"Stomp": {zp: 120},
 	"Stomping Tantrum": {
 		bp: 75,
 		type: "Ground",

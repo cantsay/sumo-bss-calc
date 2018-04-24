@@ -7,6 +7,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+*.vs
 *.eslintcache
 .DS_Store
 .AppleDouble
