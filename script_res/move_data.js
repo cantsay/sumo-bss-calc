@@ -800,6 +800,13 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
 		hasSecondaryEffect: true,
 		isBullet: true
 	},
+	"Snore": {
+		bp: 40,
+		type: "Normal",
+		category: "Special",
+		hasSecondaryEffect: true,
+		isSound: true
+	},
 	"Solar Beam": {
 		bp: 120,
 		type: "Grass",
@@ -2620,6 +2627,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
 		bp: 0,
 		type: "Grass"
 	},
+	"Snore": {bp: 50},
 	"Steam Eruption": {
 		bp: 110,
 		type: "Water",
@@ -3359,6 +3367,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
 		zp: 140
 	},
 	"Snarl": {zp: 100},
+	"Snore": {zp: 100},
 	"Solar Beam": {zp: 190},
 	"Solar Blade": {
 		bp: 125,
