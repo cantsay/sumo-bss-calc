@@ -801,14 +801,17 @@ function Pokemon(pokeInfo) {
 		this.maxHP = ~~pokeInfo.find(".hp .total").text();
 		this.curHP = ~~pokeInfo.find(".current-hp").val();
 		this.HPEVs = ~~pokeInfo.find(".hp .evs").val();
+		this.HPIVs = ~~pokeInfo.find(".hp .ivs").val();
 		this.rawStats = [];
 		this.boosts = [];
 		this.stats = [];
 		this.evs = [];
+		this.ivs = [];
 		for (var i = 0; i < STATS.length; i++) {
 			this.rawStats[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .total").text();
 			this.boosts[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .boost").val();
 			this.evs[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .evs").val();
+			this.ivs[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .ivs").val();
 		}
 		this.nature = pokeInfo.find(".nature").val();
 		this.ability = pokeInfo.find(".ability").val();
