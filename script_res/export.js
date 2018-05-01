@@ -1,7 +1,7 @@
 function exportToPsFormat(pokeInfo) {
 	var pokemon = new Pokemon(pokeInfo);
 	var finalText = "";
-	var name = pokemon.name //this is where you should put the thing similar to SHOWDOWN_FORMES[] to fix the weird mega thing
+	var name = pokemon.name; //this is where you should put the thing similar to SHOWDOWN_FORMES[] to fix the weird mega thing
 	finalText = name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
