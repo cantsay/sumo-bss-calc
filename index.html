@@ -395,6 +395,11 @@ if (document.getElementById("theme") != null) {
 							<input class="btn-input calc-trigger" type="checkbox" id="evoR" /><label class="btn btn-xwide" for="evoR"><img src="script_res/image_res/eevee.png"><br>Extreme Evoboost</label>
 						</div>
 					</div>
+					<div>&nbsp;</div>
+					<div class="btn-group gen-specific g7 g20 g21">
+						<button class="left" type="button" id="exportL" onclick="exportToPsFormat($('#p1'))">Export Set (beta)</button>
+						<button class="right" type="button" id="exportR" onclick="exportToPsFormat($('#p2'))">Export Set (beta)</button>
+					</div>
 					<!--squirrelboy1225's HTML additions are right here-->
 					<p>Please enter your custom set here.</p>
 					Spread Name: <input type="text" id="spreadName" style="width: 60%" value="My Custom Set">
@@ -531,5 +536,6 @@ if (document.getElementById("theme") != null) {
     <script type="text/javascript" src="script_res/damage.js"></script>
 	<script type="text/javascript" src="script_res/themes_choose.js"></script>
     <script type="text/javascript" src="script_res/ko_chance.js"></script>
+	<script type="text/javascript" src="script_res/export.js"></script>
 </body>
 </html>
