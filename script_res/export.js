@@ -4,13 +4,25 @@ function exportToPsFormat(pokeInfo) {
 	var evSum = 0;
 	var ivSum = 0;
 	var evsAlert = false;
-	var name = pokemon.name; //this is where you should put the thing similar to SHOWDOWN_FORMES[] to fix the weird mega thing
-	finalText = name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	var name = pokemon.name;
+	if (name.indexOf("Mega ") != -1) {
+		var speciesName = name.substring(0, name.indexOf("Mega") - 1) + name.substring(name.indexOf("Mega") + 4, name.length);
+	} else if (name.indexOf("-Blade") != -1) {
+		var speciesName = name.substring(0, name.indexOf("-")) + name.substring(name.indexOf("-") + 6, name.length);
+	} else if (name.indexOf("-Both") != -1) {
+		var speciesName = name.substring(0, name.indexOf("-")) + name.substring(name.indexOf("-") + 5, name.length);
+	} else if (name.indexOf("Primal ") != -1) {
+		var speciesName = name.substring(0, name.indexOf("Primal") - 1) + name.substring(name.indexOf("Primal") + 6, name.length);
+	} else {
+		var speciesName = name;
+	}
+
+	finalText = speciesName + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
 	finalText += "EVs: ";
 	var EVs_Array = [];
-	if (pokemon.HPEVs != -1 && pokemon.HPEVs > 0) {
+	if (pokemon.HPEVs && pokemon.HPEVs > 0) {
 		evSum += pokemon.HPEVs;
 		EVs_Array.push(pokemon.HPEVs + " HP");
 	}
@@ -68,6 +80,10 @@ function exportToPsFormat(pokeInfo) {
 		alert("Exported Pokemon has " + evSum + " EVs and is therefore illegal. Exported set anyway.");
 	}
 	document.getElementById("customMon").innerHTML = finalText;
+
+	var copyText = document.getElementById("customMon");
+	copyText.select();
+	document.execCommand("Copy");
 }
 
 function serialize(array, separator) {
