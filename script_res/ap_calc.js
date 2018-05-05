@@ -303,6 +303,7 @@ $(".move-selector").change(function () {
 $(".set-selector").change(function () {
 	var fullSetName = $(this).val();
 	var pokemonName, setName;
+	var Lv100 = !$("#levelswitch").is(":checked");
 	pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var pokemon = pokedex[pokemonName];
@@ -332,7 +333,8 @@ $(".set-selector").change(function () {
 		var itemObj = pokeObj.find(".item");
 		if (pokemonName in setdex && setName in setdex[pokemonName]) {
 			var set = setdex[pokemonName][setName];
-			pokeObj.find(".level").val(set.level);
+			if (Lv100) pokeObj.find(".level").val(100);
+			else pokeObj.find(".level").val(set.level);
 			pokeObj.find(".hp .evs").val(set.evs && typeof set.evs.hp !== "undefined" ? set.evs.hp : 0);
 			pokeObj.find(".hp .ivs").val(set.ivs && typeof set.ivs.hp !== "undefined" ? set.ivs.hp : 31);
 			pokeObj.find(".hp .dvs").val(set.dvs && typeof set.dvs.hp !== "undefined" ? set.dvs.hp : 15);
@@ -350,7 +352,8 @@ $(".set-selector").change(function () {
 				moveObj.change();
 			}
 		} else {
-			pokeObj.find(".level").val(50);
+			if (Lv100) pokeObj.find(".level").val(100);
+			else pokeObj.find(".level").val(50);
 			pokeObj.find(".hp .evs").val(0);
 			pokeObj.find(".hp .ivs").val(31);
 			pokeObj.find(".hp .dvs").val(15);
