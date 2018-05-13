@@ -170,6 +170,9 @@
 .select2-drop.select2-drop-above .select2-search input {
     margin-top: 4px;
 }
+input.select2-input {
+	color: #000000;
+}
 .select2-search input.select2-active {
     background: #4a4c51 url('../image_res/select2-spinner.gif') no-repeat 100%;
     background: url('../image_res/select2-spinner.gif') no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #4a4c51), color-stop(0.99, #000));

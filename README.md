@@ -3,7 +3,7 @@
 
 for all your bs singles calculations. based on the work by Jake White ([@squirrelboyvgc](https://twitter.com/squirrelboyvgc))
 
-The calculator now supports custom sets.  These can be input within the calculator using the official Pokemon Showdown format.
+The calculator now supports custom sets. These can be input within the calculator using the official Pokemon Showdown format.
 
 ```
 Nickname (Species) @ Item
