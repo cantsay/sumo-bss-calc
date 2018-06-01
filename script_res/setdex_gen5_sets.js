@@ -32,11 +32,6 @@ var SETDEX_GBUSETS = {
 				"sa": "252",
 				"sp": "252"
 			},
-			"evs": {
-				"hp": "4",
-				"sa": "252",
-				"sp": "252"
-			},
 			"ivs": {
 				"at": "0",
 				"df": "30"
@@ -1097,716 +1092,717 @@ var SETDEX_GBUSETS = {
 				"Earthquake"
 			]
 		},
-	"Raikou": {
-		"Choice Specs": {
-			"level": 50,
-			"evs": {
-				"sa": "252",
-				"sd": "12",
-				"sp": "244"
+		"Raikou": {
+			"Choice Specs": {
+				"level": 50,
+				"evs": {
+					"sa": "252",
+					"sd": "12",
+					"sp": "244"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30"
+				},
+				"nature": "Timid",
+				"ability": "Pressure",
+				"item": "Choice Specs",
+				"moves": [
+					"Thunderbolt",
+					"Hidden Power Ice",
+					"Volt Switch",
+					"Shadow Ball"
+				]
 			},
-			"ivs": {
-				"at": "0",
-				"df": "30"
-			},
-			"nature": "Timid",
-			"ability": "Pressure",
-			"item": "Choice Specs",
-			"moves": [
-				"Thunderbolt",
-				"Hidden Power Ice",
-				"Volt Switch",
-				"Shadow Ball"
-			]
+			"Substitute + Calm Mind": {
+				"level": 50,
+				"evs": {
+					"sa": "252",
+					"sd": "12",
+					"sp": "244"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30"
+				},
+				"nature": "Timid",
+				"ability": "Pressure",
+				"item": "Leftovers",
+				"moves": [
+					"Thunderbolt",
+					"Hidden Power Ice",
+					"Substitute",
+					"Calm Mind"
+				]
+			}
 		},
-		"Substitute + Calm Mind": {
-			"level": 50,
-			"evs": {
-				"sa": "252",
-				"sd": "12",
-				"sp": "244"
+		"Porygon2": {
+			"Physically Defensive": {
+				"level": 50,
+				"evs": {
+					"hp": "244",
+					"sd": "12",
+					"df": "252"
+				},
+				"nature": "Bold",
+				"ability": "Trace",
+				"item": "Eviolite",
+				"moves": [
+					"Ice Beam",
+					"Foul Play",
+					"Discharge",
+					"Shadow Ball"
+				]
 			},
-			"ivs": {
-				"at": "0",
-				"df": "30"
+			"Offensive": {
+				"level": 50,
+				"evs": {
+					"hp": "244",
+					"df": "12",
+					"sa": "252"
+				},
+				"nature": "Modest",
+				"ability": "Download",
+				"item": "Eviolite",
+				"moves": [
+					"Ice Beam",
+					"Shadow Ball",
+					"Tri Attack",
+					"Hidden Power Ground"
+				]
 			},
-			"nature": "Timid",
-			"ability": "Pressure",
-			"item": "Leftovers",
-			"moves": [
-				"Thunderbolt",
-				"Hidden Power Ice",
-				"Substitute",
-				"Calm Mind"
-			]
-		}
-	},
-	"Porygon2": {
-		"Physically Defensive": {
-			"level": 50,
-			"evs": {
-				"hp": "244",
-				"sd": "12",
-				"df": "252"
-			},
-			"nature": "Bold",
-			"ability": "Trace",
-			"item": "Eviolite",
-			"moves": [
-				"Ice Beam",
-				"Foul Play",
-				"Discharge",
-				"Shadow Ball"
-			]
+			"Trick Room": {
+				"level": 50,
+				"evs": {
+					"hp": "244",
+					"df": "12",
+					"sa": "252"
+				},
+				"ivs": {
+					"sp": "0"
+				},
+				"nature": "Quiet",
+				"ability": "Download",
+				"item": "Eviolite",
+				"moves": [
+					"Shadow Ball",
+					"Ice Beam",
+					"Tri Attack",
+					"Hidden Power Ground"
+				]
+			}
 		},
-		"Offensive": {
-			"level": 50,
-			"evs": {
-				"hp": "244",
-				"df": "12",
-				"sa": "252"
-			},
-			"nature": "Modest",
-			"ability": "Download",
-			"item": "Eviolite",
-			"moves": [
-				"Ice Beam",
-				"Shadow Ball",
-				"Tri Attack",
-				"Hidden Power Ground"
-			]
+		"Rhyperior": {
+			"Assault Vest": {
+				"level": 50,
+				"evs": {
+					"at": "252",
+					"df": "4",
+					"sd": "252"
+				},
+				"nature": "Adamant",
+				"ability": "Solid Rock",
+				"item": "Assault Vest",
+				"moves": [
+					"Earthquake",
+					"Rock Blast",
+					"Ice Punch",
+					"Horn Drill"
+				]
+			}
 		},
-		"Trick Room": {
-			"level": 50,
-			"evs": {
-				"hp": "244",
-				"df": "12",
-				"sa": "252"
-			},
-			"ivs": {
-				"sp": "0"
-			},
-			"nature": "Quiet",
-			"ability": "Download",
-			"item": "Eviolite",
-			"moves": [
-				"Shadow Ball",
-				"Ice Beam",
-				"Tri Attack",
-				"Hidden Power Ground"
-			]
-		}
-	},
-	"Rhyperior": {
-		"Assault Vest": {
-			"level": 50,
-			"evs": {
-				"at": "252",
-				"df": "4",
-				"sd": "252"
-			},
-			"nature": "Adamant",
-			"ability": "Solid Rock",
-			"item": "Assault Vest",
-			"moves": [
-				"Earthquake",
-				"Rock Blast",
-				"Ice Punch",
-				"Horn Drill"
-			]
-		}
-	},
-	"Roserade": {
-		"Offensive": {
-			"level": 50,
-			"evs": {
-				"hp": "12",
-				"sa": "248",
-				"sp": "248"
-			},
-			"ivs": {
-				"at": "0",
-				"sa": "30",
-				"sp": "30"
-			},
-			"nature": "Modest",
-			"ability": "Technician",
-			"item": "Life Orb",
-			"moves": [
-				"Sludge Bomb",
-				"Magical Leaf",
-				"Hidden Power Fire",
-				"Extrasensory"
-			]
-		}
-	},
-	"Rotom-H": {
-		"Tank": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"sd": "252",
-				"sp": "4"
-			},
-			"ivs": {
-				"at": "0",
-				"df": "30",
-			},
-			"nature": "Calm",
-			"ability": "Levitate",
-			"item": "Sitrus Berry",
-			"moves": [
-				"Volt Switch",
-				"Overheat",
-				"Thunderbolt",
-				"Hidden Power Ice"
-			]
+		"Roserade": {
+			"Offensive": {
+				"level": 50,
+				"evs": {
+					"hp": "12",
+					"sa": "248",
+					"sp": "248"
+				},
+				"ivs": {
+					"at": "0",
+					"sa": "30",
+					"sp": "30"
+				},
+				"nature": "Modest",
+				"ability": "Technician",
+				"item": "Life Orb",
+				"moves": [
+					"Sludge Bomb",
+					"Magical Leaf",
+					"Hidden Power Fire",
+					"Extrasensory"
+				]
+			}
 		},
-		"Choice Specs": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"sa": "252",
-				"sp": "4"
+		"Rotom-H": {
+			"Tank": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"sd": "252",
+					"sp": "4"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30",
+				},
+				"nature": "Calm",
+				"ability": "Levitate",
+				"item": "Sitrus Berry",
+				"moves": [
+					"Volt Switch",
+					"Overheat",
+					"Thunderbolt",
+					"Hidden Power Ice"
+				]
 			},
-			"ivs": {
-				"at": "0",
-				"df": "30",
+			"Choice Specs": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"sa": "252",
+					"sp": "4"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30",
+				},
+				"nature": "Modest",
+				"ability": "Levitate",
+				"item": "Choice Specs",
+				"moves": [
+					"Overheat",
+					"Volt Switch",
+					"Hidden Power Ice",
+					"Thunderbolt"
+				]
 			},
-			"nature": "Modest",
-			"ability": "Levitate",
-			"item": "Choice Specs",
-			"moves": [
-				"Overheat",
-				"Volt Switch",
-				"Hidden Power Ice",
-				"Thunderbolt"
-			]
+			"Choice Scarf": {
+				"level": 50,
+				"evs": {
+					"hp": "76",
+					"df": "24",
+					"sa": "188",
+					"sp": "220"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30",
+				},
+				"nature": "Timid",
+				"ability": "Levitate",
+				"item": "Choice Scarf",
+				"moves": [
+					"Volt Switch",
+					"Overheat",
+					"Hidden Power Ice",
+					"Thunderbolt"
+				]
+			},
+			"Substitute": {
+				"level": 50,
+				"evs": {
+					"hp": "156",
+					"sd": "220",
+					"sp": "132"
+				},
+				"nature": "Calm",
+				"ability": "Levitate",
+				"item": "Leftovers",
+				"moves": [
+					"Substitute",
+					"Overheat",
+					"Will-O-Wisp",
+					"Discharge"
+				]
+			}
 		},
-		"Choice Scarf": {
-			"level": 50,
-			"evs": {
-				"hp": "76",
-				"df": "24",
-				"sa": "188",
-				"sp": "220"
+		"Rotom-W": {
+			"Choice Specs": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"df": "4",
+					"sa": "252"
+				},
+				"nature": "Modest",
+				"ability": "Levitate",
+				"item": "Choice Specs",
+				"moves": [
+					"Hydro Pump",
+					"Thunderbolt",
+					"Volt Switch",
+					"Hidden Power Ice"
+				]
 			},
-			"ivs": {
-				"at": "0",
-				"df": "30",
+			"Physically Defensive": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"df": "252",
+					"sa": "4"
+				},
+				"nature": "Bold",
+				"ability": "Levitate",
+				"item": "Sitrus Berry",
+				"moves": [
+					"Hydro Pump",
+					"Thunderbolt",
+					"Volt Switch",
+					"Hidden Power Ice"
+				]
 			},
-			"nature": "Timid",
-			"ability": "Levitate",
-			"item": "Choice Scarf",
-			"moves": [
-				"Volt Switch",
-				"Overheat",
-				"Hidden Power Ice",
-				"Thunderbolt"
-			]
+			"Choice Scarf": {
+				"level": 50,
+				"evs": {
+					"hp": "4",
+					"sa": "252",
+					"sp": "252"
+				},
+				"nature": "Timid",
+				"ability": "Levitate",
+				"item": "Choice Scarf",
+				"moves": [
+					"Hydro Pump",
+					"Thunderbolt",
+					"Volt Switch",
+					"Hidden Power Ice"
+				]
+			}
 		},
-		"Substitute": {
-			"level": 50,
-			"evs": {
-				"hp": "156",
-				"sd": "220",
-				"sp": "132"
+		"Salamence": {
+			"Dragon Dance": {
+				"level": 50,
+				"evs": {
+					"hp": "4",
+					"at": "252",
+					"sp": "252"
+				},
+				"nature": "Adamant",
+				"ability": "Intimidate",
+				"item": "Lum Berry",
+				"moves": [
+					"Outrage",
+					"Earthquake",
+					"Aerial Ace",
+					"Stone Edge"
+				]
 			},
-			"nature": "Calm",
-			"ability": "Levitate",
-			"item": "Leftovers",
-			"moves": [
-				"Substitute",
-				"Overheat",
-				"Will-O-Wisp",
-				"Discharge"
-			]
-		}
-	},
-	"Rotom-W": {
-		"Choice Specs": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"df": "4",
-				"sa": "252"
-			},
-			"nature": "Modest",
-			"ability": "Levitate",
-			"item": "Choice Specs",
-			"moves": [
-				"Hydro Pump",
-				"Thunderbolt",
-				"Volt Switch",
-				"Hidden Power Ice"
-			]
+			"Choice Band": {
+				"level": 50,
+				"evs": {
+					"hp": "4",
+					"at": "252",
+					"sp": "252"
+				},
+				"nature": "Adamant",
+				"ability": "Intimidate",
+				"item": "Choice Band",
+				"moves": [
+					"Outrage",
+					"Earthquake",
+					"Aerial Ace",
+					"Stone Edge"
+				]
+			}
 		},
-		"Physically Defensive": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"df": "252",
-				"sa": "4"
+		"Serperior": {
+			"Solid Snake": {
+				"level": 50,
+				"evs": {
+					"hp": "116",
+					"df": "220",
+					"sp": "172"
+				},
+				"nature": "Timid",
+				"ability": "Contrary",
+				"item": "Rocky Helmet",
+				"moves": [
+					"Leaf Storm",
+					"Reflect",
+					"Synthesis",
+					"Glare"
+				]
 			},
-			"nature": "Bold",
-			"ability": "Levitate",
-			"item": "Sitrus Berry",
-			"moves": [
-				"Hydro Pump",
-				"Thunderbolt",
-				"Volt Switch",
-				"Hidden Power Ice"
-			]
+			"All-Out Attacker": {
+				"level": 50,
+				"evs": {
+					"sa": "248",
+					"sd": "12",
+					"sp": "248"
+				},
+				"ivs": {
+					"at": "0",
+					"sa": "30",
+					"sp": "30"
+				},
+				"nature": "Timid",
+				"ability": "",
+				"item": "Life Orb",
+				"moves": [
+					"Leaf Storm",
+					"Dragon Pulse",
+					"Hidden Power Fire",
+					"Giga Drain"
+				]
+			}
 		},
-		"Choice Scarf": {
-			"level": 50,
-			"evs": {
-				"hp": "4",
-				"sa": "252",
-				"sp": "252"
+		"Scizor": {
+			"Choice Band": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"sp": "4",
+					"at": "252"
+				},
+				"nature": "Adamant",
+				"ability": "Technician",
+				"item": "Choice Band",
+				"moves": [
+					"Bullet Punch",
+					"U-turn",
+					"Superpower",
+					"Pursuit"
+				]
 			},
-			"nature": "Timid",
-			"ability": "Levitate",
-			"item": "Choice Scarf",
-			"moves": [
-				"Hydro Pump",
-				"Thunderbolt",
-				"Volt Switch",
-				"Hidden Power Ice"
-			]
-		}
-	},
-	"Salamence": {
-		"Dragon Dance": {
-			"level": 50,
-			"evs": {
-				"hp": "4",
-				"at": "252",
-				"sp": "252"
+			"Physically Defensive": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"at": "4",
+					"df": "252"
+				},
+				"nature": "Impish",
+				"ability": "Technician",
+				"item": "Rock Helmet",
+				"moves": [
+					"Bullet Punch",
+					"U-turn",
+					"Roost",
+					"Toxic"
+				]
 			},
-			"nature": "Adamant",
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"moves": [
-				"Outrage",
-				"Earthquake",
-				"Aerial Ace",
-				"Stone Edge"
-			]
+			"Specially Defensive": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"df": "52",
+					"sd": "204"
+				},
+				"nature": "Careful",
+				"ability": "Technician",
+				"item": "Leftovers",
+				"moves": [
+					"Iron Defense",
+					"Roost",
+					"Bullet Punch",
+					"U-turn"
+				]
+			}
 		},
-		"Choice Band": {
-			"level": 50,
-			"evs": {
-				"hp": "4",
-				"at": "252",
-				"sp": "252"
-			},
-			"nature": "Adamant",
-			"ability": "Intimidate",
-			"item": "Choice Band",
-			"moves": [
-				"Outrage",
-				"Earthquake",
-				"Aerial Ace",
-				"Stone Edge"
-			]
-		}
-	},
-	"Serperior": {
-		"Solid Snake": {
-			"level": 50,
-			"evs": {
-				"hp": "116",
-				"df": "220",
-				"sp": "172"
-			},
-			"nature": "Timid",
-			"ability": "Contrary",
-			"item": "Rocky Helmet",
-			"moves": [
-				"Leaf Storm",
-				"Reflect",
-				"Synthesis",
-				"Glare"
-			]
+		"Sharpedo": {
+			"Sashed Special Attacker": {
+				"level": 50,
+				"evs": {
+					"hp": "4",
+					"sa": "252",
+					"sp": "252"
+				},
+				"nature": "Modest",
+				"ability": "Speed Bosst",
+				"item": "Focus Sash",
+				"moves": [
+					"Dark Pulse",
+					"Ice Beam",
+					"Hydro Pump",
+					"Destiny Bond"
+				]
+			}
 		},
-		"All-Out Attacker": {
-			"level": 50,
-			"evs": {
-				"sa": "248",
-				"sd": "12",
-				"sp": "248"
-			},
-			"ivs": {
-				"at": "0",
-				"sa": "30",
-				"sp": "30"
-			},
-			"nature": "Timid",
-			"ability": "",
-			"item": "Life Orb",
-			"moves": [
-				"Leaf Storm",
-				"Dragon Pulse",
-				"Hidden Power Fire",
-				"Giga Drain"
-			]
-		}
-	},
-	"Scizor": {
-		"Choice Band": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"sp": "4",
-				"at": "252"
-			},
-			"nature": "Adamant",
-			"ability": "Technician",
-			"item": "Choice Band",
-			"moves": [
-				"Bullet Punch",
-				"U-turn",
-				"Superpower",
-				"Pursuit"
-			]
+		"Skarmory": {
+			"Defensive": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"sp": "4",
+					"df": "252"
+				},
+				"nature": "Impish",
+				"ability": "Sturdy",
+				"item": "Leftovers",
+				"moves": [
+					"Roost",
+					"Stealth Rock",
+					"Drill Peck",
+					"Iron Head"
+				]
+			}
 		},
-		"Physically Defensive": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"at": "4",
-				"df": "252"
+		"Suicune": {
+			"Fully Defensive": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"at": "0",
+					"df": "252",
+					"sa": "0",
+					"sd": "4",
+					"sp": "0"
+				},
+				"ivs": {
+					"at": "0"
+				},
+				"nature": "Bold",
+				"ability": "Pressure",
+				"item": "Rocky Helmet",
+				"moves": [
+					"Scald",
+					"Ice Beam",
+					"Icy Wind",
+					"Shadow Ball"
+				]
 			},
-			"nature": "Impish",
-			"ability": "Technician",
-			"item": "Rock Helmet",
-			"moves": [
-				"Bullet Punch",
-				"U-turn",
-				"Roost",
-				"Toxic"
-			]
+			"Offensive Assault Vest": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"df": "4",
+					"sa": "248",
+					"sd": "4"
+				},
+				"ivs": {
+					"at": "0",
+					"sa": "30",
+					"sp": "30"
+				},
+				"nature": "Modest",
+				"ability": "Pressure",
+				"item": "Assault Vest",
+				"moves": [
+					"Scald",
+					"Ice Beam",
+					"Icy Wind",
+					"Hidden Power Fire"
+				]
+			}
 		},
-		"Specially Defensive": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"df": "52",
-				"sd": "204"
-			},
-			"nature": "Careful",
-			"ability": "Technician",
-			"item": "Leftovers",
-			"moves": [
-				"Iron Defense",
-				"Roost",
-				"Bullet Punch",
-				"U-turn"
-			]
-		}
-	},
-	"Sharpedo": {
-		"Sashed Special Attacker": {
-			"level": 50,
-			"evs": {
-				"hp": "4",
-				"sa": "252",
-				"sp": "252"
-			},
-			"nature": "Modest",
-			"ability": "Speed Bosst",
-			"item": "Focus Sash",
-			"moves": [
-				"Dark Pulse",
-				"Ice Beam",
-				"Hydro Pump",
-				"Destiny Bond"
-			]
-		}
-	},
-	"Skarmory": {
-		"Defensive": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"sp": "4",
-				"df": "252"
-			},
-			"nature": "Impish",
-			"ability": "Sturdy",
-			"item": "Leftovers",
-			"moves": [
-				"Roost",
-				"Stealth Rock",
-				"Drill Peck",
-				"Iron Head"
-			]
-		}
-	},
-	"Suicune": {
-		"Fully Defensive": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"at": "0",
-				"df": "252",
-				"sa": "0",
-				"sd": "4",
-				"sp": "0"
-			},
-			"ivs": {
-				"at": "0"
-			},
-			"nature": "Bold",
-			"ability": "Pressure",
-			"item": "Rocky Helmet",
-			"moves": [
-				"Scald",
-				"Ice Beam",
-				"Icy Wind",
-				"Shadow Ball"
-			]
+		"Terrakion": {
+			"Physical Attacker": {
+				"level": 50,
+				"evs": {
+					"at": "252",
+					"sd": "4",
+					"sp": "252"
+				},
+				"nature": "Jolly",
+				"ability": "Pressure",
+				"item": "Focus Sash",
+				"moves": [
+					"Close Combat",
+					"Stone Edge",
+					"X Scissor",
+					"Quick Attack"
+				]
+			}
 		},
-		"Offensive Assault Vest": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"df": "4",
-				"sa": "248",
-				"sd": "4"
+		"Thundurus": {
+			"Attacker": {
+				"level": 50,
+				"evs": {
+					"sa": "252",
+					"sd": "4",
+					"sp": "252"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30"
+				},
+				"nature": "Timid",
+				"ability": "Prankster",
+				"item": "Life Orb",
+				"moves": [
+					"Thunder Wave",
+					"Thunderbolt",
+					"Hidden Power Ice",
+					"Focus Blast"
+				]
 			},
-			"ivs": {
-				"at": "0",
-				"sa": "30",
-				"sp": "30"
+			"Tank": {
+				"level": 50,
+				"evs": {
+					"hp": "244",
+					"df": "168",
+					"sa": "68",
+					"sp": "28"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30"
+				},
+				"nature": "Bold",
+				"ability": "Prankster",
+				"item": "Sitrus Berry",
+				"moves": [
+					"Thunderwave",
+					"Thunderbolt",
+					"Hidden Power Ice",
+					"Taunt"
+				]
 			},
-			"nature": "Modest",
-			"ability": "Pressure",
-			"item": "Assault Vest",
-			"moves": [
-				"Scald",
-				"Ice Beam",
-				"Icy Wind",
-				"Hidden Power Fire"
-			]
-		}
-	},
-	"Terrakion": {
-		"Physical Attacker": {
-			"level": 50,
-			"evs": {
-				"at": "252",
-				"sd": "4",
-				"sp": "252"
+			"Nasty Plot": {
+				"level": 50,
+				"evs": {
+					"sa": "252",
+					"sd": "4",
+					"sp": "252"
+				},
+				"ivs": {
+					"at": "0",
+					"df": "30"
+				},
+				"nature": "Timid",
+				"ability": "Prankster",
+				"item": "Sitrus Berry",
+				"moves": [
+					"Nasty Plot",
+					"Thunderbolt",
+					"Hidden Power Ice",
+					"Grass Knot"
+				]
 			},
-			"nature": "Jolly",
-			"ability": "Pressure",
-			"item": "Focus Sash",
-			"moves": [
-				"Close Combat",
-				"Stone Edge",
-				"X Scissor",
-				"Quick Attack"
-			]
-		}
-	},
-	"Thundurus": {
-		"Attacker": {
-			"level": 50,
-			"evs": {
-				"sa": "252",
-				"sd": "4",
-				"sp": "252"
+			"SwagPlay": {
+				"level": 50,
+				"evs": {
+					"hp": "180",
+					"df": "44",
+					"sa": "4",
+					"sd": "252",
+					"sp": "28"
+				},
+				"nature": "Calm",
+				"ability": "Prankster",
+				"item": "Leftovers",
+				"moves": [
+					"Swagger",
+					"Thunder Wave",
+					"Substitute",
+					"Foul Play"
+				]
 			},
-			"ivs": {
-				"at": "0",
-				"df": "30"
+			"Max Special Defense": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"df": "4",
+					"sd": "252",
+				},
+				"nature": "Calm",
+				"ability": "Prankster",
+				"item": "Sitrus Berry",
+				"moves": [
+					"Hidden Power Ice",
+					"Thunderbolt",
+					"Focus Blast",
+					"Grass Knot"
+				]
 			},
-			"nature": "Timid",
-			"ability": "Prankster",
-			"item": "Life Orb",
-			"moves": [
-				"Thunder Wave",
-				"Thunderbolt",
-				"Hidden Power Ice",
-				"Focus Blast"
-			]
+			"Max Defense": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"df": "252",
+					"sd": "4",
+				},
+				"nature": "Bold",
+				"ability": "Prankster",
+				"item": "Sitrus Berry",
+				"moves": [
+					"Hidden Power Ice",
+					"Thunderbolt",
+					"Focus Blast",
+					"Grass Knot"
+				]
+			}
 		},
-		"Tank": {
-			"level": 50,
-			"evs": {
-				"hp": "244",
-				"df": "168",
-				"sa": "68",
-				"sp": "28"
-			},
-			"ivs": {
-				"at": "0",
-				"df": "30"
-			},
-			"nature": "Bold",
-			"ability": "Prankster",
-			"item": "Sitrus Berry",
-			"moves": [
-				"Thunderwave",
-				"Thunderbolt",
-				"Hidden Power Ice",
-				"Taunt"
-			]
+		"Weavile": {
+			"Physical Attacker": {
+				"level": 50,
+				"evs": {
+					"at": "252",
+					"sd": "4",
+					"sp": "252"
+				},
+				"nature": "Jolly",
+				"ability": "Pressure",
+				"item": "Life Orb",
+				"moves": [
+					"Ice Shard",
+					"Knock Off",
+					"Low Kick",
+					"Icicle Crash"
+				]
+			}
 		},
-		"Nasty Plot": {
-			"level": 50,
-			"evs": {
-				"sa": "252",
-				"sd": "4",
-				"sp": "252"
-			},
-			"ivs": {
-				"at": "0",
-				"df": "30"
-			},
-			"nature": "Timid",
-			"ability": "Prankster",
-			"item": "Sitrus Berry",
-			"moves": [
-				"Nasty Plot",
-				"Thunderbolt",
-				"Hidden Power Ice",
-				"Grass Knot"
-			]
+		"Whimsicott": {
+			"Cotton Stall": {
+				"level": 50,
+				"evs": {
+					"hp": "204",
+					"sd": "52",
+					"sp": "252"
+				},
+				"nature": "Timid",
+				"ability": "Prankster",
+				"item": "Leftovers",
+				"moves": [
+					"Encore",
+					"Leech Seed",
+					"Moonblast",
+					"Cotton Guard"
+				]
+			}
 		},
-		"SwagPlay": {
-			"level": 50,
-			"evs": {
-				"hp": "180",
-				"df": "44",
-				"sa": "4",
-				"sd": "252",
-				"sp": "28"
-			},
-			"nature": "Calm",
-			"ability": "Prankster",
-			"item": "Leftovers",
-			"moves": [
-				"Swagger",
-				"Thunder Wave",
-				"Substitute",
-				"Foul Play"
-			]
+		"Wobbuffet": {
+			"\(>_<)7": {
+				"level": 50,
+				"evs": {
+					"df": "252",
+					"sd": "252",
+					"sp": "4"
+				},
+				"nature": "Bold",
+				"ability": "Shadow Tag",
+				"item": "Sitrus Berry",
+				"moves": [
+					"Encore",
+					"Counter",
+					"Mirror Coat",
+					"Destiny Bond"
+				]
+			}
 		},
-		"Max Special Defense": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"df": "4",
-				"sd": "252",
-			},
-			"nature": "Calm",
-			"ability": "Prankster",
-			"item": "Sitrus Berry",
-			"moves": [
-				"Hidden Power Ice",
-				"Thunderbolt",
-				"Focus Blast",
-				"Grass Knot"
-			]
-		},
-		"Max Defense": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"df": "252",
-				"sd": "4",
-			},
-			"nature": "Bold",
-			"ability": "Prankster",
-			"item": "Sitrus Berry",
-			"moves": [
-				"Hidden Power Ice",
-				"Thunderbolt",
-				"Focus Blast",
-				"Grass Knot"
-			]
-		}
-	},
-	"Weavile": {
-		"Physical Attacker": {
-			"level": 50,
-			"evs": {
-				"at": "252",
-				"sd": "4",
-				"sp": "252"
-			},
-			"nature": "Jolly",
-			"ability": "Pressure",
-			"item": "Life Orb",
-			"moves": [
-				"Ice Shard",
-				"Knock Off",
-				"Low Kick",
-				"Icicle Crash"
-			]
-		}
-	},
-	"Whimsicott": {
-		"Cotton Stall": {
-			"level": 50,
-			"evs": {
-				"hp": "204",
-				"sd": "52",
-				"sp": "252"
-			},
-			"nature": "Timid",
-			"ability": "Prankster",
-			"item": "Leftovers",
-			"moves": [
-				"Encore",
-				"Leech Seed",
-				"Moonblast",
-				"Cotton Guard"
-			]
-		}
-	},
-	"Wobbuffet": {
-		"\(>_<)7": {
-			"level": 50,
-			"evs": {
-				"df": "252",
-				"sd": "252",
-				"sp": "4"
-			},
-			"nature": "Bold",
-			"ability": "Shadow Tag",
-			"item": "Sitrus Berry",
-			"moves": [
-				"Encore",
-				"Counter",
-				"Mirror Coat",
-				"Destiny Bond"
-			]
-		}
-	},
-	"Zapdos": {
-		"Defensive": {
-			"level": 50,
-			"evs": {
-				"hp": "252",
-				"df": "252",
-				"sa": "4"
-			},
-			"ivs": {
-				"sp": "30"
-			},
-			"nature": "Bold",
-			"ability": "Pressure",
-			"item": "Leftovers",
-			"moves": [
-				"Roost",
-				"Discharge",
-				"Heat Wave",
-				"Hidden Power Ice"
-			]
+		"Zapdos": {
+			"Defensive": {
+				"level": 50,
+				"evs": {
+					"hp": "252",
+					"df": "252",
+					"sa": "4"
+				},
+				"ivs": {
+					"sp": "30"
+				},
+				"nature": "Bold",
+				"ability": "Pressure",
+				"item": "Leftovers",
+				"moves": [
+					"Roost",
+					"Discharge",
+					"Heat Wave",
+					"Hidden Power Ice"
+				]
+			}
 		}
 	}
 };
