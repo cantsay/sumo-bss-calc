@@ -1,7 +1,7 @@
-var SETDEX_SM = {};
+var SETDEX_GEN7 = {};
 
 var components = [
-	SETDEX_SMBSPOT,
+	SETDEX_GEN7_SETS,
 	SETDEX_CUSTOM
 ];
 
@@ -10,7 +10,7 @@ for (var i = 0; i < components.length; i++) {
 	if (sourceDex) {
 		for (var p in sourceDex) {
 			if (sourceDex.hasOwnProperty(p)) {
-				SETDEX_SM[p] = $.extend(SETDEX_SM[p], sourceDex[p]);
+				SETDEX_GEN7[p] = $.extend(SETDEX_GEN7[p], sourceDex[p]);
 			}
 		}
 	}
@@ -19,7 +19,7 @@ for (var i = 0; i < components.length; i++) {
 var reloadSMScript = function () {
 	console.log(SETDEX_CUSTOM);
 	components = [
-		SETDEX_SMBSPOT,
+		SETDEX_GEN7_SETS,
 		SETDEX_CUSTOM
 	];
 
@@ -28,7 +28,7 @@ var reloadSMScript = function () {
 		if (sourceDex) {
 			for (var p in sourceDex) {
 				if (sourceDex.hasOwnProperty(p)) {
-					SETDEX_SM[p] = $.extend(SETDEX_SM[p], sourceDex[p]);
+					SETDEX_GEN7[p] = $.extend(SETDEX_GEN7[p], sourceDex[p]);
 				}
 			}
 		}

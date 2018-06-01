@@ -1,7 +1,7 @@
-var SETDEX_XY = {};
+var SETDEX_GEN6 = {};
 
 var components = [
-	SETDEX_XYBSPOT,
+	SETDEX_GEN6_SETS,
 	SETDEX_CUSTOM
 ];
 
@@ -10,7 +10,7 @@ for (var i = 0; i < components.length; i++) {
 	if (sourceDex) {
 		for (var p in sourceDex) {
 			if (sourceDex.hasOwnProperty(p)) {
-				SETDEX_XY[p] = $.extend(SETDEX_XY[p], sourceDex[p]);
+				SETDEX_GEN6[p] = $.extend(SETDEX_GEN6[p], sourceDex[p]);
 			}
 		}
 	}
@@ -18,7 +18,7 @@ for (var i = 0; i < components.length; i++) {
 
 var reloadXYScript = function () {
 	components = [
-		SETDEX_XYBSPOT,
+		SETDEX_GEN6_SETS,
 		SETDEX_CUSTOM
 	];
 
@@ -27,7 +27,7 @@ var reloadXYScript = function () {
 		if (sourceDex) {
 			for (var p in sourceDex) {
 				if (sourceDex.hasOwnProperty(p)) {
-					SETDEX_XY[p] = $.extend(SETDEX_XY[p], sourceDex[p]);
+					SETDEX_GEN6[p] = $.extend(SETDEX_GEN6[p], sourceDex[p]);
 				}
 			}
 		}

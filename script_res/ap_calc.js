@@ -991,7 +991,7 @@ $(".gen").change(function () {
 		break;
 	case 5:
 		pokedex = POKEDEX_BW;
-		setdex = SETDEX_GBU;
+		setdex = SETDEX_GEN5;
 		typeChart = TYPE_CHART_GSC;
 		moves = MOVES_BW;
 		items = ITEMS_BW;
@@ -1003,7 +1003,7 @@ $(".gen").change(function () {
 		break;
 	case 6:
 		pokedex = POKEDEX_XY;
-		setdex = SETDEX_XY;
+		setdex = SETDEX_GEN6;
 		typeChart = TYPE_CHART_XY;
 		moves = MOVES_XY;
 		items = ITEMS_XY;
@@ -1015,7 +1015,7 @@ $(".gen").change(function () {
 		break;
 	case 7:
 		pokedex = POKEDEX_SM;
-		setdex = SETDEX_SM;
+		setdex = SETDEX_GEN7;
 		typeChart = TYPE_CHART_XY;
 		moves = MOVES_SM;
 		items = ITEMS_SM;
@@ -1039,7 +1039,7 @@ $(".gen").change(function () {
 		break;
 	case 21:
 		pokedex = POKEDEX_SM;
-		setdex = SETDEX_SM;
+		setdex = SETDEX_GEN7;
 		typeChart = TYPE_CHART_INVERSE;
 		moves = MOVES_SM;
 		items = ITEMS_SM;

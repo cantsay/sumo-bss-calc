@@ -1,4 +1,4 @@
-var SETDEX_FACTORYSETS = {
+var SETDEX_FACTORY_SETS = {
 	"Aegislash": {
 		"Weakness Policy": {
 			"level": 50,

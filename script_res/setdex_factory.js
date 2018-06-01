@@ -1,7 +1,7 @@
 var SETDEX_FACTORY = {};
 
 var components = [
-	SETDEX_FACTORYSETS,
+	SETDEX_FACTORY_SETS,
 	SETDEX_CUSTOM
 ];
 
@@ -19,7 +19,7 @@ for (var i = 0; i < components.length; i++) {
 var reloadXYScript = function () {
 	console.log(SETDEX_CUSTOM);
 	components = [
-		SETDEX_FACTORYSETS,
+		SETDEX_FACTORY_SETS,
 		SETDEX_CUSTOM
 	];
 

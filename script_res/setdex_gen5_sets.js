@@ -1,4 +1,4 @@
-var SETDEX_GBUSETS = {
+var SETDEX_GEN5_SETS = {
 	"Abomasnow": {
 		"Focus Sash": {
 			"level": 50,

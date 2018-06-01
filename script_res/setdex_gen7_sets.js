@@ -1,4 +1,4 @@
-var SETDEX_SMBSPOT = {
+var SETDEX_GEN7_SETS = {
 	"Abomasnow": {
 		"Mega": {
 			"level": 50,
