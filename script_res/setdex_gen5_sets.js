@@ -1805,5 +1805,4 @@ var SETDEX_GEN5_SETS = {
 				]
 			}
 		}
-	}
-};
+	};
