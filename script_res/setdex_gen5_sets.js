@@ -1090,7 +1090,8 @@ var SETDEX_GEN5_SETS = {
 				"Bullet Punch",
 				"Ice Punch",
 				"Earthquake"
-			]
+				]
+			}
 		},
 		"Raikou": {
 			"Choice Specs": {
