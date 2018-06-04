@@ -1,6 +1,6 @@
 function checkCookie() {
 	if (readCookie("c") != null) {
-		$(".privacyNotice").css("display", none);
+		$(".privacyNotice").css("display", "none");
 	}
 }
 
