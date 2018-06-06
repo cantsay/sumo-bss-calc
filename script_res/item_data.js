@@ -230,7 +230,8 @@ var ITEMS_SM = ITEMS_XY.concat([
 	"Ultranecrozium Z",
 	"Solganium Z",
 	"Lunalium Z",
-	"Lycanium Z"
+	"Lycanium Z",
+	"Kommonium Z"
 ]);
 
 function getItemBoostType(item) {
