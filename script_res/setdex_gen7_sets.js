@@ -2486,24 +2486,7 @@ var SETDEX_GEN7_SETS = {
 		}
 	},
 	"Kommo-o": {
-		"Dragon Dance": {
-			"level": 50,
-			"evs": {
-				"hp": "4",
-				"at": "252",
-				"sp": "252"
-			},
-			"nature": "Jolly",
-			"ability": "Bullet Proof",
-			"item": "Lum Berry",
-			"moves": [
-				"Dragon Dance",
-				"Outrage",
-				"Sky Uppercut",
-				"Poison Jab"
-			]
-		},
-		"Special Attacker": {
+		"Special": {
 			"level": 50,
 			"evs": {
 				"hp": "4",
@@ -2511,15 +2494,32 @@ var SETDEX_GEN7_SETS = {
 				"sp": "252"
 			},
 			"nature": "Modest",
-			"ability": "Bullet Proof",
-			"item": "Fightinium Z",
+			"ability": "Bulletproof",
+			"item": "Kommonium Z",
 			"moves": [
-				"Focus Blast",
 				"Clanging Scales",
 				"Flamethrower",
-				"Flash Cannon"
+				"Flash Cannon",
+				"Close Combat"
 			]
-		}
+		},
+		"Physical": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Bulletproof",
+			"item": "Kommonium Z",
+			"moves": [
+				"Clanging Scales",
+				"Close Combat",
+				"Earthquake",
+				"Poison Jab"
+			]
+		},
 	},
 	"Kyogre": {
 		"Bulky Blue Orb": {
