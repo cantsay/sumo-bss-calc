@@ -267,4 +267,5 @@ var savecustom = function () {
 			reloadXYScript();
 		}
 	}
+	alert("Please refresh your page to get your custom sets to show up!");
 };
