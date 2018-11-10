@@ -1232,76 +1232,76 @@ var SETDEX_GEN7_SETS = {
 				"Stored Power"
 			]
 		},
-		"[Let's Go! Cup] Physical Evoboost": { 
-			"level": 50, 
-			"evs": { 
+		"[Let's Go! Cup] Physical Evoboost": {
+			"level": 50,
+			"evs": {
 				"hp": 236,
 				"df": 244,
-				"sp": 28, 
-			}, 
-			"nature": "Impish", 
-			"ability": "Adaptability", 
-			"item": "Eevium Z", 
-			"moves": [ 
-				"Last Resort", 
-				"Return", 
-				"Double-Edge", 
-				"Quick Attack" 
-			] 
+				"sp": 28,
+			},
+			"nature": "Impish",
+			"ability": "Adaptability",
+			"item": "Eevium Z",
+			"moves": [
+				"Last Resort",
+				"Return",
+				"Double-Edge",
+				"Quick Attack"
+			]
 		},
-		"[Let's Go! Cup] Special Evoboost": { 
-			"level": 50, 
-			"evs": { 
-				"hp": 236, 
-				"df": 244, 
-				"sp": 28, 
-			}, 
-			"nature": "Bold", 
-			"ability": "Adaptability", 
-			"item": "Eevium Z", 
-			"moves": [ 
-				"Last Resort", 
-				"Stored Power", 
-				"Hyper Voice", 
-				"Snore" 
-			] 
+		"[Let's Go! Cup] Special Evoboost": {
+			"level": 50,
+			"evs": {
+				"hp": 236,
+				"df": 244,
+				"sp": 28,
+			},
+			"nature": "Bold",
+			"ability": "Adaptability",
+			"item": "Eevium Z",
+			"moves": [
+				"Last Resort",
+				"Stored Power",
+				"Hyper Voice",
+				"Snore"
+			]
 		},
-		"[Let's Go! Cup] Choice Scarf": { 
-			"level": 50, 
-			"evs": { 
-				"at": 252, 
-				"df": 4, 
-				"sp": 252, 
-			}, 
-			"nature": "Adamant", 
-			"ability": "Adaptability", 
-			"item": "Choice Scarf", 
-			"moves": [ 
-				"Double-Edge", 
-				"Headbutt", 
-				"Facade", 
-				"Return" 
-			] 
+		"[Let's Go! Cup] Choice Scarf": {
+			"level": 50,
+			"evs": {
+				"at": 252,
+				"df": 4,
+				"sp": 252,
+			},
+			"nature": "Adamant",
+			"ability": "Adaptability",
+			"item": "Choice Scarf",
+			"moves": [
+				"Double-Edge",
+				"Headbutt",
+				"Facade",
+				"Return"
+			]
 		},
-		"[Let's Go! Cup] Mixed Bulk Eviolite": { 
-			"level": 50, 
-			"evs": { 
-				"hp": 252, 
-				"at": 4, 
-				"df": 108, 
-				"sd": 108, 
-				"sp": 36, 
-			}, 
-			"nature": "Impish", 
-			"ability": "Adaptability", 
-			"item": "Eviolite", 
-			"moves": [ 
-				"Toxic", 
-				"Protect", 
-				"Wish", 
-				"Return" 
-			] 
-		} 
+		"[Let's Go! Cup] Mixed Bulk Eviolite": {
+			"level": 50,
+			"evs": {
+				"hp": 252,
+				"at": 4,
+				"df": 108,
+				"sd": 108,
+				"sp": 36,
+			},
+			"nature": "Impish",
+			"ability": "Adaptability",
+			"item": "Eviolite",
+			"moves": [
+				"Toxic",
+				"Protect",
+				"Wish",
+				"Return"
+			]
+		}
 	},
 	"Espeon": {
 		"Solerme's Dual Screens Lead": {
@@ -3819,41 +3819,41 @@ var SETDEX_GEN7_SETS = {
 			]
 		}
 	},
-	"Pikachu": { 
-		"Standard Physical": { 
-			"level": 50, 
-			"evs": { 
-				"at": 252, 
-				"df": 4, 
-				"sp": 252, 
-			}, 
-			"nature": "Jolly", 
-			"ability": "Static", 
-			"item": "Light Ball", 
-			"moves": [ 
-				"Volt Tackle", 
-				"Fake Out", 
-				"Dig", 
-				"Knock Off" 
-			] 
-		}, 
-		"Special Attacker": { 
-			"level": 50, 
-			"evs": { 
-				"df": 4, 
-				"sa": 252, 
+	"Pikachu": {
+		"Standard Physical": {
+			"level": 50,
+			"evs": {
+				"at": 252,
+				"df": 4,
 				"sp": 252,
-			}, 
-			"nature": "Timid", 
-			"ability": "Static", 
-			"item": "Light Ball", 
-			"moves": [ 
-				"Thunder", 
-				"Hidden Power Ground", 
-				"Fake Out", 
-				"Electric Terrain" 
-			] 
-		} 
+			},
+			"nature": "Jolly",
+			"ability": "Static",
+			"item": "Light Ball",
+			"moves": [
+				"Volt Tackle",
+				"Fake Out",
+				"Dig",
+				"Knock Off"
+			]
+		},
+		"Special Attacker": {
+			"level": 50,
+			"evs": {
+				"df": 4,
+				"sa": 252,
+				"sp": 252,
+			},
+			"nature": "Timid",
+			"ability": "Static",
+			"item": "Light Ball",
+			"moves": [
+				"Thunder",
+				"Hidden Power Ground",
+				"Fake Out",
+				"Electric Terrain"
+			]
+		}
 	},
 	"Pinsir": {
 		"Swords Dance Mega": {
